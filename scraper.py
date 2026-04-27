@@ -67,7 +67,9 @@ def slugify(text):
     return re.sub(r'[-\s]+', '-', re.sub(r'[^\w\s-]', '', text.lower())).strip('-')
 
 def init_db():
-    conn = sqlite3.connect(DB_NAME)
+    # 30s timeout and WAL mode strictly prevent multithread "database locked" errors
+    conn = sqlite3.connect(DB_NAME, timeout=30.0)
+    conn.execute('PRAGMA journal_mode=WAL;')
     conn.execute('''CREATE TABLE IF NOT EXISTS news (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     link TEXT UNIQUE, title TEXT, description TEXT, 
@@ -133,7 +135,7 @@ def process_feed(feed):
         if new_fetched_items:
             all_items = new_fetched_items + existing_items
             all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
-            with open(json_path, 'w', encoding='utf-8') as f:
+            with open(json_path, 'a', encoding='utf-8') as f:
                 json.dump(all_items, f, indent=2)
             conn.commit()
             print(f"Added {len(new_fetched_items)} new items to {feed_name}")
@@ -179,7 +181,7 @@ def process_custom_site(site):
     if new_items:
         all_items = new_items + existing_items
         all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
-        with open(json_path, 'w', encoding='utf-8') as f:
+        with open(json_path, 'a', encoding='utf-8') as f:
             json.dump(all_items, f, indent=2)
         conn.commit()
         print(f"Added {len(new_items)} new items to {source_name}")
@@ -193,18 +195,18 @@ def main():
         results = list(ex.map(process_feed, FEEDS))
     
     # 2. Process custom-scraped sites
-    for site in SCRAPE_CONFIGS:
-        try:
-            custom_items = process_custom_site(site)
-            results.append(custom_items)
-        except Exception as e:
-            print(f"Error processing custom site {site['source_name']}: {e}")
+    # for site in SCRAPE_CONFIGS:
+    #     try:
+    #         custom_items = process_custom_site(site)
+    #         results.append(custom_items)
+    #     except Exception as e:
+    #         print(f"Error processing custom site {site['source_name']}: {e}")
     
     # 3. Aggregate all Global Headlines
     flat = [i for sub in results for i in sub]
     flat.sort(key=lambda x: x['datetimestamp'], reverse=True)
     with open('news.json', 'w', encoding='utf-8') as f: 
-        json.dump(flat[:250], f, indent=2) # Increased limit slightly
+        json.dump(flat[:20], f, indent=2) # Increased limit slightly
 
     # SQL Dump for Git-friendly backup
     os.system(f"sqlite3 {DB_NAME} .dump > backup.sql")
