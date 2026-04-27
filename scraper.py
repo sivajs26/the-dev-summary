@@ -3,7 +3,6 @@ import json
 import re
 import os
 import time
-import sqlite3
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 from email.utils import parsedate_to_datetime
@@ -16,7 +15,6 @@ from PIL import Image
 
 # Configuration
 DATA_DIR = "feeds"
-DB_NAME = "tech_news.db"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs("images", exist_ok=True)
 
@@ -66,16 +64,6 @@ def get_link_preview(url):
 def slugify(text):
     return re.sub(r'[-\s]+', '-', re.sub(r'[^\w\s-]', '', text.lower())).strip('-')
 
-def init_db():
-    # 30s timeout and WAL mode strictly prevent multithread "database locked" errors
-    conn = sqlite3.connect(DB_NAME, timeout=30.0)
-    conn.execute('PRAGMA journal_mode=WAL;')
-    conn.execute('''CREATE TABLE IF NOT EXISTS news (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    link TEXT UNIQUE, title TEXT, description TEXT, 
-                    image TEXT, date TEXT, source TEXT, category TEXT)''')
-    conn.commit()
-    return conn
 
 def extract_image(entry):
     # Try multiple common RSS image locations
@@ -89,10 +77,9 @@ def extract_image(entry):
     return match.group(1) if match else "https://via.placeholder.com/400x250?text=Tech+News"
 
 def process_feed(feed):
-    conn = init_db()
     feed_url = feed.get('feedurl')
     feed_name = feed.get('feedname', 'Unknown Source')
-    
+    print(f"Processing : {feed_url}")
     if not feed_url:
         print(f"Skipping feed with no URL: {feed_name}")
         return []
@@ -129,26 +116,20 @@ def process_feed(feed):
                 "category": feed.get('category', 'General')
             }
             new_fetched_items.append(item)
-            conn.execute("INSERT OR IGNORE INTO news (link, title, description, image, date, source, category) VALUES (?,?,?,?,?,?,?)",
-                         (item['link'], item['title'], item['description'], item['image'], item['datetimestamp'], item['source'], item['category']))
         
         if new_fetched_items:
             all_items = new_fetched_items + existing_items
             all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
-            with open(json_path, 'a', encoding='utf-8') as f:
+            with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(all_items, f, indent=2)
-            conn.commit()
             print(f"Added {len(new_fetched_items)} new items to {feed_name}")
     except Exception as e: 
         print(f"Error processing {feed_name}: {e}")
-    finally: 
-        conn.close()
     
     return new_fetched_items + existing_items
 
 def process_custom_site(site):
     """Bridge function for custom scrapers to use the same persistence logic."""
-    conn = init_db()
     source_name = site['source_name']
     json_path = f"{DATA_DIR}/{slugify(source_name)}.json"
     
@@ -175,18 +156,14 @@ def process_custom_site(site):
             continue
             
         new_items.append(item)
-        conn.execute("INSERT OR IGNORE INTO news (link, title, description, image, date, source, category) VALUES (?,?,?,?,?,?,?)",
-                     (item['link'], item['title'], item['description'], item['image'], item['datetimestamp'], item['source'], item['category']))
 
     if new_items:
         all_items = new_items + existing_items
         all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
         with open(json_path, 'a', encoding='utf-8') as f:
             json.dump(all_items, f, indent=2)
-        conn.commit()
         print(f"Added {len(new_items)} new items to {source_name}")
     
-    conn.close()
     return new_items + existing_items
 
 def main():
@@ -208,8 +185,6 @@ def main():
     with open('news.json', 'w', encoding='utf-8') as f: 
         json.dump(flat[:20], f, indent=2) # Increased limit slightly
 
-    # SQL Dump for Git-friendly backup
-    os.system(f"sqlite3 {DB_NAME} .dump > backup.sql")
 
 if __name__ == "__main__":
     main()

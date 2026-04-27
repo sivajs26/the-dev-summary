@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --global user.name "sivasubramoniam-js"
           git config --global user.email "122598293+sivasubramoniam-js@users.noreply.github.com"
-          git add news.json feeds/*.json tech_news.db backup.sql images/*.webp || true
-          git commit -m "daily feed update" || echo "No changes"
+          git add news.json feeds/*.json images/*.webp || true
+          git commit -m "daily update $(TZ='Asia/Kolkata' date +'%d-%b-%Y %I %P')" || echo "No changes"
           git push
