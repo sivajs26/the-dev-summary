@@ -10,11 +10,15 @@ from email.utils import parsedate_to_datetime
 from parser import scrape_custom, SCRAPE_CONFIGS
 import requests
 from bs4 import BeautifulSoup
+import hashlib
+from io import BytesIO
+from PIL import Image
 
 # Configuration
 DATA_DIR = "feeds"
 DB_NAME = "tech_news.db"
 os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs("images", exist_ok=True)
 
 # List of all 120+ feeds (Categories: AI, Frontend, System Design, etc.)
 with open('feeds.json', 'r', encoding='utf-8') as f:
@@ -23,12 +27,6 @@ with open('feeds.json', 'r', encoding='utf-8') as f:
 def get_link_preview(url):
     response = requests.get(url, headers={"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"}, timeout=30)
     soup = BeautifulSoup(response.content, 'lxml')
-    # write extraxted content to a file without html tags and append image urls within the page at the end
-    with open("link_preview.txt", "w") as f:
-        f.write(soup.get_text())
-        # append all image urls within the page at the end
-        for img in soup.find_all("img"):
-            f.write(img.get("src") + "\n")
 
     def get_meta(name):
         tag = soup.find("meta", property=name) or soup.find("meta", attrs={"name": name})
@@ -41,6 +39,27 @@ def get_link_preview(url):
         "url": get_meta("og:url") or url,
         "textContent": soup.get_text()
     }
+    # save the compressed image in a folder in .webp format
+    if preview.get("image") and preview["image"].startswith("http"):
+        try:
+            # Add user agent to image fetch as well to prevent 403s
+            img_resp = requests.get(preview["image"], stream=True, timeout=10, headers={"user-agent": "Mozilla/5.0"})
+            if img_resp.status_code == 200:
+                img_data = img_resp.content
+                img_hash = hashlib.md5(img_data).hexdigest()
+                webp_filename = f"{img_hash}.webp"
+                webp_path = os.path.join("images", webp_filename)
+                
+                with Image.open(BytesIO(img_data)) as img:
+                    if img.mode in ("RGBA", "P"):
+                        img = img.convert("RGB")
+                    # Keep aspect ratio, max 800px on longest side
+                    img.thumbnail((800, 800))
+                    img.save(webp_path, "WEBP", quality=80)
+                
+                preview["image"] = f"images/{webp_filename}"
+        except Exception as e:
+            print(f"Error compressing image for {url}: {e}")
 
     return preview
 

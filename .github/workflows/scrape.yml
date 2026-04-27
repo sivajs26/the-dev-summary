@@ -1,8 +1,11 @@
 name: Tech News Engine
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 */4 * * *' # Every 4 hours
+    - cron: '30 0,12 * * *' # 6am and 6pm IST (00:30 and 12:30 UTC)
   workflow_dispatch:
 
 jobs:
@@ -19,7 +22,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser requests beautifulsoup4 lxml Pillow
 
       - name: Run Scraper
         run: python scraper.py
@@ -28,6 +31,6 @@ jobs:
         run: |
           git config --global user.name "sivasubramoniam-js"
           git config --global user.email "122598293+sivasubramoniam-js@users.noreply.github.com"
-          git add news.json feeds/*.json tech_news.db backup.sql
-          git commit -m "Sync: 120+ feeds and database [skip ci]" || echo "No changes"
+          git add news.json feeds/*.json tech_news.db backup.sql images/*.webp || true
+          git commit -m "daily feed update" || echo "No changes"
           git push
