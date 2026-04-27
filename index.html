@@ -3,186 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechDaily | Realtime Tech Events</title>
+    <title>TechDaily | Realtime Feed</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --bg-color: #f8f9fa;
+            --bg-color: #f4f7f6;
             --sidebar-bg: #ffffff;
             --card-bg: #ffffff;
-            --text-main: #212529;
-            --text-muted: #6c757d;
-            --accent-color: #007bff;
-            --border-color: #e9ecef;
+            --accent: #007bff;
+            --text-dark: #1a1a1a;
+            --text-gray: #65676b;
+            --border: #e4e6eb;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             margin: 0;
             display: flex;
+            background-color: var(--bg-color);
         }
 
-        /* Sidebar Navigation */
+        /* Sidebar inspired by Busiyi */
         nav {
-            width: 240px;
+            width: 260px;
             height: 100vh;
             background: var(--sidebar-bg);
-            border-right: 1px solid var(--border-color);
+            border-right: 1px solid var(--border);
             position: fixed;
-            padding: 20px 0;
-            display: flex;
-            flex-direction: column;
+            padding-top: 20px;
         }
 
-        nav .logo {
-            padding: 0 25px 20px;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-color);
-            border-bottom: 1px solid var(--border-color);
-            margin-bottom: 15px;
+        .logo {
+            font-weight: 800;
+            font-size: 1.4rem;
+            padding: 0 20px 20px;
+            color: var(--accent);
+            letter-spacing: -1px;
         }
 
         nav a {
-            padding: 12px 25px;
-            text-decoration: none;
-            color: var(--text-main);
-            font-size: 0.95rem;
             display: flex;
             align-items: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
             transition: 0.2s;
         }
 
-        nav a i { margin-right: 12px; width: 20px; text-align: center; }
+        nav a i { margin-right: 15px; width: 20px; text-align: center; }
         nav a:hover, nav a.active {
-            background: #f0f4f8;
-            color: var(--accent-color);
-            border-right: 3px solid var(--accent-color);
+            background: #f0f2f5;
+            color: var(--accent);
         }
 
-        /* Main Content */
+        /* Main Feed */
         main {
-            margin-left: 240px;
-            padding: 30px;
+            margin-left: 260px;
+            padding: 40px;
             width: 100%;
-            max-width: 900px;
+            max-width: 800px;
         }
 
-        header {
+        .feed-header {
             margin-bottom: 30px;
         }
 
-        header h1 { font-size: 1.8rem; margin: 0; }
-        header p { color: var(--text-muted); margin-top: 5px; }
+        .feed-header h1 { margin: 0; font-size: 1.8rem; }
 
-        /* News Cards */
-        .event-card {
+        /* Card Layout */
+        .news-card {
             background: var(--card-bg);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 15px;
-            border: 1px solid var(--border-color);
-            transition: transform 0.1s ease;
-        }
-
-        .event-card:hover {
-            border-color: #cbd5e0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        .event-meta {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            margin-bottom: 8px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 20px;
             display: flex;
-            gap: 15px;
+            flex-direction: row-reverse; /* Image on right, text on left */
+            transition: transform 0.2s;
         }
 
-        .event-title {
-            font-size: 1.15rem;
-            font-weight: 600;
+        .news-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .news-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .news-image {
+            width: 200px;
+            height: 140px;
+            object-fit: cover;
+            background: #eee;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            font-weight: 700;
             margin: 0 0 10px 0;
-            line-height: 1.4;
+            line-height: 1.3;
         }
 
-        .event-title a {
-            text-decoration: none;
-            color: var(--text-main);
-        }
-
-        .event-title a:hover { color: var(--accent-color); }
-
-        .event-desc {
+        .news-desc {
             font-size: 0.95rem;
-            color: #4a5568;
-            line-height: 1.6;
-        }
-
-        .tag {
-            display: inline-block;
-            background: #edf2f7;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: bold;
-            color: #4a5568;
+            color: var(--text-gray);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         @media (max-width: 768px) {
             nav { width: 60px; }
-            nav .logo, nav span { display: none; }
+            nav span, .logo { display: none; }
             main { margin-left: 60px; padding: 15px; }
+            .news-card { flex-direction: column; }
+            .news-image { width: 100%; height: 200px; }
         }
     </style>
 </head>
 <body>
 
-    <nav>
-        <div class="logo">TechDaily</div>
-        <a href="#" class="active"><i class="fas fa-bolt"></i> <span>Realtime</span></a>
-        <a href="#"><i class="fas fa-fire"></i> <span>Hottest</span></a>
-        <a href="#"><i class="fas fa-microchip"></i> <span>Hardware</span></a>
-        <a href="#"><i class="fas fa-code"></i> <span>Software</span></a>
-        <a href="#"><i class="fas fa-robot"></i> <span>AI & ML</span></a>
-    </nav>
+<nav>
+    <div class="logo">DailyTech</div>
+    <a href="#" class="active"><i class="fas fa-bolt"></i> <span>Realtime</span></a>
+    <a href="#"><i class="fas fa-chart-line"></i> <span>Trending</span></a>
+    <a href="#"><i class="fas fa-bookmark"></i> <span>Saved</span></a>
+</nav>
 
-    <main>
-        <header>
-            <h1>Latest Tech Events</h1>
-            <p>Curated updates from the tech world, updated daily.</p>
-        </header>
+<main>
+    <div class="feed-header">
+        <h1>Tech Events</h1>
+    </div>
+    <div id="news-feed">
+        <p>Loading latest tech events...</p>
+    </div>
+</main>
 
-        <div id="events-container">
-            <div class="event-card">
-                <div class="event-meta">
-                    <span><i class="far fa-clock"></i> 2 hours ago</span>
-                    <span class="tag">AI</span>
-                </div>
-                <h2 class="event-title"><a href="#">DeepSeek-V4 Preview version launched and open-sourced</a></h2>
-                <p class="event-desc">The latest model from DeepSeek shows significant improvements in reasoning and coding benchmarks, sparking new discussions in the open-source community.</p>
-            </div>
+<script>
+    // Replace with your actual username/repo if different
+    const JSON_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/daily-tech-news/main/news.json';
 
-            <div class="event-card">
-                <div class="event-meta">
-                    <span><i class="far fa-clock"></i> 5 hours ago</span>
-                    <span class="tag">BUSINESS</span>
-                </div>
-                <h2 class="event-title"><a href="#">Microsoft offers voluntary retirement to 7% of US staff</a></h2>
-                <p class="event-desc">The plan is aimed at employees whose age and years of service total at least 70, reflecting a shift in workforce strategy.</p>
-            </div>
+    async function fetchNews() {
+        try {
+            const response = await fetch(JSON_URL);
+            const data = await response.json();
+            const container = document.getElementById('news-feed');
+            container.innerHTML = ''; // Clear loading text
 
-            <div class="event-card">
-                <div class="event-meta">
-                    <span><i class="far fa-clock"></i> Yesterday</span>
-                    <span class="tag">HARDWARE</span>
-                </div>
-                <h2 class="event-title"><a href="#">NVIDIA CEO Jensen Huang predicts new robotics breakthrough</a></h2>
-                <p class="event-desc">During a recent keynote, Huang highlighted that physical AI and humanoid robots are the next frontier for GPU-accelerated computing.</p>
-            </div>
-        </div>
-    </main>
+            data.forEach(item => {
+                const card = `
+                    <div class="news-card">
+                        ${item.image ? `<img src="${item.image}" class="news-image" alt="news">` : ''}
+                        <div class="news-content">
+                            <h2 class="news-title">${item.title}</h2>
+                            <p class="news-desc">${item.description}</p>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += card;
+            });
+        } catch (error) {
+            console.error('Error fetching news:', error);
+            document.getElementById('news-feed').innerHTML = '<p>Failed to load events. Check news.json path.</p>';
+        }
+    }
+
+    fetchNews();
+</script>
 
 </body>
 </html>
