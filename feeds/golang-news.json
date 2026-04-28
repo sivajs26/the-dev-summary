@@ -143,4 +143,14 @@
     "source": "Golang News",
     "category": "Backend"
   }
+][
+  {
+    "title": "Your first Velocity app in 60 seconds - DEV Community",
+    "link": "https://dev.to/velocitykode/your-first-velocity-app-in-60-seconds-5coe",
+    "description": "Velocity is a full-stack web framework for Go. Pre-1.0 and shipping in public. vel.build.           ...",
+    "image": "images/8ecaba9de64b1699c6a3d51da8acb0ad.webp",
+    "datetimestamp": "2026-04-28T06:03:05",
+    "source": "Golang News",
+    "category": "Backend"
+  }
 ]

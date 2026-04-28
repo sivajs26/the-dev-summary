@@ -89,4 +89,50 @@
     "source": "Machine Learning Mastery",
     "category": "AI"
   }
+][
+  {
+    "title": "Just a moment...",
+    "link": "https://machinelearningmastery.com/ai-agent-memory-explained-in-3-levels-of-difficulty/",
+    "description": "A stateless AI agent has no memory of previous calls.",
+    "image": "",
+    "datetimestamp": "2026-04-21T12:00:47",
+    "source": "Machine Learning Mastery",
+    "category": "AI"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://machinelearningmastery.com/getting-started-with-zero-shot-text-classification/",
+    "description": "Zero-shot text classification is a way to label text without first training a classifier on your own task-specific dataset.",
+    "image": "",
+    "datetimestamp": "2026-04-20T12:00:16",
+    "source": "Machine Learning Mastery",
+    "category": "AI"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://machinelearningmastery.com/the-complete-guide-to-inference-caching-in-llms/",
+    "description": "Calling a large language model API at scale is expensive and slow.",
+    "image": "",
+    "datetimestamp": "2026-04-17T12:00:46",
+    "source": "Machine Learning Mastery",
+    "category": "AI"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://machinelearningmastery.com/python-decorators-for-production-machine-learning-engineering/",
+    "description": "You've probably written a decorator or two in your Python career.",
+    "image": "",
+    "datetimestamp": "2026-04-16T12:00:36",
+    "source": "Machine Learning Mastery",
+    "category": "AI"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://machinelearningmastery.com/5-techniques-for-efficient-long-context-rag/",
+    "description": "<a href=\"https://machinelearningmastery.",
+    "image": "",
+    "datetimestamp": "2026-04-15T12:00:40",
+    "source": "Machine Learning Mastery",
+    "category": "AI"
+  }
 ]

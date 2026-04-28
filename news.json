@@ -4,18 +4,9 @@
     "link": "https://frontenddogma.com/posts/2025/frontend-dogma-rss-feed/",
     "description": "<p><em>TL;DR: Access to Frontend Dogma\u2019s main feed\u2014which features some exclusive news\u2014now requires a <a href=\"https://j9t.gumroad.com/l/fd\">small maintenance fee of $12 per year</a>.</em></p>\n<p>Over the years, Frontend Dogma has become one of the main sources of frontend development news and tools. <a href=\"https://frontenddogma.com/topics/\">Frontend Dogma\u2019s growing archives</a> provide <a href=\"https://meiert.com/blog/identify-your-unknown-unknowns/\">unique</a> access to the history of the wider field of web development.</p>\n<p>Providing this service for free is not sustainable, however. <a href=\"https://frontenddogma.com/books/\">Book sales</a> pay for some of the work, but so far, few people acknowledge Frontend Dogma\u2019s value by supporting the project <a href=\"https://opencollective.com/frontenddogma\">on Open Collective</a>.</p>\n<p><em>Starting today, the global RSS feed (with the 250 newest articles and videos) is a paid feature.</em></p>\n<p>You can get access by a <a href=\"https://j9t.gumroad.com/l/fd\">small maintenance contribution of only $12 per year</a>.</p>\n<p>If you <em>don\u2019t</em> like to support Frontend Dogma, you can still follow Frontend Dogma\u2019s <a href=\"https://frontenddogma.com/posts/2024/follow-your-favorite-web-dev-topics-with-topic-feeds/\">individual topic feeds</a> as well as Frontend Dogma\u2019s social media accounts <a href=\"https://mas.to/@frontenddogma\">on Mastodon</a> and <a href=\"https://bsky.app/profile/frontenddogma.com\">Bluesky</a>. These are less convenient and reliable but still workable options to stay up-to-date.</p>\n<p>Also, if you want to support Frontend Dogma in a different manner and so that the main feed may be made free again, consider buying <a href=\"https://frontenddogma.com/books/\">Frontend Dogma\u2019s books</a> or contributing to the project <a href=\"https://opencollective.com/frontenddogma\">on Open Collective</a>. You\u2019re not alone: We do the same for the projects we use and like. Thank you.</p>",
     "image": "images/4d5fe3b927a3ffeb6caf293d638bff6b.webp",
-    "datetimestamp": "2026-04-28T05:29:26.415661",
+    "datetimestamp": "2026-04-28T06:13:58.318979",
     "source": "Frontend Dogma",
     "category": "Frontend"
-  },
-  {
-    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
-    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
-    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
-    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
-    "datetimestamp": "2026-04-28T04:04:27",
-    "source": "Testing",
-    "category": "Testing"
   },
   {
     "title": "[2604.22777] An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
@@ -174,6 +165,15 @@
     "title": "[2604.23270] CAP-CoT: Cycle Adversarial Prompt for Improving Chain of Thoughts in LLM Reasoning",
     "link": "https://arxiv.org/abs/2604.23270v1",
     "description": "Chain-of-Thought (CoT) prompting has emerged as a simple and effective way to elicit step-by-step solutions from large language models (LLMs). However, CoT reasoning can be unstable across runs on long, multi-step problems, leading to inconsistent answers for unchanged task. Most prior work focuses on improving the forward reasoning chain within a single pass, with less attention to iterative and contrastive correction. To address this gap, we propose CAP-CoT, a Cycle Adversarial Prompt optimization framework designed to improve both CoT reasoning accuracy and stability of a single deployed solver. In each cycle, a forward solver generates candidate reasoning chains, an adversarial challenger constructs plausible but deliberately flawed chains using targeted error strategies, and a feedback agent contrasts the two chains and produces step-aligned structured feedback. This feedback closes the optimization loop in two directions, including updating the solver prompt based on errors exposed by the challenger, and updating the challenger prompt to generate increasingly targeted errors in subsequent cycles. Unlike safety-oriented adversarial prompting such as jailbreak or prompt-injection attacks, our adversarial component is task-semantic and aims to expose logical vulnerabilities in reasoning chains. Experiments across six benchmarks and four LLM backbones demonstrate that within two to three adversarial prompt optimization cycles, CAP-CoT consistently reduces variability across runs while improving reasoning accuracy and robustness to prompt perturbations.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
+  },
+  {
+    "title": "[2604.23278] Active Inference: A method for Phenotyping Agency in AI systems?",
+    "link": "https://arxiv.org/abs/2604.23278v1",
+    "description": "The proliferation of agentic artificial intelligence has outpaced the conceptual tools needed to characterize agency in computational systems. Prevailing definitions mainly rely on autonomy and goal-directedness. Here, we argue for a minimal notion open to principled inspection given three criteria: intentionality as action grounded in beliefs and desires, rationality as normatively coherent action entailed by a world model, and explainability as action causally traceable to internal states; we subsequently instantiate these as a partially observable Markov decision process under a variational framework wherein posterior beliefs, prior preferences, and the minimization of expected free energy jointly constitute an agentic action chain. Using a canonical T-maze paradigm, we evidence how empowerment, formulated as the channel capacity between actions and anticipated observations, serves as an operational metric that distinguishes zero-, intermediate-, and high-agency phenotypes through structural manipulations of the generative model. We conclude by arguing that as agents engage in epistemic foraging to resolve ambiguity, the governance controls that remain effective must shift systematically from external constraints to the internal modulation of prior preferences, offering a principled, variational bridge from computational phenotyping to AI governance strategy",
     "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "datetimestamp": "2026-04-28T04:00:00",
     "source": "ArXiv: Artificial Intelligence",

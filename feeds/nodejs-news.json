@@ -117,4 +117,113 @@
     "source": "Node.js News",
     "category": "Backend"
   }
+][
+  {
+    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
+    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
+    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
+    "image": "images/3cdf045c0941de843294e86e0d000a11.webp",
+    "datetimestamp": "2026-04-28T05:58:11",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building Parallel You: A Chrome Extension + Cloud Run AI Layer for Social Writing - DEV Community",
+    "link": "https://dev.to/harishkotra/building-parallel-you-a-chrome-extension-cloud-run-ai-layer-for-social-writing-50ba",
+    "description": "TL;DR   Parallel You is a production-deployed AI layer that augments social conversations on...",
+    "image": "images/ae40009dbd7d29479908c284f8c3739c.webp",
+    "datetimestamp": "2026-04-28T04:29:13",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\udea8 The \"Context Window\" is Dead: Anthropic Just Gave Claude Agents Permanent Memory - DEV Community",
+    "link": "https://dev.to/siddhesh_surve/the-context-window-is-dead-anthropic-just-gave-claude-agents-permanent-memory-52hd",
+    "description": "If you\u2019ve been building with AI over the last year, you know the absolute biggest bottleneck in...",
+    "image": "images/1662ba00dfa55a62e7753610651b1900.webp",
+    "datetimestamp": "2026-04-28T02:32:24",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "How to Set Up Redis 7.2 for Caching with Next.js 17 and Node.js 22 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-set-up-redis-72-for-caching-with-nextjs-17-and-nodejs-22-21gn",
+    "description": "In 2024, 68% of Next.js applications report p99 API latency exceeding 1.2 seconds due to unoptimized...",
+    "image": "images/017a587b5e8a22bdac7e7652a2547e25.webp",
+    "datetimestamp": "2026-04-28T02:13:00",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why We Ditched Bun 1.2 for Node.js 22 and Cut Production Runtime Errors by 25% - DEV Community",
+    "link": "https://dev.to/johalputt/why-we-ditched-bun-12-for-nodejs-22-and-cut-production-runtime-errors-by-25-hc9",
+    "description": "In Q3 2024, our 12-person backend team tracked 1,427 production runtime errors across our Bun 1.2...",
+    "image": "images/2fee83ef5508e77cf204771d620a5c29.webp",
+    "datetimestamp": "2026-04-28T00:37:07",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "Express is the only major framework where FastAPI-style automated API docs still don't exist - DEV Community",
+    "link": "https://dev.to/dhruv_bhalodia/why-is-express-the-only-framework-where-you-have-to-explain-your-own-validation-twice-1239",
+    "description": "I am a backend developer. Every time I start an Express project I need API docs (like swagger of...",
+    "image": "images/7d6571e2be30c171693fa6ba060ace9f.webp",
+    "datetimestamp": "2026-04-27T17:31:56",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "What I Look for When Hiring Remote Full-Stack Developers (React + Node.js) - DEV Community",
+    "link": "https://dev.to/lucas_rego_213f20f3bd36ed/what-i-look-for-when-hiring-remote-full-stack-developers-react-nodejs-3ihe",
+    "description": "What I Look for When Hiring Remote Full-Stack Developers (React + Node.js)   After years of...",
+    "image": "images/7b06a2b75ffddecf245c24bdf438409e.webp",
+    "datetimestamp": "2026-04-27T17:13:53",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "I got tired of deploying broken configs, so I built dotenv-scan - DEV Community",
+    "link": "https://dev.to/flyingsquirrel0419/i-got-tired-of-deploying-broken-configs-so-i-built-dotenv-scan-47lb",
+    "description": "Every team I've worked on has had this incident at least once.  Friday afternoon deploy. CI is green....",
+    "image": "images/2d0d82bcea1592426e8c8850ee0f4011.webp",
+    "datetimestamp": "2026-04-27T16:38:00",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "The sed that didn't stick - DEV Community",
+    "link": "https://dev.to/vineethnkrishnan/the-sed-that-didnt-stick-49jm",
+    "description": "A failing nightly backup, a sed hotfix that worked once, and the next morning's cron that failed anyway. Node's require cache had eaten my patch.",
+    "image": "images/4fc647f2b5e0f0d69f8e606a88237e74.webp",
+    "datetimestamp": "2026-04-27T14:41:16",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "MERN vs Next.js \u2013 Which Course is Better in 2026? (Complete Career Guide for Dehradun and Nearby Cities) - DEV Community",
+    "link": "https://dev.to/shubham_goyal_6021ce8f983/mern-vs-nextjs-which-course-is-better-in-2026-complete-career-guide-for-dehradun-and-nearby-o9m",
+    "description": "In 2026, the world of web development is growing faster than ever. With businesses shifting online,...",
+    "image": "images/3d03c1fbfa99e0789054d43787bd7a51.webp",
+    "datetimestamp": "2026-04-27T14:22:02",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "MERN vs Next.js \u2013 Which Course is Better in 2026? (Complete Guide for Dehradun, Rishikesh & Nearby Cities) - DEV Community",
+    "link": "https://dev.to/shubham_goyal_6021ce8f983/mern-vs-nextjs-which-course-is-better-in-2026-complete-guide-for-dehradun-rishikesh-nearby-3265",
+    "description": "In 2026, the world of web development is growing faster than ever. With businesses shifting online,...",
+    "image": "images/a9f35e2f9fbbeeab1456909d12489eb8.webp",
+    "datetimestamp": "2026-04-27T14:11:23",
+    "source": "Node.js News",
+    "category": "Backend"
+  },
+  {
+    "title": "Types of Assignments We Handle - DEV Community",
+    "link": "https://dev.to/dissertationonlineuk/types-of-assignments-we-handle-51ib",
+    "description": "https://www.dissertationonline.co.uk/writing-services/assignment/  Types of Assignments We Handle  We...",
+    "image": "images/70a4449ecaae4d018ea1241e2169a728.webp",
+    "datetimestamp": "2026-04-27T13:12:57",
+    "source": "Node.js News",
+    "category": "Backend"
+  }
 ]

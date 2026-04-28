@@ -107,4 +107,14 @@
     "source": "Testing",
     "category": "Testing"
   }
+][
+  {
+    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
+    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
+    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
+    "image": "images/3cdf045c0941de843294e86e0d000a11.webp",
+    "datetimestamp": "2026-04-28T05:58:11",
+    "source": "Testing",
+    "category": "Testing"
+  }
 ]

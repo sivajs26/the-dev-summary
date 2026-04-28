@@ -107,4 +107,41 @@
     "source": "Java News",
     "category": "Backend"
   }
+][
+  {
+    "title": "How to Test Whether Your Software Solution Actually Fits The Problem - DEV Community",
+    "link": "https://dev.to/leonpennings/how-to-test-whether-your-software-solution-actually-fits-the-problem-c85",
+    "description": "Every application is built once.  There is no second version of the same system, built with different...",
+    "image": "images/99fcad87d49b9c42ca0306de5b6366c0.webp",
+    "datetimestamp": "2026-04-28T06:04:11",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows - DEV Community",
+    "link": "https://dev.to/machinecodingmaster/stop-burning-tokens-mastering-jep-480-structured-concurrency-for-agentic-workflows-1a1a",
+    "description": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows   In...",
+    "image": "images/845575331f91622978ebfa66856b6ff4.webp",
+    "datetimestamp": "2026-04-28T05:45:53",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 #09: Demystifying Reference Types - DEV Community",
+    "link": "https://dev.to/hannalog/09-demystifying-reference-types-3f84",
+    "description": "Curriculum: Hon-Gong-Ja (Java for Self-Study) Chapters: Chapter 05 (Sec 01, 02, 03) Duration:...",
+    "image": "images/76b9616a7c453aae4906fa8409b391c6.webp",
+    "datetimestamp": "2026-04-28T05:43:29",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "#08, It's Not That Hard~ Conditionals and Loops (Chapter 04, Sec 01, 02) - DEV Community",
+    "link": "https://dev.to/hannalog/08-its-not-that-hard-conditionals-and-loops-chapter-04-sec-01-02-1joa",
+    "description": "Textbook: Self-Study Java (by Shin Yong-kwon)  Sections: Chapter 04 Sec 01, Sec 02, Chapter Review...",
+    "image": "images/a0952ddd2a03df85588986d755a8d4dd.webp",
+    "datetimestamp": "2026-04-28T05:35:07",
+    "source": "Java News",
+    "category": "Backend"
+  }
 ]

@@ -216,4 +216,113 @@
     "source": "Devto Main",
     "category": "AI"
   }
+][
+  {
+    "title": "One Open Source Project a Day (No.50): The TypeScript Wizard Pushed His .claude Directory to GitHub and Hit #1 Worldwide Overnight - DEV Community",
+    "link": "https://dev.to/wonderlab/one-open-source-project-a-day-no50-the-typescript-wizard-pushed-his-claude-directory-to-github-41jj",
+    "description": "Introduction    \"My agent skills that I use every day to do real engineering \u2014 not vibe...",
+    "image": "images/12dfed2ad150525f88bc6ec1a317bd64.webp",
+    "datetimestamp": "2026-04-28T06:06:26",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "War Story: We Migrated From Memcached 1.6 to Redis 7.2 and Cut Cache Misses by 60% - DEV Community",
+    "link": "https://dev.to/johalputt/war-story-we-migrated-from-memcached-16-to-redis-72-and-cut-cache-misses-by-60-1bjh",
+    "description": "At 3:17 AM on a Tuesday in Q3 2024, our p99 API latency hit 4.8 seconds, cache miss rate spiked to...",
+    "image": "images/50ab3fcbca635721f07dababe9df653f.webp",
+    "datetimestamp": "2026-04-28T06:06:21",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Your first Velocity app in 60 seconds - DEV Community",
+    "link": "https://dev.to/velocitykode/your-first-velocity-app-in-60-seconds-5coe",
+    "description": "Velocity is a full-stack web framework for Go. Pre-1.0 and shipping in public. vel.build.           ...",
+    "image": "images/8ecaba9de64b1699c6a3d51da8acb0ad.webp",
+    "datetimestamp": "2026-04-28T06:03:05",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Git hooks : tout n'est pas bon \u00e0 bloquer - DEV Community",
+    "link": "https://dev.to/singebob/git-hooks-tout-nest-pas-bon-a-bloquer-4p7b",
+    "description": "Les git hooks, c\u2019est une pratique qu\u2019on voit de plus en plus dans les projets. On l\u2019adopte souvent...",
+    "image": "images/c9488dbddd96b8546444754f1aa75fb8.webp",
+    "datetimestamp": "2026-04-28T06:01:05",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Stop Putting Credentials in Environment Variables: Secret Management for DevOps Teams - DEV Community",
+    "link": "https://dev.to/yash_pritwani_07a77613fd6/stop-putting-credentials-in-environment-variables-secret-management-for-devops-teams-2pah",
+    "description": "Originally published on TechSaaS Cloud     Originally published on TechSaaS Cloud              Stop...",
+    "image": "images/70e7efbd53d79049f03afb2b3fd25776.webp",
+    "datetimestamp": "2026-04-28T06:00:44",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "CI/CD Pipeline Optimization: From 20-Minute to 3-Minute Builds - DEV Community",
+    "link": "https://dev.to/yash_pritwani_07a77613fd6/cicd-pipeline-optimization-from-20-minute-to-3-minute-builds-2d1h",
+    "description": "Originally published on TechSaaS Cloud     Originally published on TechSaaS Cloud              CI/CD...",
+    "image": "images/156bd68f2e72c5f9a1ac325203118168.webp",
+    "datetimestamp": "2026-04-28T06:00:06",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Build vs Buy: The Framework for Engineering Leaders - DEV Community",
+    "link": "https://dev.to/yash_pritwani_07a77613fd6/build-vs-buy-the-framework-for-engineering-leaders-51j2",
+    "description": "Originally published on TechSaaS Cloud     Originally published on TechSaaS Cloud              Build...",
+    "image": "images/e277b5de8063573cf959d6d3531ae4b0.webp",
+    "datetimestamp": "2026-04-28T06:00:04",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "I built a small Base64 tool because I was tired of opening the console - DEV Community",
+    "link": "https://dev.to/zley_34b5414ca5e486c1c333/i-built-a-small-base64-tool-because-i-was-tired-of-opening-the-console-3plf",
+    "description": "There are some developer tools that are not complicated at all, but still manage to interrupt your...",
+    "image": "images/2b60d4e7553707918e90208f06298c77.webp",
+    "datetimestamp": "2026-04-28T05:59:09",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Rate Limiting in LLM Applications: Why You Need It and How to Build It - DEV Community",
+    "link": "https://dev.to/pranay_batta/rate-limiting-in-llm-applications-why-you-need-it-and-how-to-build-it-5gf4",
+    "description": "TL;DR: Rate limiting for LLM APIs requires counting tokens, not requests. A single 200K-token context...",
+    "image": "images/5b79d10a60b24ca341dc920321685334.webp",
+    "datetimestamp": "2026-04-28T05:58:35",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Building an iOS app blocker with Screen Time APIs - DEV Community",
+    "link": "https://dev.to/mn_in_4951c0dbf0f61a57b50/building-an-ios-app-blocker-with-screen-time-apis-30dn",
+    "description": "I recently built a small iPhone app called FocusLock.    The idea is simple: choose distracting apps,...",
+    "image": "images/b3232087c31382f4cf28601e7c8c3969.webp",
+    "datetimestamp": "2026-04-28T05:58:25",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
+    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
+    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
+    "image": "images/3cdf045c0941de843294e86e0d000a11.webp",
+    "datetimestamp": "2026-04-28T05:58:11",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "From Gherkin to Source Code Without Losing the Business Language - DEV Community",
+    "link": "https://dev.to/douglasdcm/from-gherkin-to-source-code-without-losing-the-business-language-mhj",
+    "description": "Picture this: you are a software developer building an education platform and you receive from the...",
+    "image": "images/076c3149fe20a507e446cbf5ea004705.webp",
+    "datetimestamp": "2026-04-28T05:53:09",
+    "source": "Devto Main",
+    "category": "AI"
+  }
 ]

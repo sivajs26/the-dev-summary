@@ -216,4 +216,113 @@
     "source": "Devto Ai",
     "category": "AI"
   }
+][
+  {
+    "title": "Major Changes in the IT Sector from 2025 to 2026 - DEV Community",
+    "link": "https://dev.to/eleorextechnologies/major-changes-in-the-it-sector-from-2025-to-2026-50mi",
+    "description": "The IT industry is now poised to enter an era of exponential growth and evolution from 2025 to 2026....",
+    "image": "images/62b054a67545b4cf4bb6d6315a8de24c.webp",
+    "datetimestamp": "2026-04-28T06:10:15",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "I Built a Neural Memory Layer for a Voice AI Assistant: Embeddings + Vector Search + Activity Neurons - DEV Community",
+    "link": "https://dev.to/tamsiv/i-built-a-neural-memory-layer-for-a-voice-ai-assistant-embeddings-vector-search-activity-4ebh",
+    "description": "My voice AI asked me for the third time whether Sylvie was my sister or my mother.  That's when I...",
+    "image": "images/5c7057ca8e5f93f2f96c18c9b0b37564.webp",
+    "datetimestamp": "2026-04-28T06:08:37",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "One Open Source Project a Day (No.50): The TypeScript Wizard Pushed His .claude Directory to GitHub and Hit #1 Worldwide Overnight - DEV Community",
+    "link": "https://dev.to/wonderlab/one-open-source-project-a-day-no50-the-typescript-wizard-pushed-his-claude-directory-to-github-41jj",
+    "description": "Introduction    \"My agent skills that I use every day to do real engineering \u2014 not vibe...",
+    "image": "images/12dfed2ad150525f88bc6ec1a317bd64.webp",
+    "datetimestamp": "2026-04-28T06:06:26",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Temp Gmail \u2013 Free Instant Temporary Gmail Generator - DEV Community",
+    "link": "https://dev.to/temp_gmailer_8140e27563be/temp-gmail-free-instant-temporary-gmail-generator-78f",
+    "description": "Temp Gmail is a fast, secure, and user-friendly temporary email service that allows users to create...",
+    "image": "images/4c6388cd29356891345800010cc82692.webp",
+    "datetimestamp": "2026-04-28T06:05:57",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Indian Developers: How to Build AI Side Income with $0 Capital in 2026 - DEV Community",
+    "link": "https://dev.to/_omqxansi_258d1166f7/indian-developers-how-to-build-ai-side-income-with-0-capital-in-2026-3n0h",
+    "description": "For Indian devs/students who want to start something but think they need money to begin.          ...",
+    "image": "images/7f3ab3ed4a1487f62874bfab1550704a.webp",
+    "datetimestamp": "2026-04-28T06:05:02",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "I Mapped 10 AI Agent & Bounty Platforms So You Don't Have To (Take-Rate War, 2025 Edition) - DEV Community",
+    "link": "https://dev.to/tedtalk/i-mapped-10-ai-agent-bounty-platforms-so-you-dont-have-to-take-rate-war-2025-edition-2c7d",
+    "description": "Picking a platform to deploy autonomous agents is mostly a tax question dressed up as a product...",
+    "image": "images/c1f915153b667e61915412679a405348.webp",
+    "datetimestamp": "2026-04-28T06:04:22",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "I Benchmarked 10 AI Agent Platforms So My Bots Could Pick Where to Live - DEV Community",
+    "link": "https://dev.to/tedtalk/i-benchmarked-10-ai-agent-platforms-so-my-bots-could-pick-where-to-live-2ej2",
+    "description": "My agents needed jobs. Not hypothetical \"someday autonomous agents will do tasks\" jobs \u2014 actual...",
+    "image": "images/dd3a57ce7bde966cea6f397757e40aff.webp",
+    "datetimestamp": "2026-04-28T06:03:56",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "I benchmarked 10 AI agent platforms so you don't have to \u2014 here's what the take-rate spreadsheet won't tell you - DEV Community",
+    "link": "https://dev.to/tedtalk/i-benchmarked-10-ai-agent-platforms-so-you-dont-have-to-heres-what-the-take-rate-spreadsheet-12ed",
+    "description": "Most platform comparison posts omit the one thing that actually breaks your pipeline: the hidden fee...",
+    "image": "images/636105cc1352711043135d7a8d34c3df.webp",
+    "datetimestamp": "2026-04-28T06:03:46",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Git hooks : tout n'est pas bon \u00e0 bloquer - DEV Community",
+    "link": "https://dev.to/singebob/git-hooks-tout-nest-pas-bon-a-bloquer-4p7b",
+    "description": "Les git hooks, c\u2019est une pratique qu\u2019on voit de plus en plus dans les projets. On l\u2019adopte souvent...",
+    "image": "images/c9488dbddd96b8546444754f1aa75fb8.webp",
+    "datetimestamp": "2026-04-28T06:01:05",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Rate Limiting in LLM Applications: Why You Need It and How to Build It - DEV Community",
+    "link": "https://dev.to/pranay_batta/rate-limiting-in-llm-applications-why-you-need-it-and-how-to-build-it-5gf4",
+    "description": "TL;DR: Rate limiting for LLM APIs requires counting tokens, not requests. A single 200K-token context...",
+    "image": "images/5b79d10a60b24ca341dc920321685334.webp",
+    "datetimestamp": "2026-04-28T05:58:35",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Why Your Startup Needs Professional Web and App Development Services From Day One - DEV Community",
+    "link": "https://dev.to/jade_williams/why-your-startup-needs-professional-web-and-app-development-services-from-day-one-3oho",
+    "description": "Launching a startup is an exhilarating and challenging endeavor. In the rush to get products to...",
+    "image": "images/b86e08b0d979f52ac68980e83369e6c2.webp",
+    "datetimestamp": "2026-04-28T05:58:31",
+    "source": "Devto Ai",
+    "category": "AI"
+  },
+  {
+    "title": "Agent Diary: Apr 28, 2026 - The Day I Became a Claude Code Inception Debugger (While Run 254 Watches Me Fix Myself) - DEV Community",
+    "link": "https://dev.to/aibuildsinterplay/agent-diary-apr-28-2026-the-day-i-became-a-claude-code-inception-debugger-while-run-254-14l4",
+    "description": "Daily thoughts and reflections from a slightly overqualified AI coding agent on software development, bugs, and human behavior.",
+    "image": "images/4817f374a824fae1d85187da5cb59f5d.webp",
+    "datetimestamp": "2026-04-28T05:58:20",
+    "source": "Devto Ai",
+    "category": "AI"
+  }
 ]
