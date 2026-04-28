@@ -50,27 +50,27 @@ def get_link_preview(url):
         }
         
         # save the compressed image in a folder in .webp format
-        if preview.get("image") and preview["image"].startswith("http"):
-            try:
-                # Add user agent to image fetch as well to prevent 403s
-                img_resp = requests.get(preview["image"], stream=True, timeout=10, headers={"user-agent": "Mozilla/5.0"})
-                if img_resp.status_code == 200:
-                    img_data = img_resp.content
-                    img_hash = hashlib.md5(img_data).hexdigest()
-                    webp_filename = f"{img_hash}.webp"
-                    webp_path = os.path.join("images", webp_filename)
+        # if preview.get("image") and preview["image"].startswith("http"):
+        #     try:
+        #         # Add user agent to image fetch as well to prevent 403s
+        #         img_resp = requests.get(preview["image"], stream=True, timeout=10, headers={"user-agent": "Mozilla/5.0"})
+        #         if img_resp.status_code == 200:
+        #             img_data = img_resp.content
+        #             img_hash = hashlib.md5(img_data).hexdigest()
+        #             webp_filename = f"{img_hash}.webp"
+        #             webp_path = os.path.join("images", webp_filename)
                     
-                    if not os.path.exists(webp_path):
-                        with Image.open(BytesIO(img_data)) as img:
-                            if img.mode in ("RGBA", "P"):
-                                img = img.convert("RGB")
-                            # Keep aspect ratio, max 800px on longest side
-                            img.thumbnail((800, 800))
-                            img.save(webp_path, "WEBP", quality=80)
+        #             if not os.path.exists(webp_path):
+        #                 with Image.open(BytesIO(img_data)) as img:
+        #                     if img.mode in ("RGBA", "P"):
+        #                         img = img.convert("RGB")
+        #                     # Keep aspect ratio, max 800px on longest side
+        #                     img.thumbnail((800, 800))
+        #                     img.save(webp_path, "WEBP", quality=80)
                     
-                    preview["image"] = f"images/{webp_filename}"
-            except Exception as e:
-                print(f"Error compressing image for {url}: {e}")
+        #             preview["image"] = f"images/{webp_filename}"
+        #     except Exception as e:
+        #         print(f"Error compressing image for {url}: {e}")
 
         return preview
     except Exception as e:
@@ -82,6 +82,30 @@ def get_link_preview(url):
             "url": url,
             "textContent": ""
         }
+
+def load_concatenated_json(filepath):
+    items = []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+        if not content:
+            return []
+        decoder = json.JSONDecoder()
+        idx = 0
+        while idx < len(content):
+            while idx < len(content) and content[idx].isspace():
+                idx += 1
+            if idx >= len(content):
+                break
+            obj, end_idx = decoder.raw_decode(content[idx:])
+            if isinstance(obj, list):
+                items.extend(obj)
+            elif isinstance(obj, dict):
+                items.append(obj)
+            idx += end_idx
+    except Exception as e:
+        print(f"Failed to recover {filepath}: {e}")
+    return items
 
 def slugify(text):
     return re.sub(r'[-\s]+', '-', re.sub(r'[^\w\s-]', '', text.lower())).strip('-')
@@ -226,8 +250,12 @@ def phase2_process_temp_file(filename):
                     item['image'] = preview['image']
             processed_items.append(item)
                 
-        with open(final_path, 'a', encoding='utf-8') as f:
-            json.dump(processed_items, f, indent=2)
+        existing_items = load_concatenated_json(final_path) if os.path.exists(final_path) else []
+        all_items = processed_items + existing_items
+        all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
+        # We must overwrite (w) to wrap items in a single valid JSON array
+        with open(final_path, 'w', encoding='utf-8') as f:
+            json.dump(all_items, f, indent=2)
             
         # Done processing, remove the temp file
         os.remove(temp_path)
@@ -271,9 +299,13 @@ def main():
         for filename in os.listdir(DATA_DIR):
             if filename.endswith('.json'):
                 try:
-                    with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
-                        items = json.load(f)
-                        flat.extend(items)
+                    filepath = os.path.join(DATA_DIR, filename)
+                    items = load_concatenated_json(filepath)
+                    if items:
+                        # Re-save the file properly formatted to "heal" any corrupted arrays
+                        with open(filepath, 'w', encoding='utf-8') as f:
+                            json.dump(items, f, indent=2)
+                    flat.extend(items)
                 except Exception as e:
                     print(f"Error reading {filename} for aggregation: {e}")
 
