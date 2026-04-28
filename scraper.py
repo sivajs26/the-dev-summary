@@ -175,7 +175,8 @@ def phase1_process_custom_site(site):
     print(f"Phase 1 - Scraping custom source: {source_name}...")
     try:
         scraped_items = scrape_custom(site['url'], site['config'])
-        
+        # get the first 50 items from scraped_items
+        scraped_items = scraped_items[:50]
         new_items = []
         for item in scraped_items:
             item['source'] = source_name
@@ -283,4 +284,10 @@ def main():
     print("Completed successfully!")
 
 if __name__ == "__main__":
+    # cleanup function to delete the images folder
+    if os.path.exists("images"):
+        for filename in os.listdir("images"):
+            file_path = os.path.join("images", filename)
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
     main()
