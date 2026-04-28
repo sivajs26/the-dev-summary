@@ -313,7 +313,7 @@ def main():
     flat.sort(key=lambda x: x['datetimestamp'], reverse=True)
     # merge all the jsons in 'feeds' directory into a single file 'news.json'
     with open('news.json', 'w', encoding='utf-8') as f:
-        flat = [x for x in flat if datetime.strptime(x['datetimestamp'], "%Y-%m-%dT%H:%M:%S") > datetime.now() - timedelta(hours=24)]
+        flat = [x for x in flat if datetime.fromisoformat(x['datetimestamp']) > datetime.now() - timedelta(hours=24)]
         random.shuffle(flat)
         json.dump(flat, f, indent=2)
 
