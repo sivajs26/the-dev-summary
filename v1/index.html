@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Daily Tech | Realtime Feed</title>
+    <title>The Dev Summary | Realtime Feed</title>
 
     <!-- Top-tier Typography from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -526,7 +526,7 @@
     </main>
 
     <footer>
-        <p>The Daily Tech ©
+        <p>The Dev Summary ©
             <script>document.write(new Date().getFullYear())</script> — Minimalist Tech Editorial
         </p>
     </footer>
@@ -567,14 +567,33 @@
 
             const card = event.target.closest('.news-card');
 
-            const renderAndDownload = () => {
+            const renderAndDownload = async () => {
                 // Extract the exact textual and visual content asynchronously
                 const imgEl = card.querySelector('.news-image');
                 const imgSrc = imgEl ? imgEl.src : null;
                 const title = card.querySelector('.news-title').textContent.trim();
                 const desc = card.querySelector('.news-desc').textContent.trim();
                 const dateEl = document.getElementById('dateDisplay');
-                const dateStr = dateEl ? dateEl.textContent.trim() : "The Daily Tech";
+                const dateStr = dateEl ? dateEl.textContent.trim() : "The Dev Summary";
+
+                // Helper to convert image URL to base64 data URL
+                const toBase64 = async (url) => {
+                    try {
+                        const resp = await fetch(url, { mode: 'cors' });
+                        const blob = await resp.blob();
+                        return await new Promise((resolve, reject) => {
+                            const reader = new FileReader();
+                            reader.onloadend = () => resolve(reader.result);
+                            reader.onerror = reject;
+                            reader.readAsDataURL(blob);
+                        });
+                    } catch (e) {
+                        console.error('Base64 conversion failed', e);
+                        return url; // fallback to original URL if conversion fails
+                    }
+                };
+
+                const imgData = imgSrc ? await toBase64(imgSrc) : null;
 
                 // Programmatically construct a perfectly structured exact 4:5 offline poster div (1080x1350 resolution)
                 const poster = document.createElement('div');
@@ -591,11 +610,11 @@
                 poster.style.color = 'var(--text-main)';
                 poster.style.zIndex = '-100';
 
-                // Safely format Image Block utilizing CSS background properties to bypass html2canvas object-fit bugs
+                // Safely format Image Block using base64 data URL to avoid CORS issues
                 let imgHTML = '';
-                if (imgSrc) {
+                if (imgData) {
                     imgHTML = `
-                        <div style="width: 100%; height: 500px; border-radius: 4px; margin-bottom: 40px; border: 1px solid rgba(0,0,0,0.1); background-color: #e0e0e0; background-image: url('${imgSrc}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        <div style="width: 100%; height: 500px; border-radius: 4px; margin-bottom: 40px; border: 1px solid rgba(0,0,0,0.1); background-color: #e0e0e0; background-image: url('${imgData}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                         </div>
                     `;
                 }
@@ -604,7 +623,7 @@
                 poster.innerHTML = `
                     <div style="flex-grow: 1; display: flex; flex-direction: column;">
                         <div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 3px solid var(--border-color); padding-bottom: 25px; margin-bottom: 40px;">
-                            <div style="font-family: var(--font-display), serif; font-size: 40px; text-transform: uppercase; font-weight: 800; line-height: 1; letter-spacing: -0.02em;">The Daily Tech</div>
+                            <div style="font-family: var(--font-display), serif; font-size: 40px; text-transform: uppercase; font-weight: 800; line-height: 1; letter-spacing: -0.02em;">The Dev Summary</div>
                             <div style="font-family: var(--font-mono), monospace; font-size: 22px; color: var(--text-muted); text-transform: uppercase;">${dateStr}</div>
                         </div>
                         
@@ -626,14 +645,13 @@
                 setTimeout(() => {
                     html2canvas(poster, {
                         useCORS: true,
-                        scale: 1.5, // 1080x1350 output upscales to gorgeous 1620x2025 photo
+                        scale: 1.5,
                         backgroundColor: '#f9f8f4',
                         logging: false
                     }).then(canvas => {
                         const link = document.createElement('a'); link.download = `tech-news-highlight.png`;
                         link.href = canvas.toDataURL('image/png', 1.0);
                         link.click();
-
                         poster.remove(); // Safely destroy the phantom DOM element
                         icon.className = originalIconClass; // Restore download UI
                     }).catch(err => {
@@ -642,7 +660,7 @@
                         icon.className = originalIconClass;
                         alert("Sorry! Failed to render the card as an image.");
                     });
-                }, 150); // Provide enough time for image processing and webfonts rendering
+                }, 150);
             };
 
             // Dynamically load html2canvas to save initial page load bandwidth
@@ -762,7 +780,7 @@
                         <div class="news-card ${cardClass}" style="animation-delay: ${animDelay}s">
                             ${item.image ? `
                                 <div class="news-image-wrapper">
-                                    <img src="${image_url}" class="news-image" alt="Article image" loading="lazy" crossorigin="anonymous">
+                                    <img src="${image_url}" class="news-image" alt="Article image" loading="lazy">
                                 </div>
                             ` : `<div class="news-image-wrapper" style="background:#222;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-mono)"><i class="fas fa-newspaper fa-2x"></i></div>`}
                             <div class="news-content">
