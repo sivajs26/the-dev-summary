@@ -1,5 +1,14 @@
 [
   {
+    "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+    "description": "Best-in-class open omni-modal reasoning model delivers the highest efficiency and accuracy to power agentic workflows such as computer use, document intelligence and audio-video reasoning.",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/04/nemotron-3-nano-omni-featured-1920x1080-1.jpg",
+    "datetimestamp": "2026-04-28T16:00:28",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
     "title": "Into the Omniverse: Manufacturing\u2019s Simulation-First Era Has Arrived | NVIDIA Blog",
     "link": "https://blogs.nvidia.com/blog/manufacturing-simulation-first/",
     "description": "Manufacturing\u2019s traditional design-build-test cycle rested on a single assumption: Real-world testing was the only reliable test environment.",

@@ -1,5 +1,14 @@
 [
   {
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png",
+    "datetimestamp": "2026-04-28T15:58:57",
+    "source": "Hugging Face Blog",
+    "category": "AI"
+  },
+  {
     "title": "Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI",
     "link": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
     "description": "A Blog post by NVIDIA on Hugging Face",

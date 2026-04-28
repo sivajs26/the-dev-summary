@@ -1,6 +1,15 @@
 [
   {
     "title": "Just a moment...",
+    "link": "https://towardsdatascience.com/let-the-ai-do-the-experimenting/",
+    "description": "<p>Using autoresearch to optimise marketing campaigns under budget constraints</p>\n<p>The post <a href=\"https://towardsdatascience.com/let-the-ai-do-the-experimenting/\">Let the AI Do the Experimenting</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T16:30:00",
+    "source": "Towardsdatascience",
+    "category": "AI"
+  },
+  {
+    "title": "Just a moment...",
     "link": "https://towardsdatascience.com/correlation-doesnt-mean-causation-but-what-does-it-mean/",
     "description": "<p>What does correlation tells us?</p>\n<p>The post <a href=\"https://towardsdatascience.com/correlation-doesnt-mean-causation-but-what-does-it-mean/\">Correlation Doesn\u2019t Mean Causation! But What Does It Mean?</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
     "image": "",

@@ -1,5 +1,50 @@
 [
   {
+    "title": "Claude can now plug directly into Photoshop, Blender, and Ableton | The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+    "description": "Anthropic is really leaning into creative AI services.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Claude-creative-connectors-Blender-.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-28T16:49:08",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Google Translate can now help you with pronunciation | The Verge",
+    "link": "https://www.theverge.com/tech/919510/google-translate-pronunciation-practice-availability",
+    "description": "\ufeffThe AI-powered pronunciation practice feature analyzes and corrects your speech to help you learn new languages.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Google-Translate-pronunciation-feature.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-28T16:00:00",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Former FCC officials want to force a vote on the \u2018weapon\u2019 Brendan Carr has invoked against broadcasters | The Verge",
+    "link": "https://www.theverge.com/policy/919536/former-fcc-officials-brendan-car-news-distortion-policy",
+    "description": "The bipartisan group says it\u2019s been \u201cweaponized for partisan purposes.\u201d",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-28T16:00:00",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Amazon\u2019s color screen Kindles are finally getting a system-wide dark mode | The Verge",
+    "link": "https://www.theverge.com/tech/919597/amazon-kindle-colorsoft-scribe-dark-mode-system-wide-software-update",
+    "description": "You\u2019ll be able to mix and match light and dark modes across the Kindle Colorsoft and Scribe Colorsoft\u2019s interfaces.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/kindle_darkmode.jpg?quality=90&strip=all&crop=0%2C10.745630675064%2C100%2C78.508738649872&w=1200",
+    "datetimestamp": "2026-04-28T15:46:27",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Altman vs. Elon for the future of OpenAI | The Verge",
+    "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+    "description": "The billionaire battle goes to court.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.3048328880139%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-28T15:32:01",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
     "title": "DJI\u2019s new Mic Mini 2 adds colorful covers to help them blend in | The Verge",
     "link": "https://www.theverge.com/tech/919553/dji-mic-mini-2-wireless-microphone-transmitter-magnetic-cover",
     "description": "The company\u2019s smallest wireless mic also adds voice presets so you can prioritize clarity or emphasize lower tones.",

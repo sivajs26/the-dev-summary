@@ -1,5 +1,905 @@
 [
   {
+    "title": "In Good Company: How Agencies Are Transforming Client Collaboration | Figma Blog",
+    "link": "https://www.figma.com/blog/in-good-company-agencies-freelancers/",
+    "description": "To take creativity to new heights, agencies and freelancers are breaking down traditional boundaries and using tools like Figma to partner with their clients every step of the way.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/8130c94954b0f98939f53deeb8f12965fb032a75-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828628",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Canvas, Meet Code: Building Figma\u2019s Code Layers | Figma Blog",
+    "link": "https://www.figma.com/blog/building-figmas-code-layers/",
+    "description": "What if you could design and build on the same canvas? Here's how we created code layers to bring design and code together.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/fb706fa9b67e53f822d449ff2333078094ecca49-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828624",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "6 Skills Every Engineer Needs for the AI Era | Figma Blog",
+    "link": "https://www.figma.com/blog/6-skills-every-engineer-needs-for-the-ai-era/",
+    "description": "Figma\u2019s Vice President of Software Engineering Marcel Weekes and Developer Advocate Jake Albaugh share the crucial skills engineers should learn to meet the moment.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828618",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Bill McDermott joins Figma\u2019s Board of Directors | Figma Blog",
+    "link": "https://www.figma.com/blog/bill-mcdermott-joins-board/",
+    "description": "Bill McDermott, the Chairman and CEO of ServiceNow, is joining Figma\u2019s Board of Directors.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828614",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Files Registration Statement for Proposed IPO | Figma Blog",
+    "link": "https://www.figma.com/blog/s1-public/",
+    "description": "An update on Figma's path to becoming a publicly traded company: our S-1 is now public.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/85d361f15b072e8d489520dd1da348f7c1077407-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828609",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Launches Latin American Spanish Localization | Figma Blog",
+    "link": "https://www.figma.com/blog/latin-american-spanish-localization/",
+    "description": "Latin American Spanish becomes Figma\u2019s latest language for product and support localization.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9fb831a502a6c616714cb06216d528967cf69880-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828605",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Rolling Out Santa Without Freezing Productivity: Tips from Securing Figma\u2019s Fleet | Figma Blog",
+    "link": "https://www.figma.com/blog/rolling-out-santa-without-freezing-productivity/",
+    "description": "Here's how we scaled Santa, an open-source binary authorization tool, across all Figmates\u2019 laptops to boost endpoint security while keeping workflows seamless.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/74e0eeec5aaa9f2e8c221dd7655fac3ed6a93112-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828600",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How We Shaped the Visual Identity for Config 2025 | Figma Blog",
+    "link": "https://www.figma.com/blog/how-we-shaped-the-visual-identity-for-config-2025/",
+    "description": "Figma\u2019s Brand Studio designed an immersive conference that celebrated the spirit of makership at every turn.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/a9a7145786b0c3fdcc30f1a251d3b6a282b8d6a1-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828595",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "In Good Company: How Retailers Use Figma to Elevate E-commerce  | Figma Blog",
+    "link": "https://www.figma.com/blog/in-good-company-retailers/",
+    "description": "Brands like Nuuly, Ruggable, and GitHub are designing multidimensional experiences that build customer trust, serve employee needs, and uphold core values.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9ee1933d767363a82de7f74af40403ec7520a83a-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828591",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Why development leaders are investing in design | Figma Blog",
+    "link": "https://www.figma.com/blog/why-development-leaders-are-investing-in-design/",
+    "description": "An IDC study shows just how central design has become to development leaders.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828587",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Launching the roadshow for Figma\u2019s proposed IPO | Figma Blog",
+    "link": "https://www.figma.com/blog/ipo-roadshow-launch/",
+    "description": "Today, we\u2019re announcing the launch of the roadshow for Figma\u2019s proposed initial public offering of Class A common stock.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/85d361f15b072e8d489520dd1da348f7c1077407-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828583",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Mike Krieger and Luis von Ahn join Figma\u2019s Board of Directors | Figma Blog",
+    "link": "https://www.figma.com/blog/mike-krieger-and-luis-von-anh-join-board/",
+    "description": "Mike Krieger, CPO of Anthropic, and Luis von Anh, co-founder and CEO of Duolingo, are joining Figma\u2019s Board of Directors.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/85d361f15b072e8d489520dd1da348f7c1077407-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828578",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Deepens Roots in Australia with Local Data Hosting | Figma Blog",
+    "link": "https://www.figma.com/blog/australia-local-data-hosting/",
+    "description": "Figma introduces new governance features for enterprise customers, with local data residency expected later this year. ",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/cd183008b90463baba41c4b59a4281ebb6e32009-1920x1080.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828573",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Make Is Now Available to All Users | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-make-general-availability/",
+    "description": "Today, all Figma AI features and products are moving out of beta, including Figma Make\u2014which is now available for everyone to try.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/48ebcac419a62134d8126928cb13188ac370766d-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828569",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The making of a product icon | Figma Blog",
+    "link": "https://www.figma.com/blog/the-making-of-a-product-icon/",
+    "description": "Product Designer Tim Van Damme shares his thoughtful approach to Figma icon design and the creative exploration that shapes each final result.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/206690c719d49770e0f165bf72ca08236b0a8d4c-3264x1398.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828564",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Announces Increase in IPO Price Range | Figma Blog",
+    "link": "https://www.figma.com/blog/increased-ipo-price-range/",
+    "description": "Following the launch of Figma\u2019s roadshow last week, we\u2019re announcing an increased price range for our proposed IPO.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/85d361f15b072e8d489520dd1da348f7c1077407-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828558",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "A Tale of Two Parameter Architectures\u2014and How We Unified Them | Figma Blog",
+    "link": "https://www.figma.com/blog/a-tale-of-two-parameter-architectures/",
+    "description": "After launching variables and component properties in quick succession, we were left with two different underlying architectures for parametrization. Here\u2019s how we unified them.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/0f2351d5fdeb4e0abdd87f41cd0f2dbc1b666c5b-3265x1837.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828554",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Announces Pricing of Initial Public Offering | Figma Blog",
+    "link": "https://www.figma.com/blog/ipo-pricing/",
+    "description": "Tomorrow, July 31, 2025, Figma plans to begin trading on the New York Stock Exchange under the ticker symbol \u201cFIG.\u201d",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/85d361f15b072e8d489520dd1da348f7c1077407-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828549",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma\u2019s IPO: Design Is Everyone\u2019s Business | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-ipo-founder-letter/",
+    "description": "As Figma goes public, read Dylan Field\u2019s founder letter about why design is more important than ever, and what\u2019s next for the company.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/687ca78254f1530283788a7144324a7abdb8b1d0-3915x2204.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828545",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Duolingo Method: Collaboration As A Core Practice | Figma Blog",
+    "link": "https://www.figma.com/blog/the-method-duolingo/",
+    "description": "Duolingo\u2019s Math team ditches traditional handoff in favor of co-creation, scrappy prototypes, and constant experimentation.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/727ef14080bf9cf80e48d397e4e108d0558b605b-1632x918.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828541",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Who Says Design Needs a Mouse? | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-keyboard-accessibility-features/",
+    "description": "Figma's new accessibility features bring better keyboard and screen reader support to all creators.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/65121d2cd990fa3e59fbc73f583b7bcfd8c92436-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828536",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Design Systems And AI: Why MCP Servers Are The Unlock | Figma Blog",
+    "link": "https://www.figma.com/blog/design-systems-ai-mcp/",
+    "description": "How design systems can be a productivity coefficient for AI powered workflows",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/396116262667f31a91d215cb60dc1b4981e94553-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828531",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Getting into the groove: How music shaped the scatter brushes in Figma Draw | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-draw-scatter-brushes/",
+    "description": "Today, we\u2019re adding 10 new scatter brushes to push the creative possibilities in Figma Draw. Here\u2019s how the team drew inspiration from Doo-wop, Vaporwave, and other music genres to design them.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9a5c015a93263ee452dac3aea0da23c83dd4a956-2798x1571.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828527",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "8 Tips for Designers Building Branded Templates in Figma Buzz | Figma Blog",
+    "link": "https://www.figma.com/blog/8-tips-for-designers-building-branded-templates-in-figma-buzz/",
+    "description": "To create self-serve templates that bend\u2014but don\u2019t break\u2014brand designers need to consider work through a marketing lens.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bccc680cc37f12685ef585b45f538eda221fb2c6-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828520",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Anatomy of an Activation | Figma Blog",
+    "link": "https://www.figma.com/blog/the-anatomy-of-an-activation-figma-commons/",
+    "description": "As Figma stepped into its next chapter, we wanted to celebrate in a way that kept that idea front and center.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d7aade35fc2127d5448702ed2eed2dab68af0f6b-2712x1548.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828515",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Forrester Analyzes The ROI Of Dev Mode | Figma Blog",
+    "link": "https://www.figma.com/blog/forrester-analyzes-the-roi-of-dev-mode/",
+    "description": "Forrester tells us how to save developers time and headache\u2014all in service of shipping better products.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828511",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Version Control: How Figma Make Helped Us Figure Out Video Playback | Figma Blog",
+    "link": "https://www.figma.com/blog/version-control-figma-make-video-playback/",
+    "description": "To get videos working just right in Figma Buzz, Product Designer Natasha Tenggoro used Figma Make to prototype complex ideas when words fell short. We show three of them here, prompts and all.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/48f115193d7831d3b69f8307fd4f9b6975c2156f-1200x630.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828507",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "IDC Study Says the Global Workforce Engaged in Software Design Is Expanding | Figma Blog",
+    "link": "https://www.figma.com/blog/idc-design-population-study/",
+    "description": "IDC forecasts that the number of people involved in software design will increase from 2025 to 2029\u2014signaling the rising importance of design as a competitive differentiator.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/5cd216e90aa5a17a03325855c36438142febaee9-3600x2054.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828502",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Why Is Corpcore Suddenly Such a Thing? | Figma Blog",
+    "link": "https://www.figma.com/blog/corpcore/",
+    "description": "Software swag has upped its swag factor. Here\u2019s why wearing your app on your sleeve has gone from cringeworthy to cool.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/56aeb8705f1466ca9394076447336d6aac9b3493-3840x2160.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828496",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How To Build A Resilient Design Team | Figma Blog",
+    "link": "https://www.figma.com/blog/how-to-build-a-resilient-design-team/",
+    "description": "How do you build a team that\u2019s resilient to change, no matter what\u2019s around the corner? ",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/df59002f3f4b8f032b39f08dd5a4d11070ce5bbf-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828492",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How to Harness Skills That AI Can\u2019t Automate | Figma Blog",
+    "link": "https://www.figma.com/blog/how-to-harness-skills-that-ai-cant-automate/",
+    "description": "With more teams moving faster than ever, the real differentiator is craft\u2014the curiosity, intuition, taste, and intention behind every detail.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9d895b5485fa341dc202c5335e3023fc8b0787af-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828488",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Anatomy of a Summer Campaign: How Instacart Staged a Sick \u201990s Throwback | Figma Blog",
+    "link": "https://www.figma.com/blog/the-anatomy-of-instacart-summer-99-campaign/",
+    "description": "Instacart\u2019s creative studio and marketing teams pulled off a nostalgic summer campaign featuring our favorite snacks from 1999.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/1bf9b1d37414aec7abbebd09756d4e338d75828f-2400x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828483",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Are Roles and Responsibilities a Thing of the Past? | Figma Blog",
+    "link": "https://www.figma.com/blog/2025-shifting-roles-report/",
+    "description": "For years, the boundaries between product development roles have become less defined. Our latest report quantifies this shift and explores what it means for you and your team.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/29cab9ca2a611e11e764fd24f3919b0dcbc3fb15-1632x918.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828479",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Issue No.12: New Roles, New Rules | Figma Blog",
+    "link": "https://www.figma.com/blog/new-roles-new-rules/",
+    "description": "Figma\u2019s editorial newsletter about how products take shape\u2014and shape our world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d25a8fdb60dd6c9fff29c79fb58b902c45dc07f9-2160x1216.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828475",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Is the App Layer Where AI Proves Its Value? | Figma Blog",
+    "link": "https://www.figma.com/blog/is-the-app-layer-where-ai-proves-its-value/",
+    "description": "The next leap in AI won\u2019t come from new models, but from an app layer that makes the technology more intuitive and useful for everyone.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/2fb59f6b2e4f8dc706a679c51f2f0bfbe905582f-1632x918.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828468",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Free Association: Production Designer Jeremy Hindle on Building Severance | Figma Blog",
+    "link": "https://www.figma.com/blog/free-association-jeremy-hindle/",
+    "description": "After the Severance Emmy win, designer Jeremy Hindle traces the ideas and images that shaped Lumon\u2019s uncanny world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d525dccdc5440877ab01f280d72df466718925ed-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828461",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Rendering: Powered by WebGPU | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-rendering-powered-by-webgpu/",
+    "description": "We\u2019ve updated our renderer to use WebGPU, unlocking new performance optimization opportunities. Here\u2019s how we did it.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/4ccef32222f789dab9554fa51665d905a2c168c9-2560x1440.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828445",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Branding for Intercom\u2019s AI Summit Looks Like an Alien Superbloom | Figma Blog",
+    "link": "https://www.figma.com/blog/intercom-pioneer-ai-summit-branding/",
+    "description": "For the customer service and AI event Pioneer, Intercom\u2019s designers used Figma to create a visual language of surreal flowers and shape-shifting pollen.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/691176cc0ac6e3dbb7c331634d150ddff4295106-2400x1254.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828392",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Design Context, Everywhere You Build | Figma Blog",
+    "link": "https://www.figma.com/blog/design-context-everywhere-you-build/",
+    "description": "Our latest updates to the Figma MCP server and Code Connect bring Figma design context anywhere you work.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/de69a4c6d25a647e3e05f1161324998aefb1cc2d-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828387",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Why You Should Care About Design Context | Figma Blog",
+    "link": "https://www.figma.com/blog/why-you-should-care-about-design-context/",
+    "description": "By thoughtfully organizing your work, you can help your developer counterparts build more efficiently and accurately.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9bad32f11ca223cf75e1285e2c55afe43518bfd6-1632x918.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828375",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Bringing Figma Make to the Canvas | Figma Blog",
+    "link": "https://www.figma.com/blog/bringing-figma-make-to-the-canvas/",
+    "description": "Now you can copy any design from a Figma Make preview to the design canvas, allowing you to edit, iterate, and take your ideas further.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828367",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Turn Your ChatGPT Brainstorms Into FigJam Diagrams | Figma Blog",
+    "link": "https://www.figma.com/blog/turn-your-chatgpt-brainstorms-into-figjam-diagrams/",
+    "description": "With the new Figma app in ChatGPT, you can turn conversations into FigJam diagrams like flow charts, Gantt charts, and more.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/4e2450df94a8dfb09b1d263188f649dc0977bc79-3840x2240.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828356",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "6 Winning Figma Makes\u2014and What You Can Learn From Them | Figma Blog",
+    "link": "https://www.figma.com/blog/6-winning-figma-makes-and-what-you-can-learn-from-them/",
+    "description": "This year\u2019s Make-a-thon winners offer insights on how to prototype smarter, structure products better, and push Figma Make further.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/b43401ab4d510b6b2ec8b0ffb14cb71ceda7ebcf-2842x1538.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828351",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "4 Ways for Design Teams to Chart New Territory With Figma Make | Figma Blog",
+    "link": "https://www.figma.com/blog/4-ways-for-design-teams-to-chart-new-territory-with-figma-make/",
+    "description": "These ideas from Maven Clinic, Pendo, ServiceNow, and LinkedIn show how designers can prompt a path forward with Figma Make.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/240c5abcbfbd9b1f83ee0828d4b5eceb93843a2e-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828347",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "15+ Ways We're Improving Accessibility in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-screenreader-and-accessibility-features/",
+    "description": "To make Figma easier to navigate for all, we\u2019re launching dozens of keyboard-only controls and improving the screen reader experience.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9bfacd3977ccbe79b17f703b8082166934246738-2048x1536.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828341",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Design Systems: From the Basics to Big Things Ahead | Figma Blog",
+    "link": "https://www.figma.com/blog/design-systems-from-the-basics-to-big-things-ahead/",
+    "description": "To prepare for Schema 2025, we combed through Shortcut archives to pull together our design systems greatest hits.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9db3b63b29640034aa6047cde655c3465568209c-1266x705.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828337",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Visibility at Scale: How Figma Detects Sensitive Data Exposure | Figma Blog",
+    "link": "https://www.figma.com/blog/visibility-at-scale-how-figma-detects-sensitive-data-exposure/",
+    "description": "Solving security challenges at scale requires creativity as much as rigor. To reduce the risk of sensitive data exposure, we built Response Sampling.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/c507a29543a56037bdb490508fd101ab31e0953c-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828333",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Three New Features to Help Build Brand Momentum With Figma Buzz | Figma Blog",
+    "link": "https://www.figma.com/blog/new-features-in-figma-buzz/",
+    "description": "With marketing templates that are now connected to your design system, plugins that pull in your favorite apps, and video trimming, we're giving designers and marketers new tools in Figma Buzz.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d8839e0855accfa9c5e71616ce54001870cc455e-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828328",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Schema 2025: Design Systems For A New Era | Figma Blog",
+    "link": "https://www.figma.com/blog/schema-2025-design-systems-recap/",
+    "description": "As AI accelerates product development, design systems keep the bar for craft and quality high. Here\u2019s everything we announced at Schema to help teams design for the AI era.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d6e77a69f96aad2c5187c51fbe888e4cc4d1742a-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828324",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Introducing Figma Weave: The Next Generation of AI-Native Creation at Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/welcome-weavy-to-figma/",
+    "description": "Figma has acquired Weavy, a platform that brings generative AI and professional editing tools into the open canvas.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/681ef55f0f8c32783d864de1c8b60f2c32372bdf-4000x2494.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828319",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Issue No.13: All Systems Go | Figma Blog",
+    "link": "https://www.figma.com/blog/all-systems-go/",
+    "description": "Figma\u2019s editorial newsletter about how products take shape\u2014and shape our world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9a801126767c1d4a81a1266a86f30a7845f79ca2-2160x1216.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828315",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "ServiceNow and Figma Launch Strategic Collaboration to Turn Design Vision Into Enterprise Transformation | Figma Blog",
+    "link": "https://www.figma.com/blog/servicenow-mcp-integration/",
+    "description": "AI platform, ServiceNow, and Figma announced a strategic collaboration to turn design vision into enterprise transformation.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/cbebc0b1ad8f56715e4e221d89cdc1ed4c7c504c-1920x1080.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828311",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Opens a New Hub in India | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-india-office/",
+    "description": "With our new hub in Bengaluru, we\u2019re investing in India\u2019s fast-growing product development community.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/5c0c871c44bc1ddcf75ef0351154029910dc6d19-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828306",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Gemini 3 Is Now Available In Figma Make | Figma Blog",
+    "link": "https://www.figma.com/blog/gemini-3-pro-is-now-available-in-figma-make/",
+    "description": "We ran Gemini 3 through a series of design exercises in Figma Make. Here\u2019s what stood out.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828302",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "5 Shifts Redefining Design Systems in the AI Era | Figma Blog",
+    "link": "https://www.figma.com/blog/5-shifts-redefining-design-systems-in-the-ai-era/",
+    "description": "We spoke with product leaders and practitioners about the shifts they\u2019re seeing in how design systems are built, used, and maintained.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/7fc2f61c50effd159c77dd2ac3056de5261fb6a7-3262x1400.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828297",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Creativity meets precision with Gemini 3 Pro Image Pro | Figma Blog",
+    "link": "https://www.figma.com/blog/creativity-meets-precision-with-gemini-3-pro-with-nano-banana/",
+    "description": "Creativity meets precision with Gemini 3 Pro Image Pro",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828291",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Version Control: One Founder\u2019s Mission to Save Local Farms with Figma Make | Figma Blog",
+    "link": "https://www.figma.com/blog/one-founders-mission-to-save-local-farms-with-figma-make/",
+    "description": "Aaron Veale, the founder of the mission-driven marketplace startup Planet Food, turned to Figma Make to build a product within weeks.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/61115090cd54ba67054dae804f564b10c4c1042f-1200x630.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828287",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Double Click: What Does It Mean To Be A Designer In The Age Of AI? | Figma Blog",
+    "link": "https://www.figma.com/blog/double-click-what-does-it-mean-to-be-a-designer-in-the-age-of-ai/",
+    "description": "As workflows shift what happens to job titles\u2014and the ways of working and sense of identity that comes with them?",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828282",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Expands Support for India with Local Data Hosting and New Governance Tools | Figma Blog",
+    "link": "https://www.figma.com/blog/india-local-data-hosting/",
+    "description": "Figma introduces new governance features for enterprise customers, with local data residency expected next quarter.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/fd077080bc946b003674f6a87a6f7e2d2ea01977-1632x920.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828277",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Updates to AI Credits in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/updates-to-ai-credits-in-figma/",
+    "description": "We\u2019re introducing new ways to track your AI credit usage in Figma, and soon you\u2019ll have more ways to buy additional AI credits.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828273",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Introducing Three New Tools For Precise Image Editing In Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/",
+    "description": "We\u2019re introducing new AI image editing tools to power a more complete creative workflow in Figma.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d9cccb73a8e097abe6f4a8ff572c1347a4c56985-3262x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828268",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Make Is Now Available in Figma for Government | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-make-for-gov/",
+    "description": "With Figma Make now available in Figma for Government, teams can prototype faster, collaborate securely, and accelerate progress on modernizing public services.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/9ea6a2ed8484c060e322cc611c5ed1ff3b76b26b-3840x2160.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828264",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Turn Your Prompts Into Visual Assets and Slide Decks With the Figma App in ChatGPT | Figma Blog",
+    "link": "https://www.figma.com/blog/slides-buzz-figma-app-in-chatgpt/",
+    "description": "We\u2019re expanding the capabilities of the Figma app in ChatGPT, so you can turn your ideas into creative assets and presentations that you can polish in Figma Buzz and Figma Slides.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828260",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Hard Problems Are Still Hard: A Story About the Tools That Change and the Work That Doesn't | Figma Blog",
+    "link": "https://www.figma.com/blog/hard-problems-are-still-hard/",
+    "description": "Figma designer\u2013turned\u2013product manager Nikolas Klein worked on building prototyping tools for seven years. Then AI changed the game.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/afa86c16ecca710fd451f4bea41582d647779152-6142x4724.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828255",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Prototypes Are the New PRDs | Figma Blog",
+    "link": "https://www.figma.com/blog/prototypes-are-the-new-prds/",
+    "description": "Inside Figma Make, product managers are pressure-testing assumptions early, building momentum, and rallying teams around something tangible.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/c09395866874b68e19738c59c2f2bb1919e2fe29-1632x918.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828251",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Chat, Are We Cooked? How Language Has Become the New Metric of Virality | Figma Blog",
+    "link": "https://www.figma.com/blog/chat-are-we-cooked-algospeak-adam-aleksic/",
+    "description": "Linguist Adam Aleksic, author of \u201cAlgospeak: How Social Media Is Transforming the Future of Language,\u201d explains how algorithms shape how we talk, think, and relate.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/0c26c34dc6d4ed2f3c82e97790a19b6e4b3673b5-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828240",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Cooking with Constraints: A Designer\u2019s Framework for Better AI Prompts | Figma Blog",
+    "link": "https://www.figma.com/blog/designer-framework-for-better-ai-prompts/",
+    "description": "Design and cooking share a truth: Preparation determines the outcome. Structured prompts turn AI from guesswork into a reliable design partner.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/2b9fe36a3f9f8892031f4119e8bf3899397d8471-6827x3840.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828235",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Meet the Maker: Kelsey Fairhurst\u2019s Irresistibly Bold Flatware | Figma Blog",
+    "link": "https://www.figma.com/blog/meet-the-maker-kelsey-fairhurst-forks-plus/",
+    "description": "Brooklyn-based designer Kelsey Fairhurst launched Forks Plus, a \u201csoftline brutalist\u201d flatware brand, with the help of Figma.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/23c27b0823664e6c96b915b5742d0e3bb8b68b0f-3262x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828230",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Press Start: How Controllers Shaped Video Game Design\u2014and Where Interfaces May Go Next | Figma Blog",
+    "link": "https://www.figma.com/blog/press-start-video-game-navigation/",
+    "description": "Aashrey Sharma, a UX designer at Epic Games, shares what video game navigation can teach us about building the next generation of interfaces.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/f62dbc4b94df74a35bfd37f7017a656e3339883c-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828224",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Software Is Culture",
+    "link": "https://www.figma.com/blog/software-is-culture/",
+    "description": "Yesterday's software has shaped today's generation. To understand what's next as software grows more intelligent, we look back on 20 years of interaction design.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/96aaa8eba5993fc239a471a660a01c172f9bef7c-1920x1080.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828219",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Issue No.14: Software Is Culture | Figma Blog",
+    "link": "https://www.figma.com/blog/software-is-culture-newsletter/",
+    "description": "Figma\u2019s editorial newsletter about how products take shape\u2014and shape our world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/2a772befd860edc8b157d7ca902cb432f945efc7-2176x1232.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828215",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The New Business Case For Design Systems | Figma Blog",
+    "link": "https://www.figma.com/blog/the-new-business-case-for-design-systems/",
+    "description": "What you need to know about how to track and communicate the value of your design system",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828211",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Show Don\u2019t Tell: Embed Make Prototypes Everywhere You Work in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-figma-make-embeds/",
+    "description": "Today, we\u2019re introducing the ability to embed Figma Make prototypes into Figma Design, FigJam, and Figma Slides, along with new editing tools.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/3ae03aad38e24a5225db9c3b7950f1e891159a1b-3200x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828206",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Think Outside of the Box\u2014with Claude and FigJam | Figma Blog",
+    "link": "https://www.figma.com/blog/think-outside-of-the-box-with-claude-and-figjam/",
+    "description": "With the Figma MCP app in Claude, powered by Anthropic, designers, developers, and product managers can now create AI-generated FigJam diagrams.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/265fb51e64241afbfe52cc8b397b8bb0b42c21ba-1920x1080.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828202",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma Achieves C5 Accreditation | Figma Blog",
+    "link": "https://www.figma.com/blog/figma-c5-accreditation/",
+    "description": "Figma achieves C5 accreditation, strengthening cloud security for customers across the DACH region.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828198",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "For the Love of Craft: Vectorize Images in Figma Design and Draw | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-vectorize/",
+    "description": "With our new AI image editing tool, Vectorize, you can turn raster images into editable vectors, allowing you to tweak, refine, and scale designs directly in Figma.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/c2350503e6d04ef7cabde0aa6ef36a886a7044cb-1920x1080.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828193",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Why Demand for Designers Is on the Rise | Figma Blog",
+    "link": "https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/",
+    "description": "Our latest study suggests that AI is driving renewed momentum in design hiring. We unpack why that is, what hiring managers prioritize, and which skills designers need to get ahead.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/465e318397fd0d6a12569517893065ad17d5520f-1200x675.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828187",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle | Figma Blog",
+    "link": "https://www.figma.com/blog/state-of-the-designer-2026/",
+    "description": "Our State of the Designer report explores how designers are balancing uncertainty with optimism and using AI to uplevel their craft.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/8933b0df528b5ce8a07d94f60b731618c13646a7-3204x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828175",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "From Claude Code to Figma: Turning Production Code into Editable Figma Designs | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
+    "description": "Now you can take workflows that start in Claude Code even further in Figma. ",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/1bc14c622ab6b8e2ad11229e6206c07dbad63311-3200x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828168",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Future of Design Is Code and Canvas | Figma Blog",
+    "link": "https://www.figma.com/blog/the-future-of-design-is-code-and-canvas/",
+    "description": "For the best ideas to move forward, we need the power of code and the canvas. Claude Code to Figma is just one way we\u2019re giving builders more choice.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/2c55af22473845e5fb6016f99b46081c6ef54470-3200x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828161",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Redefining Impact as a Data Scientist | Figma Blog",
+    "link": "https://www.figma.com/blog/redefining-impact-as-a-data-scientist/",
+    "description": "Not all impactful data science work involves experiments or optimization. Sometimes it\u2019s about making complex systems legible, correct, and safe to operate.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/5d5a91f4043ac0ec1712dc94fbae06c2fb6f0994-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828154",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Building Frontend UIs with Codex and Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-codex-to-figma/",
+    "description": "With Codex to Figma, teams can bring real, running interfaces into Figma to explore, refine, and make decisions together, then bring it back to Codex with design context intact.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/985cfd1d6705cd02fe869198648dbd4acfa3468a-3200x1800.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828144",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Workflow Lab: AI Image Tooling and Interactive Prototyping in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/workflow-lab-ai-image-tooling/",
+    "description": "A workflow to try\u2014bringing together precise image editing, Vectorize, and interactive prototypes to move from concept to crit to completion faster.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d14c1fb44cf1dfd84ac755e20f23f6f3defe75cb-1056x704.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828127",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Our Config 2026 Speakers on the Biggest Opportunities With AI | Figma Blog",
+    "link": "https://www.figma.com/blog/config-speakers-looking-ahead-2026/",
+    "description": "Here\u2019s a first look at our speakers and how they\u2019re interrogating craft, quality, and intention in an AI-powered world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/ef71401fe9f612b8725e8bcee853ac4c81a149b5-3262x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828122",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "3 Ways Teams Are Building Conviction Faster With Figma Make | Figma Blog",
+    "link": "https://www.figma.com/blog/3-ways-product-teams-are-building-conviction-faster-with-figma-make/",
+    "description": "Product managers at ServiceNow, Ticketmaster, and Affirm are using Figma Make to prototype their way forward.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/d2bf316de6c224cb9b559575898a52614248be3e-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828116",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How to Supercharge your Design System with Slots | Figma Blog",
+    "link": "https://www.figma.com/blog/supercharge-your-design-system-with-slots/",
+    "description": "Slots give you the ability to customize components without breaking the system. We\u2019re sharing five field-tested tips from early users to help you unlock more freedom without giving up control.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/3b967a15c2bee32ae90ca07e805c6375437a617e-1184x624.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828111",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Vishal Kapoor\u2019s 10 Rules for Building Honest Products with AI | Figma Blog",
+    "link": "https://www.figma.com/blog/vishal-kapoors-10-rules-building-with-ai/",
+    "description": "Affirm SVP of Product Vishal Kapoor shares 10 non-negotiable rules for harnessing AI to build products that are clear, secure, and fundamentally honest.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/398eaee7e33fdb713aa6f8291cf8f7e6ce7a84a4-1200x630.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828106",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "5 Design Skills To Sharpen in the AI Era | Figma Blog",
+    "link": "https://www.figma.com/blog/skills-for-the-ai-era/",
+    "description": "Our latest research highlights the skills designers need to meet the moment.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/4a6e19ccf44b7d4179a640343247064339a9d46f-2400x1350.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828101",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Issue no.15: The State of Design | Figma Blog",
+    "link": "https://www.figma.com/blog/the-state-of-design/",
+    "description": "Figma\u2019s editorial newsletter about how products take shape\u2014and shape our world.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/e181dde87018c250495d21b4767c64a85c751595-2176x1232.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828097",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Design\u2019s Influence Is Expanding, and Here\u2019s Why That Feels Hard | Figma Blog",
+    "link": "https://www.figma.com/blog/designs-influence-is-expanding-and-heres-why-that-feels-hard/",
+    "description": "As AI accelerates creation and raises expectations, designers are navigating a field that\u2019s bigger, faster, and more demanding than ever.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/97a285b7be8e81593280c2ab04e110a94c6d87e9-1056x594.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828092",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How We Rebuilt the Foundations of Component Instances | Figma Blog",
+    "link": "https://www.figma.com/blog/how-we-rebuilt-the-foundations-of-component-instances/",
+    "description": "By replacing a decade-old architecture with a reactive foundation, we made common operations in large design systems up to 50% faster and unlocked a new way to build dynamic features.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/cc7404975e7b6dfa9b4746567e07c03af818fd01-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828088",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Agents, Meet the Figma Canvas | Figma Blog",
+    "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+    "description": "Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team\u2019s decisions and intent.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828083",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma's Next-Generation Data Caching Platform | Figma Blog",
+    "link": "https://www.figma.com/blog/figmas-next-generation-data-caching-platform/",
+    "description": "This is the story of how we built FigCache, a foundational technology that underpins a reimagined internal platform for ephemeral data.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/8900a6ed7f67829cf55d1c22365069c1c60504e4-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828065",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "6 Designs That Reimagine How We Interact With Software | Figma Blog",
+    "link": "https://www.figma.com/blog/6-designs-that-reimagine-how-we-interact-with-software/",
+    "description": "This year's Make-a-thon winners offer new ways to connect, reflect, and play through software.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/433ea0598e3499b9ba90d2b5079143b761b15c45-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828060",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Build With More Context and More Control in Figma Make | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-make-kits-and-make-attachments/",
+    "description": "Starting today, Make kits and Make attachments bring context into Figma Make, so prototypes start from real components, data, and constraints.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/ae04571ad7f540060adede62d79d51ac22fcc3b6-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828049",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How Figmates Used Figma AI to Take Delight to the Next Level | Figma Blog",
+    "link": "https://www.figma.com/blog/april-fun-day-2026-figcade/",
+    "description": "For our annual April Fun Day, we used Figma Make, Weave, and MCP to build six mini games that captured the spirit of play. Here\u2019s what we learned.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/03d04cc22091fe371f347097f8ccdcaaa362aeb0-1502x843.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828044",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Turning Prompts into Five Scalable Workflows with Figma Weave | Figma Blog",
+    "link": "https://www.figma.com/blog/five-figma-weave-workflows/",
+    "description": "To build upon a visual language with AI, you need to harness the logic behind each prompt. Here, we share five creative workflows that show the breadth of what the Figma Weave canvas can do.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/aa01d597cc9556f8243eab17691187f7dfee01f7-1631x918.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828040",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The TL;DR on MCP: Why Context Matters and How to Put It to Work | Figma Blog",
+    "link": "https://www.figma.com/blog/the-tldr-on-mcp/",
+    "description": "Here\u2019s what MCP unlocks for everyone who builds products.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/35f6fde4ce9f85257cecfcb6af666932842ab4af-3264x1836.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828034",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How AI Leaders Are Borrowing From the Design Playbook | Figma Blog",
+    "link": "https://www.figma.com/blog/how-ai-leaders-are-borrowing-from-the-design-playbook/",
+    "description": "A new class of leaders is leaning on design principles to guide their companies through AI transformation.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/95dd7c9dc6e0c59998a390fae24e64ea1cc0edab-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828029",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "FigJam Is Now Your Coding Agent\u2019s Whiteboard Too | Figma Blog",
+    "link": "https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/",
+    "description": "Agents are changing your code faster than your team can follow. Now you can close that gap with new MCP skills, architecture layouts, and more in FigJam.",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/655ae4064a51a49577103beb794af7b734159870-3840x2240.png?w=1200&q=70&fit=max&auto=format",
+    "datetimestamp": "2026-04-28T16:57:10.828011",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
     "title": "7 Moments That Shaped Figma, as Told by Dylan Field | Figma Blog",
     "link": "https://www.figma.com/blog/7-moments-that-shaped-figma/",
     "description": "In \u201cHow I Built This\u201d with Guy Raz, Figma CEO and Co-founder Dylan Field charts the surprising milestones in both his personal and professional journey.",

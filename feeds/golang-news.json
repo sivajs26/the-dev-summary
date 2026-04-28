@@ -1,5 +1,113 @@
 [
   {
+    "title": "DDD in Go Without the Bureaucracy: Aggregates, Not Abstractions - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/ddd-in-go-without-the-bureaucracy-aggregates-not-abstractions-4p2k",
+    "description": "You don't need a ValueObjectFactoryStrategy. You need one struct, one invariant, and a method that returns an error.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foeqzz7mmklxwy5h3bxbc.png",
+    "datetimestamp": "2026-04-28T16:42:05",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your GORM Model Is Not Your Domain (And It's Eating Your Business Logic) - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/your-gorm-model-is-not-your-domain-and-its-eating-your-business-logic-35aa",
+    "description": "The moment gorm.Model shows up in your domain package, your business rules belong to an ORM maintainer. Here is how to take them back.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F305llxdohwur5vnktkdd.png",
+    "datetimestamp": "2026-04-28T16:41:39",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "golang-standards/project-layout Is Not a Standard. Russ Cox Said So - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/golang-standardsproject-layout-is-not-a-standard-russ-cox-said-so-4kjh",
+    "description": "55k stars, zero blessing from the Go team. Russ Cox publicly rejected it. Here is what the real layout looks like, with the GitHub issues to back it up.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuv86fv068l9ur1dh3ilw.png",
+    "datetimestamp": "2026-04-28T16:41:16",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your Go 'Clean Architecture' Is Just Java in Disguise - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/your-go-clean-architecture-is-just-java-in-disguise-4f0a",
+    "description": "If your CRUD service has controllers, services, repositories, DTOs, mappers, and factories, you wrote Spring Boot with worse syntax. Here is the cure.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5b1g8xio8qt6fnedlcr1.png",
+    "datetimestamp": "2026-04-28T16:40:48",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your First Month in Go as a PHP Developer: The Honest Diary - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/your-first-month-in-go-as-a-php-developer-the-honest-diary-5afa",
+    "description": "Day 3 you miss Tinker. Day 10 you stop missing it. Day 20 you forget Eloquent ever existed. The honest learning curve, week by week.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpbufcjta0ganbta1zklf.png",
+    "datetimestamp": "2026-04-28T16:40:22",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "PHPUnit Mocking Made You Lazy. Go Will Force You to Design - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/phpunit-mocking-made-you-lazy-go-will-force-you-to-design-28p3",
+    "description": "PHP can mock anything. Go cannot mock a struct. The constraint is the architecture lesson a PHP dev moving to Go has to confront.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F41hjpo8u7kqj3fhm52l1.png",
+    "datetimestamp": "2026-04-28T16:39:45",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Looking for Laravel's Service Container in Go - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/stop-looking-for-laravels-service-container-in-go-326",
+    "description": "Container withdrawal is the #2 PHP-to-Go pain. Go gives you DI without YAML \u2014 once you trust main.go to do the wiring.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffnu2vvpqw0zye29bk1lm.png",
+    "datetimestamp": "2026-04-28T16:39:17",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Exceptions Made You Sloppy. Go's if err != nil Fixes That - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/exceptions-made-you-sloppy-gos-if-err-nil-fixes-that-35j2",
+    "description": "PHP devs hate Go's errors-as-values until they count the code paths their try/catch was hiding. The mindset shift is the point.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwzim56pg6jwtuvpyxudo.png",
+    "datetimestamp": "2026-04-28T16:38:51",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "First Week in Go: 9 Habits Every PHP Developer Has to Unlearn - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/first-week-in-go-9-habits-every-php-developer-has-to-unlearn-1igi",
+    "description": "var_dump, exceptions, autoloading, app() \u2014 the muscle memory that breaks first when a PHP dev starts writing Go. Nine habits, side by side.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvdvz3l8euhlurzf3xqjn.png",
+    "datetimestamp": "2026-04-28T16:38:19",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Everyone Logs Wrong with slog. 7 Patterns for 3 AM - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/everyone-logs-wrong-with-slog-7-patterns-for-3-am-2c2l",
+    "description": "slog has been in the standard library since Go 1.21. Most teams still use it like log with extra steps. The 7 patterns that actually pay off when you are paged.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkooh4n60pbvtmhlte7ld.png",
+    "datetimestamp": "2026-04-28T16:37:56",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Go's range-over-func: 4 Footguns the Compiler Won't Warn You About - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/gos-range-over-func-4-footguns-the-compiler-wont-warn-you-about-5akf",
+    "description": "Stored yields, post-break calls, parallel yields, error-as-second-return. All compile. All blow up at runtime. Here's what to do instead.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6l1i8ks7ip64pw4w7ods.png",
+    "datetimestamp": "2026-04-28T16:37:28",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "50,000 Goroutines Took Down Prod at 3 AM. The Fix Is One Line - DEV Community",
+    "link": "https://dev.to/gabrielanhaia/50000-goroutines-took-down-prod-at-3-am-the-fix-is-one-line-5go5",
+    "description": "A WebSocket cancel function nobody called. Six weeks of slow leak. 47GB RAM, p99 at 30s, on-call paged. The fix is one line and a habit.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd4oa4i70xnmgq0bll6yh.png",
+    "datetimestamp": "2026-04-28T16:36:04",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
     "title": "My speaker broke, so I built a LAN speaker - DEV Community",
     "link": "https://dev.to/shricodev/my-speaker-broke-so-i-built-a-lan-speaker-19nc",
     "description": "<h2>\n  \n  \n  What's happening?\n</h2>\n\n<p>This was around a year back when I started the project, after a small speaker that I had broke out of nowhere. Won't connect.</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd5hyoru6a4xegzrkukgq.jpeg\"><img alt=\"Broken speaker\" height=\"600\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd5hyoru6a4xegzrkukgq.jpeg\" width=\"800\" /></a></p>\n\n<p>I used it to listen to music every night before going to sleep (not sure if anybody else does the same, but it's one of my only fixed routines since childhood :D).</p>\n\n\n\n\n<h2>\n  \n  \n  The idea\n</h2>\n\n<p>Okay, so what's the idea?</p>\n\n<p>I had a thought. Why not build something resembling a speaker? Although I had never worked on a project that required working with audio and all that, I knew what I'd use to implement something like that, which was WebSocket (I'll explain why I chose it in a moment).</p>\n\n<p>And I did start on it.</p>\n\n<p>The irony is that I had just finished <a href=\"https://go.dev/tour/\" rel=\"noopener noreferrer\">Tour of Go</a>, <a href=\"https://lets-go.alexedwards.net/\" rel=\"noopener noreferrer\">Let's Go</a>, <a href=\"https://lets-go-further.alexedwards.net/\" rel=\"noopener noreferrer\">Let's Go Further</a>, and had just started on 100 Go Mistakes and How to Avoid Them.</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadv8xgc17bm3oficmzps.png\"><img alt=\"LinkedIn post on golang books\" height=\"730\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadv8xgc17bm3oficmzps.png\" width=\"741\" /></a></p>\n\n<p>So... I had to do this in Golang.</p>\n\n<p>I had quite a good idea of how to work with Golang, so it had to be done with it, also because I wanted to get away from the JavaScript ecosystem (the same Node.js, React, Next.js, yada yada was just too much).</p>\n\n\n\n\n<h2>\n  \n  \n  Why WebSocket\n</h2>\n\n<p>So, let's come to the plan. Why WebSocket?</p>\n\n<p>The main reason is that when I had the idea, it was WebSocket that came to my mind, and it's what I thought of before even starting to code the project.</p>\n\n<p>And WebSocket kind of makes sense as well. This was my thought process.</p>\n\n<ol>\n<li>Lets you connect multiple connections from one device? <strong>Yes</strong>\n</li>\n<li>Is synchronous enough when streaming over multiple devices in LAN? <strong>Yes</strong>\n</li>\n<li>Something I've worked with a lot? <strong>Totally Yes</strong>\n</li>\n</ol>\n\n<p>That's pretty much the reason I chose WebSocket. It might not be the best option, but it's what I had and something I was confident with when I started.</p>\n\n<p>One more thing I'll add here: since I'm streaming audio frames sequentially (PCM chunks, one after another), I actually need them to arrive in order. </p>\n\n<p>WebSocket runs over TCP, so that's handled for me. I don't have to think about it. That alone made it feel like the right call.</p>\n\n<h3>\n  \n  \n  Why not WebRTC or UDP?\n</h3>\n\n<p>Let me tell you something pretty frankly: I never even knew there was something like WebRTC. I came across this term while building the project halfway through it.</p>\n\n<p>So, why not UDP?</p>\n\n<p>Okay, so UDP is connectionless, which means there's no guarantee that every packet arrives, and more importantly, no guarantee they arrive in order. For something like video calls or games, that's totally fine. You drop a frame, move on, nobody cares.</p>\n\n<p>But for audio? If a chunk goes missing or arrives out of order, you either get silence or a glitch.</p>\n\n<p>And since I'm streaming raw PCM (basically just a stream of bytes that represent sound), every single chunk matters. You can't just skip them.</p>\n\n<p>So UDP was out as well.</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpllsruo4m6s36xvej2cs.gif\"><img alt=\"Out GIF\" height=\"270\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpllsruo4m6s36xvej2cs.gif\" width=\"480\" /></a></p>\n\n<p>And WebRTC? Also, WebRTC is mostly built around browser-to-browser, peer-to-peer stuff. My setup is a server broadcasting to multiple clients over LAN, which isn't really what WebRTC is designed for. So even if I knew about it from day one, I'm not sure it would've been the right fit anyway.</p>\n\n<p>WebSocket was fine. It worked. And sometimes that's enough. I didn't want to overengineer.</p>\n\n<blockquote>\n<p>\ud83d\udc40 I learned about all these new terms like <strong>PCM</strong>, <strong>WebRTC</strong>, and all that stuff during the build. So, I might say something wrong. I'm not really that familiar with them. So, just hit me in the comments if so.</p>\n</blockquote>\n\n\n\n\n<h2>\n  \n  \n  The Architecture\n</h2>\n\n<p>Okay, so the high level is pretty simple.</p>\n\n<p>There's a server and there are clients. The server is where the music is stored, and the clients are the devices that play it (could be the same device).</p>\n\n<p>Here's what actually happens when you press play:</p>\n\n<p>The server takes the MP3 file, decodes it into raw PCM (basically just bytes of sound data), and starts broadcasting those bytes over WebSocket to every connected client. No client-side decoding. The server does all of that.</p>\n\n<p>Here's a high level architecture:</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foi47bhzovugarytvtmyw.png\"><img alt=\"Gophercast architecture\" height=\"402\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foi47bhzovugarytvtmyw.png\" width=\"800\" /></a></p>\n\n<p>The tricky part is sync. If you just start streaming, each client will start playing at slightly different times, and it'll sound like a little echo.</p>\n\n<p>So what I did is, before playback starts, the server sends a timestamp to all clients saying, \"Start playing at exactly this moment in time.\" Every client gets that timestamp, buffers the audio frames, and waits. When the clock hits that time, everyone starts together.</p>\n\n<p>It works because on a LAN with <strong>NTP</strong>, all the device clocks are usually within a millisecond or two of each other. Close enough that you can't tell the difference (much).</p>\n\n<p>That's the whole thing, honestly.</p>\n\n<p>Server decodes -&gt; broadcasts -&gt; clients sync -&gt; play</p>\n\n\n\n\n<h2>\n  \n  \n  What I still don't know\n</h2>\n\n<p>Okay, so during the build, I ran into something I didn't fully understand.</p>\n\n<p>Turns out your speaker doesn't play audio the exact moment you write data to it. There's some time it spends sitting in a system buffer before it actually comes out. And that delay varies by OS and audio system. On Linux, it's something around 50ms, I feel.</p>\n\n<p>Honestly, I had no idea there was something like this that you need to account for. This thing was completely debugged by <strong>GPT-5.4</strong>. There's a hardcoded 50ms constant in the code that is counted when clients actually start playing.</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa7zha09z3aitxrfz1i05.gif\"><img alt=\"I don't know gif\" height=\"368\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa7zha09z3aitxrfz1i05.gif\" width=\"480\" /></a></p>\n\n<p>There's also something in the code that keeps checking, roughly every second, whether the audio playing on your device is slightly ahead or behind.</p>\n\n<p>If it is, it quietly adds or removes a tiny bit of audio to bring it back in line. So small you'd never hear it.</p>\n\n<p>Both of these kind of work. I tested it. I just couldn't tell you exactly why the numbers are what they are.</p>\n\n\n\n\n<h2>\n  \n  \n  How I usually run it\n</h2>\n\n<p>Since my plan is to use my whole laptop as a \"speaker\", I usually have the server and client on the same system (my personal laptop).</p>\n\n<p>And I usually have it like this:</p>\n\n<ol>\n<li>Start the server:\n</li>\n</ol>\n\n<div class=\"highlight js-code-highlight\">\n<pre class=\"highlight shell\"><code>gophercast serve <span class=\"c\"># now follow the TUI setup....</span>\n</code></pre>\n\n</div>\n\n\n<ol>\n<li>Connect clients (each in a tmux split). Usually, I have around 2 clients when running on the same machine. More than 2 kind of distorts the audio quality.\n</li>\n</ol>\n<div class=\"highlight js-code-highlight\">\n<pre class=\"highlight shell\"><code>gophercast play <span class=\"nt\">--host</span> &lt;ip_from_serve&gt; <span class=\"nt\">--port</span> 8080 <span class=\"nt\">--name</span> <span class=\"s2\">\"client 1\"</span>\ngophercast play <span class=\"nt\">--host</span> &lt;ip_from_serve&gt; <span class=\"nt\">--port</span> 8080 <span class=\"nt\">--name</span> <span class=\"s2\">\"client 2\"</span>\n</code></pre>\n\n</div>\n\n\n<p>The steps are the same when connecting from multiple machines. Just make sure that all of them are connected to the same LAN.</p>\n\n<p>Here's a quick demo on a single machine, working as the speaker.<br />\n(Ignore the audio quality)</p>\n\n<p>  \n  \n</p>\n\n\n<h2>\n  \n  \n  My take\n</h2>\n\n<p>I'm pretty happy with how this worked out.</p>\n\n<p>This was my very first time working with Charm's <a href=\"https://github.com/charmbracelet/bubbletea\" rel=\"noopener noreferrer\">Bubbletea</a> and the whole audio stuff.</p>\n\n<p>I started this project just because I wanted to DIY. It was just the perfect time: my speaker broke, and I had somehow finished learning basic Go programming.</p>\n\n<p>There's probably still a ton of bugs. I've tried to test most of it. I just picked the tool I knew and figured it out as I went.</p>\n\n<p>It plays music across multiple devices in sync, or the same one if you connect through multiple terminals. My laptop, another computer, whatever's connected, all playing together.</p>\n\n<p>That's what I wanted. That's what it does.</p>\n\n<p><a class=\"article-body-image-wrapper\" href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftk8fu13vlk1izssz5n7l.gif\"><img alt=\"go on GIF\" height=\"412\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftk8fu13vlk1izssz5n7l.gif\" width=\"480\" /></a></p>\n\n<p>(I haven't tested how well it works on Mac, so I can't tell there. Also, I'm not sure Windows will work either due to oto's limitation and our hardcoded 50ms delay.)</p>\n\n<p>You can find the repo here: <a href=\"https://github.com/shricodev/gophercast.git\" rel=\"noopener noreferrer\">shricodev/gophercast</a></p>\n\n\n<div class=\"ltag__user ltag__user__id__1127015\">\n    <a class=\"ltag__user__link profile-image-link\" href=\"https://dev.to/shricodev\">\n      <div class=\"ltag__user__pic\">\n        <img alt=\"shricodev image\" src=\"https://media2.dev.to/dynamic/image/width=150,height=150,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1127015%2F1c5e48a2-f602-4e7d-8312-3c0322d155c6.jpg\" />\n      </div>\n    </a>\n  <div class=\"ltag__user__content\">\n    <h2>\n<a class=\"ltag__user__link\" href=\"https://dev.to/shricodev\">Shrijal Acharya</a>Follow\n</h2>\n    <div class=\"ltag__user__summary\">\n      <a class=\"ltag__user__link\" href=\"https://dev.to/shricodev\">Full Stack SDE \u2022 Open-Source Contributor \u2022 Collaborator @Oppia \u2022 Mail for collaboration</a>\n    </div>\n  </div>\n</div>",

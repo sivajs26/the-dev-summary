@@ -1,5 +1,14 @@
 [
   {
+    "title": "Anatomy of distributed systems. Distributed systems might feel abstract\u2026 | by Lakshman Karthick | Apr, 2026 | Medium",
+    "link": "https://medium.com/@lakshmankarthickt/anatomy-of-distributed-systems-150fd8164ad8?source=rss------system_design-5",
+    "description": "Distributed systems might feel abstract at first \u2014 until you look at them from two simple perspectives.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*Q8MhmLLWrqaiPsR7Pa-vog.png",
+    "datetimestamp": "2026-04-28T16:26:47",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "A Second Brain For Your Agents | Michael Suzuki | Design Systems Collective",
     "link": "https://www.designsystemscollective.com/a-second-brain-for-your-agents-6fbe710a4fc1?source=rss------system_design-5",
     "description": "Coding agents forget. Here is how I built a structured markdown memory layer so parallel sessions stop overwriting each other\u2019s decisions.",

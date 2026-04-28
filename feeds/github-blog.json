@@ -1,5 +1,14 @@
 [
   {
+    "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability - The GitHub Blog",
+    "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
+    "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation.",
+    "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
+    "datetimestamp": "2026-04-28T15:30:00",
+    "source": "GitHub Blog",
+    "category": "GitHub Projects"
+  },
+  {
     "title": "An update on GitHub availability - The GitHub Blog",
     "link": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
     "description": "Here\u2019s what we\u2019ve done\u2014and what we\u2019re still doing\u2014to improve our availability and reliability.",

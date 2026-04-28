@@ -1,5 +1,14 @@
 [
   {
+    "title": "Sentry\u2019s Seer Agent lets developers debug production issues in natural language - The New Stack",
+    "link": "https://thenewstack.io/sentrys-seer-agent-debug/",
+    "description": "Seer Agent queries across errors, traces, logs, and code context to investigate production problems that don't start with a clean error.",
+    "image": "https://cdn.thenewstack.io/media/2026/04/9bbff1c4-screenshot-2026-04-27-at-21.26.24.png",
+    "datetimestamp": "2026-04-28T16:01:00",
+    "source": "The New Stack",
+    "category": "Tech News"
+  },
+  {
     "title": "From system of record to system of control: How NetBox Labs is making network engineers \u201cmasters of intent.\u201d - The New Stack",
     "link": "https://thenewstack.io/netbox-labs-network-intent/",
     "description": "NetBox Labs helps network engineers master intent, moving from a system of record to a system of control to manage network drift and AI scale.",

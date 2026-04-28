@@ -1,5 +1,23 @@
 [
   {
+    "title": "20 fun facts to celebrate Google Translate turning 20",
+    "link": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+    "description": "Google\u2019s sharing 20 fun facts to celebrate Google Translate turning 20, from its roots as a 2006 AI experiment to supporting almost 250 languages today.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_ss.width-1300.png",
+    "datetimestamp": "2026-04-28T16:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "Google announces first West Memphis Energy Impact Fund recipients.",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/west-memphis-energy-impact-fund-recipients/",
+    "description": "The West Memphis Energy Impact Fund announced its first grant recipients, kicking off a $25 million commitment to energy efficiency in Greater West Memphis and Crittende\u2026",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/arkansas_energyimpact.max-1440x810.png",
+    "datetimestamp": "2026-04-28T15:30:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
     "title": "Google donates Agent Payments Protocol to FIDO Alliance",
     "link": "https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/",
     "description": "Google donates the Agent Payments Protocol (AP2) to the FIDO Alliance to help secure the evolution of AI-driven commerce.",

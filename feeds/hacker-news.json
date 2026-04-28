@@ -1,5 +1,86 @@
 [
   {
+    "title": "Just a moment...",
+    "link": "https://www.euractiv.com/news/greece-to-ban-anonymity-on-social-media/",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47936616\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-28T16:24:00",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Laguna XS.2 and\u00a0M.1: A Deeper Dive \u2014 Poolside",
+    "link": "https://poolside.ai/blog/laguna-a-deeper-dive",
+    "description": "We've released the first two models in the Laguna family, Laguna M.1 and Laguna XS.2, alongside the runtime we use to train and operate agents, available through two product experiences in research preview. ",
+    "image": "https://cdn.sanity.io/images/n259s8jk/production/797bdad2848e425774f67ef8ce02925166ace2e0-1200x628.png",
+    "datetimestamp": "2026-04-28T16:17:55",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Cybersecurity professional getting more work and less pay \u2022 The Register",
+    "link": "https://www.theregister.com/2026/04/27/from_a_massive_skills_gap/",
+    "description": ": Global recruitment giant says 71% of human firewalls saw wages stagnate last year as threats and responsibilities grew",
+    "image": "https://regmedia.co.uk/2016/10/24/piggy_bank_photo_via_shutterstock.jpg",
+    "datetimestamp": "2026-04-28T16:11:02",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "  Anthropic joins the Blender Development Fund as Corporate Patron \u2014 Blender",
+    "link": "https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/",
+    "description": "Anthropic is joining the Blender Development Fund as Corporate Patron.",
+    "image": "https://www.blender.org/wp-content/uploads/2026/04/anthropic_dev_fund-480x270.png",
+    "datetimestamp": "2026-04-28T16:07:58",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "AISLE Discovers 38 CVEs in Healthcare Software Used by 100,000 Medical Providers | AISLE",
+    "link": "https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers",
+    "description": "38 zero-day security vulnerabilities, three critical, and the shift from disclosure to prevention in healthcare software",
+    "image": "https://aisle.com/api/media/file/OpenEMR%20-%20SOME%20post-1200x630.jpg",
+    "datetimestamp": "2026-04-28T16:06:01",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "One year after Spain\u2019s blackout, its shift to renewables and grid evolution power on | Spain | The Guardian",
+    "link": "https://www.theguardian.com/world/2026/apr/28/blackout-spain-renewable-energy-grid-solar-wind",
+    "description": "Though solar was initially incorrectly blamed for crisis, renewables have helped insulate Spain from gas price rises caused by war in Middle East",
+    "image": "https://i.guim.co.uk/img/media/49afeafad8a9b3553e33611124e6dc6b83ed688e/564_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c7fd81906d62bfebe176977738cf752d",
+    "datetimestamp": "2026-04-28T15:55:55",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Paramount, In Request For FCC Funding OK, Notes It Will Be 49.5% Foreign-Owned After WBD Merger",
+    "link": "https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/",
+    "description": "Paramount has noted it will be 49.5%-owned by non-U.S. investors after completing a planned merger with Warner Bros. Discovery.",
+    "image": "https://deadline.com/wp-content/uploads/2025/10/Paramount-and-Warner-Bros.jpg?w=1024",
+    "datetimestamp": "2026-04-28T15:54:21",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Google and Pentagon reportedly agree on deal for \u2018any lawful\u2019 use of AI | The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal",
+    "description": "\ufeffThe classified deal apparently doesn\u2019t allow Google to veto how the government will use its AI models.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24925007/236780_Google_AntiTrust_Trial_Custom_Art_CVirginia__0001_5.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-28T15:49:22",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Keep Android Open",
+    "link": "https://keepandroidopen.org/en/",
+    "description": "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them.",
+    "image": "https://keepandroidopen.org/img/lockdowns/android_lockdown_banner1.png",
+    "datetimestamp": "2026-04-28T15:21:00",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
     "title": "OpenAI CEO\u2019s Identity Verification Company Announced Fake Bruno Mars Partnership Due To Mistaken Identity",
     "link": "https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/",
     "description": "Tools For Humanity announced it was partnering with Bruno Mars on his upcoming tour, but no one told Bruno Mars about it.",
