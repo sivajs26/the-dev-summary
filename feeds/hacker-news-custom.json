@@ -1,10 +1,46 @@
 [
   {
+    "title": "Just a moment...",
+    "link": "https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard",
+    "description": "<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard\">https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930483\">https://news.ycombinator.com/item?id=47930483</a></p>\n<p>Points: 39</p>\n<p># Comments: 38</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T04:32:42",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard",
+    "description": "<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard\">https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930483\">https://news.ycombinator.com/item?id=47930483</a></p>\n<p>Points: 35</p>\n<p># Comments: 26</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T04:32:42",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "wsj.com",
+    "link": "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273",
+    "description": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273\">https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929510\">https://news.ycombinator.com/item?id=47929510</a></p>\n<p>Points: 40</p>\n<p># Comments: 6</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T01:34:12",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "wsj.com",
     "link": "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273",
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-28T01:34:12",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - 49Agents/49Agents: Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a cluster via Tailscale OR connect to app.49agents.com (coming soon) \u00b7 GitHub",
+    "link": "https://github.com/49Agents/49Agents",
+    "description": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a clu...",
+    "image": "https://opengraph.githubassets.com/ff1945b60ff85468e1235b29193bda1d1606fdea5d7cc5badf20e14e30974aae/49Agents/49Agents",
+    "datetimestamp": "2026-04-28T00:36:24",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -21,8 +57,35 @@
     "title": "Generative AI vegetarianism | Sean Boots",
     "link": "https://sboots.ca/2026/03/11/generative-ai-vegetarianism/",
     "description": "Hello, it\u2019s me: I\u2019m a generative AI vegetarian. The tech industry is convinced this is the future;  I don\u2019t want any of it, full stop. Why choose generative AI vegetarianism? Just like real-life vegetarianism, there are a bunch of good reasons.",
+    "image": "https://sboots.ca/img/2026/home-cookbook-shelf-2026-03.jpg",
+    "datetimestamp": "2026-04-28T00:07:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Generative AI vegetarianism | Sean Boots",
+    "link": "https://sboots.ca/2026/03/11/generative-ai-vegetarianism/",
+    "description": "Hello, it\u2019s me: I\u2019m a generative AI vegetarian. The tech industry is convinced this is the future;  I don\u2019t want any of it, full stop. Why choose generative AI vegetarianism? Just like real-life vegetarianism, there are a bunch of good reasons.",
     "image": "images/259b9b147437d0b9d068e5b8bd9405f6.webp",
     "datetimestamp": "2026-04-28T00:07:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Ask HN: What Makes AI a Bubble? | Hacker News",
+    "link": "https://news.ycombinator.com/item?id=47928683",
+    "description": "<p>A lot of people seem to take it as a given that the AI bubble will \"pop\", leading to a mass devaluation of AI companies from their current peaks.<p>What I'm confused about though is what makes current AI evaluations a bubble.<p>Bubbles usually exists when future speculation outpaces productivity: eventually some realization leads the market to no longer believe in that future speculation, causing devaluation which triggers a mass sell-off.<p>However, AI companies currently have very high revenues and are growing extremely fast. Their valuation is backed by actual commerce. I can't imagine that there is any room for a bubble, as it is very clear where the market is at, and why demand for AI is so high.<p>Now, certain specific companies I can imagine losing a lot of valuation, but only contingent on the fact that they serve a middle-man role in the market that improvements in the underlying AI models will solve, which would likely only mean more revenue for the frontier labs, and thus less reason for a bubble.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928683\">https://news.ycombinator.com/item?id=47928683</a></p>\n<p>Points: 15</p>\n<p># Comments: 24</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T23:32:00",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Claude Code model configuration | Claude Help Center",
+    "link": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+    "description": "<p>Article URL: <a href=\"https://support.claude.com/en/articles/11940350-claude-code-model-configuration\">https://support.claude.com/en/articles/11940350-claude-code-model-configuration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928088\">https://news.ycombinator.com/item?id=47928088</a></p>\n<p>Points: 63</p>\n<p># Comments: 31</p>",
+    "image": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+    "datetimestamp": "2026-04-27T22:13:17",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -39,8 +102,44 @@
     "title": "Using Rust to Build a $1 Handheld Gaming Console",
     "link": "https://chrisdell.info/using-rust-to-build-a-1-dollar-handheld-gaming-console/",
     "description": "Demo video of the console in action\n\n\nThe CH32V003 is an interesting little chip - not just because it\u2019s based on the up-and-coming RISC-V architecture, or because it comes in a tiny package, but mostly because you can buy it for $0.09 in bulk. Hard to believe this",
+    "image": "https://chrisdell.info/content/images/size/w1200/2026/04/PXL_20260427_160646125.jpg",
+    "datetimestamp": "2026-04-27T21:48:10",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Using Rust to Build a $1 Handheld Gaming Console",
+    "link": "https://chrisdell.info/using-rust-to-build-a-1-dollar-handheld-gaming-console/",
+    "description": "Demo video of the console in action\n\n\nThe CH32V003 is an interesting little chip - not just because it\u2019s based on the up-and-coming RISC-V architecture, or because it comes in a tiny package, but mostly because you can buy it for $0.09 in bulk. Hard to believe this",
     "image": "images/b5f257b1167ee40de81f4eaae0a3f337.webp",
     "datetimestamp": "2026-04-27T21:48:10",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "DeepMind's David Silver just raised $1.1B to build an AI that learns without human data | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "description": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2233739454.jpg?resize=1200,686",
+    "datetimestamp": "2026-04-27T21:47:59",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://neal.fun/cursor-camp/",
+    "description": "<p>Article URL: <a href=\"https://neal.fun/cursor-camp/\">https://neal.fun/cursor-camp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47926652\">https://news.ycombinator.com/item?id=47926652</a></p>\n<p>Points: 15</p>\n<p># Comments: 3</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T20:07:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "US tech embraces Sam Altman\u2019s World iris-scan ID banned in places - Rest of World",
+    "link": "https://restofworld.org/2026/sam-altman-worldcoin-zoom-tinder-partnerships/",
+    "description": "The biometric ID project has been halted and investigated in multiple countries, but it recently partnered with Tinder, Zoom, and Docusign to verify users.",
+    "image": "https://restofworld.org/wp-content/uploads/2026/04/OrbWorld-1-1600x900.jpg",
+    "datetimestamp": "2026-04-27T19:35:37",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -57,8 +156,26 @@
     "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds \u2014 backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue | Tom's Hardware",
     "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
     "description": "PocketOS founder blames \u2018Cursor running Anthropic's flagship Claude Opus 4.6\u2019 plus Railway\u2019s infrastructure for data disaster.",
+    "image": "https://cdn.mos.cms.futurecdn.net/KftF4KS8QDVA2Fck9iibDN-1920-80.jpg",
+    "datetimestamp": "2026-04-27T17:28:44",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds \u2014 backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue | Tom's Hardware",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+    "description": "PocketOS founder blames \u2018Cursor running Anthropic's flagship Claude Opus 4.6\u2019 plus Railway\u2019s infrastructure for data disaster.",
     "image": "images/004299525ad0f16802d3f5108b70b1d3.webp",
     "datetimestamp": "2026-04-27T17:28:44",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale \u2014 Google DeepMind",
+    "link": "https://deepmind.google/blog/decoupled-diloco/",
+    "description": "Google\u2019s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency \u2013 even when hardware fails.",
+    "image": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w1200-h630-n-nu-rw",
+    "datetimestamp": "2026-04-27T16:57:34",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -75,8 +192,26 @@
     "title": "Dutch central bank chooses Lidl for European Cloud - Techzine Global",
     "link": "https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/",
     "description": "De Nederlandsche Bank will sign a major contract tomorrow with Schwarz Digits, the IT arm of Lidl owner Schwarz Group. DNB aims to reduce its dependence",
+    "image": "https://www.techzine.eu/wp-content/uploads/2025/01/lidl-winkel.jpg",
+    "datetimestamp": "2026-04-27T15:12:41",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Dutch central bank chooses Lidl for European Cloud - Techzine Global",
+    "link": "https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/",
+    "description": "De Nederlandsche Bank will sign a major contract tomorrow with Schwarz Digits, the IT arm of Lidl owner Schwarz Group. DNB aims to reduce its dependence",
     "image": "images/7386c56c80da43c029215c75deefb0fa.webp",
     "datetimestamp": "2026-04-27T15:12:41",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Canva apologizes after its AI tool replaces \u2018Palestine\u2019 in designs | The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine",
+    "description": "How does this even happen?",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Canva-Magic-Layers-AI-Palestine-switched.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-04-27T14:58:48",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -93,6 +228,15 @@
     "title": "Many Opioid Victims Will Be Shut Out of Purdue\u2019s $7.4B Bankruptcy Settlement \u2014 ProPublica",
     "link": "https://www.propublica.org/article/purdue-settlement-leaves-opioid-victims-behind",
     "description": "Nearly 140,000 people filed claims against the company for the harm they said its drugs caused. Fewer than half of them will get any compensation.",
+    "image": "https://www.propublica.org/wp-content/uploads/2026/04/RS3601000_JGA00694-SOCIAL_maxHeight_3000_maxWidth_3000.jpg?w=1200",
+    "datetimestamp": "2026-04-27T13:57:52",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Many Opioid Victims Will Be Shut Out of Purdue\u2019s $7.4B Bankruptcy Settlement \u2014 ProPublica",
+    "link": "https://www.propublica.org/article/purdue-settlement-leaves-opioid-victims-behind",
+    "description": "Nearly 140,000 people filed claims against the company for the harm they said its drugs caused. Fewer than half of them will get any compensation.",
     "image": "images/65130142378fdc3a08f3d44d686e00af.webp",
     "datetimestamp": "2026-04-27T13:57:52",
     "source": "Hacker News (Custom)",
@@ -102,8 +246,26 @@
     "title": "The next phase of the Microsoft OpenAI partnership | OpenAI",
     "link": "https://openai.com/index/next-phase-of-microsoft-partnership/",
     "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5sMBiZdiwBzV2SqR3iLo80/55329fd0accaa73127e712ac86621c6a/oai-ms-16x9.png?w=1600&h=900&fit=fill",
+    "datetimestamp": "2026-04-27T13:24:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The next phase of the Microsoft OpenAI partnership | OpenAI",
+    "link": "https://openai.com/index/next-phase-of-microsoft-partnership/",
+    "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
     "image": "images/4704872d978913b5302e92c5f2ab5f36.webp",
     "datetimestamp": "2026-04-27T13:24:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Bloomberg - Are you a robot?",
+    "link": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+    "description": "<p>Gift Article: <a href=\"https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzI5NjE3MiwiZXhwIjoxNzc3OTAwOTcyLCJhcnRpY2xlSWQiOiJURTVMT0lLSzNOWUkwMCIsImJjb25uZWN0SWQiOiJDN0U3REM1Q0MxRTQ0NzM0QkY2MzYxQjY5QzgxN0UzMyJ9.mkOwEicK1kMLb-h6ZjkN4u-DsF55439rrFad0m1lqZM\" rel=\"nofollow\">https://www.bloomberg.com/news/articles/2026-04-27/microsoft...</a><p><a href=\"https://openai.com/index/next-phase-of-microsoft-partnership/\" rel=\"nofollow\">https://openai.com/index/next-phase-of-microsoft-partnership...</a><p><a href=\"https://x.com/ajassy/status/2048806022253609115\" rel=\"nofollow\">https://x.com/ajassy/status/2048806022253609115</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47921248\">https://news.ycombinator.com/item?id=47921248</a></p>\n<p>Points: 841</p>\n<p># Comments: 720</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T13:22:42",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -120,8 +282,26 @@
     "title": "Tim Cook is Leaving. Good.",
     "link": "https://routerjockey.com/tim-cook-is-leaving-good/",
     "description": "Your AirPods just connected to the wrong device. Again.\niMessage is taking twenty minutes to sync a message between your laptop and your phone sitting six inches apart. HomeKit forgot the kitchen \u2026",
+    "image": "https://routerjockey.com/images/og/tim-cook-is-leaving-good.png",
+    "datetimestamp": "2026-04-27T13:11:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Tim Cook is Leaving. Good.",
+    "link": "https://routerjockey.com/tim-cook-is-leaving-good/",
+    "description": "Your AirPods just connected to the wrong device. Again.\niMessage is taking twenty minutes to sync a message between your laptop and your phone sitting six inches apart. HomeKit forgot the kitchen \u2026",
     "image": "images/e6f32dd851d333a975bf7c5c9e6d5ce6.webp",
     "datetimestamp": "2026-04-27T13:11:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Ubuntu Linux Will Begin Landing AI Features Throughout The Next Year - Phoronix",
+    "link": "https://www.phoronix.com/news/Ubuntu-AI-Features-2026",
+    "description": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Ubuntu-AI-Features-2026\">https://www.phoronix.com/news/Ubuntu-AI-Features-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47921079\">https://news.ycombinator.com/item?id=47921079</a></p>\n<p>Points: 24</p>\n<p># Comments: 20</p>",
+    "image": "https://www.phoronix.net/image.php?id=ubuntu-2604-xe2-lunar-lake&image=lunar_lake_3",
+    "datetimestamp": "2026-04-27T13:06:48",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -138,8 +318,26 @@
     "title": "GitHub - dirac-run/dirac: Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/ \u00b7 GitHub",
     "link": "https://github.com/dirac-run/dirac",
     "description": "Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively paral...",
+    "image": "https://repository-images.githubusercontent.com/1202290616/3387b54d-bb91-4e2a-a35b-b933836bafad",
+    "datetimestamp": "2026-04-27T12:35:55",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - dirac-run/dirac: Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/ \u00b7 GitHub",
+    "link": "https://github.com/dirac-run/dirac",
+    "description": "Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively paral...",
     "image": "images/a2f203bd587469fbfe7ca351854f4823.webp",
     "datetimestamp": "2026-04-27T12:35:55",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "China blocks Meta's $2 billion takeover of AI startup Manus",
+    "link": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+    "description": "China said Monday it has decided to block Meta's $2 billion acquisition of Manus, a Singaporean AI startup with Chinese roots.",
+    "image": "https://image.cnbcfm.com/api/v1/image/108279325-1773812817915-gettyimages-2255015559-img_4584.jpeg?v=1773812854&w=1920&h=1080",
+    "datetimestamp": "2026-04-27T11:43:59",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -162,11 +360,38 @@
     "category": "Frontend"
   },
   {
+    "title": "The future of AI in Ubuntu - Project Discussion - Ubuntu Community Hub",
+    "link": "https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130",
+    "description": "As 2026 progresses, LLM-based tools are becoming more and more ubiquitous. Adoption across the tech industry has been mixed, both in terms of which projects are embracing \u201cAI\u201d technologies, and in how companies are structuring their adoption. As a result, I\u2019m frequently asked about what Canonical and Ubuntu will do (or not) to incorporate AI.  In this post I\u2019ll detail how AI will play a part in both Canonical and Ubuntu\u2019s future, my framework for classifying AI features in the OS, and how Canoni...",
+    "image": "https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/original/3X/9/0/905b15b7d477513b2af0668c333736b100eef109.svg",
+    "datetimestamp": "2026-04-27T10:31:51",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "How France\u2019s Mistral Built A $14 Billion AI Empire By Not Being American",
+    "link": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
+    "description": "Paris-based Mistral wanted to develop a top-tier AI model to rival OpenAI and Anthropic. That didn\u2019t work out. But it turns out lots of folks don\u2019t care if the AI is bleeding edge \u2013 as long as it wasn\u2019t made in America or China.",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/69c597be55948344bd3098ce/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    "datetimestamp": "2026-04-27T10:14:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "How France\u2019s Mistral Built A $14 Billion AI Empire By Not Being American",
     "link": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
     "description": "Paris-based Mistral wanted to develop a top-tier AI model to rival OpenAI and Anthropic. That didn\u2019t work out. But it turns out lots of folks don\u2019t care if the AI is bleeding edge \u2013 as long as it wasn\u2019t made in America or China.",
     "image": "images/2542ea415b4b4364cae9be2327e09793.webp",
     "datetimestamp": "2026-04-27T10:14:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "4TB of voice samples stolen from 40,000 AI contractors -- how to verify if yours is being weaponized | ORAVYS",
+    "link": "https://app.oravys.com/blog/mercor-breach-2026",
+    "description": "Advanced bio-acoustic analysis for HR, relationships, and personal insights. Trust Your Intuition. Verify It.",
+    "image": "https://app.oravys.com/static/images/og-image.png",
+    "datetimestamp": "2026-04-27T09:57:10",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -183,8 +408,26 @@
     "title": "Moleskine's AI Lord of the Rings Collection Can Only Mock",
     "link": "https://cjleo.com/blog/moleskine-ai-lord-of-the-rings-collection-can-only-mock/",
     "description": "New Moleskine X The Lord of the Rings notebook collection is \"imagined by Moleskine, generated by AI\".",
+    "image": "https://cjleo.com/wp-content/uploads/2026/04/Moleskine_LordOfTheRings_NotebookCollectionSet.jpg",
+    "datetimestamp": "2026-04-27T09:19:06",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Moleskine's AI Lord of the Rings Collection Can Only Mock",
+    "link": "https://cjleo.com/blog/moleskine-ai-lord-of-the-rings-collection-can-only-mock/",
+    "description": "New Moleskine X The Lord of the Rings notebook collection is \"imagined by Moleskine, generated by AI\".",
     "image": "images/ef1feb9ec94f5b90356b2af981b912d1.webp",
     "datetimestamp": "2026-04-27T09:19:06",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Bloomberg - Are you a robot?",
+    "link": "https://www.bloomberg.com/news/articles/2026-04-27/china-blocks-meta-s-2-billion-acquisition-of-ai-startup-manus",
+    "description": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-04-27/china-blocks-meta-s-2-billion-acquisition-of-ai-startup-manus\">https://www.bloomberg.com/news/articles/2026-04-27/china-blocks-meta-s-2-billion-acquisition-of-ai-startup-manus</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47919231\">https://news.ycombinator.com/item?id=47919231</a></p>\n<p>Points: 19</p>\n<p># Comments: 7</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T08:54:20",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -201,8 +444,26 @@
     "title": "Everything That Went Wrong With Claude",
     "link": "https://clawd.rip/",
     "description": "A satirical timeline of Claude and Anthropic controversies, outages, bans, legal disputes, policy fights, and quality complaints.",
+    "image": "https://clawd.rip/og-image.png",
+    "datetimestamp": "2026-04-27T05:44:26",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Everything That Went Wrong With Claude",
+    "link": "https://clawd.rip/",
+    "description": "A satirical timeline of Claude and Anthropic controversies, outages, bans, legal disputes, policy fights, and quality complaints.",
     "image": "images/0fce94a8bbb98c3d3639586eb131538f.webp",
     "datetimestamp": "2026-04-27T05:44:26",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://www.axios.com/2026/04/26/ai-cost-human-workers",
+    "description": "<p>Article URL: <a href=\"https://www.axios.com/2026/04/26/ai-cost-human-workers\">https://www.axios.com/2026/04/26/ai-cost-human-workers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47918009\">https://news.ycombinator.com/item?id=47918009</a></p>\n<p>Points: 87</p>\n<p># Comments: 58</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T05:28:39",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -212,6 +473,15 @@
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-27T05:28:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "reuters.com",
+    "link": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-04-07/",
+    "description": "<p>Article URL: <a href=\"https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-04-07/\">https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-04-07/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47917664\">https://news.ycombinator.com/item?id=47917664</a></p>\n<p>Points: 19</p>\n<p># Comments: 10</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T04:21:25",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -228,8 +498,26 @@
     "title": "Framework's new Linux laptop is selling faster than its Windows one | PCWorld",
     "link": "https://www.pcworld.com/article/3123900/framework-new-linux-laptop-is-selling-faster-than-its-windows-one.html",
     "description": "According to a promotional post, Framework is selling more Ubuntu versus Windows variants of its new premium Laptop 13 Pro.",
+    "image": "https://www.pcworld.com/wp-content/uploads/2026/04/Framework-Laptop-13-Pro-alt-1.png?w=1024",
+    "datetimestamp": "2026-04-27T03:26:04",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Framework's new Linux laptop is selling faster than its Windows one | PCWorld",
+    "link": "https://www.pcworld.com/article/3123900/framework-new-linux-laptop-is-selling-faster-than-its-windows-one.html",
+    "description": "According to a promotional post, Framework is selling more Ubuntu versus Windows variants of its new premium Laptop 13 Pro.",
     "image": "images/1aea925b5f5838869d046aae617a9add.webp",
     "datetimestamp": "2026-04-27T03:26:04",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - evanklem/evanflow: A TDD-driven iterative feedback loop for software development. 16 cohesive Claude Code skills walk an idea from brainstorm \u2192 plan \u2192 execute \u2192 iterate, with checkpoints throughout. \u00b7 GitHub",
+    "link": "https://github.com/evanklem/evanflow",
+    "description": "A TDD-driven iterative feedback loop for software development. 16 cohesive Claude Code skills walk an idea from brainstorm \u2192 plan \u2192 execute \u2192 iterate, with checkpoints throughout. - evanklem/evanflow",
+    "image": "https://opengraph.githubassets.com/6d1a4b3c2fa113eb9cba6498ea258b7b3eb249881390dce22d0abcbe2c58e649/evanklem/evanflow",
+    "datetimestamp": "2026-04-27T01:56:39",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -246,8 +534,26 @@
     "title": "After three months on Linux, I don\u2019t miss Windows at all | The Verge",
     "link": "https://www.theverge.com/tech/918797/switched-to-linux-dont-miss-windows",
     "description": "\ufeffI regret nothing",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/teachmanfish.png?quality=90&strip=all&crop=0%2C10.72080847437%2C100%2C78.55838305126&w=1200",
+    "datetimestamp": "2026-04-27T00:54:35",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "After three months on Linux, I don\u2019t miss Windows at all | The Verge",
+    "link": "https://www.theverge.com/tech/918797/switched-to-linux-dont-miss-windows",
+    "description": "\ufeffI regret nothing",
     "image": "images/4ab8f44218d5cbc377cb883cb0d47bd6.webp",
     "datetimestamp": "2026-04-27T00:54:35",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are",
+    "description": "<p>Article URL: <a href=\"https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are\">https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916519\">https://news.ycombinator.com/item?id=47916519</a></p>\n<p>Points: 47</p>\n<p># Comments: 7</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T00:50:46",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -257,6 +563,15 @@
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-27T00:50:46",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Security Verification",
+    "link": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+    "description": "<p>Article URL: <a href=\"https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c\">https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47916410\">https://news.ycombinator.com/item?id=47916410</a></p>\n<p>Points: 107</p>\n<p># Comments: 112</p>",
+    "image": "",
+    "datetimestamp": "2026-04-27T00:34:30",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -273,8 +588,26 @@
     "title": "US Navy tests laser weapon that shoots down drones on the USS George H.W. Bush supercarrier \u2014 \u2018system tracked, engaged, and neutralized multiple target drones,\u2019 has essentially unlimited power source | Tom's Hardware",
     "link": "https://www.tomshardware.com/tech-industry/us-navy-tests-laser-weapon-that-shoots-down-drones-on-the-uss-george-h-w-bush-supercarrier-system-tracked-engaged-and-neutralized-multiple-target-drones-has-essentially-unlimited-power-source",
     "description": "Military unveils details of demo conducted back in October.",
+    "image": "https://cdn.mos.cms.futurecdn.net/GU34QMVPTHVoZReAzw3hTY-1920-80.jpg",
+    "datetimestamp": "2026-04-26T22:09:50",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "US Navy tests laser weapon that shoots down drones on the USS George H.W. Bush supercarrier \u2014 \u2018system tracked, engaged, and neutralized multiple target drones,\u2019 has essentially unlimited power source | Tom's Hardware",
+    "link": "https://www.tomshardware.com/tech-industry/us-navy-tests-laser-weapon-that-shoots-down-drones-on-the-uss-george-h-w-bush-supercarrier-system-tracked-engaged-and-neutralized-multiple-target-drones-has-essentially-unlimited-power-source",
+    "description": "Military unveils details of demo conducted back in October.",
     "image": "images/2675b80b5c06f364425b439b0a32c8f3.webp",
     "datetimestamp": "2026-04-26T22:09:50",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "nytimes.com",
+    "link": "https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html",
+    "description": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html\">https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914686\">https://news.ycombinator.com/item?id=47914686</a></p>\n<p>Points: 43</p>\n<p># Comments: 14</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T21:24:19",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -284,6 +617,15 @@
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-26T21:24:19",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The New Linux Kernel AI Bot Uncovering Bugs Is A Local LLM On Framework Desktop + AMD Ryzen AI Max - Phoronix",
+    "link": "https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max",
+    "description": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max\">https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914388\">https://news.ycombinator.com/item?id=47914388</a></p>\n<p>Points: 16</p>\n<p># Comments: 1</p>",
+    "image": "https://www.phoronix.net/image.php?id=2026&image=clanker_ryzen_ai_max",
+    "datetimestamp": "2026-04-26T21:00:38",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -300,8 +642,26 @@
     "title": "GitHub - sachitrafa/YourMemory: Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo. \u00b7 GitHub",
     "link": "https://github.com/sachitrafa/YourMemory",
     "description": "Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo. - sachitrafa/YourMemory",
+    "image": "https://opengraph.githubassets.com/035a6fe8725536ff3d52bab464b2a3e2130b3a90930080381199fec587bd0050/sachitrafa/YourMemory",
+    "datetimestamp": "2026-04-26T20:58:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - sachitrafa/YourMemory: Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo. \u00b7 GitHub",
+    "link": "https://github.com/sachitrafa/YourMemory",
+    "description": "Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo. - sachitrafa/YourMemory",
     "image": "images/e227aaaf8abb198ab66d61ff01c68112.webp",
     "datetimestamp": "2026-04-26T20:58:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "reuters.com",
+    "link": "https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/",
+    "description": "<p>Article URL: <a href=\"https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/\">https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914321\">https://news.ycombinator.com/item?id=47914321</a></p>\n<p>Points: 21</p>\n<p># Comments: 0</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T20:53:52",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -318,8 +678,26 @@
     "title": "Microsoft encourages chunk of experienced US staff to leave \u2022 The Register",
     "link": "https://www.theregister.com/2026/04/24/microsoft_seeks_quality_improvements_by/",
     "description": ": Windows giant offers buyouts to eligible staffers willing to walk",
+    "image": "https://regmedia.co.uk/2023/10/10/shuttersock_yacht.jpg",
+    "datetimestamp": "2026-04-26T20:50:18",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Microsoft encourages chunk of experienced US staff to leave \u2022 The Register",
+    "link": "https://www.theregister.com/2026/04/24/microsoft_seeks_quality_improvements_by/",
+    "description": ": Windows giant offers buyouts to eligible staffers willing to walk",
     "image": "images/876d5cb2564ab216cfaef555db24510b.webp",
     "datetimestamp": "2026-04-26T20:50:18",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": " - YouTube",
+    "link": "https://www.youtube.com/watch?v=pUSWa5hOCtU",
+    "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+    "image": "",
+    "datetimestamp": "2026-04-26T20:40:32",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -336,8 +714,26 @@
     "title": "AgentSwarms \u2014 Learn Agentic AI Hands-On (Free Interactive Playground)",
     "link": "https://agentswarms.fyi/",
     "description": "5 tracks, 40+ lessons, 30+ live agents. The only hands-on playground for Agentic AI \u2014 RAG, tools, guardrails, SQL agents, multi-agent swarms. Free forever for learners.",
+    "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/A8j55GgL3fSxUGx8RgucpYdm9B63/social-images/social-1776452942019-Captsvvsvsure.webp",
+    "datetimestamp": "2026-04-26T20:34:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "AgentSwarms \u2014 Learn Agentic AI Hands-On (Free Interactive Playground)",
+    "link": "https://agentswarms.fyi/",
+    "description": "5 tracks, 40+ lessons, 30+ live agents. The only hands-on playground for Agentic AI \u2014 RAG, tools, guardrails, SQL agents, multi-agent swarms. Free forever for learners.",
     "image": "images/4cc7fed956b429cd3402157cfa56a190.webp",
     "datetimestamp": "2026-04-26T20:34:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "A.I. Should Elevate Your Thinking, Not Replace It - Blog - Koshy John",
+    "link": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+    "description": "Read about the .",
+    "image": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/blog_social.jpg",
+    "datetimestamp": "2026-04-26T20:03:12",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -351,11 +747,29 @@
     "category": "Frontend"
   },
   {
+    "title": "Have you tried Clean Architecture as foundation for your AI project?",
+    "link": "https://news.ycombinator.com/item?id=47913561",
+    "description": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47913561\">https://news.ycombinator.com/item?id=47913561</a></p>\n<p>Points: 94</p>\n<p># Comments: 1</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T19:55:25",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": null,
     "link": "https://news.ycombinator.com/item?id=47913561",
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-26T19:55:25",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "If more than 50% press blue, everyone survives. Red pressers always survive",
+    "link": "https://shankwiler.com/posts/button-survival-hypothetical/",
+    "description": "<p>Article URL: <a href=\"https://shankwiler.com/posts/button-survival-hypothetical/\">https://shankwiler.com/posts/button-survival-hypothetical/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47912065\">https://news.ycombinator.com/item?id=47912065</a></p>\n<p>Points: 60</p>\n<p># Comments: 288</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T17:28:58",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -371,9 +785,27 @@
   {
     "title": "Dillo release 3.3.0",
     "link": "https://dillo-browser.org/release/3.3.0/",
+    "description": "<p>Article URL: <a href=\"https://dillo-browser.org/release/3.3.0/\">https://dillo-browser.org/release/3.3.0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47911977\">https://news.ycombinator.com/item?id=47911977</a></p>\n<p>Points: 191</p>\n<p># Comments: 34</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T17:18:14",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Dillo release 3.3.0",
+    "link": "https://dillo-browser.org/release/3.3.0/",
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-26T17:18:14",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "An AI agent deleted our production database. The agent's confession is below",
+    "link": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+    "description": "<p>Article URL: <a href=\"https://twitter.com/lifeof_jer/status/2048103471019434248\">https://twitter.com/lifeof_jer/status/2048103471019434248</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47911524\">https://news.ycombinator.com/item?id=47911524</a></p>\n<p>Points: 826</p>\n<p># Comments: 989</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T16:27:29",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -390,6 +822,15 @@
     "title": "Corpus Christi plans to declare a 'water emergency'  | KUT Radio, Austin's NPR Station",
     "link": "https://www.kut.org/energy-environment/2026-04-23/corpus-christi-texas-water-emergency-crisis-restrictions",
     "description": "City leaders intend to make unprecedented cuts to water use in September, but they aren\u2019t sure exactly how.",
+    "image": "https://npr.brightspotcdn.com/dims4/default/df7da07/2147483647/strip/true/crop/1252x657+0+92/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Fde%2F20a493fe4a98ac1f7375f22a332d%2Fimg-3466-1.JPG",
+    "datetimestamp": "2026-04-26T15:41:36",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Corpus Christi plans to declare a 'water emergency'  | KUT Radio, Austin's NPR Station",
+    "link": "https://www.kut.org/energy-environment/2026-04-23/corpus-christi-texas-water-emergency-crisis-restrictions",
+    "description": "City leaders intend to make unprecedented cuts to water use in September, but they aren\u2019t sure exactly how.",
     "image": "images/7a25bfe7c0adc5e584afcead0f995653.webp",
     "datetimestamp": "2026-04-26T15:41:36",
     "source": "Hacker News (Custom)",
@@ -399,8 +840,26 @@
     "title": "The fastest Linux timestamps \u00b7 hmpc",
     "link": "https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/",
     "description": "Adventures in over-optimising timers for niche applications.",
+    "image": "",
+    "datetimestamp": "2026-04-26T13:00:50",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The fastest Linux timestamps \u00b7 hmpc",
+    "link": "https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/",
+    "description": "Adventures in over-optimising timers for niche applications.",
     "image": null,
     "datetimestamp": "2026-04-26T13:00:50",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Microsoft Reportedly Looking At Rebasing Azure Linux On Fedora - Phoronix",
+    "link": "https://www.phoronix.com/news/MS-Azure-Linux-Fedora-Based",
+    "description": "<p>Article URL: <a href=\"https://www.phoronix.com/news/MS-Azure-Linux-Fedora-Based\">https://www.phoronix.com/news/MS-Azure-Linux-Fedora-Based</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47909898\">https://news.ycombinator.com/item?id=47909898</a></p>\n<p>Points: 24</p>\n<p># Comments: 5</p>",
+    "image": "https://www.phoronix.net/image.php?id=2026&image=fedora_azure_linux",
+    "datetimestamp": "2026-04-26T12:47:47",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -417,8 +876,26 @@
     "title": "Passo.uno \u2013 Fabrizio Ferri Benedetti on Technical Writing",
     "link": "https://passo.uno/win31/",
     "description": "Technical writing, AI, and docs engineering by Fabrizio Ferri Benedetti.",
+    "image": "https://passo.uno/thumb.png",
+    "datetimestamp": "2026-04-26T11:02:23",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Passo.uno \u2013 Fabrizio Ferri Benedetti on Technical Writing",
+    "link": "https://passo.uno/win31/",
+    "description": "Technical writing, AI, and docs engineering by Fabrizio Ferri Benedetti.",
     "image": "images/3738bbcb0f2c3af3f24d47c987a2a81d.webp",
     "datetimestamp": "2026-04-26T11:02:23",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Progress Report: Linux 7.0 - Asahi Linux",
+    "link": "https://asahilinux.org/2026/04/progress-report-7-0/",
+    "description": "<p>Article URL: <a href=\"https://asahilinux.org/2026/04/progress-report-7-0/\">https://asahilinux.org/2026/04/progress-report-7-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47909226\">https://news.ycombinator.com/item?id=47909226</a></p>\n<p>Points: 642</p>\n<p># Comments: 344</p>",
+    "image": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
+    "datetimestamp": "2026-04-26T10:50:32",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -435,8 +912,26 @@
     "title": "Eden AI | One API to Route Best AI Models",
     "link": "https://www.edenai.co",
     "description": "Access 500+ LLMs and expert AI models through one unified API. Route requests by cost, performance, and region with built-in smart routing and fallbacks.",
+    "image": "",
+    "datetimestamp": "2026-04-26T08:18:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Eden AI | One API to Route Best AI Models",
+    "link": "https://www.edenai.co",
+    "description": "Access 500+ LLMs and expert AI models through one unified API. Route requests by cost, performance, and region with built-in smart routing and fallbacks.",
     "image": null,
     "datetimestamp": "2026-04-26T08:18:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Godot 4.7 Reaches Beta With HDR Output, Ray-Tracing Improvements & Editor Enhancements - Phoronix",
+    "link": "https://www.phoronix.com/news/Godot-4.7-Beta",
+    "description": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Godot-4.7-Beta\">https://www.phoronix.com/news/Godot-4.7-Beta</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47907350\">https://news.ycombinator.com/item?id=47907350</a></p>\n<p>Points: 27</p>\n<p># Comments: 10</p>",
+    "image": "https://www.phoronix.net/image.php?id=2026&image=godot_47_beta_1",
+    "datetimestamp": "2026-04-26T04:29:12",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -453,8 +948,26 @@
     "title": "About the security content of iOS 18.7.7 and iPadOS 18.7.7 - Apple Support",
     "link": "https://support.apple.com/en-us/126793",
     "description": "About the security content of iOS 18.7.7 and iPadOS 18.7.7",
+    "image": "",
+    "datetimestamp": "2026-04-26T04:03:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "About the security content of iOS 18.7.7 and iPadOS 18.7.7 - Apple Support",
+    "link": "https://support.apple.com/en-us/126793",
+    "description": "About the security content of iOS 18.7.7 and iPadOS 18.7.7",
     "image": null,
     "datetimestamp": "2026-04-26T04:03:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Tell HN: Medvi (telehealth) hardcodes 999 patient emails in public JavaScript",
+    "link": "https://news.ycombinator.com/item?id=47906922",
+    "description": "<p>Medvi is a telehealth pharmacy that has received significant media attention recently. While browsing their site with DevTools open, I noticed that their public JavaScript bundle contains a hardcoded list of 999 patient email addresses \u2014 along with each patient's enrollment date, active status, and whether a care manager has been assigned. This data is downloaded by every visitor's browser before any login occurs.<p>The list isn't a forgotten fixture. It's actively used: the app imports it, filters for active patients, and checks whether the logged-in user's email appears in the list to decide which UI features to display. Client-side feature flagging with real patient data baked into the bundle.<p>The same bundle also exposes a list of Season Health (Medvi's parent company) employee emails used to bypass checkout flows, and a separate list of Open Loop Health (their clinical provider) staff emails used to bypass intake form logic \u2014 both labeled as such in the source.<p>This is another great demonstration that relying only on large language models for product development is premature.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47906922\">https://news.ycombinator.com/item?id=47906922</a></p>\n<p>Points: 15</p>\n<p># Comments: 16</p>",
+    "image": "",
+    "datetimestamp": "2026-04-26T03:08:46",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -471,6 +984,15 @@
     "title": "How Lorikeet Security Stopped a Live DDoS Attack Mid-Training, Without Dropping a Single Student | Flowtriq Blog",
     "link": "https://flowtriq.com/blog/lorikeet-security-case-study",
     "description": "When a multi-vector DDoS attack hit Lorikeet Security's live cybersecurity training event mid-session, Flowtriq detected it in 0.9 seconds, pushed BGP FlowSpec and cloud scrubbing upstream simultaneously, and kept all 240 attendees connected throughout.",
+    "image": "",
+    "datetimestamp": "2026-04-26T00:27:45",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "How Lorikeet Security Stopped a Live DDoS Attack Mid-Training, Without Dropping a Single Student | Flowtriq Blog",
+    "link": "https://flowtriq.com/blog/lorikeet-security-case-study",
+    "description": "When a multi-vector DDoS attack hit Lorikeet Security's live cybersecurity training event mid-session, Flowtriq detected it in 0.9 seconds, pushed BGP FlowSpec and cloud scrubbing upstream simultaneously, and kept all 240 attendees connected throughout.",
     "image": null,
     "datetimestamp": "2026-04-26T00:27:45",
     "source": "Hacker News (Custom)",
@@ -480,8 +1002,26 @@
     "title": "Agents Aren\u2019t Coworkers, Embed Them in Your Software",
     "link": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
     "description": "This post argues for AI agents designed with the right software patterns so they can react to change, make progress in the background, and stay out of the way.",
+    "image": "https://cdn.sanity.io/images/nlte859i/production/e082e3ed8924d87292f3f0e1cdbbe0255c0b0a50-3514x3200.png",
+    "datetimestamp": "2026-04-25T23:53:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Agents Aren\u2019t Coworkers, Embed Them in Your Software",
+    "link": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
+    "description": "This post argues for AI agents designed with the right software patterns so they can react to change, make progress in the background, and stay out of the way.",
     "image": "images/2e1a3ca0dc277d4718f9ecb341032a36.webp",
     "datetimestamp": "2026-04-25T23:53:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles - LMSYS Blog | LMSYS Org",
+    "link": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+    "description": "We are thrilled to announce Day-0 support for DeepSeek-V4 across both inference and RL training. SGLang and Miles form the first open-source stack to serve and train DeepSeek-V4 on launch day \u2014 with s...",
+    "image": "",
+    "datetimestamp": "2026-04-25T23:44:05",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -498,8 +1038,26 @@
     "title": "The AI Industry Is Discovering That the Public Hates It   | The New Republic",
     "link": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
     "description": "If there was any doubt over the brewing public backlash to this technology, the last few weeks have erased it.",
+    "image": "https://images.newrepublic.com/7619b4e952a635df61a0a59005e2f476c20f36bc.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+    "datetimestamp": "2026-04-25T21:11:11",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The AI Industry Is Discovering That the Public Hates It   | The New Republic",
+    "link": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
+    "description": "If there was any doubt over the brewing public backlash to this technology, the last few weeks have erased it.",
     "image": "images/9af409dfb15b3e573016ed57884c517b.webp",
     "datetimestamp": "2026-04-25T21:11:11",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Your AI Might be Lying to Your Boss - William O'Connell",
+    "link": "https://williamoconnell.me/blog/post/ai-ide/",
+    "description": "\"That code? Yeah, that was all me.\"",
+    "image": "https://williamoconnell.me/_assets/header_8a05ab.webp",
+    "datetimestamp": "2026-04-25T20:19:53",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -516,8 +1074,26 @@
     "title": "The Case Against the U.K. Smoking Ban - The Atlantic",
     "link": "https://www.theatlantic.com/ideas/2026/04/case-against-uk-smoking-ban/686949/",
     "description": "Distaste for cigarettes is no reason to cede bedrock liberties to the state.",
+    "image": "https://cdn.theatlantic.com/thumbor/VNYBHIY35gRqQR84Z4uB1rbTpYk=/1x79:3999x2161/1200x625/media/img/mt/2026/04/2026_04_25_Even_Smokers_Have_Natural_Rights/original.jpg",
+    "datetimestamp": "2026-04-25T20:11:35",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The Case Against the U.K. Smoking Ban - The Atlantic",
+    "link": "https://www.theatlantic.com/ideas/2026/04/case-against-uk-smoking-ban/686949/",
+    "description": "Distaste for cigarettes is no reason to cede bedrock liberties to the state.",
     "image": "images/85b03a3aff12c44ce18d42b123aea95f.webp",
     "datetimestamp": "2026-04-25T20:11:35",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Revocation of X.509 certificates | APNIC Blog",
+    "link": "https://blog.apnic.net/2026/04/24/revocation-of-x-509-certificates/",
+    "description": "'Revocation is broken' is a catchphrase in the world of certificates and Certificate Authorities. Certification infrastructure may not have been designed for the Internet of today.",
+    "image": "https://blog.apnic.net/wp-content/uploads/2026/04/2026-04-revocation.png",
+    "datetimestamp": "2026-04-25T19:40:10",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -534,8 +1110,26 @@
     "title": "Kloak - Kubernetes eBPF HTTPS Interceptor",
     "link": "https://getkloak.io/",
     "description": "Kloak - Kubernetes eBPF Secret Interceptor for HTTPS. Secure secret management without application changes or sidecars.",
+    "image": "",
+    "datetimestamp": "2026-04-25T19:03:01",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Kloak - Kubernetes eBPF HTTPS Interceptor",
+    "link": "https://getkloak.io/",
+    "description": "Kloak - Kubernetes eBPF Secret Interceptor for HTTPS. Secure secret management without application changes or sidecars.",
     "image": null,
     "datetimestamp": "2026-04-25T19:03:01",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - rockcat/HATS: AI Personas \u00b7 GitHub",
+    "link": "https://github.com/rockcat/HATS",
+    "description": "AI Personas. Contribute to rockcat/HATS development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/9f9b0fdd825220824c16b1caedcac875608515b4118cbe8d8a50e24bf516c96c/rockcat/HATS",
+    "datetimestamp": "2026-04-25T18:30:12",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -552,8 +1146,26 @@
     "title": "California Coastal Community Must Reject CBP's AI-Powered Surveillance Tower | Electronic Frontier Foundation",
     "link": "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower",
     "description": "Customs and Border Protection (CBP) is seeking permission from the California city of San Clemente to install an Anduril Industries surveillance tower on a cliff that would allow for constant monitoring of entire coastal neighborhoods. The proposed tower is Anduril's Sentry, part of the Autonomous...",
+    "image": "https://www.eff.org/files/banner_library/andurilthroughfence.jpg",
+    "datetimestamp": "2026-04-25T18:26:02",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "California Coastal Community Must Reject CBP's AI-Powered Surveillance Tower | Electronic Frontier Foundation",
+    "link": "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower",
+    "description": "Customs and Border Protection (CBP) is seeking permission from the California city of San Clemente to install an Anduril Industries surveillance tower on a cliff that would allow for constant monitoring of entire coastal neighborhoods. The proposed tower is Anduril's Sentry, part of the Autonomous...",
     "image": "images/31c41a01273af4974b926d9f597e4ce0.webp",
     "datetimestamp": "2026-04-25T18:26:02",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "RAIL: Nonfree and unethical  \u2014 Free Software Foundation \u2014 Working together for free software",
+    "link": "https://www.fsf.org/blogs/licensing/rail-are-nonfree-and-unethical",
+    "description": "<p>Article URL: <a href=\"https://www.fsf.org/blogs/licensing/rail-are-nonfree-and-unethical\">https://www.fsf.org/blogs/licensing/rail-are-nonfree-and-unethical</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47903072\">https://news.ycombinator.com/item?id=47903072</a></p>\n<p>Points: 22</p>\n<p># Comments: 0</p>",
+    "image": "",
+    "datetimestamp": "2026-04-25T17:33:18",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -563,6 +1175,15 @@
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-25T17:33:18",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Attend the Altman vs. Musk Trial",
+    "link": "https://news.ycombinator.com/item?id=47902888",
+    "description": "<p>This is a bunch of questions for lawyers or for journalists or for people who have been to this kind of events: next week starts the Musk vs Altman trial. The trial is in Oakland. The court schedule says that the jury selection starts at 8:00 am on Monday and after that the trial is on Thursday at 8:00 am. My questions are:\n1. What time do I have to line-up so I can get a chance to enter the court-room?\n2. Is it allowed to bring water and snacks in the court room?\n3. Is the jury selection on Monday open to the public and if so, is it any interesting? During jury selection will they send the assistant lawyers or senior ones? Will Musk and Altman be present during the jury selection (I guess not).\n4. Is photography allowed (I guess not). If not, can I bring a camera and not use it? Is photography in the hallways of the court allowed? Is photography in the garage allowed?\n5. When the jury decides who pays whom, will money change hands or will the decision be immediately appealed? If so, will it go to a circuit court or the superior court in DC (apologies about my illiteracy, I am computer scientist from Europe and I don't know much if anything about law).\n6. Do you have any advise (like don't go) to the general kibitzer like me?\nThese are serious questions, if you share them in your professional network, you will help me not embarrass myself and look uncool next week, thank you!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902888\">https://news.ycombinator.com/item?id=47902888</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+    "image": "",
+    "datetimestamp": "2026-04-25T17:06:06",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -585,6 +1206,24 @@
     "category": "Frontend"
   },
   {
+    "title": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center",
+    "link": "https://boilingsteam.com/framework-laptop-13-pro-announced/",
+    "description": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center",
+    "image": "",
+    "datetimestamp": "2026-04-25T16:54:28",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Iran caused more extensive damage to U.S. military bases than publicly known ",
+    "link": "https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853",
+    "description": "U.S. bases and equipment across the Middle East came under attack \u2014 including from an Iranian F-5, despite American air defenses \u2014 and repairs could cost billions of dollars.",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-03/260312-shahed-drones-jg-a64c75.jpg",
+    "datetimestamp": "2026-04-25T16:44:51",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "Iran caused more extensive damage to U.S. military bases than publicly known ",
     "link": "https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853",
     "description": "U.S. bases and equipment across the Middle East came under attack \u2014 including from an Iranian F-5, despite American air defenses \u2014 and repairs could cost billions of dollars.",
@@ -594,11 +1233,29 @@
     "category": "Frontend"
   },
   {
+    "title": "Ask HN: Do you read differently now that anything could be AI generated?",
+    "link": "https://news.ycombinator.com/item?id=47902507",
+    "description": "<p>or How has AI generated content changed what and how you read?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902507\">https://news.ycombinator.com/item?id=47902507</a></p>\n<p>Points: 18</p>\n<p># Comments: 27</p>",
+    "image": "",
+    "datetimestamp": "2026-04-25T16:09:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": null,
     "link": "https://news.ycombinator.com/item?id=47902507",
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-25T16:09:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Release v26.04 \u00b7 niri-wm/niri \u00b7 GitHub",
+    "link": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+    "description": "Niri is a scrollable-tiling Wayland compositor. Windows are arranged in columns on an infinite strip going to the right. Opening a new window never causes existing windows to resize.\nAs you may hav...",
+    "image": "https://opengraph.githubassets.com/d8b0853ec9bfdd523aed541e323a9b232de6d2ddb89a0ba3c06933c43b38cd3f/niri-wm/niri/releases/tag/v26.04",
+    "datetimestamp": "2026-04-25T15:59:15",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -615,8 +1272,26 @@
     "title": "GPT-5.5 Bio Bug Bounty | OpenAI",
     "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
     "description": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3dibW4TSEOQpjByxBjnpr2/8cefbfd6ae3b56e540fbd8e54fabbc64/Frame__16_.png?w=1600&h=900&fit=fill",
+    "datetimestamp": "2026-04-25T14:17:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty | OpenAI",
+    "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+    "description": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
     "image": "images/6162abf84a532cabdb1c61fcb2007b4c.webp",
     "datetimestamp": "2026-04-25T14:17:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "LamBench",
+    "link": "https://victortaelin.github.io/lambench/",
+    "description": "<p>Article URL: <a href=\"https://victortaelin.github.io/lambench/\">https://victortaelin.github.io/lambench/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47900506\">https://news.ycombinator.com/item?id=47900506</a></p>\n<p>Points: 142</p>\n<p># Comments: 43</p>",
+    "image": "",
+    "datetimestamp": "2026-04-25T11:16:23",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -633,8 +1308,26 @@
     "title": "Only One Side Will Be The True Successor to MS-DOS! \u2013 Windows 2.x \u2013 GUI Wonderland #12a",
     "link": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
     "description": "Do you remember the vaporware software known as Windows 1.0? Well, it has truly evolved now, and it wants to become the true successor to MS-DOS! Will it make it? Or will its rival, OS/2, steal the spotlight?",
+    "image": "https://blisscast.wordpress.com/wp-content/uploads/2026/02/gui-wonderland-banner-12-windows-2.0.png",
+    "datetimestamp": "2026-04-25T11:03:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Only One Side Will Be The True Successor to MS-DOS! \u2013 Windows 2.x \u2013 GUI Wonderland #12a",
+    "link": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
+    "description": "Do you remember the vaporware software known as Windows 1.0? Well, it has truly evolved now, and it wants to become the true successor to MS-DOS! Will it make it? Or will its rival, OS/2, steal the spotlight?",
     "image": "images/0726ccadac9491983521b497a2cbb426.webp",
     "datetimestamp": "2026-04-25T11:03:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - nakagami/grdpwasm \u00b7 GitHub",
+    "link": "https://github.com/nakagami/grdpwasm",
+    "description": "Contribute to nakagami/grdpwasm development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/838dc3ec0a5a252446f81712790ae6de830158b0c2e105e05e56f18bb97038d7/nakagami/grdpwasm",
+    "datetimestamp": "2026-04-25T10:59:29",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -651,8 +1344,26 @@
     "title": "You probably wouldn\u2019t notice if an AI chatbot slipped ads into its responses",
     "link": "https://theconversation.com/you-probably-wouldnt-notice-if-an-ai-chatbot-slipped-ads-into-its-responses-276010",
     "description": "People who interacted with different AI chatbots in a study didn\u2019t realize the bots were including veiled advertising in their replies",
+    "image": "https://images.theconversation.com/files/728415/original/file-20260407-57-dj2xk6.jpg?ixlib=rb-4.1.0&rect=0%2C362%2C4338%2C2169&q=45&auto=format&w=1356&h=668&fit=crop",
+    "datetimestamp": "2026-04-25T10:25:02",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "You probably wouldn\u2019t notice if an AI chatbot slipped ads into its responses",
+    "link": "https://theconversation.com/you-probably-wouldnt-notice-if-an-ai-chatbot-slipped-ads-into-its-responses-276010",
+    "description": "People who interacted with different AI chatbots in a study didn\u2019t realize the bots were including veiled advertising in their replies",
     "image": "images/9cefbea731c34d0fb269ed91a7257251.webp",
     "datetimestamp": "2026-04-25T10:25:02",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Rust Memory Management: Ownership vs. Reference Counting",
+    "link": "https://slicker.me/rust/ownership_and_borrowing_vs_reference_counting.html",
+    "description": "<p>Article URL: <a href=\"https://slicker.me/rust/ownership_and_borrowing_vs_reference_counting.html\">https://slicker.me/rust/ownership_and_borrowing_vs_reference_counting.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47899989\">https://news.ycombinator.com/item?id=47899989</a></p>\n<p>Points: 52</p>\n<p># Comments: 46</p>",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/250px-Rust_programming_language_black_logo.svg.png",
+    "datetimestamp": "2026-04-25T09:20:55",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -669,6 +1380,15 @@
     "title": "GitHub - nex-crm/wuphf: Slack for AI employees that build and maintain their own wiki. Get Claudes, Codexes, OpenClaws and local LLMs to collaborate and do your work autonomously while never losing context. \u00b7 GitHub",
     "link": "https://github.com/nex-crm/wuphf",
     "description": "Slack for AI employees that build and maintain their own wiki. Get Claudes, Codexes, OpenClaws and local LLMs to collaborate and do your work autonomously while never losing context. - nex-crm/wuphf",
+    "image": "https://opengraph.githubassets.com/597ae9e97a9f057846f4db4654c7fa7d77393867dca55aaaaa4b610c32645917/nex-crm/wuphf",
+    "datetimestamp": "2026-04-25T08:53:53",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - nex-crm/wuphf: Slack for AI employees that build and maintain their own wiki. Get Claudes, Codexes, OpenClaws and local LLMs to collaborate and do your work autonomously while never losing context. \u00b7 GitHub",
+    "link": "https://github.com/nex-crm/wuphf",
+    "description": "Slack for AI employees that build and maintain their own wiki. Get Claudes, Codexes, OpenClaws and local LLMs to collaborate and do your work autonomously while never losing context. - nex-crm/wuphf",
     "image": "images/42773448300130f337c67a2cbf24e352.webp",
     "datetimestamp": "2026-04-25T08:53:53",
     "source": "Hacker News (Custom)",
@@ -678,8 +1398,35 @@
     "title": "The Thermodynamic Efficiency Inversion \u2014 Charles Duprat",
     "link": "https://dupr.at/thermodynamic-efficiency-inversion",
     "description": "By shifting the functional unit from server queries to full user sessions, this assessment demonstrates how generative AI bypasses the massive energy tax of the modern ad-supported web.",
+    "image": "https://dupr.at/card.png",
+    "datetimestamp": "2026-04-25T08:44:36",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The Thermodynamic Efficiency Inversion \u2014 Charles Duprat",
+    "link": "https://dupr.at/thermodynamic-efficiency-inversion",
+    "description": "By shifting the functional unit from server queries to full user sessions, this assessment demonstrates how generative AI bypasses the massive energy tax of the modern ad-supported web.",
     "image": "images/5acc2916ba878dd46073c34b0167d197.webp",
     "datetimestamp": "2026-04-25T08:44:36",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - pgcentralfoundation/pgrx: Build Postgres Extensions with Rust! \u00b7 GitHub",
+    "link": "https://github.com/pgcentralfoundation/pgrx",
+    "description": "Build Postgres Extensions with Rust! Contribute to pgcentralfoundation/pgrx development by creating an account on GitHub.",
+    "image": "https://repository-images.githubusercontent.com/228908078/c13b4b8d-9ab9-4a6e-92af-24973df4953a",
+    "datetimestamp": "2026-04-25T08:16:19",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - magiblot/tvision: A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support. \u00b7 GitHub",
+    "link": "https://github.com/magiblot/tvision",
+    "description": "A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support. - magiblot/tvision",
+    "image": "https://repository-images.githubusercontent.com/184303095/5badcd00-9313-11ea-8554-4d4949084174",
+    "datetimestamp": "2026-04-25T04:18:01",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -696,8 +1443,26 @@
     "title": "GitHub - vinhnx/VTCode: VT Code - semantic AI coding agent \u00b7 GitHub",
     "link": "https://github.com/vinhnx/VTCode",
     "description": "VT Code - semantic AI coding agent. Contribute to vinhnx/VTCode development by creating an account on GitHub.",
+    "image": "https://repository-images.githubusercontent.com/1046809510/ac380ab3-c9dc-48af-a387-089274686386",
+    "datetimestamp": "2026-04-25T03:17:19",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - vinhnx/VTCode: VT Code - semantic AI coding agent \u00b7 GitHub",
+    "link": "https://github.com/vinhnx/VTCode",
+    "description": "VT Code - semantic AI coding agent. Contribute to vinhnx/VTCode development by creating an account on GitHub.",
     "image": "images/e057b3dd5b0d6613205801c1e64591c8.webp",
     "datetimestamp": "2026-04-25T03:17:19",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Stash \u2014 Persistent Memory for AI Agents",
+    "link": "https://alash3al.github.io/stash?_v01",
+    "description": "Give any AI agent a persistent memory in minutes. Works with Claude, ChatGPT, Ollama, OpenRouter, and any MCP-compatible agent. Open source, self-hosted, model-agnostic.",
+    "image": "https://stash.alash3al.com/og-image.png",
+    "datetimestamp": "2026-04-25T01:24:40",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -714,8 +1479,26 @@
     "title": "Repairing the Ruins: Why AI Can\u2019t Replace Education| National Catholic Register",
     "link": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
     "description": "COMMENTARY: In an era when AI can write anything, authentic education must go beyond the mere production of words.",
+    "image": "https://publisher-ncreg.s3.us-east-2.amazonaws.com/pb-ncregister/swp/hv9hms/media/20260413130448_4d60cd45bf09ec6c6458206316ebcdb787d8eff3f45c203e05d3b521f31886ef.jpg",
+    "datetimestamp": "2026-04-25T00:11:43",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Repairing the Ruins: Why AI Can\u2019t Replace Education| National Catholic Register",
+    "link": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
+    "description": "COMMENTARY: In an era when AI can write anything, authentic education must go beyond the mere production of words.",
     "image": "images/ab791820ffa27fb87023af9a3a9da8b5.webp",
     "datetimestamp": "2026-04-25T00:11:43",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Databases Were Not Designed For This",
+    "link": "https://arpitbhayani.me/blogs/defensive-databases/",
+    "description": "There is an implicit contract at the foundation of every database architecture decision you have ever made. You probably never wrote it down. Nobody does. It just\u2026 existed.",
+    "image": "https://edge.arpitbhayani.me/img/covers/general-cover.jpg",
+    "datetimestamp": "2026-04-24T23:41:38",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -732,8 +1515,26 @@
     "title": "Register for a eurosky.social account - one web identity, dozens of apps \u2014 Eurosky",
     "link": "https://eurosky.tech/accounts/",
     "description": "Eurosky is a European initiative to build and operate sovereign social web infrastructure",
+    "image": "https://eurosky.tech/og-image.png",
+    "datetimestamp": "2026-04-24T20:47:25",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Register for a eurosky.social account - one web identity, dozens of apps \u2014 Eurosky",
+    "link": "https://eurosky.tech/accounts/",
+    "description": "Eurosky is a European initiative to build and operate sovereign social web infrastructure",
     "image": "images/5e0f6803f097c887ca7131243ba1c58a.webp",
     "datetimestamp": "2026-04-24T20:47:25",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "California Coastal Community Must Reject CBP's AI-Powered Surveillance Tower | Electronic Frontier Foundation",
+    "link": "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower",
+    "description": "Customs and Border Protection (CBP) is seeking permission from the California city of San Clemente to install an Anduril Industries surveillance tower on a cliff that would allow for constant monitoring of entire coastal neighborhoods. The proposed tower is Anduril's Sentry, part of the Autonomous...",
+    "image": "https://www.eff.org/files/banner_library/andurilthroughfence.jpg",
+    "datetimestamp": "2026-04-24T20:28:22",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -750,8 +1551,26 @@
     "title": "Rectal cancer rates rising rapidly among people in their 30s and 40s: 'A medical crisis'",
     "link": "https://www.nbcnews.com/health/health-news/rectal-cancer-rates-deaths-rising-millennials-30s-40s-rcna341389",
     "description": "By 2035, rectal cancer death rates could exceed deaths from colon cancer, new research suggests. ",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-05/240502-colonoscopy-ch-0941-22f106.jpg",
+    "datetimestamp": "2026-04-24T20:08:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Rectal cancer rates rising rapidly among people in their 30s and 40s: 'A medical crisis'",
+    "link": "https://www.nbcnews.com/health/health-news/rectal-cancer-rates-deaths-rising-millennials-30s-40s-rcna341389",
+    "description": "By 2035, rectal cancer death rates could exceed deaths from colon cancer, new research suggests. ",
     "image": "images/81995d57ad5baa012aae69a7c92686eb.webp",
     "datetimestamp": "2026-04-24T20:08:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GPT-5.5 is generally available for GitHub Copilot - GitHub Changelog",
+    "link": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot/",
+    "description": "GPT-5.5, OpenAI\u2019s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world\u2026",
+    "image": "https://github.blog/wp-content/uploads/2026/04/583504349-c03cdcba-4602-4832-85be-551c2c40d271.png",
+    "datetimestamp": "2026-04-24T20:07:54",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -768,8 +1587,26 @@
     "title": "Nimbus \u2014 The AI Companion for the Web",
     "link": "https://usenimbus.app/",
     "description": "Nimbus is an AI-native browser companion that navigates, fills forms, and extracts data \u2014 so you can focus on decisions that matter.",
+    "image": "https://usenimbus.app/og-image.png",
+    "datetimestamp": "2026-04-24T20:01:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Nimbus \u2014 The AI Companion for the Web",
+    "link": "https://usenimbus.app/",
+    "description": "Nimbus is an AI-native browser companion that navigates, fills forms, and extracts data \u2014 so you can focus on decisions that matter.",
     "image": "images/fc0953cec04bc70d44ebe68a4af3a7b5.webp",
     "datetimestamp": "2026-04-24T20:01:39",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+    "link": "https://news.ycombinator.com/item?id=47895029",
+    "description": "<p>I've been using Anthropic's hook features [0] since they were introduced. It allows me to inject determinism into my workflows. This worked perfectly until 4.7. Now, Claude routinely ignores the hook rules. For example, I have a stop hook that prevents Claude from stopping if a source file has been changed and no tests have been run.<p>Here's the relvant part of the script:<p><pre><code>  # Source edits made without a subsequent test run -> block the stop.\n  cat <<'ENDJSON'\n  {\n    \"decision\": \"block\",\n    \"reason\": \"MANDATORY TESTING REQUIREMENT VIOLATED. You modified source files after the last test run (or never ran tests this turn). You MUST: \n      1) Identify the project's test framework from its manifests \n      2) Run the project's actual test command(s) that exercise your changes\n      3) Fix anything that fails and re-run until green. If no tests exist for the area you touched, write a focused test first and run it. DO NOT skip this. \n\n      DO NOT claim this hook is unnecessary. RUN THE TESTS NOW, then finish your turn.\"\n    }\n  ENDJSON\n</code></pre>\nHere's a portion of the conversation:<p>Me:<p><pre><code>  \"message\":  \n  {\n    \"role\": \"user\",\n    \"content\": \"Why are you continually ignoring my stop hooks?\"\n  }\n</code></pre>\nClaude:<p><pre><code>  \"message\":\n  {\n    \"type\": \"message\",\n    \"role\": \"assistant\",\n    \"content\":\n    [\n      {\n        \"text\": \"You're right. I apologize for the deflection.The stop hook is firing correctly. I should have: 1. Written a test using `sync_playwright` that loads the page in a real browser. 2. Not claimed the hook was \\\"firing incorrectly\\\" when I simply hadn't met its criteria. Let me do it properly now.\"\n      }\n    ]\n  }\n</code></pre>\nTwo turns later:<p>Claude:<p><pre><code>  \"message\":\n  {\n    \"type\": \"message\",\n    \"role\": \"assistant\",\n    \"content\":\n    [\n      {\n        \"type\": \"text\",\n        \"text\": \"\\n\\nThe stop hook fires after I finish responding, telling me to run tests before I stop. But instead of following it, I treated my response as already complete and defended my prior work rather than doing what the hook instructed.\\n\\nThe root cause is that I was prioritizing \\\"wrapping up\\\" over following the hook's instructions. I'll follow the stop hooks going forward \u2014 they're instructions to act, not suggestions to evaluate.\"\n      }\n    ]\n  }\n</code></pre>\nA few turns later Claude decided to ignore the hook again.<p>[0]: <a href=\"https://code.claude.com/docs/en/hooks\" rel=\"nofollow\">https://code.claude.com/docs/en/hooks</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47895029\">https://news.ycombinator.com/item?id=47895029</a></p>\n<p>Points: 96</p>\n<p># Comments: 87</p>",
+    "image": "",
+    "datetimestamp": "2026-04-24T19:55:09",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -786,8 +1623,26 @@
     "title": "GitHub - nambok/mentedb: A cognition aware database engine for AI agent memory. Purpose built in Rust with WAL, HNSW, knowledge graphs, and speculative context pre assembly. Not a wrapper, a ground up storage engine that thinks. \u00b7 GitHub",
     "link": "https://github.com/nambok/mentedb",
     "description": "A cognition aware database engine for AI agent memory. Purpose built in Rust with WAL, HNSW, knowledge graphs, and speculative context pre assembly. Not a wrapper, a ground up storage engine that t...",
+    "image": "https://opengraph.githubassets.com/930fa7cb45f2aba90ec5e07fce25bcd797a4e8396b2a14e2a33f54b7254fdaef/nambok/mentedb",
+    "datetimestamp": "2026-04-24T19:51:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - nambok/mentedb: A cognition aware database engine for AI agent memory. Purpose built in Rust with WAL, HNSW, knowledge graphs, and speculative context pre assembly. Not a wrapper, a ground up storage engine that thinks. \u00b7 GitHub",
+    "link": "https://github.com/nambok/mentedb",
+    "description": "A cognition aware database engine for AI agent memory. Purpose built in Rust with WAL, HNSW, knowledge graphs, and speculative context pre assembly. Not a wrapper, a ground up storage engine that t...",
     "image": "images/d63c708a1609c520fb22b10b88af9599.webp",
     "datetimestamp": "2026-04-24T19:51:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Could a Claude Code routine watch my finances? | Driggsby",
+    "link": "https://driggsby.com/blog/claude-code-routine-watch-my-finances",
+    "description": "After tinkering with Claude Code routines, I wondered: how far could I push this?",
+    "image": "https://driggsby.com/og-image.png?v=2",
+    "datetimestamp": "2026-04-24T19:25:15",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -804,8 +1659,26 @@
     "title": "Changelog | OpenAI API",
     "link": "https://developers.openai.com/api/docs/changelog",
     "description": "See all of the latest features and updates to the OpenAI API.",
+    "image": "https://developers.openai.com/og/api/docs/changelog.png",
+    "datetimestamp": "2026-04-24T18:23:32",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Changelog | OpenAI API",
+    "link": "https://developers.openai.com/api/docs/changelog",
+    "description": "See all of the latest features and updates to the OpenAI API.",
     "image": "images/f067dd5114c191105f315f98d24123b4.webp",
     "datetimestamp": "2026-04-24T18:23:32",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://documentation.ubuntu.com/release-notes/26.04/changes-since-previous-interim/",
+    "description": "<p>Article URL: <a href=\"https://documentation.ubuntu.com/release-notes/26.04/changes-since-previous-interim/\">https://documentation.ubuntu.com/release-notes/26.04/changes-since-previous-interim/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47893892\">https://news.ycombinator.com/item?id=47893892</a></p>\n<p>Points: 21</p>\n<p># Comments: 0</p>",
+    "image": "",
+    "datetimestamp": "2026-04-24T18:14:34",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -815,6 +1688,15 @@
     "description": "If you\u2019re upgrading to Ubuntu 26.04 LTS from the previous interim release, Ubuntu 25.10 (Questing Quokka), the following changes apply to you. New features and improvements: Desktop features: GNOME...",
     "image": "https://assets.ubuntu.com/v1/cc828679-docs_illustration.svg",
     "datetimestamp": "2026-04-24T18:14:34",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "LLM research on Hacker News is drying up \u2013 Dylan Castillo",
+    "link": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
+    "description": "<p>Article URL: <a href=\"https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html\">https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47893860\">https://news.ycombinator.com/item?id=47893860</a></p>\n<p>Points: 30</p>\n<p># Comments: 11</p>",
+    "image": "https://dylancastillo.co/til/images/arxiv-hacker-news/hn_arxiv_share.png",
+    "datetimestamp": "2026-04-24T18:12:15",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -831,8 +1713,26 @@
     "title": "Kubuntu 26.04 LTS Resolute Raccoon Released | Kubuntu",
     "link": "https://kubuntu.org/news/kubuntu-26-04-release-notes/",
     "description": "Kubuntu 26.04 LTS is here. Try Plasma 6.6, Qt 6.10, KDE Frameworks 6.24, and more.",
+    "image": "",
+    "datetimestamp": "2026-04-24T18:05:38",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Kubuntu 26.04 LTS Resolute Raccoon Released | Kubuntu",
+    "link": "https://kubuntu.org/news/kubuntu-26-04-release-notes/",
+    "description": "Kubuntu 26.04 LTS is here. Try Plasma 6.6, Qt 6.10, KDE Frameworks 6.24, and more.",
     "image": null,
     "datetimestamp": "2026-04-24T18:05:38",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "GitHub - delta-hq/cc-canary \u00b7 GitHub",
+    "link": "https://github.com/delta-hq/cc-canary",
+    "description": "Contribute to delta-hq/cc-canary development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/614f0b6bb495ff174d242d783ad754418b10bfb9a22eeafc9c2634a9c45766d0/delta-hq/cc-canary",
+    "datetimestamp": "2026-04-24T17:53:37",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   },
@@ -887,16 +1787,6 @@
     "description": null,
     "image": null,
     "datetimestamp": "2026-04-24T15:05:08",
-    "source": "Hacker News (Custom)",
-    "category": "Frontend"
-  }
-][
-  {
-    "title": "Just a moment...",
-    "link": "https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard",
-    "description": "<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard\">https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930483\">https://news.ycombinator.com/item?id=47930483</a></p>\n<p>Points: 35</p>\n<p># Comments: 26</p>",
-    "image": "",
-    "datetimestamp": "2026-04-28T04:32:42",
     "source": "Hacker News (Custom)",
     "category": "Frontend"
   }

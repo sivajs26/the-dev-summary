@@ -1,10 +1,217 @@
 [
   {
+    "title": "Why Your Landing Page Is Slow (And How to Fix It) - DEV Community",
+    "link": "https://dev.to/qdiss/why-your-landing-page-is-slow-and-how-to-fix-it-4ae2",
+    "description": "Originally published on adiss.dev   Every second of delay costs you conversions. Google knows it,...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdd1iunx3vxyqknb829pq.png",
+    "datetimestamp": "2026-04-28T06:52:59",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "I Built a Neural Memory Layer for a Voice AI Assistant: Embeddings + Vector Search + Activity Neurons - DEV Community",
+    "link": "https://dev.to/tamsiv/i-built-a-neural-memory-layer-for-a-voice-ai-assistant-embeddings-vector-search-activity-4ebh",
+    "description": "My voice AI asked me for the third time whether Sylvie was my sister or my mother.  That's when I...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fiwflxztc5r5bax9ld7q8.png",
+    "datetimestamp": "2026-04-28T06:08:37",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Debug 2026 React Native 0.75 App Crashes Using Sentry 8.0, Flipper 0.250, and Xcode 16 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-debug-2026-react-native-075-app-crashes-using-sentry-80-flipper-0250-and-xcode-16-1dbc",
+    "description": "In Q3 2025, 68% of React Native 0.75 production apps reported at least one unhandled crash per 1,000...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0kcanxgsmummx37i3j4d.png",
+    "datetimestamp": "2026-04-28T05:49:29",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Debug 2026 React Native 0.75 App Crashes Using Sentry 8.0, Flipper 0.250, and Xcode 16 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-debug-2026-react-native-075-app-crashes-using-sentry-80-flipper-0250-and-xcode-16-1dbc",
+    "description": "In Q3 2025, 68% of React Native 0.75 production apps reported at least one unhandled crash per 1,000...",
+    "image": "images/0c9c9d81b648a9c3da0fc995d230239d.webp",
+    "datetimestamp": "2026-04-28T05:49:29",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
+    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
+    "description": "I've been spending the past few months juggling product engineering work with the building and...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdklmcgtmkbga5mk474bl.jpg",
+    "datetimestamp": "2026-04-28T05:04:30",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
+    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
+    "description": "I've been spending the past few months juggling product engineering work with the building and...",
+    "image": "images/47bb5384e64d5212e6c7c71c8137a56d.webp",
+    "datetimestamp": "2026-04-28T05:04:30",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
+    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
+    "description": "I've been spending the past few months juggling product engineering work with the building and...",
+    "image": "images/47bb5384e64d5212e6c7c71c8137a56d.webp",
+    "datetimestamp": "2026-04-28T05:04:30",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
+    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
+    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcnfpqd5q02ln3ah3jy82.png",
+    "datetimestamp": "2026-04-28T05:01:25",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
+    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
+    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
+    "image": "images/b34584df91fe41cba21651aca48b653a.webp",
+    "datetimestamp": "2026-04-28T05:01:25",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
+    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
+    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
+    "image": "images/b34584df91fe41cba21651aca48b653a.webp",
+    "datetimestamp": "2026-04-28T05:01:25",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
+    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
+    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqenjx7uk69vr3kefzch7.jpg",
+    "datetimestamp": "2026-04-28T04:38:40",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
+    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
+    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
+    "image": "images/3f0f011906f8bace2c16b64f9fbdd030.webp",
+    "datetimestamp": "2026-04-28T04:38:40",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
+    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
+    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
+    "image": "images/3f0f011906f8bace2c16b64f9fbdd030.webp",
+    "datetimestamp": "2026-04-28T04:38:40",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "What is React memo? How to improve React performance - DEV Community",
+    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
+    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frk1xacj4oddw3se78se7.png",
+    "datetimestamp": "2026-04-28T04:35:57",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "What is React memo? How to improve React performance - DEV Community",
+    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
+    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
+    "image": "images/e7fe6e65659f24a17f9f2cff4f93be99.webp",
+    "datetimestamp": "2026-04-28T04:35:57",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "What is React memo? How to improve React performance - DEV Community",
+    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
+    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
+    "image": "images/e7fe6e65659f24a17f9f2cff4f93be99.webp",
+    "datetimestamp": "2026-04-28T04:35:57",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
+    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
+    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo12f0f8yeemqlo2n6grf.png",
+    "datetimestamp": "2026-04-28T04:30:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
+    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
+    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
+    "image": "images/e679da62ff8ed948dc975ceb79441756.webp",
+    "datetimestamp": "2026-04-28T04:30:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
+    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
+    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
+    "image": "images/e679da62ff8ed948dc975ceb79441756.webp",
+    "datetimestamp": "2026-04-28T04:30:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Running SQLite in the browser with sql.js and WASM \u2014 a practical guide with Google Drive sync - DEV Community",
+    "link": "https://dev.to/deeshansharma/running-sqlite-in-the-browser-with-sqljs-and-wasm-a-practical-guide-with-google-drive-sync-edh",
+    "description": "Most tutorials on client-side data storage reach for IndexedDB, localStorage, or a third-party sync...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6k598isyvt5k3c44981l.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
     "title": "Running SQLite in the browser with sql.js and WASM \u2014 a practical guide with Google Drive sync - DEV Community",
     "link": "https://dev.to/deeshansharma/running-sqlite-in-the-browser-with-sqljs-and-wasm-a-practical-guide-with-google-drive-sync-edh",
     "description": "Most tutorials on client-side data storage reach for IndexedDB, localStorage, or a third-party sync...",
     "image": "images/aa851798a65182213f26a1f502687eb0.webp",
     "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Running SQLite in the browser with sql.js and WASM \u2014 a practical guide with Google Drive sync - DEV Community",
+    "link": "https://dev.to/deeshansharma/running-sqlite-in-the-browser-with-sqljs-and-wasm-a-practical-guide-with-google-drive-sync-edh",
+    "description": "Most tutorials on client-side data storage reach for IndexedDB, localStorage, or a third-party sync...",
+    "image": "images/aa851798a65182213f26a1f502687eb0.webp",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Shipping Better Dev Tools: What I Learned After Launching My React Generator CLI - DEV Community",
+    "link": "https://dev.to/aditya_sengar_18547ba3ce7/shipping-better-dev-tools-what-i-learned-after-launching-my-react-generator-cli-55lh",
+    "description": "Building Better Dev Tools: What I Learned After Launching My React Generator CLI   A few...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzd0a5tbg27x2losj4t91.png",
+    "datetimestamp": "2026-04-28T03:52:19",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Shipping Better Dev Tools: What I Learned After Launching My React Generator CLI - DEV Community",
+    "link": "https://dev.to/aditya_sengar_18547ba3ce7/shipping-better-dev-tools-what-i-learned-after-launching-my-react-generator-cli-55lh",
+    "description": "Building Better Dev Tools: What I Learned After Launching My React Generator CLI   A few...",
+    "image": "images/6eaf425d23e990f0d7107a8118f8cbbb.webp",
+    "datetimestamp": "2026-04-28T03:52:19",
     "source": "Dev.to React",
     "category": "Frontend"
   },
@@ -21,8 +228,44 @@
     "title": "Building Compliance-First Property Management Software - DEV Community",
     "link": "https://dev.to/jonomor_ecosystem/building-compliance-first-property-management-software-2781",
     "description": "Most property management software treats compliance like a checkbox feature. You run your operations...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe95pieybs7dhcjju9kjt.png",
+    "datetimestamp": "2026-04-28T03:23:15",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Building Compliance-First Property Management Software - DEV Community",
+    "link": "https://dev.to/jonomor_ecosystem/building-compliance-first-property-management-software-2781",
+    "description": "Most property management software treats compliance like a checkbox feature. You run your operations...",
     "image": "images/8bcf915a8f1e060ea852c2af4fa04ba7.webp",
     "datetimestamp": "2026-04-28T03:23:15",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Building Compliance-First Property Management Software - DEV Community",
+    "link": "https://dev.to/jonomor_ecosystem/building-compliance-first-property-management-software-2781",
+    "description": "Most property management software treats compliance like a checkbox feature. You run your operations...",
+    "image": "images/8bcf915a8f1e060ea852c2af4fa04ba7.webp",
+    "datetimestamp": "2026-04-28T03:23:15",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Pick your shadcn base, your style, your icons - DEV Community",
+    "link": "https://dev.to/shadcncraft/pick-your-shadcn-base-your-style-your-icons-23dm",
+    "description": "shadcncraft now supports Base UI, all seven shadcn styles, multiple icon libraries, and a new...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwerq15kz2z968j34y0qp.png",
+    "datetimestamp": "2026-04-28T02:48:39",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Pick your shadcn base, your style, your icons - DEV Community",
+    "link": "https://dev.to/shadcncraft/pick-your-shadcn-base-your-style-your-icons-23dm",
+    "description": "shadcncraft now supports Base UI, all seven shadcn styles, multiple icon libraries, and a new...",
+    "image": "images/84ed38577279f183cdf574953666cf9c.webp",
+    "datetimestamp": "2026-04-28T02:48:39",
     "source": "Dev.to React",
     "category": "Frontend"
   },
@@ -41,6 +284,24 @@
     "description": "\ud83d\udc4b Hello Developers,   The market is shifting. We are seeing a surge in JAVASCRIPT roles this...",
     "image": "images/75dfd7394c7fcdb2ead2b91e4f11c054.webp",
     "datetimestamp": "2026-04-28T02:26:15",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "David Stark: Top High-Paying Roles - DEV Community",
+    "link": "https://dev.to/devpulse/david-stark-top-high-paying-roles-5gfe",
+    "description": "\ud83d\udc4b Hello Developers,   The market is shifting. We are seeing a surge in JAVASCRIPT roles this...",
+    "image": "images/75dfd7394c7fcdb2ead2b91e4f11c054.webp",
+    "datetimestamp": "2026-04-28T02:26:15",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "RangeFlow: React Date Range Slider and Picker - DEV Community",
+    "link": "https://dev.to/jqueryscript/rangeflow-react-date-range-slider-and-picker-2kil",
+    "description": "RangeFlow: a React date range picker with a drag-based slider, quick preset tabs, and a popover...",
+    "image": "images/c6a976231290f1facbeee28e7eaeeb50.webp",
+    "datetimestamp": "2026-04-28T02:14:26",
     "source": "Dev.to React",
     "category": "Frontend"
   },
@@ -104,161 +365,6 @@
     "description": "I\u2019ve been building every single day, but this one hit differently. I went deep into Docker...",
     "image": "images/bd5212869937591cb4b7343c08abe7ae.webp",
     "datetimestamp": "2026-04-28T00:02:00",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  }
-][
-  {
-    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
-    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
-    "description": "I've been spending the past few months juggling product engineering work with the building and...",
-    "image": "images/47bb5384e64d5212e6c7c71c8137a56d.webp",
-    "datetimestamp": "2026-04-28T05:04:30",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
-    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
-    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
-    "image": "images/b34584df91fe41cba21651aca48b653a.webp",
-    "datetimestamp": "2026-04-28T05:01:25",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
-    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
-    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
-    "image": "images/3f0f011906f8bace2c16b64f9fbdd030.webp",
-    "datetimestamp": "2026-04-28T04:38:40",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "What is React memo? How to improve React performance - DEV Community",
-    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
-    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
-    "image": "images/e7fe6e65659f24a17f9f2cff4f93be99.webp",
-    "datetimestamp": "2026-04-28T04:35:57",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
-    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
-    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
-    "image": "images/e679da62ff8ed948dc975ceb79441756.webp",
-    "datetimestamp": "2026-04-28T04:30:00",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  }
-][
-  {
-    "title": "How to Debug 2026 React Native 0.75 App Crashes Using Sentry 8.0, Flipper 0.250, and Xcode 16 - DEV Community",
-    "link": "https://dev.to/johalputt/how-to-debug-2026-react-native-075-app-crashes-using-sentry-80-flipper-0250-and-xcode-16-1dbc",
-    "description": "In Q3 2025, 68% of React Native 0.75 production apps reported at least one unhandled crash per 1,000...",
-    "image": "images/0c9c9d81b648a9c3da0fc995d230239d.webp",
-    "datetimestamp": "2026-04-28T05:49:29",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
-    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
-    "description": "I've been spending the past few months juggling product engineering work with the building and...",
-    "image": "images/47bb5384e64d5212e6c7c71c8137a56d.webp",
-    "datetimestamp": "2026-04-28T05:04:30",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
-    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
-    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
-    "image": "images/b34584df91fe41cba21651aca48b653a.webp",
-    "datetimestamp": "2026-04-28T05:01:25",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
-    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
-    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
-    "image": "images/3f0f011906f8bace2c16b64f9fbdd030.webp",
-    "datetimestamp": "2026-04-28T04:38:40",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "What is React memo? How to improve React performance - DEV Community",
-    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
-    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
-    "image": "images/e7fe6e65659f24a17f9f2cff4f93be99.webp",
-    "datetimestamp": "2026-04-28T04:35:57",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
-    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
-    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
-    "image": "images/e679da62ff8ed948dc975ceb79441756.webp",
-    "datetimestamp": "2026-04-28T04:30:00",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Running SQLite in the browser with sql.js and WASM \u2014 a practical guide with Google Drive sync - DEV Community",
-    "link": "https://dev.to/deeshansharma/running-sqlite-in-the-browser-with-sqljs-and-wasm-a-practical-guide-with-google-drive-sync-edh",
-    "description": "Most tutorials on client-side data storage reach for IndexedDB, localStorage, or a third-party sync...",
-    "image": "images/aa851798a65182213f26a1f502687eb0.webp",
-    "datetimestamp": "2026-04-28T04:00:00",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Shipping Better Dev Tools: What I Learned After Launching My React Generator CLI - DEV Community",
-    "link": "https://dev.to/aditya_sengar_18547ba3ce7/shipping-better-dev-tools-what-i-learned-after-launching-my-react-generator-cli-55lh",
-    "description": "Building Better Dev Tools: What I Learned After Launching My React Generator CLI   A few...",
-    "image": "images/6eaf425d23e990f0d7107a8118f8cbbb.webp",
-    "datetimestamp": "2026-04-28T03:52:19",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Building Compliance-First Property Management Software - DEV Community",
-    "link": "https://dev.to/jonomor_ecosystem/building-compliance-first-property-management-software-2781",
-    "description": "Most property management software treats compliance like a checkbox feature. You run your operations...",
-    "image": "images/8bcf915a8f1e060ea852c2af4fa04ba7.webp",
-    "datetimestamp": "2026-04-28T03:23:15",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Pick your shadcn base, your style, your icons - DEV Community",
-    "link": "https://dev.to/shadcncraft/pick-your-shadcn-base-your-style-your-icons-23dm",
-    "description": "shadcncraft now supports Base UI, all seven shadcn styles, multiple icon libraries, and a new...",
-    "image": "images/84ed38577279f183cdf574953666cf9c.webp",
-    "datetimestamp": "2026-04-28T02:48:39",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "David Stark: Top High-Paying Roles - DEV Community",
-    "link": "https://dev.to/devpulse/david-stark-top-high-paying-roles-5gfe",
-    "description": "\ud83d\udc4b Hello Developers,   The market is shifting. We are seeing a surge in JAVASCRIPT roles this...",
-    "image": "images/75dfd7394c7fcdb2ead2b91e4f11c054.webp",
-    "datetimestamp": "2026-04-28T02:26:15",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "RangeFlow: React Date Range Slider and Picker - DEV Community",
-    "link": "https://dev.to/jqueryscript/rangeflow-react-date-range-slider-and-picker-2kil",
-    "description": "RangeFlow: a React date range picker with a drag-based slider, quick preset tabs, and a popover...",
-    "image": "images/c6a976231290f1facbeee28e7eaeeb50.webp",
-    "datetimestamp": "2026-04-28T02:14:26",
     "source": "Dev.to React",
     "category": "Frontend"
   }

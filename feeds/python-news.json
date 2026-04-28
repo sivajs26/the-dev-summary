@@ -1,5 +1,239 @@
 [
   {
+    "title": "How to Fine-Tune Llama 3.1 8B for Under $5 Using QLoRA in 2026 \u2013 A Practical Guide - DEV Community",
+    "link": "https://dev.to/dharshan_a_23835c7dc05682/how-to-fine-tune-llama-31-8b-for-under-5-using-qlora-in-2026-a-practical-guide-kj7",
+    "description": "I spent nearly three weeks and close to $300 trying to fine-tune a large language model the...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5ul0pv1374xzj8y4uzzv.png",
+    "datetimestamp": "2026-04-28T06:32:14",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 Building a Multi-Agent AI Resume Analyzer using CrewAI and Groq - DEV Community",
+    "link": "https://dev.to/sripadh_sujith_1487e8db18/building-a-multi-agent-ai-resume-analyzer-using-crewai-and-groq-40a9",
+    "description": "\ud83d\udccc Summary   This project demonstrates how to build a multi-agent AI system that analyzes...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffrj2mfogrxt9i4p90866.png",
+    "datetimestamp": "2026-04-28T06:25:01",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Learn Lists, Tuples, Sets and Dictionaries from Scratch \u2014 Python Data Structures Course in Telugu - DEV Community",
+    "link": "https://dev.to/abhinay_dm_2d841e103c6279/learn-lists-tuples-sets-and-dictionaries-from-scratch-python-data-structures-course-in-telugu-2h0h",
+    "description": "Introduction Most beginners learn Python syntax and then hit a wall. They can write a loop and...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcp5y3jv6ho0cmicfr7s8.png",
+    "datetimestamp": "2026-04-28T06:19:55",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Anti-bot without the arms race: what Camoufox does differently - DEV Community",
+    "link": "https://dev.to/tokozen/anti-bot-without-the-arms-race-what-camoufox-does-differently-e67",
+    "description": "Most headless browsers leak fingerprints that detection systems catch instantly. Here's how Camoufox patches Firefox at the C++ level to fix that.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8oltxiars4fw9jbrz7qs.png",
+    "datetimestamp": "2026-04-28T06:18:46",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Python Data Structures Course in Telugu for Freshers \u2013 Step-by-Step Learning - DEV Community",
+    "link": "https://dev.to/chandra_mouli_55b1e2ce423/python-data-structures-course-in-telugu-for-freshers-step-by-step-learning-3bpc",
+    "description": "Introduction If you are a beginner or fresher entering programming, learning Python step by step is...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmt0v6cdkp00ivm9v9ydo.png",
+    "datetimestamp": "2026-04-28T06:04:34",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "From Gherkin to Source Code Without Losing the Business Language - DEV Community",
+    "link": "https://dev.to/douglasdcm/from-gherkin-to-source-code-without-losing-the-business-language-mhj",
+    "description": "Picture this: you are a software developer building an education platform and you receive from the...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpwqwnpmbah5ipma71yqd.png",
+    "datetimestamp": "2026-04-28T05:53:09",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "From Gherkin to Source Code Without Losing the Business Language - DEV Community",
+    "link": "https://dev.to/douglasdcm/from-gherkin-to-source-code-without-losing-the-business-language-mhj",
+    "description": "Picture this: you are a software developer building an education platform and you receive from the...",
+    "image": "images/076c3149fe20a507e446cbf5ea004705.webp",
+    "datetimestamp": "2026-04-28T05:53:09",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-284h-behind-catching-inflation-sentiment-leads-with-pulsebit-1jc8",
+    "description": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit   In the...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5kqvahxp7pnlpwesf7as.png",
+    "datetimestamp": "2026-04-28T05:41:10",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-284h-behind-catching-inflation-sentiment-leads-with-pulsebit-1jc8",
+    "description": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit   In the...",
+    "image": "images/903a9d9ed1c402e9070967dbcd35eda1.webp",
+    "datetimestamp": "2026-04-28T05:41:10",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why Learning Data Science Can Transform Your Career - DEV Community",
+    "link": "https://dev.to/ravulapalli_venkata_7a58a/why-learning-data-science-can-transform-your-career-2p5d",
+    "description": "In today\u2019s digital world, every industry depends on data to make smarter and faster decisions. From...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5tea0xfisos3tz8ff9c7.png",
+    "datetimestamp": "2026-04-28T05:39:22",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why Learning Data Science Can Transform Your Career - DEV Community",
+    "link": "https://dev.to/ravulapalli_venkata_7a58a/why-learning-data-science-can-transform-your-career-2p5d",
+    "description": "In today\u2019s digital world, every industry depends on data to make smarter and faster decisions. From...",
+    "image": "images/57f159f910f368464abdc69452db5ec6.webp",
+    "datetimestamp": "2026-04-28T05:39:22",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Jupyter notebook bug that only crashes for other people - DEV Community",
+    "link": "https://dev.to/moonrunnerkc/the-jupyter-notebook-bug-that-only-crashes-for-other-people-5aek",
+    "description": "Your notebook works because your kernel has hidden state. It dies for everyone who runs it clean. Static linter for that class of bug.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw6z0hd2aud9cwsr9gzbp.jpg",
+    "datetimestamp": "2026-04-28T04:53:59",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Jupyter notebook bug that only crashes for other people - DEV Community",
+    "link": "https://dev.to/moonrunnerkc/the-jupyter-notebook-bug-that-only-crashes-for-other-people-5aek",
+    "description": "Your notebook works because your kernel has hidden state. It dies for everyone who runs it clean. Static linter for that class of bug.",
+    "image": "images/d8c21dd5d1ad3e74ce5d80d98d2485c6.webp",
+    "datetimestamp": "2026-04-28T04:53:59",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Jupyter notebook bug that only crashes for other people - DEV Community",
+    "link": "https://dev.to/moonrunnerkc/the-jupyter-notebook-bug-that-only-crashes-for-other-people-5aek",
+    "description": "Your notebook works because your kernel has hidden state. It dies for everyone who runs it clean. Static linter for that class of bug.",
+    "image": "images/d8c21dd5d1ad3e74ce5d80d98d2485c6.webp",
+    "datetimestamp": "2026-04-28T04:53:59",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building a Rolling-Baseline HTTP Anomaly Detector (No Fail2Ban) - DEV Community",
+    "link": "https://dev.to/trojanhorse7/building-a-rolling-baseline-http-anomaly-detector-no-fail2ban-4kf2",
+    "description": "Every VPS running a public web app gets hit with traffic it didn't ask for, from scrapers,...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw5azt3ofjvr1aqmbzr9o.png",
+    "datetimestamp": "2026-04-28T04:46:39",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building a Rolling-Baseline HTTP Anomaly Detector (No Fail2Ban) - DEV Community",
+    "link": "https://dev.to/trojanhorse7/building-a-rolling-baseline-http-anomaly-detector-no-fail2ban-4kf2",
+    "description": "Every VPS running a public web app gets hit with traffic it didn't ask for, from scrapers,...",
+    "image": "images/562abf8d8905297596a5d45f0872e95f.webp",
+    "datetimestamp": "2026-04-28T04:46:39",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building a Rolling-Baseline HTTP Anomaly Detector (No Fail2Ban) - DEV Community",
+    "link": "https://dev.to/trojanhorse7/building-a-rolling-baseline-http-anomaly-detector-no-fail2ban-4kf2",
+    "description": "Every VPS running a public web app gets hit with traffic it didn't ask for, from scrapers,...",
+    "image": "images/562abf8d8905297596a5d45f0872e95f.webp",
+    "datetimestamp": "2026-04-28T04:46:39",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Django URL Routing Deep Dive: A Complete Production Guide - DEV Community",
+    "link": "https://dev.to/alansomathew/django-url-routing-deep-dive-a-complete-production-guide-5bno",
+    "description": "From path() to custom converters, namespaces, reverse(), and routing patterns that scale \u2014 an...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2fgvk4edkah7wuxgbpjo.png",
+    "datetimestamp": "2026-04-28T04:42:33",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Django URL Routing Deep Dive: A Complete Production Guide - DEV Community",
+    "link": "https://dev.to/alansomathew/django-url-routing-deep-dive-a-complete-production-guide-5bno",
+    "description": "From path() to custom converters, namespaces, reverse(), and routing patterns that scale \u2014 an...",
+    "image": "images/6766f7f66aa94e302099d1cfd629c60e.webp",
+    "datetimestamp": "2026-04-28T04:42:33",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Django URL Routing Deep Dive: A Complete Production Guide - DEV Community",
+    "link": "https://dev.to/alansomathew/django-url-routing-deep-dive-a-complete-production-guide-5bno",
+    "description": "From path() to custom converters, namespaces, reverse(), and routing patterns that scale \u2014 an...",
+    "image": "images/6766f7f66aa94e302099d1cfd629c60e.webp",
+    "datetimestamp": "2026-04-28T04:42:33",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work - DEV Community",
+    "link": "https://dev.to/siddharth_hariramani_36b4/programmatic-seo-at-scale-35m-pages-zero-manual-work-1691",
+    "description": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work   Practical guide. Try...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftxuht9krazw5k7qvohf1.png",
+    "datetimestamp": "2026-04-28T04:10:07",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work - DEV Community",
+    "link": "https://dev.to/siddharth_hariramani_36b4/programmatic-seo-at-scale-35m-pages-zero-manual-work-1691",
+    "description": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work   Practical guide. Try...",
+    "image": "images/e74ac9f665129ad29bbfb8d7349616ee.webp",
+    "datetimestamp": "2026-04-28T04:10:07",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work - DEV Community",
+    "link": "https://dev.to/siddharth_hariramani_36b4/programmatic-seo-at-scale-35m-pages-zero-manual-work-1691",
+    "description": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work   Practical guide. Try...",
+    "image": "images/e74ac9f665129ad29bbfb8d7349616ee.webp",
+    "datetimestamp": "2026-04-28T04:10:07",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
+    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
+    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
+    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
+    "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
+    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
+    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
+    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
+    "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-163h-behind-catching-inflation-sentiment-leads-with-pulsebit-35im",
+    "description": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit   We...",
+    "image": "images/d2901b4b160a5511d2a173a93b487e4b.webp",
+    "datetimestamp": "2026-04-28T03:55:41",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
     "title": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
     "link": "https://dev.to/pulsebitapi/your-pipeline-is-163h-behind-catching-inflation-sentiment-leads-with-pulsebit-35im",
     "description": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit   We...",
@@ -18,11 +252,38 @@
     "category": "Backend"
   },
   {
+    "title": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-165h-behind-catching-renewable-energy-sentiment-leads-with-pulsebit-9of",
+    "description": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit   We...",
+    "image": "images/6c2b99a78ccc2cccb16ed47c4d5b1fc7.webp",
+    "datetimestamp": "2026-04-28T03:40:58",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
     "title": "I Built a Natural Language to SQL Generator with LangChain, Groq, and Streamlit \u2014 Full Tutorial - DEV Community",
     "link": "https://dev.to/naimulkarim/i-built-a-natural-language-to-sql-generator-with-langchain-groq-and-streamlit-full-tutorial-248g",
     "description": "A complete walkthrough of building an AI app that converts plain English questions into SQL queries, executes them, and explains the results \u2014 using a free LLM and SQLite.",
     "image": "images/bbfbed5ccb5cc5845f27f2e2fb908d2a.webp",
     "datetimestamp": "2026-04-28T03:32:57",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "I Built a Natural Language to SQL Generator with LangChain, Groq, and Streamlit \u2014 Full Tutorial - DEV Community",
+    "link": "https://dev.to/naimulkarim/i-built-a-natural-language-to-sql-generator-with-langchain-groq-and-streamlit-full-tutorial-248g",
+    "description": "A complete walkthrough of building an AI app that converts plain English questions into SQL queries, executes them, and explains the results \u2014 using a free LLM and SQLite.",
+    "image": "images/bbfbed5ccb5cc5845f27f2e2fb908d2a.webp",
+    "datetimestamp": "2026-04-28T03:32:57",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Python Coding Secrets Exposed: Unlocking the Ultimate Power of File I/O Operations - DEV Community",
+    "link": "https://dev.to/codingmavrick/python-coding-secrets-exposed-unlocking-the-ultimate-power-of-file-io-operations-4efb",
+    "description": "# Mastering File I/O Operations in Python: A 2025 Comprehensive Guide  As we move further into 2026, the ability to persist data remains a fundamental...",
+    "image": "images/8a8f3c5a43774e5148a3a1874c0d994a.webp",
+    "datetimestamp": "2026-04-28T03:25:40",
     "source": "Python News",
     "category": "Backend"
   },
@@ -104,161 +365,6 @@
     "description": "How AST parsing + subprocess isolation catches broken code in technical ebooks before readers do. The two-gate system that makes code correctness a precondition, not an afterthought.",
     "image": "images/b76a2fcee6d0a481ec1603fe41952520.webp",
     "datetimestamp": "2026-04-28T01:21:53",
-    "source": "Python News",
-    "category": "Backend"
-  }
-][
-  {
-    "title": "The Jupyter notebook bug that only crashes for other people - DEV Community",
-    "link": "https://dev.to/moonrunnerkc/the-jupyter-notebook-bug-that-only-crashes-for-other-people-5aek",
-    "description": "Your notebook works because your kernel has hidden state. It dies for everyone who runs it clean. Static linter for that class of bug.",
-    "image": "images/d8c21dd5d1ad3e74ce5d80d98d2485c6.webp",
-    "datetimestamp": "2026-04-28T04:53:59",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Building a Rolling-Baseline HTTP Anomaly Detector (No Fail2Ban) - DEV Community",
-    "link": "https://dev.to/trojanhorse7/building-a-rolling-baseline-http-anomaly-detector-no-fail2ban-4kf2",
-    "description": "Every VPS running a public web app gets hit with traffic it didn't ask for, from scrapers,...",
-    "image": "images/562abf8d8905297596a5d45f0872e95f.webp",
-    "datetimestamp": "2026-04-28T04:46:39",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Django URL Routing Deep Dive: A Complete Production Guide - DEV Community",
-    "link": "https://dev.to/alansomathew/django-url-routing-deep-dive-a-complete-production-guide-5bno",
-    "description": "From path() to custom converters, namespaces, reverse(), and routing patterns that scale \u2014 an...",
-    "image": "images/6766f7f66aa94e302099d1cfd629c60e.webp",
-    "datetimestamp": "2026-04-28T04:42:33",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work - DEV Community",
-    "link": "https://dev.to/siddharth_hariramani_36b4/programmatic-seo-at-scale-35m-pages-zero-manual-work-1691",
-    "description": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work   Practical guide. Try...",
-    "image": "images/e74ac9f665129ad29bbfb8d7349616ee.webp",
-    "datetimestamp": "2026-04-28T04:10:07",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
-    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
-    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
-    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
-    "datetimestamp": "2026-04-28T04:04:27",
-    "source": "Python News",
-    "category": "Backend"
-  }
-][
-  {
-    "title": "From Gherkin to Source Code Without Losing the Business Language - DEV Community",
-    "link": "https://dev.to/douglasdcm/from-gherkin-to-source-code-without-losing-the-business-language-mhj",
-    "description": "Picture this: you are a software developer building an education platform and you receive from the...",
-    "image": "images/076c3149fe20a507e446cbf5ea004705.webp",
-    "datetimestamp": "2026-04-28T05:53:09",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
-    "link": "https://dev.to/pulsebitapi/your-pipeline-is-284h-behind-catching-inflation-sentiment-leads-with-pulsebit-1jc8",
-    "description": "Your Pipeline Is 28.4h Behind: Catching Inflation Sentiment Leads with Pulsebit   In the...",
-    "image": "images/903a9d9ed1c402e9070967dbcd35eda1.webp",
-    "datetimestamp": "2026-04-28T05:41:10",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Why Learning Data Science Can Transform Your Career - DEV Community",
-    "link": "https://dev.to/ravulapalli_venkata_7a58a/why-learning-data-science-can-transform-your-career-2p5d",
-    "description": "In today\u2019s digital world, every industry depends on data to make smarter and faster decisions. From...",
-    "image": "images/57f159f910f368464abdc69452db5ec6.webp",
-    "datetimestamp": "2026-04-28T05:39:22",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "The Jupyter notebook bug that only crashes for other people - DEV Community",
-    "link": "https://dev.to/moonrunnerkc/the-jupyter-notebook-bug-that-only-crashes-for-other-people-5aek",
-    "description": "Your notebook works because your kernel has hidden state. It dies for everyone who runs it clean. Static linter for that class of bug.",
-    "image": "images/d8c21dd5d1ad3e74ce5d80d98d2485c6.webp",
-    "datetimestamp": "2026-04-28T04:53:59",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Building a Rolling-Baseline HTTP Anomaly Detector (No Fail2Ban) - DEV Community",
-    "link": "https://dev.to/trojanhorse7/building-a-rolling-baseline-http-anomaly-detector-no-fail2ban-4kf2",
-    "description": "Every VPS running a public web app gets hit with traffic it didn't ask for, from scrapers,...",
-    "image": "images/562abf8d8905297596a5d45f0872e95f.webp",
-    "datetimestamp": "2026-04-28T04:46:39",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Django URL Routing Deep Dive: A Complete Production Guide - DEV Community",
-    "link": "https://dev.to/alansomathew/django-url-routing-deep-dive-a-complete-production-guide-5bno",
-    "description": "From path() to custom converters, namespaces, reverse(), and routing patterns that scale \u2014 an...",
-    "image": "images/6766f7f66aa94e302099d1cfd629c60e.webp",
-    "datetimestamp": "2026-04-28T04:42:33",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work - DEV Community",
-    "link": "https://dev.to/siddharth_hariramani_36b4/programmatic-seo-at-scale-35m-pages-zero-manual-work-1691",
-    "description": "Programmatic SEO at Scale \u2014 3.5M Pages Zero Manual Work   Practical guide. Try...",
-    "image": "images/e74ac9f665129ad29bbfb8d7349616ee.webp",
-    "datetimestamp": "2026-04-28T04:10:07",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
-    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
-    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
-    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
-    "datetimestamp": "2026-04-28T04:04:27",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
-    "link": "https://dev.to/pulsebitapi/your-pipeline-is-163h-behind-catching-inflation-sentiment-leads-with-pulsebit-35im",
-    "description": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit   We...",
-    "image": "images/d2901b4b160a5511d2a173a93b487e4b.webp",
-    "datetimestamp": "2026-04-28T03:55:41",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit - DEV Community",
-    "link": "https://dev.to/pulsebitapi/your-pipeline-is-165h-behind-catching-renewable-energy-sentiment-leads-with-pulsebit-9of",
-    "description": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit   We...",
-    "image": "images/6c2b99a78ccc2cccb16ed47c4d5b1fc7.webp",
-    "datetimestamp": "2026-04-28T03:40:58",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "I Built a Natural Language to SQL Generator with LangChain, Groq, and Streamlit \u2014 Full Tutorial - DEV Community",
-    "link": "https://dev.to/naimulkarim/i-built-a-natural-language-to-sql-generator-with-langchain-groq-and-streamlit-full-tutorial-248g",
-    "description": "A complete walkthrough of building an AI app that converts plain English questions into SQL queries, executes them, and explains the results \u2014 using a free LLM and SQLite.",
-    "image": "images/bbfbed5ccb5cc5845f27f2e2fb908d2a.webp",
-    "datetimestamp": "2026-04-28T03:32:57",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Python Coding Secrets Exposed: Unlocking the Ultimate Power of File I/O Operations - DEV Community",
-    "link": "https://dev.to/codingmavrick/python-coding-secrets-exposed-unlocking-the-ultimate-power-of-file-io-operations-4efb",
-    "description": "# Mastering File I/O Operations in Python: A 2025 Comprehensive Guide  As we move further into 2026, the ability to persist data remains a fundamental...",
-    "image": "images/8a8f3c5a43774e5148a3a1874c0d994a.webp",
-    "datetimestamp": "2026-04-28T03:25:40",
     "source": "Python News",
     "category": "Backend"
   }

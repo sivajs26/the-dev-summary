@@ -1,5 +1,23 @@
 [
   {
+    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+    "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+    "description": "Agent ID Administrator enabled service principal takeover before April 9, 2026 patch, exposing privilege escalation risk in Entra ID tenants.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg",
+    "datetimestamp": "2026-04-28T06:37:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+    "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+    "description": "CVE-2026-32202 actively exploited after April 27 advisory fix, exposing NTLMv2 hashes via zero-click SMB authentication.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMPU-2lLUg__kJUnPm1HSRP0cTelgKBaXgKDq4ODhX0XTKI83sddz2F_EHiOmoxnTYIkIFYIbFh8JLAMp6lqfK39czq_e1G5Ixe-Y53_-kXBSk0fqVZV6jFpECe1JjAy3ZD3MmnJ71jpZHuPpbNRjB4x7SsmfHNUCMVyzQiST7CTc9m3qteMc4zJ2U_GXo/s1600/windows-exploit.jpg",
+    "datetimestamp": "2026-04-28T05:50:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
     "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
     "link": "http://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
     "description": "Checkmarx data surfaced after March 23, 2026 supply chain attack, prompting repository lockdown and investigation, raising exposure concerns.",

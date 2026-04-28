@@ -1,10 +1,46 @@
 [
   {
+    "title": "Event-Driven Architecture for Healthcare: Syncing Scheduling & Billing - DEV Community",
+    "link": "https://dev.to/seafluxtechnologies/event-driven-architecture-for-healthcare-syncing-scheduling-billing-1bh4",
+    "description": "If you have worked on healthcare systems\u2026 then you have probably run into this.  A shift gets updated...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdtvi8mc9imwasg2rvs85.png",
+    "datetimestamp": "2026-04-28T05:40:49",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Event-Driven Architecture for Healthcare: Syncing Scheduling & Billing - DEV Community",
+    "link": "https://dev.to/seafluxtechnologies/event-driven-architecture-for-healthcare-syncing-scheduling-billing-1bh4",
+    "description": "If you have worked on healthcare systems\u2026 then you have probably run into this.  A shift gets updated...",
+    "image": "images/32eb7ff88819f1ce2763585e1bfc0111.webp",
+    "datetimestamp": "2026-04-28T05:40:49",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Java Backend Roadmap 2026 and BPM Training with Camunda 8 - DEV Community",
+    "link": "https://dev.to/nirankari/java-backend-roadmap-2026-and-bpm-training-with-camunda-8-3hec",
+    "description": "Planning your backend career or team training?  In this guide:  \ud83d\ude80 Java Backend Roadmap  Spring...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvrslymvw254cw1mbxhhk.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
     "title": "Java Backend Roadmap 2026 and BPM Training with Camunda 8 - DEV Community",
     "link": "https://dev.to/nirankari/java-backend-roadmap-2026-and-bpm-training-with-camunda-8-3hec",
     "description": "Planning your backend career or team training?  In this guide:  \ud83d\ude80 Java Backend Roadmap  Spring...",
     "image": "images/c1e7a9777b38db1c93f7d54b41f4b7a0.webp",
     "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Boosting React Performance: A Deep Dive into Optimization Techniques - DEV Community",
+    "link": "https://dev.to/techblogs/boosting-react-performance-a-deep-dive-into-optimization-techniques-mei",
+    "description": "Boosting React Performance: A Deep Dive into Optimization Techniques   In the realm of...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5jqznapd3s8ib5idmgfp.png",
+    "datetimestamp": "2026-04-28T02:00:52",
     "source": "Backend News",
     "category": "Backend"
   },
@@ -21,8 +57,26 @@
     "title": "Web Developer Roadmap 2026: Step-by-Step Guide for Beginners https://medium.com/@anjalikashyapakk/web-developer-roadmap-2026-step-by-step-guide-for-beginners-1955825ff829 - DEV Community",
     "link": "https://dev.to/anjali_kashyap_20a62f4e53/web-developer-roadmap-2026-step-by-step-guide-for-beginners-5fn0",
     "description": "medium.com",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7xbics1em08zipw7uyyv.png",
+    "datetimestamp": "2026-04-28T01:58:57",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Web Developer Roadmap 2026: Step-by-Step Guide for Beginners https://medium.com/@anjalikashyapakk/web-developer-roadmap-2026-step-by-step-guide-for-beginners-1955825ff829 - DEV Community",
+    "link": "https://dev.to/anjali_kashyap_20a62f4e53/web-developer-roadmap-2026-step-by-step-guide-for-beginners-5fn0",
+    "description": "medium.com",
     "image": "images/d135a10cc70f83a5cc24263d8a315d45.webp",
     "datetimestamp": "2026-04-28T01:58:57",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Cell-Based Architecture: o por que estamos sempre tentando mitigar riscos e falhas - DEV Community",
+    "link": "https://dev.to/antjjoao/cell-based-architecture-o-porque-estamos-sempre-tentando-mitigar-riscos-e-falhas-21em",
+    "description": "Escalar microservi\u00e7os horizontalmente resolve capacidade. Mas n\u00e3o                                    ...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcdqk30diam7hxdho4jhv.png",
+    "datetimestamp": "2026-04-28T01:21:56",
     "source": "Backend News",
     "category": "Backend"
   },
@@ -39,8 +93,26 @@
     "title": "Getform Is Now Forminit: What Changed and What It Means for Your Forms - DEV Community",
     "link": "https://dev.to/allenarduino/getform-is-now-forminit-what-changed-and-what-it-means-for-your-forms-1bcm",
     "description": "If you have been using Getform and recently noticed things look different, you are not imagining...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F111nghge0cdwgrecomti.png",
+    "datetimestamp": "2026-04-27T23:43:28",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Getform Is Now Forminit: What Changed and What It Means for Your Forms - DEV Community",
+    "link": "https://dev.to/allenarduino/getform-is-now-forminit-what-changed-and-what-it-means-for-your-forms-1bcm",
+    "description": "If you have been using Getform and recently noticed things look different, you are not imagining...",
     "image": "images/261409d78597eb64ce27893239f7fbd0.webp",
     "datetimestamp": "2026-04-27T23:43:28",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Firebase lock-in is a ticking time bomb. Here is the architectural escape hatch. - DEV Community",
+    "link": "https://dev.to/samuelrecio/firebase-lock-in-is-a-ticking-time-bomb-here-is-the-architectural-escape-hatch-19k4",
+    "description": "Firebase is the ultimate honey trap. It gives you incredible speed on day one, and makes it...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcvqwjpcxj236je0k6j0a.png",
+    "datetimestamp": "2026-04-27T20:42:35",
     "source": "Backend News",
     "category": "Backend"
   },
@@ -57,8 +129,26 @@
     "title": "Session-Based vs JWT Authentication: A Practical Guide - DEV Community",
     "link": "https://dev.to/menga_wanji/session-based-vs-jwt-authentication-a-practical-guide-5di9",
     "description": "1. The Problem Both Approaches Solve   HTTP is a stateless protocol. Every request your...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnmafs2uizhfhtzfieysz.jpg",
+    "datetimestamp": "2026-04-27T20:21:06",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Session-Based vs JWT Authentication: A Practical Guide - DEV Community",
+    "link": "https://dev.to/menga_wanji/session-based-vs-jwt-authentication-a-practical-guide-5di9",
+    "description": "1. The Problem Both Approaches Solve   HTTP is a stateless protocol. Every request your...",
     "image": "images/6eae418da89182c1156f609afc06d14f.webp",
     "datetimestamp": "2026-04-27T20:21:06",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Rust's Zero-Cost Abstractions, What Monomorphization Actually Does to Your Code - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/rusts-zero-cost-abstractions-what-monomorphization-actually-does-to-your-code-5dim",
+    "description": "\"Zero-cost abstractions\" is one of Rust's core promises. You can write generic, composable,...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg894o98s8v26w5cuiyb8.png",
+    "datetimestamp": "2026-04-27T20:07:12",
     "source": "Backend News",
     "category": "Backend"
   },
@@ -75,6 +165,15 @@
     "title": "Python's Descriptor Protocol, The Feature Behind Everything You Use Daily - DEV Community",
     "link": "https://dev.to/shayan_holakouee/pythons-descriptor-protocol-the-feature-behind-everything-you-use-daily-1817",
     "description": "You use descriptors every day. Every time you write @property, every time you call a method, every...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh6fnhqrrjsw3shwrcujz.png",
+    "datetimestamp": "2026-04-27T20:02:35",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Python's Descriptor Protocol, The Feature Behind Everything You Use Daily - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/pythons-descriptor-protocol-the-feature-behind-everything-you-use-daily-1817",
+    "description": "You use descriptors every day. Every time you write @property, every time you call a method, every...",
     "image": "images/dd90f5a0cf54472b83584d64c98e9152.webp",
     "datetimestamp": "2026-04-27T20:02:35",
     "source": "Backend News",
@@ -84,8 +183,26 @@
     "title": "The Go Memory Model, Why Your Concurrent Code Might Be Lying to - DEV Community",
     "link": "https://dev.to/shayan_holakouee/the-go-memory-model-why-your-concurrent-code-might-be-lying-to-ab8",
     "description": "You write two goroutines. One sets a variable, the other reads it. You run it a thousand times and it...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6t95a0aj1rzfksv67dn6.webp",
+    "datetimestamp": "2026-04-27T19:58:42",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Go Memory Model, Why Your Concurrent Code Might Be Lying to - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/the-go-memory-model-why-your-concurrent-code-might-be-lying-to-ab8",
+    "description": "You write two goroutines. One sets a variable, the other reads it. You run it a thousand times and it...",
     "image": "images/f47348b3e7e0ac697aac4d5491cf430a.webp",
     "datetimestamp": "2026-04-27T19:58:42",
+    "source": "Backend News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building Verifiable Chain-of-Custody Reports for Audits - DEV Community",
+    "link": "https://dev.to/beefedai/building-verifiable-chain-of-custody-reports-for-audits-5c4e",
+    "description": "Produce verifiable chain-of-custody reports using hash chains, signatures, and metadata. Provides auditor-ready packages and reproducible evidence.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fbeefed.ai%2Fimages%2Farticles%2Fkyra-the-backend-engineer-compliance-data-services%2Fchain-of-custody-reporting-audits.webp",
+    "datetimestamp": "2026-04-27T19:18:50",
     "source": "Backend News",
     "category": "Backend"
   },
@@ -104,16 +221,6 @@
     "description": "Introduction   Most Python APIs work perfectly in development\u2014and fail in production.  The...",
     "image": "images/28b2bda3640ccd01d38da32a32479ffd.webp",
     "datetimestamp": "2026-04-27T18:18:28",
-    "source": "Backend News",
-    "category": "Backend"
-  }
-][
-  {
-    "title": "Event-Driven Architecture for Healthcare: Syncing Scheduling & Billing - DEV Community",
-    "link": "https://dev.to/seafluxtechnologies/event-driven-architecture-for-healthcare-syncing-scheduling-billing-1bh4",
-    "description": "If you have worked on healthcare systems\u2026 then you have probably run into this.  A shift gets updated...",
-    "image": "images/32eb7ff88819f1ce2763585e1bfc0111.webp",
-    "datetimestamp": "2026-04-28T05:40:49",
     "source": "Backend News",
     "category": "Backend"
   }

@@ -1,10 +1,55 @@
 [
   {
+    "title": "AWS Production-Ready: Beyond the \"Hello World\" Infrastructure - DEV Community",
+    "link": "https://dev.to/patriciolumbe_cloud/aws-production-ready-beyond-the-hello-world-infrastructure-oib",
+    "description": "Most portfolios show a single instance. Real production requires layers. I built this project to...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn2b2lq8rqh2btr4nrkl2.png",
+    "datetimestamp": "2026-04-28T06:04:31",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How long does it take to migrate a legacy system to the cloud? - DEV Community",
+    "link": "https://dev.to/nico_gonzalez_ad503dc2c04/how-long-does-it-take-to-migrate-a-legacy-system-to-the-cloud-59ma",
+    "description": "Every enterprise asking about cloud migration eventually asks the same question first:  \"How long is...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F08ypxnyo6jnvkohxj9pf.png",
+    "datetimestamp": "2026-04-28T05:48:46",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How long does it take to migrate a legacy system to the cloud? - DEV Community",
+    "link": "https://dev.to/nico_gonzalez_ad503dc2c04/how-long-does-it-take-to-migrate-a-legacy-system-to-the-cloud-59ma",
+    "description": "Every enterprise asking about cloud migration eventually asks the same question first:  \"How long is...",
+    "image": "images/c93d773b369472050eb8fca77015f542.webp",
+    "datetimestamp": "2026-04-28T05:48:46",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "We Ditched Splunk for Datadog 7.45 and Splunk Cloud: 35% Lower Costs - DEV Community",
+    "link": "https://dev.to/johalputt/we-ditched-splunk-for-datadog-745-and-splunk-cloud-35-lower-costs-3g7p",
+    "description": "After 18 months of running a hybrid observability stack with on-prem Splunk Enterprise 9.1 and Splunk...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdz95uf2c77ewkgyth4vi.png",
+    "datetimestamp": "2026-04-28T03:43:35",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
     "title": "We Ditched Splunk for Datadog 7.45 and Splunk Cloud: 35% Lower Costs - DEV Community",
     "link": "https://dev.to/johalputt/we-ditched-splunk-for-datadog-745-and-splunk-cloud-35-lower-costs-3g7p",
     "description": "After 18 months of running a hybrid observability stack with on-prem Splunk Enterprise 9.1 and Splunk...",
     "image": "images/4dd4ed92d4659bbdd78574050f028f04.webp",
     "datetimestamp": "2026-04-28T03:43:35",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Building a No-Install AI Upscaler: Leveraging Cloud GPUs for Seamless Image Processing - DEV Community",
+    "link": "https://dev.to/go_hard_lab/building-a-no-install-ai-upscaler-leveraging-cloud-gpus-for-seamless-image-processing-6co",
+    "description": "Why should high-end AI be limited to those with high-end rigs?  I recently developed GoHard AI...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftmb3yaosvcaivsnw8zmz.png",
+    "datetimestamp": "2026-04-28T01:21:20",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   },
@@ -21,8 +66,26 @@
     "title": "Benchmark: Wiz 3 vs. Orca Security 2 for Cloud Workload Protection Platform (CWPP) Latency and Accuracy - DEV Community",
     "link": "https://dev.to/johalputt/benchmark-wiz-3-vs-orca-security-2-for-cloud-workload-protection-platform-cwpp-latency-and-jbe",
     "description": "In a 12-week production benchmark across 14,000+ cloud workloads, Wiz 3 reduced CWPP scan latency by...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzw7dmes1mwz4w5dvco4m.png",
+    "datetimestamp": "2026-04-28T01:11:30",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Benchmark: Wiz 3 vs. Orca Security 2 for Cloud Workload Protection Platform (CWPP) Latency and Accuracy - DEV Community",
+    "link": "https://dev.to/johalputt/benchmark-wiz-3-vs-orca-security-2-for-cloud-workload-protection-platform-cwpp-latency-and-jbe",
+    "description": "In a 12-week production benchmark across 14,000+ cloud workloads, Wiz 3 reduced CWPP scan latency by...",
     "image": "images/499f79f3cc2eab653c50ab9558f7b2e1.webp",
     "datetimestamp": "2026-04-28T01:11:30",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "I Built a SaaS Platform From Scratch. Here's How I Architected It on AWS. - DEV Community",
+    "link": "https://dev.to/suletete/i-built-a-saas-platform-from-scratch-heres-how-i-architected-it-on-aws-5li",
+    "description": "So I've been working on something for a while now. It's called TechVerse. It's a SaaS e-commerce...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F92kwc3q61t1f9x94kcra.jpeg",
+    "datetimestamp": "2026-04-28T00:03:29",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   },
@@ -39,8 +102,26 @@
     "title": "AWS Certification: Which One First? A Practical Path - DEV Community",
     "link": "https://dev.to/juan_diegoisazaa_5362a/aws-certification-which-one-first-a-practical-path-1hic",
     "description": "Not sure which AWS certification to take first? Use this practical framework to pick Cloud Practitioner vs SAA vs Developer/SysOps\u2014with a mini lab.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsm6ozr8sa17h86yhwul8.png",
+    "datetimestamp": "2026-04-27T23:53:18",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Certification: Which One First? A Practical Path - DEV Community",
+    "link": "https://dev.to/juan_diegoisazaa_5362a/aws-certification-which-one-first-a-practical-path-1hic",
+    "description": "Not sure which AWS certification to take first? Use this practical framework to pick Cloud Practitioner vs SAA vs Developer/SysOps\u2014with a mini lab.",
     "image": "images/bf3a79d661e8cec78b66f3b223cb7c13.webp",
     "datetimestamp": "2026-04-27T23:53:18",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Salesforce Data Cloud Zero Copy: A Practical Guide - DEV Community",
+    "link": "https://dev.to/dipojjal/salesforce-data-cloud-zero-copy-a-practical-guide-3ei7",
+    "description": "Salesforce Data Cloud Zero Copy: A Practical Guide     If you've spent any time around...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9l64jahr1c5s9c6zgmf0.png",
+    "datetimestamp": "2026-04-27T23:07:03",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   },
@@ -57,8 +138,26 @@
     "title": "How to Reduce Cloud Security Risks by 50% with AWS Config 5 and Azure Policy 8 for Compliance - DEV Community",
     "link": "https://dev.to/johalputt/how-to-reduce-cloud-security-risks-by-50-with-aws-config-5-and-azure-policy-8-for-compliance-nce",
     "description": "What You\u2019ll Build   By the end of this tutorial, you will have:     An automated AWS Config...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgx09jwibapg7cggyonpc.png",
+    "datetimestamp": "2026-04-27T21:55:00",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to Reduce Cloud Security Risks by 50% with AWS Config 5 and Azure Policy 8 for Compliance - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-reduce-cloud-security-risks-by-50-with-aws-config-5-and-azure-policy-8-for-compliance-nce",
+    "description": "What You\u2019ll Build   By the end of this tutorial, you will have:     An automated AWS Config...",
     "image": "images/f42b23aa3e5bea4b5ad6dce8b0888847.webp",
     "datetimestamp": "2026-04-27T21:55:00",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Claude API Pricing Hikes, Code Model Configs, & Opus 4.6 Vulnerability Discovery - DEV Community",
+    "link": "https://dev.to/soytuber/claude-api-pricing-hikes-code-model-configs-opus-46-vulnerability-discovery-52bg",
+    "description": "Claude API Pricing Hikes, Code Model Configs, &amp; Opus 4.6 Vulnerability Discovery        ...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnpr0sieys9io5mzsxyia.png",
+    "datetimestamp": "2026-04-27T21:34:41",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   },
@@ -75,8 +174,26 @@
     "title": "Database Optimization for VPS-Hosted Applications - DEV Community",
     "link": "https://dev.to/big_mazzy_06d057cc24398c5/database-optimization-for-vps-hosted-applications-bg",
     "description": "Are you experiencing slow query times or struggling with database performance on your Virtual Private...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Falvpykgw8wim1tiqn8zp.png",
+    "datetimestamp": "2026-04-27T19:00:11",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Database Optimization for VPS-Hosted Applications - DEV Community",
+    "link": "https://dev.to/big_mazzy_06d057cc24398c5/database-optimization-for-vps-hosted-applications-bg",
+    "description": "Are you experiencing slow query times or struggling with database performance on your Virtual Private...",
     "image": "images/75d93d13ba2bb5716b7e5ef14a14e3c2.webp",
     "datetimestamp": "2026-04-27T19:00:11",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cross-Cloud AI Swarms: VPC Peering vs. Transit Gateways vs. Pilot Protocol - DEV Community",
+    "link": "https://dev.to/pstayet/cross-cloud-ai-swarms-vpc-peering-vs-transit-gateways-vs-pilot-protocol-3cm2",
+    "description": "Distributing multi-agent systems across multiple cloud providers is increasingly standard practice as...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2609crjg7algoqynq5lv.png",
+    "datetimestamp": "2026-04-27T18:42:46",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   },
@@ -104,16 +221,6 @@
     "description": "### what is Azure storage  Azure Storage is a cloud storage service by Microsoft used to store large...",
     "image": "images/e762de6e5e648e8db15faa91ec1b268e.webp",
     "datetimestamp": "2026-04-27T15:46:32",
-    "source": "Devto Cloud",
-    "category": "Cloud & DevOps"
-  }
-][
-  {
-    "title": "How long does it take to migrate a legacy system to the cloud? - DEV Community",
-    "link": "https://dev.to/nico_gonzalez_ad503dc2c04/how-long-does-it-take-to-migrate-a-legacy-system-to-the-cloud-59ma",
-    "description": "Every enterprise asking about cloud migration eventually asks the same question first:  \"How long is...",
-    "image": "images/c93d773b369472050eb8fca77015f542.webp",
-    "datetimestamp": "2026-04-28T05:48:46",
     "source": "Devto Cloud",
     "category": "Cloud & DevOps"
   }

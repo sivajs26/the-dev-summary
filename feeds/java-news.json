@@ -1,10 +1,100 @@
 [
   {
+    "title": "How to Test Whether Your Software Solution Actually Fits The Problem - DEV Community",
+    "link": "https://dev.to/leonpennings/how-to-test-whether-your-software-solution-actually-fits-the-problem-c85",
+    "description": "Every application is built once.  There is no second version of the same system, built with different...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyqki29156ew2sqlgim7f.jpg",
+    "datetimestamp": "2026-04-28T06:04:11",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "How to Test Whether Your Software Solution Actually Fits The Problem - DEV Community",
+    "link": "https://dev.to/leonpennings/how-to-test-whether-your-software-solution-actually-fits-the-problem-c85",
+    "description": "Every application is built once.  There is no second version of the same system, built with different...",
+    "image": "images/99fcad87d49b9c42ca0306de5b6366c0.webp",
+    "datetimestamp": "2026-04-28T06:04:11",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows - DEV Community",
+    "link": "https://dev.to/machinecodingmaster/stop-burning-tokens-mastering-jep-480-structured-concurrency-for-agentic-workflows-1a1a",
+    "description": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows   In...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fii6ieuyow6unm6cn36vw.png",
+    "datetimestamp": "2026-04-28T05:45:53",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows - DEV Community",
+    "link": "https://dev.to/machinecodingmaster/stop-burning-tokens-mastering-jep-480-structured-concurrency-for-agentic-workflows-1a1a",
+    "description": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows   In...",
+    "image": "images/845575331f91622978ebfa66856b6ff4.webp",
+    "datetimestamp": "2026-04-28T05:45:53",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 #09: Demystifying Reference Types - DEV Community",
+    "link": "https://dev.to/hannalog/09-demystifying-reference-types-3f84",
+    "description": "Curriculum: Hon-Gong-Ja (Java for Self-Study) Chapters: Chapter 05 (Sec 01, 02, 03) Duration:...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzungbnpcisvkck5k46kv.png",
+    "datetimestamp": "2026-04-28T05:43:29",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 #09: Demystifying Reference Types - DEV Community",
+    "link": "https://dev.to/hannalog/09-demystifying-reference-types-3f84",
+    "description": "Curriculum: Hon-Gong-Ja (Java for Self-Study) Chapters: Chapter 05 (Sec 01, 02, 03) Duration:...",
+    "image": "images/76b9616a7c453aae4906fa8409b391c6.webp",
+    "datetimestamp": "2026-04-28T05:43:29",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "#08, It's Not That Hard~ Conditionals and Loops (Chapter 04, Sec 01, 02) - DEV Community",
+    "link": "https://dev.to/hannalog/08-its-not-that-hard-conditionals-and-loops-chapter-04-sec-01-02-1joa",
+    "description": "Textbook: Self-Study Java (by Shin Yong-kwon)  Sections: Chapter 04 Sec 01, Sec 02, Chapter Review...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk58din83l1fakyjujn67.png",
+    "datetimestamp": "2026-04-28T05:35:07",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "#08, It's Not That Hard~ Conditionals and Loops (Chapter 04, Sec 01, 02) - DEV Community",
+    "link": "https://dev.to/hannalog/08-its-not-that-hard-conditionals-and-loops-chapter-04-sec-01-02-1joa",
+    "description": "Textbook: Self-Study Java (by Shin Yong-kwon)  Sections: Chapter 04 Sec 01, Sec 02, Chapter Review...",
+    "image": "images/a0952ddd2a03df85588986d755a8d4dd.webp",
+    "datetimestamp": "2026-04-28T05:35:07",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Java Backend Roadmap 2026 and BPM Training with Camunda 8 - DEV Community",
+    "link": "https://dev.to/nirankari/java-backend-roadmap-2026-and-bpm-training-with-camunda-8-3hec",
+    "description": "Planning your backend career or team training?  In this guide:  \ud83d\ude80 Java Backend Roadmap  Spring...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvrslymvw254cw1mbxhhk.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
     "title": "Java Backend Roadmap 2026 and BPM Training with Camunda 8 - DEV Community",
     "link": "https://dev.to/nirankari/java-backend-roadmap-2026-and-bpm-training-with-camunda-8-3hec",
     "description": "Planning your backend career or team training?  In this guide:  \ud83d\ude80 Java Backend Roadmap  Spring...",
     "image": "images/c1e7a9777b38db1c93f7d54b41f4b7a0.webp",
     "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Combining PDF Documents with Java: A Hands-On Guide - DEV Community",
+    "link": "https://dev.to/yahey/combining-pdf-documents-with-java-a-hands-on-guide-459d",
+    "description": "Merging PDF documents is a fundamental operation in many document management workflows. Whether...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi67fn7amf13qmfgmklv2.png",
+    "datetimestamp": "2026-04-28T02:06:05",
     "source": "Java News",
     "category": "Backend"
   },
@@ -21,8 +111,26 @@
     "title": "Stop Rewriting CI/CD: Reusable GitHub Actions for Maven Projects - DEV Community",
     "link": "https://dev.to/czetsuya/stop-rewriting-cicd-reusable-github-actions-for-maven-projects-1bp1",
     "description": "If you\u2019ve worked on multiple Java projects, you\u2019ve probably run into this:  Every repository has its...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9a6yjg0foyg9f4ug4i4v.png",
+    "datetimestamp": "2026-04-28T00:36:48",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Rewriting CI/CD: Reusable GitHub Actions for Maven Projects - DEV Community",
+    "link": "https://dev.to/czetsuya/stop-rewriting-cicd-reusable-github-actions-for-maven-projects-1bp1",
+    "description": "If you\u2019ve worked on multiple Java projects, you\u2019ve probably run into this:  Every repository has its...",
     "image": "images/966fc05e7b058be00d9af12cdd2adcab.webp",
     "datetimestamp": "2026-04-28T00:36:48",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "can some one help - DEV Community",
+    "link": "https://dev.to/minecraft_lover_2005/can-some-one-help-19j1",
+    "description": "Can someone give me a good game development sight. I really need one to finish my game",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0lgp7w0r86rqr02nhdvc.png",
+    "datetimestamp": "2026-04-27T19:40:17",
     "source": "Java News",
     "category": "Backend"
   },
@@ -39,8 +147,26 @@
     "title": "can some one help - DEV Community",
     "link": "https://dev.to/minecraft_lover_2005/can-some-one-help-3apb",
     "description": "can some one give me a good game dev sight. I really need one",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F30bqyysjxwguh7646s1e.png",
+    "datetimestamp": "2026-04-27T19:27:03",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "can some one help - DEV Community",
+    "link": "https://dev.to/minecraft_lover_2005/can-some-one-help-3apb",
+    "description": "can some one give me a good game dev sight. I really need one",
     "image": "images/9f9318ed3a859426e147d46a6ba631e4.webp",
     "datetimestamp": "2026-04-27T19:27:03",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "I Rebuilt the Core of My Data Engine \u2014 Here's What Changed in v1.3.0 - DEV Community",
+    "link": "https://dev.to/bingulhan/i-rebuilt-the-core-of-my-data-engine-heres-what-changed-in-v130-35od",
+    "description": "I Rebuilt the Core of My Data Engine \u2014 Here's What Changed in v1.3.0            What is...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftxm9u333iduxwk10wt1i.png",
+    "datetimestamp": "2026-04-27T16:44:52",
     "source": "Java News",
     "category": "Backend"
   },
@@ -57,8 +183,26 @@
     "title": "Pattern: Matrix Manupulation - DEV Community",
     "link": "https://dev.to/prashantrmishra/pattern-matrix-manupulation-2pm8",
     "description": "Matrix manipulation involves, matrix traversal and manipulation based on matrix properties Example:...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv5o4r90a66b684fjb20s.png",
+    "datetimestamp": "2026-04-27T16:27:18",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Pattern: Matrix Manupulation - DEV Community",
+    "link": "https://dev.to/prashantrmishra/pattern-matrix-manupulation-2pm8",
+    "description": "Matrix manipulation involves, matrix traversal and manipulation based on matrix properties Example:...",
     "image": "images/99e1cea7e538f8dfb460563e9f031b6b.webp",
     "datetimestamp": "2026-04-27T16:27:18",
+    "source": "Java News",
+    "category": "Backend"
+  },
+  {
+    "title": "Pattern: Reverse LinkedList - DEV Community",
+    "link": "https://dev.to/prashantrmishra/pattern-reverse-linkedlist-4c5e",
+    "description": "Reverse a LinkedList    /**  * Definition for singly-linked list.  * public class ListNode {  *    ...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frwb67i4n8qw92bvdea3t.png",
+    "datetimestamp": "2026-04-27T16:16:14",
     "source": "Java News",
     "category": "Backend"
   },
@@ -104,43 +248,6 @@
     "description": "# \ud83d\ude80 WebVirt: Load your SPA in Android WebView with just 3 lines of code  Tired of writing 100+ lines...",
     "image": "images/4701a0c1fb0d401710d472bcac4c65f0.webp",
     "datetimestamp": "2026-04-27T14:02:38",
-    "source": "Java News",
-    "category": "Backend"
-  }
-][
-  {
-    "title": "How to Test Whether Your Software Solution Actually Fits The Problem - DEV Community",
-    "link": "https://dev.to/leonpennings/how-to-test-whether-your-software-solution-actually-fits-the-problem-c85",
-    "description": "Every application is built once.  There is no second version of the same system, built with different...",
-    "image": "images/99fcad87d49b9c42ca0306de5b6366c0.webp",
-    "datetimestamp": "2026-04-28T06:04:11",
-    "source": "Java News",
-    "category": "Backend"
-  },
-  {
-    "title": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows - DEV Community",
-    "link": "https://dev.to/machinecodingmaster/stop-burning-tokens-mastering-jep-480-structured-concurrency-for-agentic-workflows-1a1a",
-    "description": "Stop Burning Tokens: Mastering JEP 480 Structured Concurrency for Agentic Workflows   In...",
-    "image": "images/845575331f91622978ebfa66856b6ff4.webp",
-    "datetimestamp": "2026-04-28T05:45:53",
-    "source": "Java News",
-    "category": "Backend"
-  },
-  {
-    "title": "\ud83d\ude80 #09: Demystifying Reference Types - DEV Community",
-    "link": "https://dev.to/hannalog/09-demystifying-reference-types-3f84",
-    "description": "Curriculum: Hon-Gong-Ja (Java for Self-Study) Chapters: Chapter 05 (Sec 01, 02, 03) Duration:...",
-    "image": "images/76b9616a7c453aae4906fa8409b391c6.webp",
-    "datetimestamp": "2026-04-28T05:43:29",
-    "source": "Java News",
-    "category": "Backend"
-  },
-  {
-    "title": "#08, It's Not That Hard~ Conditionals and Loops (Chapter 04, Sec 01, 02) - DEV Community",
-    "link": "https://dev.to/hannalog/08-its-not-that-hard-conditionals-and-loops-chapter-04-sec-01-02-1joa",
-    "description": "Textbook: Self-Study Java (by Shin Yong-kwon)  Sections: Chapter 04 Sec 01, Sec 02, Chapter Review...",
-    "image": "images/a0952ddd2a03df85588986d755a8d4dd.webp",
-    "datetimestamp": "2026-04-28T05:35:07",
     "source": "Java News",
     "category": "Backend"
   }

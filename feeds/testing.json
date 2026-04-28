@@ -1,10 +1,46 @@
 [
   {
+    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
+    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
+    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzjigm99khvscmdir5y1h.png",
+    "datetimestamp": "2026-04-28T05:58:11",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
+    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
+    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
+    "image": "images/3cdf045c0941de843294e86e0d000a11.webp",
+    "datetimestamp": "2026-04-28T05:58:11",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
+    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
+    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fukqlgn56rozgr4m6av8b.png",
+    "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
     "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
     "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
     "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
     "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
     "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "I Tested My Workspace Rules for 7 Days \u2014 Here\u2019s What Actually Changed - DEV Community",
+    "link": "https://dev.to/healingjewelrydaily/i-tested-my-workspace-rules-for-7-days-heres-what-actually-changed-4lbj",
+    "description": "After defining three simple rules to optimize my workspace, I wanted to test something:  Do these...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn2mncaycs65juj01my75.png",
+    "datetimestamp": "2026-04-28T03:26:54",
     "source": "Testing",
     "category": "Testing"
   },
@@ -21,8 +57,26 @@
     "title": "Step-by-Step Guide: Set Up Unit Testing with Jest 30, React 19, and TypeScript 5.6 - DEV Community",
     "link": "https://dev.to/johalputt/step-by-step-guide-set-up-unit-testing-with-jest-30-react-19-and-typescript-56-1p9k",
     "description": "In 2024, 68% of React teams report wasted sprint time debugging untested components, with TypeScript...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F88p516tunaay001tjpyz.png",
+    "datetimestamp": "2026-04-28T02:56:19",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "Step-by-Step Guide: Set Up Unit Testing with Jest 30, React 19, and TypeScript 5.6 - DEV Community",
+    "link": "https://dev.to/johalputt/step-by-step-guide-set-up-unit-testing-with-jest-30-react-19-and-typescript-56-1p9k",
+    "description": "In 2024, 68% of React teams report wasted sprint time debugging untested components, with TypeScript...",
     "image": "images/86719d52db34bd473711341e21ae4e50.webp",
     "datetimestamp": "2026-04-28T02:56:19",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "5 Things AI Can't Do, Even in React Testing Library - DEV Community",
+    "link": "https://dev.to/devunionx/5-things-ai-cant-do-even-in-react-testing-library-34o1",
+    "description": "I Spent Three Years Writing the Wrong React Tests. Here's What I Wish Someone Had Told...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1bo53c9b1lav4mvabi3l.png",
+    "datetimestamp": "2026-04-28T02:02:29",
     "source": "Testing",
     "category": "Testing"
   },
@@ -39,8 +93,26 @@
     "title": "How to Implement Testing with Playwright 1.45 and React 19 - DEV Community",
     "link": "https://dev.to/johalputt/how-to-implement-testing-with-playwright-145-and-react-19-c4f",
     "description": "\\n  React 19\u2019s concurrent rendering and Server Components cut time-to-interactive by 32% in our...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5i12tdky1c8gyqc2ttyx.png",
+    "datetimestamp": "2026-04-28T01:52:28",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "How to Implement Testing with Playwright 1.45 and React 19 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-implement-testing-with-playwright-145-and-react-19-c4f",
+    "description": "\\n  React 19\u2019s concurrent rendering and Server Components cut time-to-interactive by 32% in our...",
     "image": "images/23658dcbcd95b6b0e11e3878ef8d9f1b.webp",
     "datetimestamp": "2026-04-28T01:52:28",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "The SocialCraft AI Rendering Lifecycle: From Prompt to MP4 - DEV Community",
+    "link": "https://dev.to/dwelvin_morgan_38be4ff3ba/the-socialcraft-ai-rendering-lifecycle-from-prompt-to-mp4-4ka1",
+    "description": "1. Introduction: The Programmatic Cinema Paradigm In traditional post-production, video editing is a...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgjtknu1drigs8hq639hh.png",
+    "datetimestamp": "2026-04-28T00:51:07",
     "source": "Testing",
     "category": "Testing"
   },
@@ -57,8 +129,26 @@
     "title": "Your Prompt Is Not Enough. Add a Gate. - DEV Community",
     "link": "https://dev.to/gitautoai/your-prompt-is-not-enough-add-a-gate-2428",
     "description": "A single prompt instruction loses to the rest of the prompt's bias. Programmatic quality gates enforce what prompts suggest.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fgitauto.ai%2Fog%2Fblog%2Fprompts-need-gates.png",
+    "datetimestamp": "2026-04-28T00:05:34",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "Your Prompt Is Not Enough. Add a Gate. - DEV Community",
+    "link": "https://dev.to/gitautoai/your-prompt-is-not-enough-add-a-gate-2428",
+    "description": "A single prompt instruction loses to the rest of the prompt's bias. Programmatic quality gates enforce what prompts suggest.",
     "image": "images/0be9923f4a6ab49637627e6b5da7b2e8.webp",
     "datetimestamp": "2026-04-28T00:05:34",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "LLM Drift: Why Your AI Detection Pipeline is Quietly Decaying (Kimi K2 Benchmark) - DEV Community",
+    "link": "https://dev.to/thoams_aidetection/llm-drift-why-your-ai-detection-pipeline-is-quietly-decaying-kimi-k2-benchmark-3gml",
+    "description": "A short field report on what current AI detectors actually do when you point them at frontier...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F51f5bt9u3gfso03wncrx.png",
+    "datetimestamp": "2026-04-27T21:09:02",
     "source": "Testing",
     "category": "Testing"
   },
@@ -75,6 +165,15 @@
     "title": "How to Test a Mechanical Keyboard for Ghosting and N-Key Rollover (Without Buying Software) - DEV Community",
     "link": "https://dev.to/nasirazizawan/how-to-test-a-mechanical-keyboard-for-ghosting-and-n-key-rollover-without-buying-software-340j",
     "description": "A practical guide to diagnosing keyboard ghosting and measuring N-key rollover using only your browser. Includes the matrix-scanning theory, real key combos to try, and how to interpret the results.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj1fzof6igpgecxe9dyy3.png",
+    "datetimestamp": "2026-04-27T19:26:45",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "How to Test a Mechanical Keyboard for Ghosting and N-Key Rollover (Without Buying Software) - DEV Community",
+    "link": "https://dev.to/nasirazizawan/how-to-test-a-mechanical-keyboard-for-ghosting-and-n-key-rollover-without-buying-software-340j",
+    "description": "A practical guide to diagnosing keyboard ghosting and measuring N-key rollover using only your browser. Includes the matrix-scanning theory, real key combos to try, and how to interpret the results.",
     "image": "images/ec3a2082533cce94b5fd28078d32703d.webp",
     "datetimestamp": "2026-04-27T19:26:45",
     "source": "Testing",
@@ -84,8 +183,26 @@
     "title": "Testing AI Systems in Production: From LLM Evals to Agent Reliability - DEV Community",
     "link": "https://dev.to/inferencedaily/testing-ai-systems-in-production-from-llm-evals-to-agent-reliability-23l0",
     "description": "I am tired of seeing product managers celebrate a \"smooth\" deployment of an LLM feature that is...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnx4xgzhnq6996p85wtr6.png",
+    "datetimestamp": "2026-04-27T19:23:21",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "Testing AI Systems in Production: From LLM Evals to Agent Reliability - DEV Community",
+    "link": "https://dev.to/inferencedaily/testing-ai-systems-in-production-from-llm-evals-to-agent-reliability-23l0",
+    "description": "I am tired of seeing product managers celebrate a \"smooth\" deployment of an LLM feature that is...",
     "image": "images/ed90c76460a7c6f425f5a860e8298062.webp",
     "datetimestamp": "2026-04-27T19:23:21",
+    "source": "Testing",
+    "category": "Testing"
+  },
+  {
+    "title": "The Hidden Cost of AI Coding: Technical Debt You Can't See - DEV Community",
+    "link": "https://dev.to/maishsk/the-hidden-cost-of-ai-coding-technical-debt-you-cant-see-1767",
+    "description": "I had an interesting conversation with a colleague a few weeks ago. He was looking at his team's...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcmnfv0g555oh0t08lfip.png",
+    "datetimestamp": "2026-04-27T18:41:41",
     "source": "Testing",
     "category": "Testing"
   },
@@ -104,16 +221,6 @@
     "description": "Introduction Robot Framework is one of the most widely adopted open-source test automation frameworks...",
     "image": "images/cc15921bbf23e948ed7b8703d540bc53.webp",
     "datetimestamp": "2026-04-27T18:16:40",
-    "source": "Testing",
-    "category": "Testing"
-  }
-][
-  {
-    "title": "Testing a Filesystem Service with memfs + FakeWatchService: No Disk Required - DEV Community",
-    "link": "https://dev.to/recca0120/testing-a-filesystem-service-with-memfs-fakewatchservice-no-disk-required-4d8j",
-    "description": "A deep dive into testing a filesystem service using memfs to replace fs and a hand-written Fake to replace chokidar, making filesystem tests fast, deterministic, and security-aware.",
-    "image": "images/3cdf045c0941de843294e86e0d000a11.webp",
-    "datetimestamp": "2026-04-28T05:58:11",
     "source": "Testing",
     "category": "Testing"
   }

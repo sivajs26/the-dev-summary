@@ -1,10 +1,46 @@
 [
   {
+    "title": "Your first Velocity app in 60 seconds - DEV Community",
+    "link": "https://dev.to/velocitykode/your-first-velocity-app-in-60-seconds-5coe",
+    "description": "Velocity is a full-stack web framework for Go. Pre-1.0 and shipping in public. vel.build.           ...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd1wksmdljp0hpt287wsw.png",
+    "datetimestamp": "2026-04-28T06:03:05",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your first Velocity app in 60 seconds - DEV Community",
+    "link": "https://dev.to/velocitykode/your-first-velocity-app-in-60-seconds-5coe",
+    "description": "Velocity is a full-stack web framework for Go. Pre-1.0 and shipping in public. vel.build.           ...",
+    "image": "images/8ecaba9de64b1699c6a3d51da8acb0ad.webp",
+    "datetimestamp": "2026-04-28T06:03:05",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "I added voice messages to my self-hosted AI agent, for free - DEV Community",
+    "link": "https://dev.to/lucasnevespereira/i-added-voice-messages-to-my-self-hosted-ai-agent-for-free-7pc",
+    "description": "Hello there!  I've been building a small personal AI agent called nevinho. It lives in my Discord DMs...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw7hl28qz97f0n03yczow.png",
+    "datetimestamp": "2026-04-27T22:15:01",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
     "title": "I added voice messages to my self-hosted AI agent, for free - DEV Community",
     "link": "https://dev.to/lucasnevespereira/i-added-voice-messages-to-my-self-hosted-ai-agent-for-free-7pc",
     "description": "Hello there!  I've been building a small personal AI agent called nevinho. It lives in my Discord DMs...",
     "image": "images/c35c3e9f0492c7182f41943e879a8f86.webp",
     "datetimestamp": "2026-04-27T22:15:01",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "I built a resume compiler in Go \u2014 write YAML, get every format - DEV Community",
+    "link": "https://dev.to/sahaabhishek/i-built-a-resume-compiler-in-go-write-yaml-get-every-format-elo",
+    "description": "I got tired of fighting Word docs and Canva templates every time I updated my resume.  Your resume is...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff5c2ku0lfdyywsmf9lfo.png",
+    "datetimestamp": "2026-04-27T21:34:48",
     "source": "Golang News",
     "category": "Backend"
   },
@@ -21,8 +57,26 @@
     "title": "The Go Memory Model, Why Your Concurrent Code Might Be Lying to - DEV Community",
     "link": "https://dev.to/shayan_holakouee/the-go-memory-model-why-your-concurrent-code-might-be-lying-to-ab8",
     "description": "You write two goroutines. One sets a variable, the other reads it. You run it a thousand times and it...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6t95a0aj1rzfksv67dn6.webp",
+    "datetimestamp": "2026-04-27T19:58:42",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Go Memory Model, Why Your Concurrent Code Might Be Lying to - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/the-go-memory-model-why-your-concurrent-code-might-be-lying-to-ab8",
+    "description": "You write two goroutines. One sets a variable, the other reads it. You run it a thousand times and it...",
     "image": "images/f47348b3e7e0ac697aac4d5491cf430a.webp",
     "datetimestamp": "2026-04-27T19:58:42",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why I built a CLI to clean up text copied out of AI coding tools - DEV Community",
+    "link": "https://dev.to/theandruu/why-i-built-a-cli-to-clean-up-text-copied-out-of-ai-coding-tools-1c4m",
+    "description": "I freqently copy output from Claude Code or GitHub Copilot CLI to store it in my personal notes for...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhy8ztdbynbxhhdenxt59.png",
+    "datetimestamp": "2026-04-27T19:41:33",
     "source": "Golang News",
     "category": "Backend"
   },
@@ -39,8 +93,26 @@
     "title": "KEIBIDROP: Secure File Transfer! - DEV Community",
     "link": "https://dev.to/mfc_keibisoft/keibidrop-secure-file-transfer-132n",
     "description": "KEIBIDROP encrypted file transfer and shared filesystem between two...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8yomyw7qikpdp7y49ey8.png",
+    "datetimestamp": "2026-04-27T15:30:09",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "KEIBIDROP: Secure File Transfer! - DEV Community",
+    "link": "https://dev.to/mfc_keibisoft/keibidrop-secure-file-transfer-132n",
+    "description": "KEIBIDROP encrypted file transfer and shared filesystem between two...",
     "image": "images/416f17e7809232af2ae5bcba68877e75.webp",
     "datetimestamp": "2026-04-27T15:30:09",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "I Detect 26 Frameworks Without AI. Here's How Deterministic File-Based Detection Works. - DEV Community",
+    "link": "https://dev.to/jonny2k26/i-detect-26-frameworks-without-ai-heres-how-deterministic-file-based-detection-works-10jh",
+    "description": "When I built Staxa, a platform that deploys isolated customer environments from source code, I needed...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fiht0251jolt5g73e17h2.png",
+    "datetimestamp": "2026-04-27T15:00:00",
     "source": "Golang News",
     "category": "Backend"
   },
@@ -57,8 +129,26 @@
     "title": "How I Built a Go WebSocket Server Handling 50,000 Clients Under 1ms Latency - DEV Community",
     "link": "https://dev.to/nithinbharathwaj/how-i-built-a-go-websocket-server-handling-50000-clients-under-1ms-latency-2hk9",
     "description": "Learn how Go's connection multiplexing and zero-copy message handling can support 50,000 concurrent WebSocket clients under 1ms latency. Read the full guide.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fjsschools.com%2Fimages%2F0138b260-56ef-4c2b-af7f-c1e6a3182cd1.webp",
+    "datetimestamp": "2026-04-27T14:36:41",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "How I Built a Go WebSocket Server Handling 50,000 Clients Under 1ms Latency - DEV Community",
+    "link": "https://dev.to/nithinbharathwaj/how-i-built-a-go-websocket-server-handling-50000-clients-under-1ms-latency-2hk9",
+    "description": "Learn how Go's connection multiplexing and zero-copy message handling can support 50,000 concurrent WebSocket clients under 1ms latency. Read the full guide.",
     "image": "images/0820ffb4c5b1d4801b5397f3f7486f44.webp",
     "datetimestamp": "2026-04-27T14:36:41",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why ERP integrations silently fail in production (and how I fixed it in Go) - DEV Community",
+    "link": "https://dev.to/girlsjustwannahavecode/why-erp-integrations-silently-fail-in-production-and-how-i-fixed-it-in-go-1gd4",
+    "description": "Most integration systems don\u2019t break immediately. They fail silently over time by corrupting your...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F54dpd5gij5ftwcoxl343.png",
+    "datetimestamp": "2026-04-27T14:00:00",
     "source": "Golang News",
     "category": "Backend"
   },
@@ -75,6 +165,15 @@
     "title": "Debugging theory solved our security triage problem - DEV Community",
     "link": "https://dev.to/bala_paranj_059d338e44e7e/debugging-theory-solved-our-security-triage-problem-g6b",
     "description": "Our security CLI produced findings engineers couldn't triage without hours of research. We applied...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcwfrff81ppj44tjnelsk.png",
+    "datetimestamp": "2026-04-27T12:43:14",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Debugging theory solved our security triage problem - DEV Community",
+    "link": "https://dev.to/bala_paranj_059d338e44e7e/debugging-theory-solved-our-security-triage-problem-g6b",
+    "description": "Our security CLI produced findings engineers couldn't triage without hours of research. We applied...",
     "image": "images/bea3bf1f6b7f6467f21902a7d1d5c9dd.webp",
     "datetimestamp": "2026-04-27T12:43:14",
     "source": "Golang News",
@@ -84,8 +183,26 @@
     "title": "\ud83d\ude80 Building a CRUD API in Go with PostgreSQL (Step-by-Step) - DEV Community",
     "link": "https://dev.to/ahmedraza_fyntune/building-a-crud-api-in-go-with-postgresql-step-by-step-2n34",
     "description": "In the previous post, we built a simple CRUD API in Go using in-memory storage.  Now let\u2019s make it...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fas19p9v7rfz1vj7ip25e.png",
+    "datetimestamp": "2026-04-27T11:09:38",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 Building a CRUD API in Go with PostgreSQL (Step-by-Step) - DEV Community",
+    "link": "https://dev.to/ahmedraza_fyntune/building-a-crud-api-in-go-with-postgresql-step-by-step-2n34",
+    "description": "In the previous post, we built a simple CRUD API in Go using in-memory storage.  Now let\u2019s make it...",
     "image": "images/f7169fd0dccad0b0421b44333e9ccfb9.webp",
     "datetimestamp": "2026-04-27T11:09:38",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "\ud83d\ude80 OathMesh v1.0.0-rc.1: Zero-Trust API Keys That Survive the Real World - DEV Community",
+    "link": "https://dev.to/mustafamahmoudatta111/oathmesh-v100-rc1-zero-trust-api-keys-that-survive-the-real-world-2hg5",
+    "description": "Replacing static API keys with 5-minute, self-destructing Ed25519 tokens sounds great\u2014until your...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwfhqei8cem8s7lglpgkw.png",
+    "datetimestamp": "2026-04-27T10:52:19",
     "source": "Golang News",
     "category": "Backend"
   },
@@ -140,16 +257,6 @@
     "description": "In the rising era of artificial intelligence and information processing speeding up everywhere, I...",
     "image": "images/1f3a666becc158ae1f367f009def417c.webp",
     "datetimestamp": "2026-04-26T20:55:59",
-    "source": "Golang News",
-    "category": "Backend"
-  }
-][
-  {
-    "title": "Your first Velocity app in 60 seconds - DEV Community",
-    "link": "https://dev.to/velocitykode/your-first-velocity-app-in-60-seconds-5coe",
-    "description": "Velocity is a full-stack web framework for Go. Pre-1.0 and shipping in public. vel.build.           ...",
-    "image": "images/8ecaba9de64b1699c6a3d51da8acb0ad.webp",
-    "datetimestamp": "2026-04-28T06:03:05",
     "source": "Golang News",
     "category": "Backend"
   }

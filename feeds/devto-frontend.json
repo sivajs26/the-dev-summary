@@ -1,5 +1,23 @@
 [
   {
+    "title": "The \"Demo-First\" Revolution: Why 2026 is the year we stop gatekeeping our products. \ud83d\udd13 - DEV Community",
+    "link": "https://dev.to/supto_khan/the-demo-first-revolution-why-2026-is-the-year-we-stop-gatekeeping-our-products-225c",
+    "description": "The \"Request a Demo\" button is becoming the most ignored element on your landing page.  In a world of...",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5b065bl0etempxvp7fb3.png",
+    "datetimestamp": "2026-04-28T06:45:05",
+    "source": "Dev.to Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Cache invalidation gets harder when the frontend belongs to more than one team - DEV Community",
+    "link": "https://dev.to/saqueib/cache-invalidation-gets-harder-when-the-frontend-belongs-to-more-than-one-team-951",
+    "description": "Cache invalidation is rarely just an implementation detail once several teams ship into the same product surface. This piece looks at how shared frontend ownership changes the problem, and why clearer freshness architecture usually matters more than clever local fixes.",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fqcode.in%2Fwp-content%2Fuploads%2F2026%2F04%2Ffull-stack-cache-invalidation-gets-political-when-teams-share-one-frontend.jpg",
+    "datetimestamp": "2026-04-28T06:31:58",
+    "source": "Dev.to Frontend",
+    "category": "Frontend"
+  },
+  {
     "title": "Boosting React Performance: A Deep Dive into Optimization Techniques - DEV Community",
     "link": "https://dev.to/techblogs/boosting-react-performance-a-deep-dive-into-optimization-techniques-mei",
     "description": "Boosting React Performance: A Deep Dive into Optimization Techniques   In the realm of...",
