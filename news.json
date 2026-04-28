@@ -1,182 +1,182 @@
 [
   {
-    "title": "Next 5 years will shape robotics future: WEF warns of diverging global paths | Technology News | Zee News",
-    "link": "https://zeenews.india.com/technology/next-5-years-will-shape-robotics-future-wef-warns-of-diverging-global-paths-3041527.html",
-    "description": "According to the WEF, in a proven deployment scenario, robotics advances steadily within structured environments like ports, logistics, and mining where outcomes are predictable.",
-    "image": "images/83af932d97f54639cb8273bd8ad6a939.webp",
-    "datetimestamp": "2026-04-27T18:29:54.748411",
-    "source": "Zeenews",
-    "category": "Tech News"
-  },
-  {
-    "title": "How AI Leaders Are Borrowing From the Design Playbook | Figma Blog",
-    "link": "https://www.figma.com/blog/how-ai-leaders-are-borrowing-from-the-design-playbook/",
-    "description": "A new class of leaders is leaning on design principles to guide their companies through AI transformation.",
-    "image": "images/00c1089fa522a56fbe421b89d1614190.webp",
-    "datetimestamp": "2026-04-27T18:28:21.532438",
+    "title": "Design Meet the Internet | Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/design-meet-the-internet/",
+    "description": "Today, after three years of silence and hard work, I finally get to announce the launch of Figma, a collaborative interface design tool. ",
+    "image": "images/22d6046629543ea4b50aeb51ffb14806.webp",
+    "datetimestamp": "2026-04-28T04:35:30.254094",
     "source": "Figma Blog",
     "category": "Design & UX"
   },
   {
-    "title": "Google Cloud release notes \u00a0|\u00a0 Google Cloud Documentation",
-    "link": "https://docs.cloud.google.com/release-notes",
-    "description": null,
-    "image": "images/a7c15f8f41cb0cdc66177828e4653020.webp",
-    "datetimestamp": "2026-04-27T18:27:42.322763",
-    "source": "Gcp Release Notes",
-    "category": "Cloud & DevOps"
-  },
-  {
-    "title": "Frontend Dogma\u2019s Global RSS Feed Is Now a Paid Feature \u00b7 Frontend Dogma",
-    "link": "https://frontenddogma.com/posts/2025/frontend-dogma-rss-feed/",
-    "description": null,
-    "image": "images/4d5fe3b927a3ffeb6caf293d638bff6b.webp",
-    "datetimestamp": "2026-04-27T18:26:35.636623",
-    "source": "Frontend Dogma",
-    "category": "Frontend"
-  },
-  {
-    "title": "\n            \n            Building real-world on-device AI with LiteRT and NPU\n            \n            \n            - Google Developers Blog\n            \n        ",
-    "link": "https://developers.googleblog.com/building-real-world-on-device-ai-with-litert-and-npu/",
-    "description": "Discover how LiteRT unlocks NPU acceleration to deliver high-performance, on-device AI for mobile, desktop, and IoT. Learn how industry leaders like Google Meet and Epic Games leverage this unified framework to achieve 25x larger models and real-time animation without sacrificing battery life or speed.",
-    "image": "images/ba9e446ae9c68e1b2af34a0a930de029.webp",
-    "datetimestamp": "2026-04-27T18:24:32.384028",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "System Design Made Simple: The Notes You\u2019ll Actually Remember | by Arnab Saha | Apr, 2026 | Medium",
-    "link": "https://thearnabsaha.medium.com/system-design-made-simple-the-notes-youll-actually-remember-bc23d9139c73",
-    "description": "Designing a system that survives real\u2011world traffic isn\u2019t a fantasy \u2014 it\u2019s a disciplined practice. Whether you\u2019re building a hobby project\u2026",
-    "image": "images/731f252d8afc2c23bda9bc2c2372207d.webp",
-    "datetimestamp": "2026-04-27T18:19:25",
-    "source": "Medium System Design",
-    "category": "System Design"
-  },
-  {
-    "title": "How to Build a Production-Ready Secure Python API (JWT, Rate Limiting, and Caching) - DEV Community",
-    "link": "https://dev.to/praiseordu/how-to-build-a-production-ready-secure-python-api-jwt-rate-limiting-and-caching-2md1",
-    "description": "Introduction   Most Python APIs work perfectly in development\u2014and fail in production.  The...",
-    "image": "images/28b2bda3640ccd01d38da32a32479ffd.webp",
-    "datetimestamp": "2026-04-27T18:18:28",
-    "source": "Backend News",
-    "category": "Backend"
-  },
-  {
-    "title": "How to Build a Production-Ready Secure Python API (JWT, Rate Limiting, and Caching) - DEV Community",
-    "link": "https://dev.to/praiseordu/how-to-build-a-production-ready-secure-python-api-jwt-rate-limiting-and-caching-2md1",
-    "description": "Introduction   Most Python APIs work perfectly in development\u2014and fail in production.  The...",
-    "image": "images/28b2bda3640ccd01d38da32a32479ffd.webp",
-    "datetimestamp": "2026-04-27T18:18:28",
-    "source": "Devto Main",
-    "category": "AI"
-  },
-  {
-    "title": "PIIGhost: a Python library for PII anonymization in LLM agents - DEV Community",
-    "link": "https://dev.to/athroniaeth/piighost-a-python-library-for-pii-anonymization-in-llm-agents-183l",
-    "description": "I've been building agents on top of LangGraph for a while now, and I keep running into the same...",
-    "image": "images/4f7be9bc545b8dadd19a252b2d256d61.webp",
-    "datetimestamp": "2026-04-27T18:18:21",
-    "source": "Devto Ai",
-    "category": "AI"
-  },
-  {
-    "title": "Trump demands ABC fire Jimmy Kimmel | The Verge",
-    "link": "https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc",
-    "description": "Melania Trump has also called for ABC to \u201ctake a stand.\u201d",
-    "image": "images/ded25d39cde7b736437fe9c99fc1ec51.webp",
-    "datetimestamp": "2026-04-27T18:18:17",
-    "source": "Verge",
-    "category": "Tech News"
-  },
-  {
-    "title": "Fixing a Hidden Infinite Loop in Robot Framework's TypeInfoParser: A Deep Dive - DEV Community",
-    "link": "https://dev.to/sudheerr937ai/fixing-a-hidden-infinite-loop-in-robot-frameworks-typeinfoparser-a-deep-dive-1eh0",
-    "description": "Introduction Robot Framework is one of the most widely adopted open-source test automation frameworks...",
-    "image": "images/cc15921bbf23e948ed7b8703d540bc53.webp",
-    "datetimestamp": "2026-04-27T18:16:40",
-    "source": "Testing",
-    "category": "Testing"
-  },
-  {
-    "title": "From React to React Native\u2026 and Now Exploring .NET - DEV Community",
-    "link": "https://dev.to/farah_kanoun_de3417fe7fd2/from-react-to-react-native-and-now-exploring-net-53b9",
-    "description": "I\u2019m a Computer Science student currently doing an internship in Tunisia. I started my journey by...",
-    "image": "images/347474f3794a3cd344228408096fed28.webp",
-    "datetimestamp": "2026-04-27T18:11:51",
-    "source": "Dev.to React",
-    "category": "Frontend"
-  },
-  {
-    "title": "Building a Moving Average Crossover Signal Engine \u2014 From Math to Code - DEV Community",
-    "link": "https://dev.to/forexcracked/building-a-moving-average-crossover-signal-engine-from-math-to-code-2n0a",
-    "description": "If you've ever wanted to build your own trading signal system, the moving average crossover is the...",
-    "image": "images/fbe78a9a4b7837698b065e2690fece62.webp",
-    "datetimestamp": "2026-04-27T18:10:09",
-    "source": "Python News",
-    "category": "Backend"
-  },
-  {
-    "title": "Making Public Transport Tickets Simple Again \u2014 A UX Case Study | by Asmae Van Dinh | Apr, 2026 | Medium",
-    "link": "https://medium.com/@asmae.vandinh/making-public-transport-tickets-simple-again-a-ux-case-study-88605a832cce",
-    "description": "Over the past few years, I\u2019ve been paying more attention to everyday frustrations people experience \u2014 especially in situations that should\u2026",
-    "image": "images/5db33ca7b3388eaf29bb164ba9b1a87d.webp",
-    "datetimestamp": "2026-04-27T18:07:06",
-    "source": "Medium Ux Design",
+    "title": "Building a professional design tool on the web | Figma Blog",
+    "link": "https://www.figma.com/blog/building-a-professional-design-tool-on-the-web/",
+    "description": "Our vision for the future of design tools is one where both the tool and the content are easily available to anyone, anywhere. ",
+    "image": "images/c82ea91a181e87fe4f1f0729577b6e8f.webp",
+    "datetimestamp": "2026-04-28T04:35:29.572116",
+    "source": "Figma Blog",
     "category": "Design & UX"
   },
   {
-    "title": "Joby Aviation is demoing 10-minute air taxi flights from JFK to Manhattan for a week",
-    "link": "https://www.engadget.com/transportation/joby-aviation-is-demoing-10-minute-air-taxi-flights-from-jfk-to-manhattan-for-a-week-180247411.html",
-    "description": "The air taxi service is expected to launch in New York, along with Texas and Florida, later this year, pending final FAA approvals.",
-    "image": "images/8059374a151be5ea446029241a6d77ee.webp",
-    "datetimestamp": "2026-04-27T18:02:47",
-    "source": "Engadget",
-    "category": "Tech News"
+    "title": "Grid Systems for Screen Design | Figma Blog",
+    "link": "https://www.figma.com/blog/grid-systems-for-screen-design/",
+    "description": "In the 1950s, a small group of Swiss designers started searching for a better way of systematizing how information was organized on the printed page. ",
+    "image": "images/0902134b561f028dfca0a0035425107b.webp",
+    "datetimestamp": "2026-04-28T04:35:28.074269",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   },
   {
-    "title": "Medical, utility tech companies hit by intruders \u2022 The Register",
-    "link": "https://www.theregister.com/2026/04/27/itron_medtronic_hacked/",
-    "description": ": Itron, Medtronic disclose breaches in Friday filings",
-    "image": "images/2003ddb3a1f13d37f3a8c924c585a723.webp",
-    "datetimestamp": "2026-04-27T17:53:16",
-    "source": "The Register",
-    "category": "General Tech"
+    "title": "Slack From the Start | Figma Blog",
+    "link": "https://www.figma.com/blog/slack-from-the-start/",
+    "description": "A few weeks ago, we launched Figma, a collaborative interface design tool. Our integration with Slack is foundational to how users collaborate inside Figma.",
+    "image": "images/0c2a7eb87225304e1ee3dfab6d1ebc40.webp",
+    "datetimestamp": "2026-04-28T04:35:27.093592",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   },
   {
-    "title": "Deadlock-Free by Construction: How Typhon Eliminates Deadlocks Instead of Detecting Them - DEV Community",
-    "link": "https://dev.to/nockawa/deadlock-free-by-construction-how-typhon-eliminates-deadlocks-instead-of-detecting-them-4057",
-    "description": "Why Typhon ships without a deadlock detector \u2014 three structural decisions that make lock-dependency cycles architecturally impossible, and why that bet was made before any code was written.",
-    "image": "images/f3c05f42cbc682dd73be9351b92d1d4c.webp",
-    "datetimestamp": "2026-04-27T17:48:24",
-    "source": "Database News",
-    "category": "Database"
+    "title": "From Furniture to Screens | Figma Blog",
+    "link": "https://www.figma.com/blog/from-furniture-to-screens/",
+    "description": "How furniture making has influenced the design of Figma",
+    "image": "images/7e4865ad8d8befdcbcd156268ae3e108.webp",
+    "datetimestamp": "2026-04-28T04:35:26.225203",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   },
   {
-    "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster | AWS Architecture Blog",
-    "link": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/",
-    "description": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure.",
-    "image": "images/a60677e77468c85d2a199be87cf47c63.webp",
-    "datetimestamp": "2026-04-27T17:47:34",
-    "source": "AWS Architecture Blog",
-    "category": "System Design"
+    "title": "Introducing Vector Networks | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-vector-networks/",
+    "description": "Before I co-founded Figma my background was in game development, not in design. ",
+    "image": "images/864db5a3178835bc445f784e030b090f.webp",
+    "datetimestamp": "2026-04-28T04:35:25.247484",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   },
   {
-    "title": "GitHub - Hanqaqa/Easyduino: Easily dive into different PCB KiCad designs of the most popular microcontroller devboards \u00b7 GitHub",
-    "link": "https://github.com/Hanqaqa/Easyduino",
-    "description": "Easily dive into different PCB KiCad designs of the most popular microcontroller devboards - Hanqaqa/Easyduino",
-    "image": "images/e99057d84f161b06e8b048bd07c69889.webp",
-    "datetimestamp": "2026-04-27T17:45:02",
-    "source": "Hacker News",
-    "category": "General Tech"
+    "title": "How to do content design / UX writing in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/how-to-do-content-design-ux-writing-in-figma/",
+    "description": "5 practical lessons on working content-first, collaborating with designers and using Figma to its wordiest potential",
+    "image": "images/547c552e635fa6ae46719de658a91dc8.webp",
+    "datetimestamp": "2026-04-28T04:35:24.540886",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   },
   {
-    "title": "Is Outlook Down? Microsoft Reports Sign-On Issues With Email Client - CNET",
-    "link": "https://www.cnet.com/news-live/is-microsoft-outlook-down-microsoft-april-27-2026/",
-    "description": "You might have trouble logging into your email on Monday.",
-    "image": "images/51b8e61330ab95d26ad0d89854df7431.webp",
-    "datetimestamp": "2026-04-27T17:43:00",
-    "source": "Cnet",
-    "category": "Tech News"
+    "title": "Introducing Figma\u2019s Integration with Framer | Figma Blog",
+    "link": "https://www.figma.com/blog/introducing-figmas-integration-with-framer/",
+    "description": "Today I\u2019m excited to announce Figma is integrating with Framer!",
+    "image": "images/921655587e0ca1f319f7e394638b0588.webp",
+    "datetimestamp": "2026-04-28T04:35:23.983919",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Multiplayer Editing in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/multiplayer-editing-in-figma/",
+    "description": "Today\u2019s public release of Figma contains two long-awaited changes. ",
+    "image": "images/2782aecee06ec2aea6db43abfec2f541.webp",
+    "datetimestamp": "2026-04-28T04:35:23.328359",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Debugging Data Corruption with Emscripten | Figma Blog",
+    "link": "https://www.figma.com/blog/debugging-data-corruption-with-emscripten/",
+    "description": "We discovered an issue with saving in Figma back in June 2015 that turned out to be the hardest and least-satisfying bug I\u2019ve ever tackled.",
+    "image": "images/d4ab9187c1505f5401dda90d77a7dcb3.webp",
+    "datetimestamp": "2026-04-28T04:35:22.665526",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Delete and Heal for Vector Networks | Figma Blog",
+    "link": "https://www.figma.com/blog/delete-and-heal-for-vector-networks/",
+    "description": "Since I joined Figma in September, among many other things, I had the pleasure of working on the intuitive yet surprisingly complex behavior you see above (You might need to give it a second to load the GIF).",
+    "image": "images/58db28bcc838517e5a13a4d15bf2efe1.webp",
+    "datetimestamp": "2026-04-28T04:35:21.524681",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Components in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/components-in-figma/",
+    "description": "Today we are excited to release Components in Figma.",
+    "image": "images/3234b744a80c18318b3f3289b5b2179a.webp",
+    "datetimestamp": "2026-04-28T04:35:20.988562",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Team Libraries in Figma | Figma Blog",
+    "link": "https://www.figma.com/blog/team-libraries-in-figma/",
+    "description": "Today, we\u2019re excited to announce the beta release of Team Libraries for sharing components across projects. ",
+    "image": "images/576c34b0bb2b2de748de88d5b1712c56.webp",
+    "datetimestamp": "2026-04-28T04:35:20.313417",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Can designers make a political difference? | Figma Blog",
+    "link": "https://www.figma.com/blog/can-designers-make-a-political-difference/",
+    "description": "The morning after Trump won the presidency, Portland designer Jen Thomas woke up wrapped in a blanket of dread.",
+    "image": "images/a9c9b97a3fe40dedd6ec563e881a9620.webp",
+    "datetimestamp": "2026-04-28T04:35:19.304356",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Realtime Editing of Ordered Sequences | Figma Blog",
+    "link": "https://www.figma.com/blog/realtime-editing-of-ordered-sequences/",
+    "description": "One of the problems we had to solve when we added multiplayer editing to Figma was supporting simultaneous editing of ordered sequences of objects. ",
+    "image": "images/9b0810d9cd8438bdbe887c0be2de7b6c.webp",
+    "datetimestamp": "2026-04-28T04:35:18.949448",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Did Snapchat succeed because of its controversial UI? | Figma Blog",
+    "link": "https://www.figma.com/blog/did-snapchat-succeed-because-of-its-controversial-ui/",
+    "description": "At Figma, we found ourselves wondering just how the hell Snapchat became a $28 billion company with its Mad Hatter interface. So we talked to five designers we respect to get their take.",
+    "image": "images/99d62e8b7f6cb76edb4fad5948da2817.webp",
+    "datetimestamp": "2026-04-28T04:35:17.321604",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The 6 design trends John Maeda predicted in his State of the Union | Figma Blog",
+    "link": "https://www.figma.com/blog/the-6-design-trends-john-maeda-predicted-in-his-state-of-the-union/",
+    "description": "Design State of the Union",
+    "image": "images/a78507e3772e15af71e739a88117c37c.webp",
+    "datetimestamp": "2026-04-28T04:35:16.772078",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Should designers learn to code? | Figma Blog",
+    "link": "https://www.figma.com/blog/deciding-whether-to-learn-code-wasnt-always-such-a-weird-rite-of-passage/",
+    "description": "Interview with Alex Cornell, the lead designer of Facebook Live",
+    "image": "images/049eebb3a4cab450ec52c6016d53ded4.webp",
+    "datetimestamp": "2026-04-28T04:35:15.865829",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Figma\u2019s new icon | Figma Blog",
+    "link": "https://www.figma.com/blog/figmas-new-icon/",
+    "description": "Today we\u2019re excited to release our new icon, which builds upon our larger identity system and core values as a company.",
+    "image": "images/515690aa0524699f53b52d78365fc6eb.webp",
+    "datetimestamp": "2026-04-28T04:35:15.327456",
+    "source": "Figma Blog",
+    "category": "Design & UX"
+  },
+  {
+    "title": "An alternative approach to rate limiting | Figma Blog",
+    "link": "https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/",
+    "description": "Our rate limiting system is homegrown, and I\u2019d like to explain its design in case it\u2019s useful to others.",
+    "image": "images/375a82b81a002261d4d0ce448c6f343b.webp",
+    "datetimestamp": "2026-04-28T04:35:14.516968",
+    "source": "Figma Blog",
+    "category": "Design & UX"
   }
 ]

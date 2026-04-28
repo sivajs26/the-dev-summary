@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Claude Code vs Codex: Which Terminal AI Agent Should You Use?",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/claude-code-vs-codex/",
+    "description": "A detailed comparison of Claude Code and OpenAI Codex. Learn the key differences in their workflows, setup and memory handling.",
+    "image": "images/c5b1e922b82b91332b6b90de4796d66f.webp",
+    "datetimestamp": "2026-04-27T13:18:07",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "Deep Research Max: Guide to Google's AI Research Agent",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/deep-research-max-technical-guide/",
+    "description": "Here is a hands-on guide on Deep Research Max, the widely popular AI research agent from the house of Google.",
+    "image": "images/67b47265180174312f0bc2a0af844812.webp",
+    "datetimestamp": "2026-04-27T10:41:26",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "Meta Muse Spark Review: Is It Worth the Hype?",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/meta-muse-spark-review/",
+    "description": "After a long wait, Meta is back in the AI race with a whole new AI model called Muse Spark. Here is all you need to know about the new LLM",
+    "image": "images/cff3e50df651f732b871a9f3ddbe0dcd.webp",
+    "datetimestamp": "2026-04-27T08:43:05",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "ChatGPT Images 2.0 vs Nano Banana 2: The Better Model is.....",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/chatgpt-images-2-0-vs-nano-banana-2/",
+    "description": "Here are 10 use cases that show the capabilities of ChatGPT Images 2.0 vs Nano Banana 2 and find out the AI image generator among them",
+    "image": "images/a35a3a65343d002244e1d58229677f1f.webp",
+    "datetimestamp": "2026-04-26T10:29:29",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "Cursor v3: The AI Coding Agent Replacing Traditional IDEs",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/cursor-v3/",
+    "description": "Discover how Cursor v3 is transforming software development in 2026. Learn about its autonomous AI agents & multi-file editing capabilities.",
+    "image": "images/3dc699eb60830a3a2e66095f00880e6c.webp",
+    "datetimestamp": "2026-04-25T05:34:00",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "DeepSeek-V4: The Most Powerful Open-Source Model Ever",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/deepseek-v4/",
+    "description": "Discover DeepSeek-V4, the open-source 1.6T parameter LLM featuring a 1-million-token context window at 20% the price of GPT 5.5.",
+    "image": "images/0a1aa6b4f4111b8c69c4931699d520f7.webp",
+    "datetimestamp": "2026-04-24T13:26:48",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "I Tried The New GPT 5.5 And I'm Never Going Back - Analytics Vidhya",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/i-tried-the-new-gpt-5-5/",
+    "description": "I tried the all-new GPT 5.5, the latest ChatGPT model by OpenAI. Here is all you need to know about it and how you can use it too.",
+    "image": "images/381f2cda8e672f5a566cf006dfcbd986.webp",
+    "datetimestamp": "2026-04-24T11:30:21",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "Is GPT Image 2 the Best Image Generation Model? - Analytics Vidhya",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/gpt-image-2-best-image-generation-model/",
+    "description": "GPT Image 2 just launched and topped every leaderboard. We tested it against Nano Banana 2 on 6 real tasks. Here's what the results revealed",
+    "image": "images/86eadbbda38aee5334aefa9a8d2c1401.webp",
+    "datetimestamp": "2026-04-23T10:43:45",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "LLM Token Economics: Why AI Models Are Getting Cheaper",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/why-ai-is-getting-cheaper/",
+    "description": "AI is becoming drastically cheaper. From distillation and MoE to turbo models and optimized hardware, here\u2019s what's reducing AI token costs.",
+    "image": "images/709adc75a104df3912982acaf1926e9f.webp",
+    "datetimestamp": "2026-04-22T14:26:37",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
+    "title": "Claude Design: How to Turn Ideas Directly into Prototypes and UI",
+    "link": "https://www.analyticsvidhya.com/blog/2026/04/from-idea-to-output-claude-design/",
+    "description": "Explore Claude Design, Anthropic's feature that turns text prompts into working prototypes, slide decks, and UI components.",
+    "image": "images/f4c159eee95e49e330ad7655ec617822.webp",
+    "datetimestamp": "2026-04-22T13:35:43",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  }
+]

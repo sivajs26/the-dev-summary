@@ -1,0 +1,137 @@
+[
+  {
+    "title": "\nShow Your Work: The Case for Radical AI Transparency \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/show-your-work-the-case-for-radical-ai-transparency/",
+    "description": "A colleague told me something recently that I keep thinking about.She said, unprompted, that she appreciated seeing both sides of my AI conversations. Not",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Show-your-work-1600x1244.jpg",
+    "datetimestamp": "2026-04-27T11:16:33",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nEmergency Pedagogical Design: How Programming Instructors Are Scrambling to Adapt to GenAI \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/emergency-pedagogical-design-how-programming-instructors-are-scrambling-to-adapt-to-genai/",
+    "description": "ChatGPT has been publicly available for over three years now, and generative AI is woven into the tools students use every day: web search, word processors,",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Emergency-pedagogical-design-1600x1244.jpg",
+    "datetimestamp": "2026-04-24T11:23:42",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nBehavioral Credentials: Why Static Authorization Fails Autonomous Agents \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/behavioral-credentials-why-static-authorization-fails-autonomous-agents/",
+    "description": "Enterprise AI governance still authorizes agents as if they were stable software artifacts.They are not.An enterprise deploys a LangChain-based research",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Behavioral-Credentials-1600x1244.jpg",
+    "datetimestamp": "2026-04-23T11:14:51",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nDon\u2019t Blame the Model \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/dont-blame-the-model/",
+    "description": "Current LLM infrastructure artificially limits developer control and system reliability.",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Dont-blame-the-model-1600x873.png",
+    "datetimestamp": "2026-04-22T11:15:02",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nDark Factories: Rise of the Trycycle \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/dark-factories-rise-of-the-trycycle/",
+    "description": "The following article originally appeared on 'Dan Shapiro's blog' and is being reposted here with the author's permission.Companies are now producing dark",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Dark-factories\u2014rise-of-the-trycycle-1600x1244.jpg",
+    "datetimestamp": "2026-04-21T11:24:26",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nScenario Planning for AI and the \u201cJobless Future\u201d \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/scenario-planning-for-ai-and-the-jobless-future/",
+    "description": "We all read it in the daily news. The New York Times reports that economists who once dismissed the AI job threat are now taking it seriously. In February,",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Scenario-planning-for-an-uncertain-AI-future-1600x1244.jpg",
+    "datetimestamp": "2026-04-20T10:41:09",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nMeet the Scope Creep Kraken \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/meet-the-scope-creep-kraken/",
+    "description": "AI didn\u2019t invent scope creep. It just removed the friction that used to stop it.",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Scope-Creep-Kraken-by-Tim-OBrien-created-with-ChatGPT.png",
+    "datetimestamp": "2026-04-16T10:31:31",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nAI Is Writing Our Code Faster Than We Can Verify It \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/ai-is-writing-our-code-faster-than-we-can-verify-it/",
+    "description": "What if the answer to AI\u2019s biggest problem has been sitting on the shelf for fifty years?",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/AI-is-writing-our-code-faster-than-we-can-verify-it-1600x1244.jpg",
+    "datetimestamp": "2026-04-15T11:19:15",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nGrief and the Nonprofessional Programmer \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/grief-and-the-nonprofessional-programmer/",
+    "description": "I can\u2019t claim to be a professional software developer\u2014not by a long shot. I occasionally write some Python code to analyze spreadsheets, and I occasionally",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Grief-and-the-nonprofessional-programmer-1600x1244.jpg",
+    "datetimestamp": "2026-04-14T11:16:00",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nComprehension Debt: The Hidden Cost of AI-Generated Code \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/",
+    "description": "The following article originally appeared on Addy Osmani's blog site and is being reposted here with the author's permission.Comprehension debt is the",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Comprehension-debt-1600x1244.jpg",
+    "datetimestamp": "2026-04-13T11:11:45",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nAgents don\u2019t know what good looks like. And that\u2019s exactly the problem. \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/agents-dont-know-what-good-looks-like-and-thats-exactly-the-problem/",
+    "description": "A reaction to the Neal Ford and Sam Newman fireside chat on agentic AI and software architecture",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Agents-dont-know-what-good-looks-like-1600x1244.jpg",
+    "datetimestamp": "2026-04-10T13:31:27",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nArchitecture as Code to Teach Humans and Agents About Architecture \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/architecture-as-code-to-teach-humans-and-agents-about-architecture/",
+    "description": "A funny thing happened on the way to writing our book Architecture as Code\u2014the entire industry shifted. Generally, we write books iteratively\u2014starting with a",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Architecture-as-Code-to-Teach-Humans-and-Agents-About-Architecture-1600x1244.jpg",
+    "datetimestamp": "2026-04-09T11:17:33",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nAI-Infused Development Needs More Than Prompts \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/ai-infused-development-needs-more-than-prompts/",
+    "description": "Why intent and control are becoming the new software architecture",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/AI-infused-development-needs-more-than-prompts-1600x1244.jpg",
+    "datetimestamp": "2026-04-08T16:02:50",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nPosthuman: We All Built Agents. Nobody Built HR. \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/posthuman-we-all-built-agents-nobody-built-hr/",
+    "description": "Farewell, Anthropocene, we hardly knew ye. \ud83c\udf39AI is here. It's won. Yes, it's in that awkward teenage phase where it still says inappropriate things, dresses",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/We-all-built-agents-Nobody-built-HR-1600x1244.jpg",
+    "datetimestamp": "2026-04-08T09:56:38",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
+    "title": "\nThe World Needs More Software Engineers \u2013 O\u2019Reilly",
+    "link": "https://www.oreilly.com/radar/the-world-needs-more-software-engineers/",
+    "description": "A Conversation with Box CEO Aaron Levie",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/The-world-needs-more-software-engineers-1600x1244.jpg",
+    "datetimestamp": "2026-04-07T13:10:32",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  }
+]

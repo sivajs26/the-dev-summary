@@ -1,0 +1,182 @@
+[
+  {
+    "title": "OpenAI\u2019s New GPT-5.5 Powers Codex on NVIDIA Infrastructure | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+    "description": "Over 10,000 NVIDIANs across functions got early access to OpenAI\u2019s latest frontier model, GPT-5.5. The results, one engineer said, are \u201cblowing my mind.\u201d",
+    "image": "images/b2308b3fae41cf9191757e93b94b72b6.webp",
+    "datetimestamp": "2026-04-23T18:57:55",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "GFN Thursday: Game Pass & Ubisoft+ Tags on GFN | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
+    "description": "New in-app labels and a members\u2019 reward tops off the week of six new games in the cloud, including \u2018Vampire Crawlers: The Turbo Wildcard.\u2019",
+    "image": "images/a8a46643a82b81214cce0a586c0e4c77.webp",
+    "datetimestamp": "2026-04-23T13:00:51",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "Making Sense of the Early Universe | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
+    "description": "This Spring Astronomy Day, here\u2019s a look at how AI and GPUs are helping astronomers work through unprecedented volumes of cosmic data.",
+    "image": "images/b75c2c890a27bc2ef5250b4cf9148d69.webp",
+    "datetimestamp": "2026-04-23T13:00:22",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "5 Ways NVIDIA AI Is Protecting the Planet | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+    "description": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.",
+    "image": "images/a59a9c902bd7eba0a9c3e35ae0d9424b.webp",
+    "datetimestamp": "2026-04-22T13:00:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+    "description": "Companies can build AI factories with NVIDIA Vera Rubin-powered A5X instances scaling up to nearly 1 million Rubin GPUs, Gemini on Google Distributed Cloud, confidential NVIDIA Blackwell GPUs and agentic AI built on Gemini Enterprise Agent Platform with NVIDIA Nemotron and NeMo.",
+    "image": "images/f59c083464a46166c02f6b78339d72b8.webp",
+    "datetimestamp": "2026-04-22T12:00:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+    "description": "Creative AI agents, secured by the NVIDIA OpenShell runtime, generate on-brand content, transforming how brands create, personalize and activate content.",
+    "image": "images/d8eb118e11b420dd017d1435a6be4017.webp",
+    "datetimestamp": "2026-04-20T13:00:50",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026 | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+    "description": "At Hannover Messe 2026, running April 20-24 in Hannover, Germany, NVIDIA and its partners are demonstrating AI-driven manufacturing in action.",
+    "image": "images/18d592bb2b64552c9644d07e3d748edd.webp",
+    "datetimestamp": "2026-04-20T08:30:55",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "GFN Thursday: \u2018PRAGMATA\u2019 on GeForce NOW | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-pragmata/",
+    "description": "Play Capcom's PRAGMATA, even without the latest hardware, when it launches on GeForce NOW; plus GeForce NOW expands to India.",
+    "image": "images/20db59e6df3a637b3cb4add8254e5b8a.webp",
+    "datetimestamp": "2026-04-16T13:00:11",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters",
+    "link": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+    "description": "Cost per token is the one TCO metric that directly accounts for hardware performance, software optimization, ecosystem support and real-world utilization \u2014 and NVIDIA delivers the lowest cost per token in the industry.",
+    "image": "images/8357f789cd6e2a2b548c478f61c21804.webp",
+    "datetimestamp": "2026-04-15T15:00:26",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "Adobe Premiere Color Mode Accelerated on RTX | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/",
+    "description": "New NVIDIA RTX-accelerated features streamline creative workflows in Adobe Premiere and system optimization with NVIDIA Project G-Assist.",
+    "image": "images/508174643e3f76f400ec2ecdd457b012.webp",
+    "datetimestamp": "2026-04-15T13:00:38",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA Launches Ising, the World\u2019s First Open AI Models to Accelerate the Path to Useful Quantum Computers | NVIDIA Newsroom",
+    "link": "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+    "description": "NVIDIA today announced the world\u2019s first family of open source quantum AI models, NVIDIA Ising, designed to help researchers and enterprises build quantum processors capable of running useful applications.",
+    "image": "images/2253081eb4eda157798c5ff81b1e99e9.webp",
+    "datetimestamp": "2026-04-14T14:00:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "GFN Thursday: \u2018Samson: A Tyndalston Story\u2019 | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-samson-a-tyndalston-story/",
+    "description": "Check out the highly anticipated new game from Liquid Swords, leading 4 new games, including 'Rayman 30th Anniversary Edition'.",
+    "image": "images/15b73330e845e877a377a2461d0557c3.webp",
+    "datetimestamp": "2026-04-09T13:00:57",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+    "description": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world.",
+    "image": "images/49e9598860879016a4af156cc54d4861.webp",
+    "datetimestamp": "2026-04-04T17:00:59",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "RTX to Spark: Gemma 4 Accelerated for Agentic AI | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
+    "description": "Gemma 4 brings powerful reasoning, coding and multimodal AI directly to NVIDIA RTX PCs, DGX Spark and edge devices.",
+    "image": "images/e69a570065ff8a664e7e6d21060b59d1.webp",
+    "datetimestamp": "2026-04-02T16:15:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "GFN Thursday: 'PRAGMATA' and 'Samson' in April | NVIDIA blog",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-april-2026-games-list/",
+    "description": "'PRAGMATA' and 'Samson', two highly anticipated titles, are launching in the cloud, leading the 9 new games coming to GeForce NOW in April.",
+    "image": "images/bc931ffde95ab12ae410fd9269e3ecd7.webp",
+    "datetimestamp": "2026-04-02T13:00:09",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA, Energy Leaders Accelerating Power\u2011Flexible AI Factories to Fortify the Grid | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid/",
+    "description": "CERAWeek \u2014 dubbed the Davos of energy \u2014 is where policymakers, producers, technologists and financiers gather to discuss how the world powers itself next.\u00a0 NVIDIA and Emerald AI unveiled at the conference last week a new way forward \u2014 treating AI factories not as static power loads but as flexible, intelligent grid assets. This collaboration [\u2026]",
+    "image": "images/71b893db5729962b6dee6114aba5d89e.webp",
+    "datetimestamp": "2026-03-31T15:00:51",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion | NVIDIA Newsroom",
+    "link": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion",
+    "description": "NVIDIA and Marvell Technology, Inc. (NASDAQ: MRVL) today announced a strategic partnership to connect Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVIDIA NVLink Fusion\u2122, offering customers building on NVIDIA architectures greater choice and flexibility in developing next-generation infrastructure.",
+    "image": "images/3263da4dfdf726ddddb69a3be6548c72.webp",
+    "datetimestamp": "2026-03-31T12:00:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/gtc-2026-virtual-worlds-physical-ai/",
+    "description": "NVIDIA GTC last week showcased a turning point in physical AI: Robots, vehicles and factories are scaling from single use cases and isolated deployments to sophisticated enterprise workloads across industries.\u00a0",
+    "image": "images/a89225cc471234f3117805a70eb1e086.webp",
+    "datetimestamp": "2026-03-26T15:00:56",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "GFN Thursday: Five Games on GeForce NOW | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-screamer/",
+    "description": "Catch the 5 new games on top of 'Honkai Star Rail's' latest update 4.1 \"Unraveled for Daybreak\", available to play instantly in the cloud.",
+    "image": "images/c8550398c2de463e2546842eaeb37290.webp",
+    "datetimestamp": "2026-03-26T13:00:00",
+    "source": "Nvidia",
+    "category": "AI"
+  },
+  {
+    "title": "The Future of AI Is Open and Proprietary | NVIDIA Blog",
+    "link": "https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/",
+    "description": "AI leaders \u2014 including the CEOs of Mistral, Perplexity, Cursor, Reflection AI and Thinking Machines Lab \u2014 agree that open model efforts are beneficial for innovation across the AI ecosystem.",
+    "image": "images/2787c94388e60ad5e9063076f0123226.webp",
+    "datetimestamp": "2026-03-25T19:00:04",
+    "source": "Nvidia",
+    "category": "AI"
+  }
+]

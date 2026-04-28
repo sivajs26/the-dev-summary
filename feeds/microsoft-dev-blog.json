@@ -1,0 +1,92 @@
+[
+  {
+    "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/langchainjs-for-beginners",
+    "description": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own?",
+    "image": "images/a3c028101871e3d6b9676296221df6a4.webp",
+    "datetimestamp": "2026-04-23T17:00:14",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Securing MCP: A Control Plane for Agent Tool Execution - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution",
+    "description": "The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to",
+    "image": "images/c7c5aa4a658a4932da196d7088973dad.webp",
+    "datetimestamp": "2026-04-22T17:00:09",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Take your PostgreSQL-backed apps to the next level - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
+    "description": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL",
+    "image": "images/4c23de01a4b141c8f55f577cc14baeb5.webp",
+    "datetimestamp": "2026-04-14T17:00:37",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Awesome GitHub Copilot just got a website, and a learning hub, and plugins! - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins",
+    "description": "Back in July, we launched the Awesome GitHub Copilot Customizations repo with a simple goal: give the community a place to share custom instructions,",
+    "image": "images/7ba0ddae72b01d3033de9a1047bba7c9.webp",
+    "datetimestamp": "2026-03-16T17:00:33",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Build a real-world example with Microsoft Agent Framework, Microsoft Foundry, MCP and Aspire - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire",
+    "description": "Building AI agents is getting easier. Deploying them as part of a real application, with multiple services, persistent state, and production",
+    "image": "images/32da9237d4d420bf53667c8184a024b3.webp",
+    "datetimestamp": "2026-03-09T16:00:42",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Get started with GitHub Copilot CLI: A free, hands-on course - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course",
+    "description": "Learn GitHub Copilot CLI with this free, 8-chapter hands-on course. Review code, generate tests, debug issues, and build custom agents and skills - all from your terminal. No AI experience needed. Works with GitHub Copilot Free. Clone the repo or open in Codespaces to get started.",
+    "image": "images/d962474f7229d0326a10e368fe9da49d.webp",
+    "datetimestamp": "2026-03-03T20:40:42",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "The JavaScript AI Build-a-thon Season 2 starts today! - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today",
+    "description": "The JavaScript AI Build\u2011a\u2011thon Season\u00a02 starts today! Join a free, four\u2011week, hands\u2011on program\u2014from Local AI and RAG pipelines to multi\u2011agent hackathon\u2014designed specifically for JavaScript/TypeScript developers.",
+    "image": "images/c9f92241ed0b31ce76114a2772ae5a40.webp",
+    "datetimestamp": "2026-03-02T20:00:39",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "GitHub Copilot Dev Days: Build faster with GitHub Copilot CLI, in VS Code & Visual Studio, and beyond! - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/github-copilot-dev-days",
+    "description": "Modern software development is moving fast\u2014and AI is now a practical part of how Microsoft developers design, build, and ship applications every day. From",
+    "image": "images/213661c005aa7bf51a273d95fdc10799.webp",
+    "datetimestamp": "2026-03-02T18:00:36",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "WinGet Configuration: Set up your dev machine in one command - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command",
+    "description": "I've set up a lot of dev machines in my life. Traditionally, this takes a lot of time to get everything just right, but now there's a faster way with",
+    "image": "images/744dd8b88c37de7ed28de2d486b66d17.webp",
+    "datetimestamp": "2026-02-04T18:00:13",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  },
+  {
+    "title": "Bringing work context to your code in GitHub Copilot - Microsoft for Developers",
+    "link": "https://developer.microsoft.com/blog/bringing-work-context-to-your-code-in-github-copilot",
+    "description": "This week we shipped the GitHub Copilot SDK which takes the agent loop from the Copilot CLI and makes it easy to embed in other applications. We\u2019ve been",
+    "image": "images/7cfc08a5bb81ed93eb7a789df94aab02.webp",
+    "datetimestamp": "2026-01-23T15:00:30",
+    "source": "Microsoft Dev Blog",
+    "category": "Tech News"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "PostgreSQL: pgclone 4.0.0 released",
+    "link": "https://www.postgresql.org/about/news/pgclone-400-released-3282/",
+    "description": "# pgclone v4.0.0: Native SQL-Based Database Cloning and Data Masking **Baku, Azerbaijan \u2014 April 22, 2026** I am pleased to \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-27T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: storage_engine 1.0.7 \u2013 columnar + row-compressed Table Access Methods for PostgreSQL 16-18",
+    "link": "https://www.postgresql.org/about/news/storage_engine-107-columnar-row-compressed-table-access-methods-for-postgresql-16-18-3279/",
+    "description": "Hi, I'd like to announce storage_engine 1.0.7, a PostgreSQL extension providing two high-performance Table Access Methods: - colcompress: column-oriented compressed \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-23T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: SQL Management Studio for PostgreSQL 2.0 Is Here \u2014 Faster, Safer, and More Efficient",
+    "link": "https://www.postgresql.org/about/news/sql-management-studio-for-postgresql-20-is-here-faster-safer-and-more-efficient-3280/",
+    "description": "We are excited to announce the release of **[SQL Management Studio for PostgreSQL 2.0](https://www.sqlmanager.net/products/postgresql/studio)** \u2014 a major update to our \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-23T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: credcheck v4.7 has been released",
+    "link": "https://www.postgresql.org/about/news/credcheck-v47-has-been-released-3277/",
+    "description": "Antananarivo, Madagascar - April 19, 2026 ## PostgreSQL credcheck extension The credcheck PostgreSQL extension provides few general credential checks, which \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-20T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: pg_dbms_job v2.0 released",
+    "link": "https://www.postgresql.org/about/news/pg_dbms_job-v20-released-3278/",
+    "description": "Antananarivo, Madagascar - April 19, 2026 ## PostgreSQL DBMS_JOB compatibility extension pg_dbms_job is a new PostgreSQL extension to create, manage \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-20T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: PGConf.EU 2026 Announced \u2013 Call for Community Day Event Proposals Now Open",
+    "link": "https://www.postgresql.org/about/news/pgconfeu-2026-announced-call-for-community-day-event-proposals-now-open-3276/",
+    "description": "We are pleased to announce that **PostgreSQL Conference Europe 2026** will take place in **Val\u00e8ncia, Spain, from October 20\u201323, 2026**. \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-19T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: Apache Cloudberry 2.1.0 Released: PostgreSQL-Based MPP Database for Analytics & AI Workloads",
+    "link": "https://www.postgresql.org/about/news/apache-cloudberry-210-released-postgresql-based-mpp-database-for-analytics-ai-workloads-3274/",
+    "description": "The Apache Cloudberry (Incubating) community is pleased to announce the release of Apache Cloudberry 2.1.0, the latest version of its \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-19T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: PGDay Armenia 2026 Schedule & Registration!",
+    "link": "https://www.postgresql.org/about/news/pgday-armenia-2026-schedule-registration-3275/",
+    "description": "Hey everyone! The PGDay Armenia 2026 schedule is now live, and Early Bird tickets are officially on sale! Join us \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-18T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: Swiss PGDay 2026: Open for registration",
+    "link": "https://www.postgresql.org/about/news/swiss-pgday-2026-open-for-registration-3273/",
+    "description": "# Swiss PGDay 2026 **25\u201326 June 2026 \u00b7 Rapperswil, Switzerland** *The Swiss PostgreSQL Conference.* --- [**OST Eastern Switzerland University of \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-17T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  },
+  {
+    "title": "PostgreSQL: PGConf.BE : Preliminary schedule, registrations open and speakers online",
+    "link": "https://www.postgresql.org/about/news/pgconfbe-preliminary-schedule-registrations-open-and-speakers-online-3272/",
+    "description": "[PGConf.BE 2026](https://pgconf.be/) will be held in Haasrode, Leuven, about 25km from Brussels. The conference will take place on May 5th, \u2026",
+    "image": null,
+    "datetimestamp": "2026-04-17T00:00:00",
+    "source": "PostgreSQL News",
+    "category": "Database"
+  }
+]

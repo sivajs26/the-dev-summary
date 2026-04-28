@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-163h-behind-catching-inflation-sentiment-leads-with-pulsebit-35im",
+    "description": "Your Pipeline Is 16.3h Behind: Catching Inflation Sentiment Leads with Pulsebit   We...",
+    "image": "images/d2901b4b160a5511d2a173a93b487e4b.webp",
+    "datetimestamp": "2026-04-28T03:55:41",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit - DEV Community",
+    "link": "https://dev.to/pulsebitapi/your-pipeline-is-165h-behind-catching-renewable-energy-sentiment-leads-with-pulsebit-9of",
+    "description": "Your Pipeline Is 16.5h Behind: Catching Renewable Energy Sentiment Leads with Pulsebit   We...",
+    "image": "images/6c2b99a78ccc2cccb16ed47c4d5b1fc7.webp",
+    "datetimestamp": "2026-04-28T03:40:58",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "I Built a Natural Language to SQL Generator with LangChain, Groq, and Streamlit \u2014 Full Tutorial - DEV Community",
+    "link": "https://dev.to/naimulkarim/i-built-a-natural-language-to-sql-generator-with-langchain-groq-and-streamlit-full-tutorial-248g",
+    "description": "A complete walkthrough of building an AI app that converts plain English questions into SQL queries, executes them, and explains the results \u2014 using a free LLM and SQLite.",
+    "image": "images/bbfbed5ccb5cc5845f27f2e2fb908d2a.webp",
+    "datetimestamp": "2026-04-28T03:32:57",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Python Coding Secrets Exposed: Unlocking the Ultimate Power of File I/O Operations - DEV Community",
+    "link": "https://dev.to/codingmavrick/python-coding-secrets-exposed-unlocking-the-ultimate-power-of-file-io-operations-4efb",
+    "description": "# Mastering File I/O Operations in Python: A 2025 Comprehensive Guide  As we move further into 2026, the ability to persist data remains a fundamental...",
+    "image": "images/8a8f3c5a43774e5148a3a1874c0d994a.webp",
+    "datetimestamp": "2026-04-28T03:25:40",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Building Compliance-First Property Management Software - DEV Community",
+    "link": "https://dev.to/jonomor_ecosystem/building-compliance-first-property-management-software-2781",
+    "description": "Most property management software treats compliance like a checkbox feature. You run your operations...",
+    "image": "images/8bcf915a8f1e060ea852c2af4fa04ba7.webp",
+    "datetimestamp": "2026-04-28T03:23:15",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "How to Make Money with Python Automation in 2025 - DEV Community",
+    "link": "https://dev.to/caper_dev/how-to-make-money-with-python-automation-in-2025-1cmd",
+    "description": "How to Make Money with Python Automation in 2025   As a developer, you're likely no stranger...",
+    "image": "images/9e909d9940456a481e277f4231e90324.webp",
+    "datetimestamp": "2026-04-28T03:22:30",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Stop Making Dead Charts: Plotly and the World of Interactive Visualization - DEV Community",
+    "link": "https://dev.to/yakhilesh/stop-making-dead-charts-plotly-and-the-world-of-interactive-visualization-4imn",
+    "description": "Every chart you have made so far is dead.  You save it as a PNG. You look at it. You wonder what that...",
+    "image": "images/ca5bee319dad28c9adf88bfa3bc85d3a.webp",
+    "datetimestamp": "2026-04-28T03:06:39",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Detecting & Blocking Anomalous Traffic with Cloud Anomaly Detector - DEV Community",
+    "link": "https://dev.to/izzyjosh/detecting-blocking-anomalous-traffic-with-cloud-anomaly-detector-2i7n",
+    "description": "A lightweight, containerized anomaly detection system that monitors traffic in real time, detects...",
+    "image": "images/ba60410fc10d61a39fbf8a150ac88d4c.webp",
+    "datetimestamp": "2026-04-28T02:38:47",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Show Dev: I Built a Python Pipeline That Writes, Validates, and Publishes Bilingual Ebooks \u2014 Here's Everything - DEV Community",
+    "link": "https://dev.to/german_yamil_e021eef8710d/show-dev-i-built-a-python-pipeline-that-writes-validates-and-publishes-bilingual-ebooks-heres-1dpg",
+    "description": "Complete build breakdown: state machine, AST+subprocess validation, EN+ES translation QA, EPUB assembly, Gumroad API. Built it to prove the method works \u2014 the ebook about it was produced by it.",
+    "image": "images/4039fd71d6dd0ee6f2805bb7719b2914.webp",
+    "datetimestamp": "2026-04-28T01:42:18",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "How Crypto Market Regime Detection Works (And Why Your Strategy Needs It) - DEV Community",
+    "link": "https://dev.to/gunnarthorderson/how-crypto-market-regime-detection-works-and-why-your-strategy-needs-it-4830",
+    "description": "Every crypto market exists in one of three states: trending up, trending down, or going nowhere. The...",
+    "image": "images/2f3c5414f16bef12b090ea1e9ec3bdc4.webp",
+    "datetimestamp": "2026-04-28T01:34:47",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "My Pipeline Crashed Mid-Generation 3 Times \u2014 Here's What I Learned About Crash Recovery - DEV Community",
+    "link": "https://dev.to/german_yamil_e021eef8710d/my-pipeline-crashed-mid-generation-3-times-heres-what-i-learned-about-crash-recovery-2fma",
+    "description": "Real crash postmortems from building an automated ebook pipeline. How a 4-state machine (PENDING\u2192RUNNING\u2192DONE\u2192NEEDS_REVIEW) makes long-running Python jobs resumable from any failure point.",
+    "image": "images/e4ca4538755b721971ef8f174385eb41.webp",
+    "datetimestamp": "2026-04-28T01:29:21",
+    "source": "Python News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why I Run Every Code Snippet Through Two Validation Gates Before Publishing - DEV Community",
+    "link": "https://dev.to/german_yamil_e021eef8710d/why-i-run-every-code-snippet-through-two-validation-gates-before-publishing-118p",
+    "description": "How AST parsing + subprocess isolation catches broken code in technical ebooks before readers do. The two-gate system that makes code correctness a precondition, not an afterthought.",
+    "image": "images/b76a2fcee6d0a481ec1603fe41952520.webp",
+    "datetimestamp": "2026-04-28T01:21:53",
+    "source": "Python News",
+    "category": "Backend"
+  }
+]

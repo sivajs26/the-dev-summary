@@ -1,5 +1,86 @@
 [
   {
+    "title": "If You Ship Without These 5 Setups, You\u2019re Flying Blind in Production | by Ranju R | Apr, 2026 | Medium",
+    "link": "https://medium.com/@ranju.r/if-you-ship-without-these-5-setups-youre-flying-blind-in-production-cbd3c562f35d",
+    "description": "Shipping a web application to production without the right operational backbone isn\u2019t \u201clean\u201d it\u2019s reckless. You might get away with it in\u2026",
+    "image": "images/d4bc01ddcfd027b2353b285ab60e874a.webp",
+    "datetimestamp": "2026-04-28T03:38:45",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Most teams aren\u2019t solving the wrong problems \u2014 they\u2019re copying the wrong solutions. | by System Level Glitch | Apr, 2026 | Medium",
+    "link": "https://medium.com/@batra.exe/most-teams-arent-solving-the-wrong-problems-they-re-copying-the-wrong-solutions-bf24833c8ec4",
+    "description": "Microservices. Kubernetes. Cloud-native. AI-powered.",
+    "image": "images/c0649ed1487560b9ad8cb0bc63539199.webp",
+    "datetimestamp": "2026-04-28T03:38:00",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Spatial Design Tokens: Building Your System for AR and 3D | by Madhesh P | Apr, 2026 | Medium",
+    "link": "https://madheshp.medium.com/spatial-design-tokens-building-your-system-for-ar-and-3d-ad1dc98ef524",
+    "description": "As interfaces go spatial, your design tokens must evolve \u2014 here\u2019s how to make them future-ready.",
+    "image": "images/eeec8cae355abf5b6c14f8b5f562a7b0.webp",
+    "datetimestamp": "2026-04-28T00:31:01",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Backend-for-Frontend (BFF): Understanding the Pattern, Benefits, and Trade-offs | Medium",
+    "link": "https://medium.com/@rayan0/bff-isnt-always-about-friendship-understanding-the-backend-for-frontend-pattern-2d6246fc65bb",
+    "description": "Quick definition of BFF",
+    "image": "images/f9de5e86e24835a4e0c495c9649a874b.webp",
+    "datetimestamp": "2026-04-28T00:29:18",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Why AI Agents Fail to Work Well: Common Failure Patterns and the Design Fixes That Matter | by Taka Kobata | Apr, 2026 | Medium",
+    "link": "https://medium.com/@no_ai_no_life/why-ai-agents-fail-to-work-well-common-failure-patterns-and-the-design-fixes-that-matter-2f1d7c5ad8f7",
+    "description": "The first time people start working with AI agents, the reaction is usually the same.",
+    "image": "images/f71d5e4d9a47d45fca2df8a0ce22c21d.webp",
+    "datetimestamp": "2026-04-28T00:01:03",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "A Fake University Passed Review \u2014 And That\u2019s Normal | by fmi A. | Apr, 2026 | Medium",
+    "link": "https://medium.com/@fmi_a/a-fake-university-passed-review-and-thats-normal-560008013b11",
+    "description": "Humans don\u2019t check everything \u2014 so we shouldn\u2019t design systems that expect them to",
+    "image": "images/6ede1ad221b36dbad93c70f5cc04fa65.webp",
+    "datetimestamp": "2026-04-27T23:01:02",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Fan-Out/Fan-In Architecture System Design | by Hrithik | Apr, 2026 | Medium",
+    "link": "https://medium.com/@hrithikchandok00/fan-out-fan-in-architecture-system-design-bcf599444dbe",
+    "description": "Topics To be Discussed\u2026",
+    "image": "images/2c68ec4aa43dc9e1d063f555b1f1e3b5.webp",
+    "datetimestamp": "2026-04-27T21:30:12",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Rate Limiting Algorithms Explained for Real Backend Systems | by Sanskar Kolte | Apr, 2026 | Medium",
+    "link": "https://medium.com/@koltesanskar.1406/rate-limiting-algorithms-explained-for-real-backend-systems-41f22274d08c",
+    "description": "Understanding how different rate limiting strategies behave under real traffic \u2014 not just theory.",
+    "image": "images/163880ee66bffef5209dc36a44c9256c.webp",
+    "datetimestamp": "2026-04-27T20:34:47",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "System Design Made Simple: The Notes You\u2019ll Actually Remember | by Arnab Saha | Apr, 2026 | Medium",
+    "link": "https://thearnabsaha.medium.com/system-design-made-simple-the-notes-youll-actually-remember-bc23d9139c73",
+    "description": "Designing a system that survives real\u2011world traffic isn\u2019t a fantasy \u2014 it\u2019s a disciplined practice. Whether you\u2019re building a hobby project\u2026",
+    "image": "images/731f252d8afc2c23bda9bc2c2372207d.webp",
+    "datetimestamp": "2026-04-27T18:19:25",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "Jayabal Rajendran\u2019s Backend Diaries: The Silent Engine \u2014 Turning \u201cPayment Anxiety\u201d into 0-Failure Reality (Ep. 3) | by Jayabal Rajendran | Apr, 2026 | Medium",
     "link": "https://medium.com/@devloprjayabal/jayabal-rajendrans-backend-diaries-the-silent-engine-turning-payment-anxiety-into-0-failure-25aa47370a2d",
     "description": "The Lesson from a Friend\u2019s Disaster",

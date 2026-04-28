@@ -1,5 +1,14 @@
 [
   {
+    "title": "Java News Roundup: OpenJDK, Oracle Critical Patches, Open Liberty, Testcontainers, IntelliJ IDEA - InfoQ",
+    "link": "https://www.infoq.com/news/2026/04/java-news-roundup-apr20-2026/",
+    "description": "This week's Java roundup for April 20th, 2026, features news highlighting: updates on OpenJDK JEPs; JDK 27 release schedule finalized; the Oracle Critical Patch Updates for April 2026 and corresponding patch updates from BellSoft and Azul; the April 2026 edition of Open Liberty; and maintenance releases of Testcontainers, Multik and IntelliJ IDEA.",
+    "image": "images/f74784958acee93c4ce5a044eb35c5cd.webp",
+    "datetimestamp": "2026-04-28T02:30:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
     "title": "QCon San Francisco 2026: 12 Tracks Announced - InfoQ",
     "link": "https://www.infoq.com/news/2026/04/qconsf-2026-tracks-announced/",
     "description": "The 12 tracks for QCon San Francisco 2026 (November 16-20) are now live. Four tracks cover AI in production. The other eight cover the rest of what senior engineering still demands: distributed systems, architecture teardowns, resilience, platform internals, API design, and Staff+ leadership. Early bird pricing runs until May 12th.",

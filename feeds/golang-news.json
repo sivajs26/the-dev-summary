@@ -1,5 +1,41 @@
 [
   {
+    "title": "I added voice messages to my self-hosted AI agent, for free - DEV Community",
+    "link": "https://dev.to/lucasnevespereira/i-added-voice-messages-to-my-self-hosted-ai-agent-for-free-7pc",
+    "description": "Hello there!  I've been building a small personal AI agent called nevinho. It lives in my Discord DMs...",
+    "image": "images/c35c3e9f0492c7182f41943e879a8f86.webp",
+    "datetimestamp": "2026-04-27T22:15:01",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "I built a resume compiler in Go \u2014 write YAML, get every format - DEV Community",
+    "link": "https://dev.to/sahaabhishek/i-built-a-resume-compiler-in-go-write-yaml-get-every-format-elo",
+    "description": "I got tired of fighting Word docs and Canva templates every time I updated my resume.  Your resume is...",
+    "image": "images/610c9044bdc8516d4836e5ecf5e8f958.webp",
+    "datetimestamp": "2026-04-27T21:34:48",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "The Go Memory Model, Why Your Concurrent Code Might Be Lying to - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/the-go-memory-model-why-your-concurrent-code-might-be-lying-to-ab8",
+    "description": "You write two goroutines. One sets a variable, the other reads it. You run it a thousand times and it...",
+    "image": "images/f47348b3e7e0ac697aac4d5491cf430a.webp",
+    "datetimestamp": "2026-04-27T19:58:42",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
+    "title": "Why I built a CLI to clean up text copied out of AI coding tools - DEV Community",
+    "link": "https://dev.to/theandruu/why-i-built-a-cli-to-clean-up-text-copied-out-of-ai-coding-tools-1c4m",
+    "description": "I freqently copy output from Claude Code or GitHub Copilot CLI to store it in my personal notes for...",
+    "image": "images/a87c8c8b43a3354af77917f424660cb5.webp",
+    "datetimestamp": "2026-04-27T19:41:33",
+    "source": "Golang News",
+    "category": "Backend"
+  },
+  {
     "title": "KEIBIDROP: Secure File Transfer! - DEV Community",
     "link": "https://dev.to/mfc_keibisoft/keibidrop-secure-file-transfer-132n",
     "description": "KEIBIDROP encrypted file transfer and shared filesystem between two...",

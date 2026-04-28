@@ -1,0 +1,92 @@
+[
+  {
+    "title": "OpenAI\u2019s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/",
+    "description": "OpenAI\u2019s GPT-5.5 will be generally available in Microsoft Foundry. Explore now.",
+    "image": "images/be7ace21fc379ef6e62e65d7009c1385.webp",
+    "datetimestamp": "2026-04-23T22:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Microsoft Discovery: Advancing agentic R&D at scale | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/",
+    "description": "Expanded preview access for Microsoft Discovery brings new enterprise-grade, agentic AI capabilities for research and development teams.",
+    "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/04/Microsoft-Discovery-3.jpg",
+    "datetimestamp": "2026-04-22T16:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-accelerate-for-databases-modernize-your-data-for-ai-with-experts-and-investments/",
+    "description": "Learn how Azure Accelerate for Databases\u00a0brings together expert guidance, investments,\u00a0savings,\u00a0and skilling into a cohesive path forward.",
+    "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/04/Azure-Accelerate-Databases-5.jpg",
+    "datetimestamp": "2026-04-22T00:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Cloud Cost Optimization: Principles that still matter | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-principles-that-still-matter/",
+    "description": "Discover how cloud cost optimization adapts in the age of AI, with best practices for managing spend, improving efficiency, and maximizing value.",
+    "image": "images/98f8750250b56810c0277f6d2ca2e3a4.webp",
+    "datetimestamp": "2026-04-15T16:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Optimize object storage costs automatically with smart tier\u2014now generally available | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/",
+    "description": "Learn how smart tier can help you optimize\u00a0storage costs\u00a0in Azure Blob Storage and Data Lake Storage without ongoing operational effort.",
+    "image": "images/5839fb287ff7a1db913d59f915e78353.webp",
+    "datetimestamp": "2026-04-14T15:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Microsoft named a Leader in The Forrester Wave\u2122 | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/",
+    "description": "Microsoft named a Leader in The Forrester Wave\u2122 for Sovereign Cloud Platforms. See how Microsoft Sovereign Cloud supports sovereignty needs.",
+    "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/04/Azure-Forrester-2026-1c.jpg",
+    "datetimestamp": "2026-04-09T19:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "How Drasi used GitHub Copilot to find documentation bugs | Microsoft Open Source Blog",
+    "link": "https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/",
+    "description": "Learn how GitHub Copilot CLI and AI agents automatically test tutorials, prevent documentation drift, and improve open-source onboarding.",
+    "image": "images/2cb216342fb96560a89714fb4c8c7d90.webp",
+    "datetimestamp": "2026-04-09T15:05:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Cloud Cost Optimization: How to maximize ROI from AI, manage costs, and unlock real business value | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-how-to-maximize-roi-from-ai-manage-costs-and-unlock-real-business-value/",
+    "description": "Find out how you can get more ROI from AI, manage AI costs effectively, and turn AI adoption into lasting business value.",
+    "image": "images/61a393146b54e5f63481fee0a828119b.webp",
+    "datetimestamp": "2026-04-08T16:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Azure IaaS: Keep critical applications running with built-in resiliency at scale | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-keep-critical-applications-running-with-built-in-resiliency-at-scale/",
+    "description": "Learn how Azure IaaS helps organizations start from a resilient platform foundation with availability,\u00a0continuity, and\u00a0recovery capabilities.",
+    "image": "images/65cfd957d44c19f4db1e40cc38c983e5.webp",
+    "datetimestamp": "2026-04-01T16:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Build sovereign AI at the edge with Azure Local | Microsoft Azure Blog",
+    "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/",
+    "description": "Discover how Azure Local powers sovereign AI at the edge for secure, compliant workloads in remote and regulated environments.",
+    "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/03/Azure-Digital-trust-4-2.jpg",
+    "datetimestamp": "2026-03-31T16:00:00",
+    "source": "Azure Blog",
+    "category": "Cloud"
+  }
+]

@@ -1,5 +1,95 @@
 [
   {
+    "title": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
+    "link": "https://www.bbc.com/news/articles/cg4047qnpk2o",
+    "description": "All of the chain's standalone stores have stopped trading in the UK and Ireland.",
+    "image": "images/1dd2ff57202ff6926892eddecd166e30.webp",
+    "datetimestamp": "2026-04-28T03:23:25",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "GitHub - ftaip/waiting-game \u00b7 GitHub",
+    "link": "https://github.com/ftaip/waiting-game",
+    "description": "Contribute to ftaip/waiting-game development by creating an account on GitHub.",
+    "image": "images/008059f606d2dc2021d3a5141692559e.webp",
+    "datetimestamp": "2026-04-28T02:45:33",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "GitHub - hpennington/agentswift \u00b7 GitHub",
+    "link": "https://github.com/hpennington/agentswift",
+    "description": "Contribute to hpennington/agentswift development by creating an account on GitHub.",
+    "image": "images/571d5ec443f0692e361891595118a8a4.webp",
+    "datetimestamp": "2026-04-28T01:14:31",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "High Performance Git",
+    "link": "https://gitperf.com/",
+    "description": "High Performance Git by Ted Nyman, a book about Git internals and large Git repositories.",
+    "image": null,
+    "datetimestamp": "2026-04-28T00:32:04",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": null,
+    "link": "https://vivianvoss.net/blog/integrated-by-design-launch",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T23:14:26",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "link": "https://talkie-lm.com/introducing-talkie",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T21:55:48",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://www.tps.ca/media-centre/stories/unprecedented-sms-blaster-arrests/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T20:44:16",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Is My Blue Your Blue?",
+    "link": "https://ismy.blue/",
+    "description": "Test your color perception with this interactive test.",
+    "image": "images/a2e66b804bc2e6d9f2f72de16428e480.webp",
+    "datetimestamp": "2026-04-27T20:24:33",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "SUPER ZSNES - SNES Emulator",
+    "link": "https://zsnes.com/",
+    "description": "A GPU-powered SNES emulator rewritten from scratch with hi-res Mode 7, per-game enhancements, and a modernized classic UI.",
+    "image": "SuperZsnesLogo.webp",
+    "datetimestamp": "2026-04-27T17:50:10",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "GitHub - Hanqaqa/Easyduino: Easily dive into different PCB KiCad designs of the most popular microcontroller devboards \u00b7 GitHub",
+    "link": "https://github.com/Hanqaqa/Easyduino",
+    "description": "Easily dive into different PCB KiCad designs of the most popular microcontroller devboards - Hanqaqa/Easyduino",
+    "image": "images/7a684acd4120aac23ef11f5dc608c6f8.webp",
+    "datetimestamp": "2026-04-27T17:45:02",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
     "title": "Carney announces creation of Canada's first national sovereign wealth fund | CBC News",
     "link": "https://www.cbc.ca/news/politics/sovereign-wealth-fund-carney-major-projects-9.7178238",
     "description": "Prime Minister Mark Carney has unveiled his plan to create Canada's first sovereign wealth fund.",

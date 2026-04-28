@@ -1,0 +1,110 @@
+[
+  {
+    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
+    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
+    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
+    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
+    "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Running SQLite in the browser with sql.js and WASM \u2014 a practical guide with Google Drive sync - DEV Community",
+    "link": "https://dev.to/deeshansharma/running-sqlite-in-the-browser-with-sqljs-and-wasm-a-practical-guide-with-google-drive-sync-edh",
+    "description": "Most tutorials on client-side data storage reach for IndexedDB, localStorage, or a third-party sync...",
+    "image": "images/aa851798a65182213f26a1f502687eb0.webp",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Clean, Transform, and Load Data in Power BI: A Practical Guide to Data Preparation - DEV Community",
+    "link": "https://dev.to/atinuke77/clean-transform-and-load-data-in-power-bi-a-practical-guide-to-data-preparation-34bj",
+    "description": "INTRODUCTION   Data cleaning is the process of identifying and correcting errors, anomalies...",
+    "image": "images/81b10bb6c89821c5a803cd6999b3b886.webp",
+    "datetimestamp": "2026-04-28T03:56:17",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Ruby on Rails Has Scalability Issues. Here's How We Solved Them - DEV Community",
+    "link": "https://dev.to/devansh2002/ruby-on-rails-has-scalability-issues-heres-how-we-solved-them-3b50",
+    "description": "Every few months someone declares Rails dead. Then Shopify reports another record Black Friday. In...",
+    "image": "images/0b8d7aa43a8b4e682606cab201fbc83d.webp",
+    "datetimestamp": "2026-04-28T03:54:31",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Building Evenfield: An AI Homeschool Platform That Never Forgets - DEV Community",
+    "link": "https://dev.to/jonomor_ecosystem/building-evenfield-an-ai-homeschool-platform-that-never-forgets-24cp",
+    "description": "I built Evenfield because existing educational platforms treat every session like the first session....",
+    "image": "images/fb8961450a83d0f494d5b020bdebd15f.webp",
+    "datetimestamp": "2026-04-28T03:54:31",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Shipping Better Dev Tools: What I Learned After Launching My React Generator CLI - DEV Community",
+    "link": "https://dev.to/aditya_sengar_18547ba3ce7/shipping-better-dev-tools-what-i-learned-after-launching-my-react-generator-cli-55lh",
+    "description": "Building Better Dev Tools: What I Learned After Launching My React Generator CLI   A few...",
+    "image": "images/6eaf425d23e990f0d7107a8118f8cbbb.webp",
+    "datetimestamp": "2026-04-28T03:52:19",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "I Tried 10 ChatGPT Resume Prompts. Here's What Actually Got Me Interviews. - DEV Community",
+    "link": "https://dev.to/ahnhyeongkyu/i-tried-10-chatgpt-resume-prompts-heres-what-actually-got-me-interviews-kjo",
+    "description": "I sent 47 applications with my old resume. 0 callbacks.  Then I tried 10 ChatGPT prompts I'd been...",
+    "image": "images/dba16c8cae17cabae58475bf83181b6d.webp",
+    "datetimestamp": "2026-04-28T03:49:21",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "LLM-as-Judge: Automated Quality Gate for LLM Outputs in Production - DEV Community",
+    "link": "https://dev.to/spyrae/llm-as-judge-automated-quality-gate-for-llm-outputs-in-production-5gjh",
+    "description": "LLM-as-Judge is a pattern where one language model evaluates another model's outputs against defined...",
+    "image": "images/a0b7fbef123d6a37e3b4b5058adb9d64.webp",
+    "datetimestamp": "2026-04-28T03:46:25",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Coordination Strategies in Multi-Agent Environments - DEV Community",
+    "link": "https://dev.to/vishaluttammane/coordination-strategies-in-multi-agent-environments-20nd",
+    "description": "Multi-agent environments are at the core of many modern intelligent systems, ranging from distributed...",
+    "image": "images/c09f99eb1263e7e5f4e7e36933ea1836.webp",
+    "datetimestamp": "2026-04-28T03:42:15",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "Debugging Without Despair: A Systematic Approach for Normal Humans - DEV Community",
+    "link": "https://dev.to/ajay_mudettula/debugging-without-despair-a-systematic-approach-for-normal-humans-1ha3",
+    "description": "You've been staring at the same error for 90 minutes. You've added 14 console.log statements. You've...",
+    "image": "images/433d310d2e95ea7c5130188cd83d3873.webp",
+    "datetimestamp": "2026-04-28T03:38:04",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "A Unified View of AI Evolution: From Machine Learning to LLMs, RAG, and Fine-Tuning - DEV Community",
+    "link": "https://dev.to/naimulkarim/a-unified-view-of-ai-evolution-from-machine-learning-to-llms-rag-and-fine-tuning-3p4i",
+    "description": "Artificial Intelligence has progressed far beyond its early rule-based origins. What once depended...",
+    "image": "images/4ba9ee73a5fdb819fcbc3f37105606bc.webp",
+    "datetimestamp": "2026-04-28T03:34:24",
+    "source": "Devto Main",
+    "category": "AI"
+  },
+  {
+    "title": "My Agent Now Edits Its Own Body - DEV Community",
+    "link": "https://dev.to/connor_gallic/my-agent-now-edits-its-own-body-g07",
+    "description": "The first time scout said something that didn't sound like scout, it said something completely...",
+    "image": "images/dc7f01cadc64c4caf8de62dfa978185d.webp",
+    "datetimestamp": "2026-04-28T03:33:54",
+    "source": "Devto Main",
+    "category": "AI"
+  }
+]

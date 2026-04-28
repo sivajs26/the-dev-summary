@@ -1,0 +1,110 @@
+[
+  {
+    "title": "How I built a self\u2011healing package manager - DEV Community",
+    "link": "https://dev.to/nersisiian/how-i-built-a-self-healing-package-manager-3nl4",
+    "description": "How I Built a Self-Healing Package Manager from Scratch (Rust + AI)   The first tool that...",
+    "image": "images/409e4b0fe41972716790185545ecffa6.webp",
+    "datetimestamp": "2026-04-28T02:45:30",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Repairing a Broken PDF in Rust \u2014 Rebuilding the XREF Table From Scratch - DEV Community",
+    "link": "https://dev.to/hiyoyok/repairing-a-broken-pdf-in-rust-rebuilding-the-xref-table-from-scratch-23o9",
+    "description": "All tests run on an 8-year-old MacBook Air.  Some PDFs won't open. Not because the content is gone \u2014...",
+    "image": "images/27d48f88ca6f505a8b7e8e5f3815d312.webp",
+    "datetimestamp": "2026-04-28T02:34:46",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "How to Build WebAssembly Modules with Rust 1.96 and wasm-pack 0.12 for Cloudflare Workers 4.0 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-build-webassembly-modules-with-rust-196-and-wasm-pack-012-for-cloudflare-workers-40-75d",
+    "description": "In 2024, Cloudflare Workers processed over 4 trillion requests monthly, but 68% of developers still...",
+    "image": "images/5d041913cac402dd65c5e86d9f3eb70a.webp",
+    "datetimestamp": "2026-04-28T01:57:56",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Contrarian Opinion: Rust Is Too Hard for Most Teams \u2013 Use Go 1.23 and Zig 0.12 - DEV Community",
+    "link": "https://dev.to/johalputt/contrarian-opinion-rust-is-too-hard-for-most-teams-use-go-123-and-zig-012-e3",
+    "description": "After 15 years of shipping production systems, contributing to Linux kernel modules and Go standard...",
+    "image": "images/8fdec0890b007c76a95ff9c874bc41dc.webp",
+    "datetimestamp": "2026-04-28T01:52:33",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "How I Built a Rust CLI Tool That Beats POSIX diff (and Saved My CI/CD Pipelines) - DEV Community",
+    "link": "https://dev.to/alyesmaeil/how-i-built-a-rust-cli-tool-that-beats-posix-diff-and-saved-my-cicd-pipelines-1j0",
+    "description": "We\u2019ve all been there. It\u2019s a Friday afternoon, a deployment just went out, and suddenly the...",
+    "image": "images/12fcdd6402c69aaa0580f1881937a903.webp",
+    "datetimestamp": "2026-04-28T01:50:35",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "How to Set Up Benchmarking for Rust 1.96 Apps with Criterion 0.5 and Prometheus 3.0 - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-set-up-benchmarking-for-rust-196-apps-with-criterion-05-and-prometheus-30-3e2f",
+    "description": "Rust 1.96 stabilizes 14 performance-critical features, but 68% of production Rust teams skip...",
+    "image": "images/2ed16c1a58601d7884ea2cc32e00d89c.webp",
+    "datetimestamp": "2026-04-28T00:54:27",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Deep Dive: How Rust 1.85's Lifetime Elision Reduces Boilerplate by 40% - DEV Community",
+    "link": "https://dev.to/johalputt/deep-dive-how-rust-185s-lifetime-elision-reduces-boilerplate-by-40-10nj",
+    "description": "Rust 1.85\u2019s updated lifetime elision rules eliminate 40% of redundant lifetime annotations across...",
+    "image": "images/c751bbb47bc46bfb6e94a8546e3ac023.webp",
+    "datetimestamp": "2026-04-27T22:31:45",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Comparison: Elixir 1.17 vs. Go 1.24 vs. Rust 1.95 for Real-Time Chat App Throughput and Fault Tolerance - DEV Community",
+    "link": "https://dev.to/johalputt/comparison-elixir-117-vs-go-124-vs-rust-195-for-real-time-chat-app-throughput-and-fault-1g5j",
+    "description": "In a 72-hour soak test simulating 15,000 concurrent real-time chat users sending 3,000 messages per...",
+    "image": "images/a8dc5eb24c7596d8fae4cf5bc4db6a26.webp",
+    "datetimestamp": "2026-04-27T20:58:36",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Comparison: Elixir 1.17 vs. Go 1.24 vs. Rust 1.95 for Real-Time Chat App Throughput and Fault Tolerance - DEV Community",
+    "link": "https://dev.to/johalputt/comparison-elixir-117-vs-go-124-vs-rust-195-for-real-time-chat-app-throughput-and-fault-1e2m",
+    "description": "A single real-time chat server handling 1.2 million concurrent WebSocket connections with &lt;100ms...",
+    "image": "images/a8dc5eb24c7596d8fae4cf5bc4db6a26.webp",
+    "datetimestamp": "2026-04-27T20:48:24",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Comparison: Elixir 1.17 vs. Go 1.24 vs. Rust 1.95 for Real-Time Chat App Throughput and Fault Tolerance - DEV Community",
+    "link": "https://dev.to/johalputt/comparison-elixir-117-vs-go-124-vs-rust-195-for-real-time-chat-app-throughput-and-fault-4d3k",
+    "description": "Real-time chat apps handle 10M+ concurrent connections for top-tier platforms, but picking the wrong...",
+    "image": "images/a8dc5eb24c7596d8fae4cf5bc4db6a26.webp",
+    "datetimestamp": "2026-04-27T20:42:50",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Code Mode for MCP: The Long-Tail Escape Hatch, Not the Front Door - DEV Community",
+    "link": "https://dev.to/aws-heroes/code-mode-for-mcp-the-long-tail-escape-hatch-not-the-front-door-40ga",
+    "description": "Your MCP server has 12 good tools. Business users are getting value. Then someone asks for a request...",
+    "image": "images/e379ed6f817cb41a3892a3fcb61a4c44.webp",
+    "datetimestamp": "2026-04-27T20:25:45",
+    "source": "Rust News",
+    "category": "Backend"
+  },
+  {
+    "title": "Rust's Zero-Cost Abstractions, What Monomorphization Actually Does to Your Code - DEV Community",
+    "link": "https://dev.to/shayan_holakouee/rusts-zero-cost-abstractions-what-monomorphization-actually-does-to-your-code-5dim",
+    "description": "\"Zero-cost abstractions\" is one of Rust's core promises. You can write generic, composable,...",
+    "image": "images/0849e2dcb956ca0ee8147dbc2ad608ed.webp",
+    "datetimestamp": "2026-04-27T20:07:12",
+    "source": "Rust News",
+    "category": "Backend"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/27/meet-talkie-1930-a-13b-open-weight-llm-trained-on-pre-1931-english-text-for-historical-reasoning-and-generalization-research/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-28T02:24:13",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/27/build-a-reinforcement-learning-powered-agent-that-learns-to-retrieve-relevant-long-term-memories/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T18:58:20",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/27/openmoss-releases-moss-audio-an-open-source-foundation-model-for-speech-sound-music-and-time-aware-audio-reasoning/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T18:36:06",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/27/meta-ai-releases-sapiens2-a-high-resolution-human-centric-vision-model-for-pose-segmentation-normals-pointmap-and-albedo/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T08:47:20",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/26/the-lora-assumption-that-breaks-in-production/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T05:33:44",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/26/how-to-build-a-fully-searchable-ai-knowledge-base-with-openkb-openrouter-and-llama/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-27T05:20:25",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/26/how-to-build-smarter-multilingual-text-wrapping-with-budoux-through-parsing-html-rendering-model-introspection-and-toy-training/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-26T22:58:28",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/26/top-7-benchmarks-that-actually-matter-for-agentic-reasoning-in-large-language-models/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-26T07:59:03",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/25/rag-without-vectors-how-pageindex-retrieves-by-reasoning/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-26T04:22:40",
+    "source": "Marktechpost",
+    "category": "AI"
+  },
+  {
+    "title": null,
+    "link": "https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-04-26T04:04:15",
+    "source": "Marktechpost",
+    "category": "AI"
+  }
+]

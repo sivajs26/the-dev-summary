@@ -1,0 +1,110 @@
+[
+  {
+    "title": "I used Claude to debug a UI bug: What actually happened - LogRocket Blog",
+    "link": "https://blog.logrocket.com/debugging-session-with-claude/",
+    "description": "A senior developer walks through a live debugging session with Claude to fix a complex Next.js UI bug, sharing insights on AI-assisted debugging, its limitations, and the final solution.",
+    "image": "images/7f2d0311bc9f581c8cc96ac1093746ad.webp",
+    "datetimestamp": "2026-04-22T13:00:07",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "Feature factory vs. product discovery: A 3-lens framework for PMs - LogRocket Blog",
+    "link": "https://blog.logrocket.com/product-management/product-discovery-framework-pms/",
+    "description": "Learn a 3-lens framework that helps product managers shift stakeholder requests from feature ideas to real problems and outcomes.",
+    "image": "images/b98eddbe34cb236b65af165b7e3cf179.webp",
+    "datetimestamp": "2026-04-22T12:30:18",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "What if you could lay out UI without CSS? Meet Pretext - LogRocket Blog",
+    "link": "https://blog.logrocket.com/pretext-laying-out-ui-without-css/",
+    "description": "Pretext lets you measure text before render, fixing layout issues CSS can\u2019t handle in modern UIs.",
+    "image": "images/87562976377bf3ba74f38e342c3278f9.webp",
+    "datetimestamp": "2026-04-21T13:00:49",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "Why real-time frontends break at scale and how to fix them - LogRocket Blog",
+    "link": "https://blog.logrocket.com/real-time-frontends-break-scale/",
+    "description": "Why do real-time frontends break at scale? Learn how event-driven patterns reduce drift, race conditions, and inconsistent UI state.",
+    "image": "images/bcc6b9bdbb29198b6473f00691328a3e.webp",
+    "datetimestamp": "2026-04-20T20:00:11",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "I tested every major auth library for Next.js in 2026: Here\u2019s what you should use - LogRocket Blog",
+    "link": "https://blog.logrocket.com/best-auth-library-nextjs-2026/",
+    "description": "Test out Auth.js, Clerk, WorkOS, and Better Auth in Next.js 16 to see which auth library fits your app in 2026.",
+    "image": "images/7229d76e2806fd9fff369b59ae0166b9.webp",
+    "datetimestamp": "2026-04-20T13:00:19",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "Why multimodal UX is a more practical future than Zero UI - LogRocket Blog",
+    "link": "https://blog.logrocket.com/ux-design/zero-ui-vs-multimodal-ux/",
+    "description": "Zero UI promises screenless interactions, but multimodal UX offers a more scalable future by combining voice, sensing, haptics, and visual interfaces based on context.",
+    "image": "images/ce0c7d8eb31dc7627d502ba253fcdee1.webp",
+    "datetimestamp": "2026-04-16T15:30:37",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "LaunchPod: AI Isn't Breaking PM Teams. Overload is. Explained by Stanford PhD & CPO - LogRocket Blog",
+    "link": "https://blog.logrocket.com/ai-isnt-breaking-pm-teams-overload-is-explained-stanford-phd-cpo-jen-wang-launchpod/",
+    "description": "Jen Wang covers \"The Zone of Absorption\" and why product teams are struggling to build when AI is shifting faster than anyone can keep up.",
+    "image": "images/b154ccb30bab80ada74006012a5e526e.webp",
+    "datetimestamp": "2026-04-15T13:58:26",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "When to move API logic out of Next.js - LogRocket Blog",
+    "link": "https://blog.logrocket.com/when-move-api-logic-out-nextjs/",
+    "description": "When should you move API logic out of Next.js? Learn when Route Handlers stop scaling and how ElysiaJS helps.",
+    "image": "images/249d7e3200966b48639b381f683cbc08.webp",
+    "datetimestamp": "2026-04-15T13:00:58",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "Moving beyond CI/CD with Dokploy - LogRocket Blog",
+    "link": "https://blog.logrocket.com/dokploy-ci-cd/",
+    "description": "A practical look at how Dokploy simplifies deployments using Docker, reducing CI/CD complexity and improving reliability.",
+    "image": "images/9efdf21ff7010c0abe36c5499d17a27c.webp",
+    "datetimestamp": "2026-04-15T13:00:32",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "4 product team structures and when each works best - LogRocket Blog",
+    "link": "https://blog.logrocket.com/product-management/product-team-structures/",
+    "description": "Explore four product team structures, when each works best, and how to choose the right model for speed, ownership, and clarity.",
+    "image": "images/480feba5e24ab4f900fd972f759af1ef.webp",
+    "datetimestamp": "2026-04-15T12:30:47",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "Astro vs Next.js: When SSG beats React for content sites - LogRocket Blog",
+    "link": "https://blog.logrocket.com/astro-vs-next-js-ssg-vs-react/",
+    "description": "Astro vs Next.js for content sites. See how SSG, hydration, and runtime costs compare in real-world builds.",
+    "image": "images/b06db04f21032b9b774496c8a681127b.webp",
+    "datetimestamp": "2026-04-13T17:00:04",
+    "source": "Logrocket",
+    "category": "Tech News"
+  },
+  {
+    "title": "I replaced my entire test suite with AI agents: Here's what actually broke - LogRocket Blog",
+    "link": "https://blog.logrocket.com/replaced-test-suite-ai-agents/",
+    "description": "AI-generated tests can speed up React testing, but they also create hidden risks. Here\u2019s what broke in a real app.",
+    "image": "images/800e941bdd24d41d12765414d2a13287.webp",
+    "datetimestamp": "2026-04-10T13:00:27",
+    "source": "Logrocket",
+    "category": "Tech News"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "title": "We Ditched Splunk for Datadog 7.45 and Splunk Cloud: 35% Lower Costs - DEV Community",
+    "link": "https://dev.to/johalputt/we-ditched-splunk-for-datadog-745-and-splunk-cloud-35-lower-costs-3g7p",
+    "description": "After 18 months of running a hybrid observability stack with on-prem Splunk Enterprise 9.1 and Splunk...",
+    "image": "images/4dd4ed92d4659bbdd78574050f028f04.webp",
+    "datetimestamp": "2026-04-28T03:43:35",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Building a No-Install AI Upscaler: Leveraging Cloud GPUs for Seamless Image Processing - DEV Community",
+    "link": "https://dev.to/go_hard_lab/building-a-no-install-ai-upscaler-leveraging-cloud-gpus-for-seamless-image-processing-6co",
+    "description": "Why should high-end AI be limited to those with high-end rigs?  I recently developed GoHard AI...",
+    "image": "images/bd68c1b22af5853d658d403b76adbc99.webp",
+    "datetimestamp": "2026-04-28T01:21:20",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Benchmark: Wiz 3 vs. Orca Security 2 for Cloud Workload Protection Platform (CWPP) Latency and Accuracy - DEV Community",
+    "link": "https://dev.to/johalputt/benchmark-wiz-3-vs-orca-security-2-for-cloud-workload-protection-platform-cwpp-latency-and-jbe",
+    "description": "In a 12-week production benchmark across 14,000+ cloud workloads, Wiz 3 reduced CWPP scan latency by...",
+    "image": "images/499f79f3cc2eab653c50ab9558f7b2e1.webp",
+    "datetimestamp": "2026-04-28T01:11:30",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "I Built a SaaS Platform From Scratch. Here's How I Architected It on AWS. - DEV Community",
+    "link": "https://dev.to/suletete/i-built-a-saas-platform-from-scratch-heres-how-i-architected-it-on-aws-5li",
+    "description": "So I've been working on something for a while now. It's called TechVerse. It's a SaaS e-commerce...",
+    "image": "images/143a41aa8fbf618116a87e5988651bdd.webp",
+    "datetimestamp": "2026-04-28T00:03:29",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Certification: Which One First? A Practical Path - DEV Community",
+    "link": "https://dev.to/juan_diegoisazaa_5362a/aws-certification-which-one-first-a-practical-path-1hic",
+    "description": "Not sure which AWS certification to take first? Use this practical framework to pick Cloud Practitioner vs SAA vs Developer/SysOps\u2014with a mini lab.",
+    "image": "images/bf3a79d661e8cec78b66f3b223cb7c13.webp",
+    "datetimestamp": "2026-04-27T23:53:18",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Salesforce Data Cloud Zero Copy: A Practical Guide - DEV Community",
+    "link": "https://dev.to/dipojjal/salesforce-data-cloud-zero-copy-a-practical-guide-3ei7",
+    "description": "Salesforce Data Cloud Zero Copy: A Practical Guide     If you've spent any time around...",
+    "image": "images/d024abd8691d02f724e4b2e4f70a9b49.webp",
+    "datetimestamp": "2026-04-27T23:07:03",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to Reduce Cloud Security Risks by 50% with AWS Config 5 and Azure Policy 8 for Compliance - DEV Community",
+    "link": "https://dev.to/johalputt/how-to-reduce-cloud-security-risks-by-50-with-aws-config-5-and-azure-policy-8-for-compliance-nce",
+    "description": "What You\u2019ll Build   By the end of this tutorial, you will have:     An automated AWS Config...",
+    "image": "images/f42b23aa3e5bea4b5ad6dce8b0888847.webp",
+    "datetimestamp": "2026-04-27T21:55:00",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Claude API Pricing Hikes, Code Model Configs, & Opus 4.6 Vulnerability Discovery - DEV Community",
+    "link": "https://dev.to/soytuber/claude-api-pricing-hikes-code-model-configs-opus-46-vulnerability-discovery-52bg",
+    "description": "Claude API Pricing Hikes, Code Model Configs, &amp; Opus 4.6 Vulnerability Discovery        ...",
+    "image": "images/d8f9f59095e3544755fda2466299e097.webp",
+    "datetimestamp": "2026-04-27T21:34:41",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Database Optimization for VPS-Hosted Applications - DEV Community",
+    "link": "https://dev.to/big_mazzy_06d057cc24398c5/database-optimization-for-vps-hosted-applications-bg",
+    "description": "Are you experiencing slow query times or struggling with database performance on your Virtual Private...",
+    "image": "images/75d93d13ba2bb5716b7e5ef14a14e3c2.webp",
+    "datetimestamp": "2026-04-27T19:00:11",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cross-Cloud AI Swarms: VPC Peering vs. Transit Gateways vs. Pilot Protocol - DEV Community",
+    "link": "https://dev.to/pstayet/cross-cloud-ai-swarms-vpc-peering-vs-transit-gateways-vs-pilot-protocol-3cm2",
+    "description": "Distributing multi-agent systems across multiple cloud providers is increasingly standard practice as...",
+    "image": "images/45f571a76c83d6c409da3d0726cae524.webp",
+    "datetimestamp": "2026-04-27T18:42:46",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cloud Provisioning Benchmarks: AWS vs Azure vs GCP \u2014 2026-04-26 - DEV Community",
+    "link": "https://dev.to/biz_dev_5bfcf2eb4cb185fe9/cloud-provisioning-benchmarks-aws-vs-azure-vs-gcp-2026-04-26-309l",
+    "description": "Daily Cloud Provisioning Benchmarks \u2014 2026-04-26   Fastest cloud today: AWS  Real...",
+    "image": "images/2926c72a84d3af5d781dd28540e7b7f5.webp",
+    "datetimestamp": "2026-04-27T17:00:07",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Provide storage for the IT department testing and traning - DEV Community",
+    "link": "https://dev.to/ijeoma_omolade_9cf04c9ef3/provide-storage-for-the-it-department-testing-and-traning-388l",
+    "description": "### what is Azure storage  Azure Storage is a cloud storage service by Microsoft used to store large...",
+    "image": "images/e762de6e5e648e8db15faa91ec1b268e.webp",
+    "datetimestamp": "2026-04-27T15:46:32",
+    "source": "Devto Cloud",
+    "category": "Cloud & DevOps"
+  }
+]

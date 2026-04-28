@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How Stripe Detects Fraudulent Transactions Within 100 ms",
+    "link": "https://blog.bytebytego.com/p/how-stripe-detects-fraudulent-transactions",
+    "description": "In this article, we will look at how Stripe\u2019s Radar does this effectively and the architectural decisions the team took while building it.",
+    "image": "images/5448293a7549ed5bd3cadd32ebe6de56.webp",
+    "datetimestamp": "2026-04-28T03:03:50",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How Amazon Uses LLMs to Recommend Products",
+    "link": "https://blog.bytebytego.com/p/how-amazon-uses-llms-to-recommend",
+    "description": "In this article, we will look at how COSMO works and the challenges the engineering team faced.",
+    "image": "images/da2e25c96bbdc7e2dacbfd5b2d4b9f70.webp",
+    "datetimestamp": "2026-04-27T15:30:57",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "EP212: Data Warehouse vs Data Lake vs Data Mesh",
+    "link": "https://blog.bytebytego.com/p/ep212-data-warehouse-vs-data-lake",
+    "description": "Storing data is the easy part. Deciding where and how to organize it is the real challenge.",
+    "image": "images/fb539313fe82de8a18bee927909d5bdf.webp",
+    "datetimestamp": "2026-04-25T15:30:59",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "B-Trees vs LSM Trees: Comparison and Trade-Offs",
+    "link": "https://blog.bytebytego.com/p/b-trees-vs-lsm-trees-comparison-and",
+    "description": "In this article, we will look at B-Trees and LSM trees in detail, along with the trade-offs associated with each of them.",
+    "image": "images/ace207cbb2f672b5fb6bcabcaaa392af.webp",
+    "datetimestamp": "2026-04-23T15:30:59",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How DoorDash Launches a New Country in One Week",
+    "link": "https://blog.bytebytego.com/p/how-doordash-launches-a-new-country",
+    "description": "In this article, we will look at how this architecture was designed and the challenges they faced.",
+    "image": "images/d128a9918289e48dc6c627163e07b2a7.webp",
+    "datetimestamp": "2026-04-21T15:30:21",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "The Security Architecture of GitHub Agentic Workflow",
+    "link": "https://blog.bytebytego.com/p/the-security-architecture-of-github",
+    "description": "In this article, we will look at how GitHub built a security architecture that assumes the agent is already compromised.",
+    "image": "images/2dde775bbce5b6cca8c9ec548c19f550.webp",
+    "datetimestamp": "2026-04-20T15:30:47",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "EP211: How the JVM Works - ByteByteGo Newsletter",
+    "link": "https://blog.bytebytego.com/p/ep211-how-the-jvm-works",
+    "description": "We compile, run, and debug Java code all the time. But what exactly does the JVM do between compile and run?",
+    "image": "images/4c11924dec9b87eeef7ac7832ae472b6.webp",
+    "datetimestamp": "2026-04-18T15:30:39",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "A Guide to Relational Database Design",
+    "link": "https://blog.bytebytego.com/p/a-guide-to-relational-database-design",
+    "description": "In this article, we cover the core concepts that inform those decisions. We\u2019ll look at tables, keys, relationships, normalization, and joins, with each concept building on the last.",
+    "image": "images/dc5f8aa850df2f216bc150083512c5d7.webp",
+    "datetimestamp": "2026-04-16T15:31:26",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "Figma Design to Code, Code to Design: Clearly Explained",
+    "link": "https://blog.bytebytego.com/p/figma-design-to-code-code-to-design",
+    "description": "This article covers how Figma\u2019s design-to-code and code-to-design workflows actually work, starting with why the obvious approaches fail, how MCP solves them, and the engineering challenges that remain.",
+    "image": "images/913d233ae4015618e1fbadad7ad56830.webp",
+    "datetimestamp": "2026-04-14T15:31:25",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How LinkedIn Feed Uses LLMs to Serve 1.3 Billion Users",
+    "link": "https://blog.bytebytego.com/p/how-linkedin-feed-uses-llms-to-serve",
+    "description": "In this article, we will look at how the LinkedIn engineering team rebuilt the Feed and the challenges they faced.",
+    "image": "images/db1c7c46bc25424a51fbe9e564ebfb28.webp",
+    "datetimestamp": "2026-04-13T15:31:28",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "EP210: Monolithic vs Microservices vs Serverless",
+    "link": "https://blog.bytebytego.com/p/ep210-monolithic-vs-microservices",
+    "description": "A monolith is usually one codebase, one database, and one deployment.",
+    "image": "images/b0a0de3cae68893fc438c34e8f2d125a.webp",
+    "datetimestamp": "2026-04-11T15:30:48",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "Must-Know Cross-Cutting Concerns in API Development",
+    "link": "https://blog.bytebytego.com/p/must-know-cross-cutting-concerns",
+    "description": "What do authentication, logging, rate limiting, and input validation have in common?",
+    "image": "images/22e82b008a5379246d7c4b578f8555b0.webp",
+    "datetimestamp": "2026-04-09T15:30:31",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How Spotify Ships to 675 Million Users Every Week Without Breaking Things",
+    "link": "https://blog.bytebytego.com/p/how-spotify-ships-to-675-million",
+    "description": "In this article, we will take a look at this process in detail and attempt to derive learnings.",
+    "image": "images/01fb769d001cf98db62ffc1ab6c67476.webp",
+    "datetimestamp": "2026-04-08T15:30:20",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "Nextdoor\u2019s Database Evolution: A Scaling Ladder",
+    "link": "https://blog.bytebytego.com/p/nextdoors-database-evolution-a-scaling",
+    "description": "Nextdoor operates as a hyper-local social networking service that connects neighbors based on their geographic location.",
+    "image": "images/74ff12d3fbae813fd65c9e0799b6df39.webp",
+    "datetimestamp": "2026-04-07T15:32:00",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "A Guide to Context Engineering for LLMs",
+    "link": "https://blog.bytebytego.com/p/a-guide-to-context-engineering-for",
+    "description": "In this article, we\u2019ll look at how LLMs actually process the information you give them, what context engineering is, and the strategies that can help with it.",
+    "image": "images/6cbdf6f313cb55d85ef9c4e22531c0b8.webp",
+    "datetimestamp": "2026-04-06T15:30:52",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "EP209: 12 Claude Code Features Every Engineer Should Know",
+    "link": "https://blog.bytebytego.com/p/ep209-12-claude-code-features-every",
+    "description": "CLAUDE. md: A project memory file to define custom rules and conventions. Claude reads at the start of every session.",
+    "image": "images/c75202d9335f0e034bfee823372ccd73.webp",
+    "datetimestamp": "2026-04-04T15:30:42",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "Our New Book on Behavioral Interviews Is Now Available on Amazon",
+    "link": "https://blog.bytebytego.com/p/our-new-book-on-behavioral-interviews",
+    "description": "The book is written by Steve Huynh and published by ByteByteGo.",
+    "image": "images/c362676c0986c929d6bf142d4957614c.webp",
+    "datetimestamp": "2026-04-03T15:31:34",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "Database Performance Strategies and Their Hidden Costs",
+    "link": "https://blog.bytebytego.com/p/database-performance-strategies-and",
+    "description": "A feature is deployed, and the database queries run well.",
+    "image": "images/9eaee23989e6abadde9c034b2b1875e6.webp",
+    "datetimestamp": "2026-04-02T15:31:36",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How Datadog Redefined Data Replication",
+    "link": "https://blog.bytebytego.com/p/how-datadog-redefined-data-replication",
+    "description": "In this article, we will look at how Datadog implemented the changes and the challenges they faced.",
+    "image": "images/94af0031e27322d2671a337dedcc0895.webp",
+    "datetimestamp": "2026-04-01T15:31:07",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  },
+  {
+    "title": "How Meta Turned Debugging Into a Product",
+    "link": "https://blog.bytebytego.com/p/how-meta-turned-debugging-into-a",
+    "description": "In this article, we will look at how DrP works on a high level and the design choices Meta made while building it.",
+    "image": "images/6b618e3b3e5205efd08c0791882d38ae.webp",
+    "datetimestamp": "2026-03-31T15:31:44",
+    "source": "ByteByteGo (Alex Xu)",
+    "category": "System Design"
+  }
+]

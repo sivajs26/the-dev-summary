@@ -1,0 +1,3629 @@
+[
+  {
+    "title": "AWS European Sovereign Cloud (EUSC) \u2013 a field report | cloudonaut",
+    "link": "https://cloudonaut.io/aws-european-sovereign-cloud-field-report/",
+    "description": "What is it like to deploy a workload in the AWS European Sovereign Cloud (EUSC)? Learn about obstacles like missing services and features.",
+    "image": "images/100aea78a2218d116607d4ef8bcc5bfa.webp",
+    "datetimestamp": "2026-03-13T06:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to Monitor and Auto Adjust AWS Service Quotas? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-monitor-and-auto-adjust-aws-service-quotas/",
+    "description": "Enable Service Quotas Automatic Management to monitor and auto-adjust AWS service quotas to avoid downtimes.",
+    "image": "images/884e3383170da171fd01b82d1f334b3c.webp",
+    "datetimestamp": "2026-01-28T06:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS CloudWatch Dashboard Cost Efficiency: Logs vs. Custom Metrics | cloudonaut",
+    "link": "https://cloudonaut.io/aws-cloudwatch-dashboard-cost-efficiency-logs-vs-custom-metrics/",
+    "description": "Stop paying $1.19 per metric. We discovered that switching our CloudWatch dashboards from custom metrics to logs dropped costs to just $0.07 per metric. Here is how we did it.",
+    "image": "images/c433923ac778eb66c0b41382b495b119.webp",
+    "datetimestamp": "2025-11-26T06:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Step Functions: How to Orchestrate Workflows Waiting for 3rd Parties | cloudonaut",
+    "link": "https://cloudonaut.io/aws-step-functions-how-to-orchestrate-workflows-waiting-for-3rd-parties/",
+    "description": "Introducing a serverless architecture using AWS Step Functions to track GitHub actions jobs. The architecture leverages Lambda functions to process webhooks and Dynamodb to store task tokens, allowing",
+    "image": "images/4f8b9593e38e3320c0e2b9058f204236.webp",
+    "datetimestamp": "2025-10-22T06:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Optimizing Amazon Linux 2023 for tiny EC2 instances: t3.nano, t3a.nano, or t4g.nano | cloudonaut",
+    "link": "https://cloudonaut.io/optimizing-amazon-linux-2023-for-tiny-ec2-instances/",
+    "description": "Amazon Linux 2023 slow on tiny EC2 instances? Learn how to optimize t3.nano, t3a.nano, and t4g.nano performance by reconfiguring /tmp and swap defaults.",
+    "image": "images/ca0f76599aa1246fd10c35974f08ba19.webp",
+    "datetimestamp": "2025-08-18T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to reduce your AWS Config bill for volatile workloads | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-reduce-your-aws-config-bill/",
+    "description": "Learn how to reduce AWS Config costs for volatile workloads like AWS Fargate tasks",
+    "image": "images/bfe794e716768d7d5fe76a526ae79fd7.webp",
+    "datetimestamp": "2025-08-01T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to generate SDKs for a REST API powered by Amazon API Gateway | cloudonaut",
+    "link": "https://cloudonaut.io/generate-sdk-for-api-gateway-rest-api/",
+    "description": "Lessons learned from generating SDKs for a virus and malware scan API with Amazon API Gateway, Smithy, and OpenAPI Generator.",
+    "image": "images/d7a14c38a3ea44e38dd2527728cc00cf.webp",
+    "datetimestamp": "2025-07-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Simplified AMI deletion: new feature streamlines cleanup | cloudonaut",
+    "link": "https://cloudonaut.io/simplified-ami-deletion/",
+    "description": "Learn how AWS's new DeleteAssociatedSnapshots feature simplifies AMI cleanup by automatically deleting EBS snapshots during AMI deregistration, reducing API calls and preventing orphaned resources tha",
+    "image": "images/1d93217b7288f087f55708c5c501211b.webp",
+    "datetimestamp": "2025-07-03T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Getting ISO 27001 certified as a 2-person company | cloudonaut",
+    "link": "https://cloudonaut.io/getting-iso-27001-certified-as-a-2-person-company/",
+    "description": "For more than five years, we have been selling software to customers worldwide. But so far, we mainly sold software solutions...",
+    "image": "images/80a77714e73c138164bef5db4fbe4ef8.webp",
+    "datetimestamp": "2025-04-10T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "S3 Virus Scan and Malware Protection Step-by-Step Guide | cloudonaut",
+    "link": "https://cloudonaut.io/s3-virus-scan-and-malware-protection-step-by-step-guide/",
+    "description": "Protect your AWS S3 buckets from viruses and malware with an antivirus scanning solution. This step-by-step guide explains how to implement S3 virus scanning, covering architecture and use cases for p",
+    "image": "images/53f2e6ac0f86629cfc9eb59a329ae713.webp",
+    "datetimestamp": "2025-03-03T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Reduce GitHub runner costs by leveraging EC2 spot instances | cloudonaut",
+    "link": "https://cloudonaut.io/reduce-github-runner-costs-by-leveraging-ec2-spot-instances/",
+    "description": "Reduce GitHub Actions costs by using self-hosted runners on EC2 Spot instances. Learn how to optimize CI/CD workflows with cost-efficient AWS infrastructure.",
+    "image": "images/500048fa7370b7cc0ee8cfafe98b4dff.webp",
+    "datetimestamp": "2025-01-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "10th anniversary - our story | cloudonaut",
+    "link": "https://cloudonaut.io/10th-anniversary-our-story/",
+    "description": "We are celebrating the 10th anniversary of our company and want to share our story.",
+    "image": "images/76cf54d04f200dc8a081b901078f350a.webp",
+    "datetimestamp": "2025-01-22T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to move a DynamoDB table to another region or account? | cloudonaut",
+    "link": "https://cloudonaut.io/dynamodb-move-region-account-backup-restore/",
+    "description": "Need to move your DynamoDB table? Learn about three migration methods: backup and restore, S3 export/import, and DynamoDB CLI tool dynein.",
+    "image": "images/e31925781047b5a86b2ac48578355d1b.webp",
+    "datetimestamp": "2025-01-14T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Optional DependsOn with CloudFormation: Metadata to the rescue | cloudonaut",
+    "link": "https://cloudonaut.io/optional-dependson-with-cloudformation-metadata-to-the-rescue/",
+    "description": "Learn how to manage optional dependencies in AWS CloudFormation using a Metadata-based workaround when DependsOn can't handle conditional resources.",
+    "image": "images/d1e7019346cd783c205063cbcc878e3a.webp",
+    "datetimestamp": "2024-11-12T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Are you missing an AWS resource in Terraform? Try awscc provider! | cloudonaut",
+    "link": "https://cloudonaut.io/are-you-missing-an-aws-resource-in-terraform-try-awscc-provider/",
+    "description": "Discover how the awscc Terraform provider leverages AWS Cloud Control API to address missing resources and streamline AWS infrastructure management. Learn to combine awscc with the standard aws provid",
+    "image": "images/73bea3cd39846d3ae2c7acaed6ac9607.webp",
+    "datetimestamp": "2024-10-02T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: Amazon GuardDuty Malware Protection for S3 | cloudonaut",
+    "link": "https://cloudonaut.io/review-amazon-guardduty-malware-protection-for-s3/",
+    "description": "Learn how AWS GuardDuty protects your cloud infrastructure from viruses, malware, and other cyber threats. Discover best practices for implementing GuardDuty to enhance your AWS security posture and d",
+    "image": "images/3262bb664ad13d8332f19a5543b1e595.webp",
+    "datetimestamp": "2024-06-27T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Deploying Self-Hosted Runners for GitHub Enterprise Server on AWS: A Guide to Efficient CI/CD | cloudonaut",
+    "link": "https://cloudonaut.io/deploy-self-hosted-runners-github-enterprise-server-aws/",
+    "description": "Learn how to deploy self-hosted runners for GitHub Enterprise Server on AWS. Overcome CI/CD challenges with scalable, secure, and cost-efficient solutions for regulated industries and sensitive data e",
+    "image": "images/9ea4a0e38e105861faa9a6e64cc94c0d.webp",
+    "datetimestamp": "2024-06-24T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to write unit tests when using the AWS JavaScript SDK v3? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-unit-test-aws-javascript-sdk-v3/",
+    "description": "Use the aws-sdk-client-mock library to write simple and reliable unit tests by mocking the AWS SDK clients.",
+    "image": "images/80fb426b6a7821a7505ee037061537d3.webp",
+    "datetimestamp": "2024-06-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Tidying up after failed Terraform tests | cloudonaut",
+    "link": "https://cloudonaut.io/tidying-up-after-failed-terraform-tests/",
+    "description": "Watch out: Terraform tests might leave AWS resources instead of deleting them at the end of executing the test. So how do you clean up leftover resources after running terraform test?",
+    "image": "images/3607fce34e8b2ee10adb18d59a01290e.webp",
+    "datetimestamp": "2024-05-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to monetize an API on AWS? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-monetize-an-api-on-aws/",
+    "description": "Sell access to REST APIs with API Gateway, usage plan, API keys, Lambda, and FastSpring.",
+    "image": "images/e848c2548d3766ad5dfea9a2d7407a97.webp",
+    "datetimestamp": "2024-05-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cleaning up AMIs | cloudonaut",
+    "link": "https://cloudonaut.io/cleaning-up-amis/",
+    "description": "Delete unused AMIs with the command line tool aws-amicleaner to reduce costs.",
+    "image": "images/383a75101955096a9613fffd337bde49.webp",
+    "datetimestamp": "2024-05-08T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to reduce costs for GitHub Actions? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-reduce-costs-for-github-actions/",
+    "description": "Discover cost-saving strategies for GitHub Actions with our guide on utilizing Octolense for expenditure insights and HyperEnv for deploying economical self-hosted runners on AWS.",
+    "image": "images/de12b7779e5e6c20b69cdbc3625499a2.webp",
+    "datetimestamp": "2024-02-27T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "KMS Key Policy Privilege Escalation | cloudonaut",
+    "link": "https://cloudonaut.io/kms-key-policy-privilege-escalation/",
+    "description": "How can IAM identities escalate privileges to access customer-managed KMS keys protected by a key policy?",
+    "image": "images/14162413cfe62008b7291908f9e2c3e7.webp",
+    "datetimestamp": "2024-01-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Connect GitHub Actions with AWS VPC | cloudonaut",
+    "link": "https://cloudonaut.io/connect-github-actions-with-aws-vpc/",
+    "description": "How to access RDS, ElasticSearch, OpenSearch, ElastiCache, or internal ALB from GitHub Actions?",
+    "image": "images/93fb616562f71b553ea0fa106b9aad9a.webp",
+    "datetimestamp": "2024-01-19T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Protect Amazon Connect from viruses and malware by scanning attachments | cloudonaut",
+    "link": "https://cloudonaut.io/protect-amazon-connect-from-viruses-and-malware-by-scanning-attachments/",
+    "description": "Four years ago, we stumbled into Amazon Connect. In essence, Amazon Connect allows your users to reach your organization repr...",
+    "image": "images/e3587c0394136d3863db6df376e182f7.webp",
+    "datetimestamp": "2023-11-21T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Worldwide availability of EC2 instance types | cloudonaut",
+    "link": "https://cloudonaut.io/worldwide-availability-of-ec2-instance-types/",
+    "description": "The promise sounds tempting; with AWS, you can roll out your infrastructure in 33 regions worldwide. Indeed, it is an eye-ope...",
+    "image": "images/d33c966aec19ced00ddb702eae4cadbe.webp",
+    "datetimestamp": "2023-11-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to monitor container workloads running on ECS and Fargate? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-monitor-container-workloads-running-on-ecs-and-fargate/",
+    "description": "How do you monitor a container workload running on ECS (Elastic Container Service) and Fargate with on-board resources? Here ...",
+    "image": "images/2c660c2a883aa2f97edb3084f18985fc.webp",
+    "datetimestamp": "2023-10-18T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Using DynamoDB Entity Store for cleaner TypeScript code | cloudonaut",
+    "link": "https://cloudonaut.io/dynamodb-entity-store-cleaner-typescript-code/",
+    "description": "DynamoDB is a cloud-hosted NoSQL database from Amazon Web Services (AWS). DynamoDB is popular for two main reasons:  It scale...",
+    "image": "images/c754a3000a324c8a6b72d1ddfab5f82f.webp",
+    "datetimestamp": "2023-10-12T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "The Lambda monitoring blind spot | cloudonaut",
+    "link": "https://cloudonaut.io/aws-lambda-monitoring-blind-spot/",
+    "description": "After a customer complained that a feature of marbot, our monitoring solution for AWS was not working as expected, I started ...",
+    "image": "images/e60ac41f44f136cd2ef2bc3e61efad49.webp",
+    "datetimestamp": "2023-10-04T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A future-proof Terraform provider definition | cloudonaut",
+    "link": "https://cloudonaut.io/future-proof-terraform-provider-definition/",
+    "description": "When defining the version of a Terraform provider, do not use > or => conditions. You will run into troubles caused by ...",
+    "image": "images/cf039e20bf61e651d9429d656c8cce0c.webp",
+    "datetimestamp": "2023-09-27T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Migrating to AWS JavaScript SDK v3: Lessons Learned | cloudonaut",
+    "link": "https://cloudonaut.io/migrating-to-aws-sdk-js-v3-lessons-learned/",
+    "description": "Learn about the stumbling blocks when migrating from v2 to v3 of the AWS JavaScript SDK.",
+    "image": "images/1e61cfa5b86ce6e7396eae61d4b4000c.webp",
+    "datetimestamp": "2023-09-20T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Self-hosted GitHub runners on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/self-hosted-github-runners-on-aws/",
+    "description": "Three approaches to deploy self-hosted GitHub Runners on AWS: EC2 instance, Auto Scaling Group, Event-driven EC2 instances.",
+    "image": "images/71ac9c47d75bb551ef640a81761f64be.webp",
+    "datetimestamp": "2023-09-07T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Security Monitoring in 2023: Untangle the chaos | cloudonaut",
+    "link": "https://cloudonaut.io/2023-08-04-aws-security-monitoring/",
+    "description": "Discover Effective AWS Security Monitoring Strategies. Combining the right AWS services is key when setting up AWS Security Monitoring.",
+    "image": "images/e5d375227fd73b60e84c965c55d880e4.webp",
+    "datetimestamp": "2023-08-04T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show Me Your Architecture Vol. 2: Platform Engineering on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/platform-engineering-on-aws-show-me-your-architecture-vol2/",
+    "description": "Through the AWS documentation, books like AWS in Action or AWS training, you can gain theoretical knowledge. But beyond that,...",
+    "image": "images/c8b5eb1526e39fa9906e109d1091d132.webp",
+    "datetimestamp": "2023-07-11T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Detecting connectivity anomalies with CloudWatch Internet Monitor | cloudonaut",
+    "link": "https://cloudonaut.io/detecting-connectivity-anomalies-with-cloudwatch-internet-monitor/",
+    "description": "Imagine customer support informs you that some customers can no longer access your web application. Immediately you check the...",
+    "image": "images/146ac31cd19d347f9f53cf4593aa5809.webp",
+    "datetimestamp": "2023-06-20T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Now available: Book Amazon Web Services in Action 3rd Edition | cloudonaut",
+    "link": "https://cloudonaut.io/book-aws-in-action-3rd-edition-now-available/",
+    "description": "We are happy to announce the official launch of our new book Amazon Web Services in Action 3rd Edition. The final version of ...",
+    "image": "images/a5f801805d75972cf60c8624f8e3f953.webp",
+    "datetimestamp": "2023-05-03T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How we built bucketAV powered by Sophos | cloudonaut",
+    "link": "https://cloudonaut.io/how-we-built-bucketav-powered-by-sophos/",
+    "description": "This is the behind-the-scenes story of our latest product launch bucketAV powered by Sophos, a malware protection solution fo...",
+    "image": "images/a5f801805d75972cf60c8624f8e3f953.webp",
+    "datetimestamp": "2023-04-27T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Fallback to on-demand EC2 instances if spot capacity is unavailable | cloudonaut",
+    "link": "https://cloudonaut.io/fallback-to-on-demand-ec2-instances-if-spot-capacity-is-unavailable/",
+    "description": "In recent months, I was again reminded that EC2 spot capacity is not always available. For years, I was looking for a safety ...",
+    "image": "images/7e03cf002b3c3643acae85a579ac7f90.webp",
+    "datetimestamp": "2023-03-21T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Monitoring with EventBridge | cloudonaut",
+    "link": "https://cloudonaut.io/aws-monitoring-with-eventbridge/",
+    "description": "When it comes to AWS monitoring, you probably think of Amazon CloudWatch first. That\u2019s right, but there is another source of ...",
+    "image": "images/aefd685c24e66390aaea29d12bee8c77.webp",
+    "datetimestamp": "2023-03-09T12:10:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 6: Serverless and DevOps - a match made in heaven | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol6-serverless-and-devops-a-match-made-in-heaven/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Vilius Kukanauskas from our partner DEMICON explains ...",
+    "image": "images/dfc6827e1dfcdf9a0226d2ef29ad6e9b.webp",
+    "datetimestamp": "2023-02-28T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to filter S3 events by object size | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-filter-s3-events-by-object-size/",
+    "description": "While answering a support request for bucketAV, I stumbled upon the following question:  Is there a way to only scan S3 objec...",
+    "image": "images/3925b97de86e5ed232c1ab2f86e00e21.webp",
+    "datetimestamp": "2023-02-22T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 5: ECS Anywhere | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol5-ecs-anywhere/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Samia Rabah from our partner DEMICON talks about ECS ...",
+    "image": "images/dfc6827e1dfcdf9a0226d2ef29ad6e9b.webp",
+    "datetimestamp": "2022-12-22T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 4: Serverless Software Engineering | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol4-serverless-software-engineering/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Florian Dr\u00f6ge and Lars H\u00fcper from our partner tecRace...",
+    "image": "images/6cda5aa3d199d7a109e94f1ebcd75ce2.webp",
+    "datetimestamp": "2022-12-06T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Hot off the Cloud #007: AppSync JavaScript Resolvers + IAM MFA + CloudFront CD | cloudonaut",
+    "link": "https://cloudonaut.io/hot-off-the-cloud-007/",
+    "description": "Here are our toughts about the latest AWS announcements as well as our lessons learned.  Unbelievable, re:Invent starts in 5 ...",
+    "image": "images/e186856d49ebbcb3b36f58c0054cff0c.webp",
+    "datetimestamp": "2022-11-23T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Mastodon on AWS: Host your own instance | cloudonaut",
+    "link": "https://cloudonaut.io/mastodon-on-aws/",
+    "description": "While Twitter seems to be in chaos, the free and decentralized alternative, Mastodon, is rising. At first glance, Twitter and...",
+    "image": "images/e186856d49ebbcb3b36f58c0054cff0c.webp",
+    "datetimestamp": "2022-11-17T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 3: Infrastructure Pipeline with GitLab and Terraform Cloud | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol3-infrastructure-pipeline-gitlab-terraform-cloud/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Rico Nuguid from our partner DEMICON talks about auto...",
+    "image": "images/dfc6827e1dfcdf9a0226d2ef29ad6e9b.webp",
+    "datetimestamp": "2022-11-03T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Hot off the Cloud: October 2022 | cloudonaut",
+    "link": "https://cloudonaut.io/hot-off-the-cloud-2022-10/",
+    "description": "What happened at AWS in October 2022? This is our summary and analysis of the announcements that interested us. In November, ...",
+    "image": "images/5782efb59d651f65db4342264b506ff9.webp",
+    "datetimestamp": "2022-10-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Migrating CodePipeline to GitHub Actions to improve performance | cloudonaut",
+    "link": "https://cloudonaut.io/migrating-codepipeline-to-github-actions-to-improve-performance/",
+    "description": "Recently, we have become increasingly dissatisfied with the time our AWS CodePipeline pipeline takes to deploy a change to pr...",
+    "image": "images/3e9e2cb3eccd6bb847cabb7d3d38c542.webp",
+    "datetimestamp": "2022-10-28T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 2: Serverless ETL with Airflow and Athena | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol2-serverless-etl-with-airflow-athena/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Peter Reitz from our partner tecRacer talks about how...",
+    "image": "images/6bfa41ae124ec5a655a833934befd3bd.webp",
+    "datetimestamp": "2022-10-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "\ud83c\udfa7 AWS-to-go: Podcast series to get started with AWS | cloudonaut",
+    "link": "https://cloudonaut.io/aws-to-go-podcast/",
+    "description": "Listen to the AWS-to-go podcast series to get started with AWS.",
+    "image": "images/bc845c32b97e2e8bdae05bc99a6c0ea9.webp",
+    "datetimestamp": "2022-09-21T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show Me Your Architecture Vol. 1: Scanning S3 buckets for malware | cloudonaut",
+    "link": "https://cloudonaut.io/scanning-s3-buckets-for-malware-show-me-your-architecture-vol1/",
+    "description": "Through the AWS documentation, books like AWS in Action or AWS trainings you can gain theoretical knowledge. But beyond that,...",
+    "image": "images/5165816bd0694a04a6f048796309b5bb.webp",
+    "datetimestamp": "2022-09-14T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Enhance EFS file system protection with TLS and IAM | cloudonaut",
+    "link": "https://cloudonaut.io/enhance-efs-file-system-protectin-with-tls-and-iam/",
+    "description": "Two significant aspects of data security are access restriction as well as confidentiality. In the following, you will learn ...",
+    "image": "images/8e722f936281cba835aa64e07d86baff.webp",
+    "datetimestamp": "2022-09-07T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Step Functions pitfall: The execution reached the maximum number of history events (25000) | cloudonaut",
+    "link": "https://cloudonaut.io/step-functions-pitfall-maximum-number-of-history-events/",
+    "description": "Learn to deal with Step Function's \"The execution reached the maximum number of history events (25000).\" error",
+    "image": "images/7f7722b564e504b4b854503390c1d1b4.webp",
+    "datetimestamp": "2022-08-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitor VPC NAT gateways with CloudWatch metrics and alarms | cloudonaut",
+    "link": "https://cloudonaut.io/nat-gateway-monitoring-with-cloudwatch-metrics-and-alarms/",
+    "description": "Many VPC designs make use of public and private subnets. A NAT gateway is needed to communicate from a private subnet with th...",
+    "image": "images/46645c8fa8dfe74a3fd20cf57789c657.webp",
+    "datetimestamp": "2022-08-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudFormation cfn-init pitfall: Auto scaling and throttling error rate exceeded | cloudonaut",
+    "link": "https://cloudonaut.io/cloudformation-cfn-init-pitfall-throttling-error-rate-exceeded/",
+    "description": "cfn-init is a little helper to install and configure EC2 instances managed with CloudFormation. Lately, I was running into is...",
+    "image": "images/d3a73c031c0dbd34e818bbcb7872c900.webp",
+    "datetimestamp": "2022-08-11T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Selling an AMI and a CloudFormation template as an alternative to SaaS | cloudonaut",
+    "link": "https://cloudonaut.io/selling-ami-cloudformation-alternative-saas/",
+    "description": "We have been selling software through AWS Marketplace since 2019. Selling SaaS is very popular nowadays, and most software ve...",
+    "image": "images/61671c0f7a538f2d8524f7e8648fd2df.webp",
+    "datetimestamp": "2022-08-03T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Fargate vs. App Runner | cloudonaut",
+    "link": "https://cloudonaut.io/fargate-vs-apprunner/",
+    "description": "What\u2019s the simplest way to run containers on AWS? My first relevant container workload was running on a fleet of EC2 instance...",
+    "image": "images/5c1a4286ab00c8137d4072d2415ccdf9.webp",
+    "datetimestamp": "2022-07-20T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Authentication at the edge with Lambda@Edge and Cognito | cloudonaut",
+    "link": "https://cloudonaut.io/authentication-at-the-edge-with-lambda-edge-cognito/",
+    "description": "For many years, we used a hosting partner for serving the Rapid Docker on AWS Video Course. When someone bought the video cou...",
+    "image": "images/14d5c727aef2a5b0c40c74c286cdf327.webp",
+    "datetimestamp": "2022-07-13T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Builder's Diary Vol. 1: Successful Cloud Migrations | cloudonaut",
+    "link": "https://cloudonaut.io/builders-diary-vol1-successful-cloud-migrations/",
+    "description": "Get insights into the day-to-day challenges of builders. In this issue, Monika Oblonczek from our partner tecRacer talks abou...",
+    "image": "images/6bfa41ae124ec5a655a833934befd3bd.webp",
+    "datetimestamp": "2022-06-29T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "ALB vs. NLB: Which AWS load balancer fits your needs? | cloudonaut",
+    "link": "https://cloudonaut.io/alb-vs-nlb-which-aws-load-balancer-fits-your-needs/",
+    "description": "Which load balancer fits my workload best? As is often the case, AWS offers more than one solution. Read on to learn whether ...",
+    "image": "images/a4bf3371902c90220f6f5656585e9c58.webp",
+    "datetimestamp": "2022-06-24T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: App Runner - Simply containers on AWS! | cloudonaut",
+    "link": "https://cloudonaut.io/review-apprunner-simply-containers-on-aws/",
+    "description": "How many options are there for deploying containers on AWS? ECS, EKS, Elastic Beanstalk, EC2, and Fargate, to name a few. And...",
+    "image": "images/46e427a653fcff2f2630c85781602cce.webp",
+    "datetimestamp": "2022-06-15T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Building multi-architecture container images for AWS Graviton | cloudonaut",
+    "link": "https://cloudonaut.io/building-multi-architecture-docker-container-images-for-aws-graviton/",
+    "description": "What do my MacBook Pro and my container workload running on ECS and Fargate have in common? They both run amazingly well on t...",
+    "image": "images/01b66930875b976e0323473f991d874d.webp",
+    "datetimestamp": "2022-06-01T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Deprecated Terraform provider template causes `Incompatible provider version` error | cloudonaut",
+    "link": "https://cloudonaut.io/terraform-incompatible-provider-version/",
+    "description": "Did you recently switch to a Mac with Apple Silicon (ARM processor architecture)? The chances are high that you will see an E...",
+    "image": "images/0846a46bdfd84e33c4a44ec6fe4c0d30.webp",
+    "datetimestamp": "2022-05-25T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Security Iceberg: AWS Security Hub the right way | cloudonaut",
+    "link": "https://cloudonaut.io/security-iceberg-aws-security-hub-the-right-way/",
+    "description": "This is a warning about AWS Security Hub. Organizations that use AWS Security Hub to monitor and mitigate risks pay too much ...",
+    "image": "images/764fef4dd9ba0a49873d616a394fee29.webp",
+    "datetimestamp": "2022-05-18T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Automate CloudFormation StackSets with CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/automate-cloudformation-stacksets-with-cloudformation/",
+    "description": "CloudFormation StackSets rollout CloudFormation stacks to all or some of your AWS accounts. Also, stack sets allow you to dep...",
+    "image": "images/821e3175f17b806feb42cfbb21cb354e.webp",
+    "datetimestamp": "2022-05-13T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: Aurora Serverless v2 | cloudonaut",
+    "link": "https://cloudonaut.io/review-aurora-serverless-v2/",
+    "description": "I was excited when AWS announced Aurora Serverless at re:Invent 2017. Disappointment followed shortly after. Even after Auror...",
+    "image": "images/0b198ba455dbfcbc0d3f294eab518288.webp",
+    "datetimestamp": "2022-05-04T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Launching cloudonaut talent | cloudonaut",
+    "link": "https://cloudonaut.io/launching-cloudonaut-talent/",
+    "description": "We launched our blog cloudonaut in 2015, and published more than 340 articles and started to record and publish a podcast epi...",
+    "image": "images/a27fa305b1fa66444068d5a4c4ca0ffa.webp",
+    "datetimestamp": "2022-04-28T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Web Services in Action 3rd Edition: Early Access | cloudonaut",
+    "link": "https://cloudonaut.io/aws-in-action-3rd-edition-early-access/",
+    "description": "About seven years ago, Michael and I started to write a book about Amazon Web Services. We were beginning our consulting busi...",
+    "image": "images/64f082c9ca502d5c291327c211fd5659.webp",
+    "datetimestamp": "2022-03-30T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Application Authentication and Authorization on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/application-authentication-and-authorization-on-aws/",
+    "description": "In this blog post, you will learn to implement authentication and authorization for your own HTTP(S)-based applications on AW...",
+    "image": "images/84923f58c5aa4f6b42e520d4eebf6ef6.webp",
+    "datetimestamp": "2022-03-16T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to create a security group allowing traffic from CloudFront only? | cloudonaut",
+    "link": "https://cloudonaut.io/cloudfront-prefix-list-security-group/",
+    "description": "It is one of those problems for which there has been no satisfactory solution for years. How do you ensure that only CloudFro...",
+    "image": "images/ff704cccc623d2c51f0bcbeaeaa0fe6a.webp",
+    "datetimestamp": "2022-03-07T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Sanction Russia: Block traffic using CloudFront Geo Restriction | cloudonaut",
+    "link": "https://cloudonaut.io/sanction-russia-block-traffic-using-cloudfront-geo-restriction/",
+    "description": "Russia attacked a sovereign state this week. Most states condemn the attack and impose sanctions. Among other things, sanctio...",
+    "image": "images/8a5b16f549c7e4476e35a3a96d57f4e9.webp",
+    "datetimestamp": "2022-02-25T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Enabling S3 Versioning is not a backup strategy | cloudonaut",
+    "link": "https://cloudonaut.io/enabling-s3-versioning-is-not-a-backup-strategy/",
+    "description": "Here are three reasons why enabling S3 Versioning is not a backup strategy. Instead, you should consider AWS Backup for S3, w...",
+    "image": "images/33d3117c12c4b6d7448df79b138f4234.webp",
+    "datetimestamp": "2022-02-23T07:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Security: Stephen Kuenzli and Andreas Wittig on IAM | cloudonaut",
+    "link": "https://cloudonaut.io/aws-security-stephen-kuenzli-and-andreas-wittig-on-iam/",
+    "description": "Stephen Kuenzli and I lead several cloud migration projects. In this conversation, we shared our learnings focusing on AWS se...",
+    "image": "images/23b1d593320d838d6a89ac7e980a5bc4.webp",
+    "datetimestamp": "2022-02-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Connect to your EC2 instance using SSH the modern way | cloudonaut",
+    "link": "https://cloudonaut.io/connect-to-your-ec2-instance-using-ssh-the-modern-way/",
+    "description": "Did you know that establishing an SSH connection with an EC2 instance is possible without configuring a key pair and allowing...",
+    "image": "images/33d3117c12c4b6d7448df79b138f4234.webp",
+    "datetimestamp": "2022-02-01T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to set up Jenkins on AWS? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-set-up-jenkins-on-aws/",
+    "description": "What\u2019s the best way to run Jenkins on AWS? As Jenkins is still a popular automation server used for continuous integration an...",
+    "image": "images/a264528be82e8a5779208736dc786333.webp",
+    "datetimestamp": "2022-01-21T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Parental Leave (Michael) | cloudonaut",
+    "link": "https://cloudonaut.io/parental-leave-michael/",
+    "description": "Taking care of my family is the number one priority for me. Luckily, Andreas and I bootstrapped a profitable business that pr...",
+    "image": "images/7ad2daaac13eecf3c3c07628df8d9064.webp",
+    "datetimestamp": "2022-01-08T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2021 in Review | cloudonaut",
+    "link": "https://cloudonaut.io/2021-in-review/",
+    "description": "The past 12 months have been an exciting time for us. We started the year with high expectations and a significant investment...",
+    "image": "images/ad9b31be43c1be8d1fd3b6f9dd569a2e.webp",
+    "datetimestamp": "2021-12-30T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Video Hosting on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/video-hosting-on-aws/",
+    "description": "How to embed a video into your website? There is an alternative that looks and feels much more professional than embedding a ...",
+    "image": "images/6b63b8d26020d9b61c1a53376ad2209a.webp",
+    "datetimestamp": "2021-12-14T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Architect Mindset | cloudonaut",
+    "link": "https://cloudonaut.io/aws-architect-mindset/",
+    "description": "Architecting applications on AWS is challenging. On the one hand, you need a broad understanding of AWS services. On the othe...",
+    "image": "images/6f077a2abf833295ea2b0fca3db5f05e.webp",
+    "datetimestamp": "2021-11-18T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EBS Snapshot Pitfalls: Does your backup withstand reality? | cloudonaut",
+    "link": "https://cloudonaut.io/ebs-snapshot-pitfalls/",
+    "description": "Does your disaster recovery plan deliver what it promises? Here are three reasons why your plan won\u2019t stand up to reality. Le...",
+    "image": "images/3ad9d6f8b315879b6492f0519bd9fe2d.webp",
+    "datetimestamp": "2021-11-11T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Authentic and hands-on AWS consulting. Join superluminar! | cloudonaut",
+    "link": "https://cloudonaut.io/join-superluminar/",
+    "description": "In 2015 - after building on Amazon Web Services for two years - I made a big decision. I wanted to become a consultant focusi...",
+    "image": "images/fd716cd9a6c66c5f81578a90f1eab02d.webp",
+    "datetimestamp": "2021-11-01T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Celebrating five years of marbot | cloudonaut",
+    "link": "https://cloudonaut.io/celebrating-5-years-of-marbot/",
+    "description": "Five years ago, we released marbot - ChatOps for AWS . Back in the day, marbot connected Amazon CloudWatch and Slack to sprea...",
+    "image": "images/bf142e8bc3622d96751b2fc3b7f57f9a.webp",
+    "datetimestamp": "2021-10-25T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Containers on AWS: ECS, EKS, and Fargate | cloudonaut",
+    "link": "https://cloudonaut.io/containers-on-aws-ecs-eks-and-fargate/",
+    "description": "The container landscape in general and on AWS in particular is changing quickly. AWS releases new services and features to de...",
+    "image": "images/2caab11348740f0389e811d595ae4e39.webp",
+    "datetimestamp": "2021-09-02T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Checklist: 7 things to do after launching an instance | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-checklist-seven-things-to-do-after-launching-an-instance/",
+    "description": "Launching an EC2 instance takes minutes. Keeping your virtual machines secure and maintaining your VMs is more work. In this ...",
+    "image": "images/2ef68e99b7fcbdb7bda8ce0d78c86fd0.webp",
+    "datetimestamp": "2021-08-25T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "The AWS Security Journey (2021) | cloudonaut",
+    "link": "https://cloudonaut.io/the-aws-security-journey-2021/",
+    "description": "A lot has happened in the area of security at AWS over the years. By now, AWS has released an exhaustive range of security se...",
+    "image": "images/b94d6471982c5bad893e383dfa76ca04.webp",
+    "datetimestamp": "2021-07-20T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to Replicate Your Data with DynamoDB Global Tables | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-replicate-your-data-with-dynamodb-global-tables/",
+    "description": "In my last post about Multi-Region AWS Architectures, I discussed how you could reduce end-user latency and increase availabi...",
+    "image": "images/d79d20074c17c88333d675bba8ca9832.webp",
+    "datetimestamp": "2021-07-14T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Multi-Region AWS Architectures | cloudonaut",
+    "link": "https://cloudonaut.io/multi-region-aws-architectures/",
+    "description": "Running an application in multiple availability zones (data centers) in a single region is a best practice when architecting ...",
+    "image": "images/3181ab11a26972750aeb15948e29eff2.webp",
+    "datetimestamp": "2021-07-05T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Choosing the best way to scale EC2 instances on demand | cloudonaut",
+    "link": "https://cloudonaut.io/choosing-the-best-way-to-scale-ec2-instances-on-demand/",
+    "description": "Migrating workloads into the cloud \u2014 and specifically to AWS \u2014 comes with many advantages. You can operate workloads in new w...",
+    "image": "images/b359733dd06fbaedad524c7ab5d4c29e.webp",
+    "datetimestamp": "2021-05-26T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Calculate AWS Costs in Detail | cloudonaut",
+    "link": "https://cloudonaut.io/calculate-aws-costs-in-detail/",
+    "description": "Calculating AWS costs upfront is a challenge. To get accurate numbers, you have to understand the pricing model of the used A...",
+    "image": "images/34fd99525ce0f4f6bc1fc2f7ec56742b.webp",
+    "datetimestamp": "2021-05-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Getting Started with Free Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/getting-started-with-aws-cf-templates/",
+    "description": "Writing CloudFormation templates from scratch is a lot of work. You will run into many issues along the way: the documentatio...",
+    "image": "images/bc6c76376097874a8d793de9e757e5d1.webp",
+    "datetimestamp": "2021-05-13T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Unboxing S3 Object Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/unboxing-s3-object-lambda/",
+    "description": "Amazon S3 Object Lambda offers a way to execute a Lambda function when someone wants to download a file (GetObject) from an S...",
+    "image": "images/d9087d0fa1bc8ea5eb85961ccb124ee8.webp",
+    "datetimestamp": "2021-05-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How I use AWS Security Hub | cloudonaut",
+    "link": "https://cloudonaut.io/how-i-use-aws-security-hub/",
+    "description": "AWS Security Hub provides a centralized and org-wide overview of how well you are doing in terms of security. Security Hub fo...",
+    "image": "images/38183be7d058ca06946e1260cf8d7e44.webp",
+    "datetimestamp": "2021-04-28T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Architecture Pattern for Scheduled & Serverless Batch Processing | cloudonaut",
+    "link": "https://cloudonaut.io/aws-architecture-pattern-for-scheduled-serverless-batch-processing/",
+    "description": "Scheduled batch jobs are the heart of many business processes implemented by enterprise applications. Reports are generated d...",
+    "image": "images/9d404389789f216787481c469d8a0fb2.webp",
+    "datetimestamp": "2021-04-26T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Real-world CodePipeline CI/CD examples | cloudonaut",
+    "link": "https://cloudonaut.io/real-world-codepipeline-ci-cd-examples/",
+    "description": "AWS CodePipeline helps us to orchestrate CI/CD pipelines. To implement real-world pipelines, CodePipeline calls addition...",
+    "image": "images/dac2f6aedf7aa813eee84d05054752b6.webp",
+    "datetimestamp": "2021-04-21T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serving content only to logged-in users with CloudFront Signed Cookies | cloudonaut",
+    "link": "https://cloudonaut.io/serving-content-only-to-logged-in-users-with-cloudfront-signed-cookies/",
+    "description": "This blog can be accessed by anyone with access to the free Internet. It\u2019s a public website. But many websites offer a member...",
+    "image": "images/63c4a694ade174589a40f1c1d1a69608.webp",
+    "datetimestamp": "2021-04-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Running containers on spot infrastructure | cloudonaut",
+    "link": "https://cloudonaut.io/running-containers-on-spot-infrastructure/",
+    "description": "Running workloads on spot infrastructure is significantly cheaper. You can reduce your bill by 50% or more. Keep in mind that...",
+    "image": "images/9395a23c1a174030020c1a3c5aa988dc.webp",
+    "datetimestamp": "2021-04-14T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: AWS Fault Injection Simulator (FIS) \u2013 Chaos as a Service? | cloudonaut",
+    "link": "https://cloudonaut.io/review-fault-injection-simulator-fis-chaos-as-a-service/",
+    "description": "AWS allows us to run applications distributed across EC2 instances and availability zones. By adding load balancers or messag...",
+    "image": "images/e0748d8e6fd8908859299d764f211bbe.webp",
+    "datetimestamp": "2021-04-13T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Programming your CDN: CloudFront and Lambda@Edge | cloudonaut",
+    "link": "https://cloudonaut.io/programming-your-cdn-cloudfront-lambda-at-edge/",
+    "description": "Minimizing the load time of your websites and applications is essential for two reasons. First, search engines rank websites ...",
+    "image": "images/dcb9e4dad345f6a8e9e8ad8023269b38.webp",
+    "datetimestamp": "2021-04-09T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Defining IAM Policies with Terraform safely | cloudonaut",
+    "link": "https://cloudonaut.io/defining-iam-policies-with-terraform/",
+    "description": "Are you still defining IAM policies using heredoc syntax (<<EOF ... EOF) or jsonencode()? You can do better! As a resul...",
+    "image": "images/3620e39b58c4f66125fd534300286d6c.webp",
+    "datetimestamp": "2021-03-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Managing application secrets: SSM Parameter Store vs. Secrets Manager | cloudonaut",
+    "link": "https://cloudonaut.io/managing-application-secrets-ssm-parameter-store-vs-secrets-manager/",
+    "description": "Many applications interact with external or internal systems like databases or REST APIs. When your application talks to anot...",
+    "image": "images/2deb44ac6100cbbe4634383d0d728d10.webp",
+    "datetimestamp": "2021-03-30T15:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "What Architects Need to Know About Networking on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws/",
+    "description": "As an architect, you may not have thought too much about the network management before. At least that\u2019s how it used to be for...",
+    "image": "images/13579bb71913d77bdacac8c00f0b9c0f.webp",
+    "datetimestamp": "2021-03-25T15:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cognito Under the Hood | cloudonaut",
+    "link": "https://cloudonaut.io/cognito-under-the-hood/",
+    "description": "Have you ever implemented a user database and authentication layer yourself? There are many things to get right: Hashing and ...",
+    "image": "images/47fbe0c9685668b2641ae74d1cee9f3b.webp",
+    "datetimestamp": "2021-03-24T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DNSSEC with Route 53: Protecting the core of the Internet | cloudonaut",
+    "link": "https://cloudonaut.io/dnssec-with-route53-protecting-the-core-of-the-internet/",
+    "description": "The Internet relies on DNS. This makes it all the more important to do everything possible to protect the global DNS infrastr...",
+    "image": "images/b552628f42f670a21176919a09d804cc.webp",
+    "datetimestamp": "2021-03-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Parental Leave (Andreas) | cloudonaut",
+    "link": "https://cloudonaut.io/parental-leave-andreas/",
+    "description": "This is the last thing on my checklist before I leave for nine months. Until January 2022, I take on the joys and responsibil...",
+    "image": "images/ef0086458188720c96952c300f1e0607.webp",
+    "datetimestamp": "2021-03-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A Deep Dive into AWS CloudTrail | cloudonaut",
+    "link": "https://cloudonaut.io/deep-dive-aws-cloudtrail/",
+    "description": "Who made changes to sensitive parts of your cloud infrastructure? Capture audit logs with AWS CloudTrail. Learn how to analyz...",
+    "image": "images/b552628f42f670a21176919a09d804cc.webp",
+    "datetimestamp": "2021-03-18T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless in the Enterprise | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-in-the-enterprise/",
+    "description": "Is Serverless ready for the Enterprise? I coached developers building their first Serverless applications for a large company...",
+    "image": "images/2d134735b0dc5cae1b0c1d4fd9e23280.webp",
+    "datetimestamp": "2021-03-17T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless Hybrid Cloud: Accessing an API Gateway via VPN or Direct Connect | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-hybrid-cloud-accessing-an-api-gateway-via-vpn-or-direct-connect/",
+    "description": "Recently, I\u2019ve been coaching a team building a Serverless application. The extraordinary thing about it? We had to create a s...",
+    "image": "images/bfa8ae140aa665f6c418bb078df5c149.webp",
+    "datetimestamp": "2021-03-17T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Backup - Vault cannot be deleted? Use this script! | cloudonaut",
+    "link": "https://cloudonaut.io/aws-backup-vault-cannot-be-deleted-use-this-script/",
+    "description": "With AWS Backup, it is simple to create snapshots of EBS, EFS, and more. A retention period defines the number of recovery po...",
+    "image": "images/ff3cd2c03e8787a2a7de8c101d56f8d7.webp",
+    "datetimestamp": "2021-03-11T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "cloudonaut plus - Behind the scenes | cloudonaut",
+    "link": "https://cloudonaut.io/cloudonaut-plus-behind-the-scenes/",
+    "description": "Since November last year, we published more than 20 videos and online events with tips, pitfalls, code examples, and our inde...",
+    "image": "images/7cf2a374af0c0240a4188adfadf6774a.webp",
+    "datetimestamp": "2021-03-04T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "All you need to know about encrypting S3 buckets | cloudonaut",
+    "link": "https://cloudonaut.io/all-you-need-to-know-about-encrypting-s3-buckets/",
+    "description": "Dance like nobody\u2019s watching, encrypt like everyone is. Are you encrypting your data stored on Amazon Simple Storage Service ...",
+    "image": "images/4993fe71f2abef3aacc96766905c5be6.webp",
+    "datetimestamp": "2021-03-03T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudFormation Modules | cloudonaut",
+    "link": "https://cloudonaut.io/cloudformation-modules/",
+    "description": "Copying and pasting code or configuration comes with a lot of challenges. Fixing a bug requires you to find all the copies to...",
+    "image": "images/da36dbf5586c75626b745f7a7521e12a.webp",
+    "datetimestamp": "2021-02-25T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Does your VPC endpoint allow access to half of the Internet? | cloudonaut",
+    "link": "https://cloudonaut.io/does-your-vpc-endpoint-allow-access-to-half-of-the-internet/",
+    "description": "Are you using VPC endpoints to enable private connections between your VPC and AWS services? Drop everything and check the po...",
+    "image": "images/b06df457ee27deb543b46c6561a923de.webp",
+    "datetimestamp": "2021-02-22T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Client VPN: Connected with the Cloud | cloudonaut",
+    "link": "https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud/",
+    "description": "Everybody talks about remote work those days. A fundamental prerequisite is to provide secure connectivity to your infrastruc...",
+    "image": "images/bf40c8a2a1171332be97d7303137cf09.webp",
+    "datetimestamp": "2021-02-18T21:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "5 good reasons not to get AWS certified | cloudonaut",
+    "link": "https://cloudonaut.io/5-good-reasons-not-to-get-aws-certified/",
+    "description": "I completed my first AWS certification in 2014: AWS Solutions Architect Associate. During the following years, I accomplished...",
+    "image": "images/c490ce1e4a29b896c2094753fbb7ab1a.webp",
+    "datetimestamp": "2021-02-17T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Unboxing Amazon Managed Service for Prometheus (AMP) | cloudonaut",
+    "link": "https://cloudonaut.io/unboxing-amazon-managed-service-for-prometheus-amp/",
+    "description": "AWS announced Amazon Managed Service for Prometheus (AMP) in December 2020 during re:Invent. Prometheus is a monitoring syste...",
+    "image": "images/f2b7280fb2c49112edf6ff81ed5aa634.webp",
+    "datetimestamp": "2021-02-12T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Guest authors wanted! | cloudonaut",
+    "link": "https://cloudonaut.io/guest-authors-wanted/",
+    "description": "Have you ever dreamed of publishing an article on cloudonaut? Are you a freelancer or employee who wants to attract attention...",
+    "image": "images/b7a8fb1852aaa32ba50e5f554495a6f1.webp",
+    "datetimestamp": "2021-02-10T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "What's new about AWS SDK for JavaScript v3? | cloudonaut",
+    "link": "https://cloudonaut.io/whats-new-about-aws-sdk-for-javascript-v3/",
+    "description": "The AWS SDK for JavaScript v3 is generally available since December 2020. This challenge unites all AWS users: is this new ve...",
+    "image": "images/d2fa0d6fa570d0f794a37e2c60eab858.webp",
+    "datetimestamp": "2021-02-03T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Debugging a VPC: Security Groups, Network ACLs, and Routing Tables | cloudonaut",
+    "link": "https://cloudonaut.io/debugging-a-vpc-security-groups-network-acl-routing-table/",
+    "description": "Configuring a VPC (Virtual Private Cloud) and firewalls (Security Groups and Network ACLs) is tricky. What to do when you can...",
+    "image": "images/16d4c13e9cc0763a5ab8a1d7a1c266ef.webp",
+    "datetimestamp": "2021-01-27T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cheap, Durable, Fast. How to choose an EBS volume type? | cloudonaut",
+    "link": "https://cloudonaut.io/cheap-durable-fast-how-to-choose-an-ebs-volume-type/",
+    "description": "Elastic Block Storage (EBS) provides solid state drives (SSD) and hard disk drives (HDD) for EC2 instances. The virtual machi...",
+    "image": "images/7cb34e7daba8eb620cf20e7770a7ffa4.webp",
+    "datetimestamp": "2021-01-19T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to Become an AWS Certified Solutions Architect | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-become-an-aws-certified-solutions-architect/",
+    "description": "In 2012, I created my first AWS account. Back then, I worked as a software engineer and was looking for a way to deploy an on...",
+    "image": "images/57364e2c4468a636f1bc164a384318f1.webp",
+    "datetimestamp": "2021-01-07T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2020 in Review | cloudonaut",
+    "link": "https://cloudonaut.io/2020-in-review/",
+    "description": "The year is coming to an end. We want to say thank you to our clients, partners, supporters, and readers. We are fortunate th...",
+    "image": "images/08a05529984b49eee195c8fd65faed66.webp",
+    "datetimestamp": "2020-12-29T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "What's the CO\u00b2 footprint of your architecture? | cloudonaut",
+    "link": "https://cloudonaut.io/whats-the-co2-footprint-of-your-architecture/",
+    "description": "Fighting climate change is one of the biggest challenges of our days. When designing an architecture, there are many importan...",
+    "image": "images/baf1f713e6ffb67604bef327751b3267.webp",
+    "datetimestamp": "2020-12-23T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Unboxing AWS DataSync | cloudonaut",
+    "link": "https://cloudonaut.io/unboxing-aws-datasync/",
+    "description": "Your toolbox should contain AWS DataSync, a service to synchronize data between all kinds of locations. Copy data between S3,...",
+    "image": "images/70093ef49dac176ab7783eb75b4da90c.webp",
+    "datetimestamp": "2020-12-23T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "re:Invent 2020: Recap of Werner Vogels's Keynote | cloudonaut",
+    "link": "https://cloudonaut.io/reinvent-2020-recap-werner-vogels-keynote/",
+    "description": "Werner Vogels\u2019s keynote was a blast and definitely the highlight of re:Invent 2020. Michael and I are going through the annou...",
+    "image": "images/0631e81c4b9ab528f1e48ed2859d7f78.webp",
+    "datetimestamp": "2020-12-16T15:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Next Generation Load Balancing: ALB with gRPC and HTTP/2 | cloudonaut",
+    "link": "https://cloudonaut.io/next-generation-load-balancing-alb-http2-grpc/",
+    "description": "AWS announced an important update for the Application Load Balancer (ALB) in November 2020: Support for gRPC and HTTP/2....",
+    "image": "images/4a37fd9955e89749b53405843a674d6b.webp",
+    "datetimestamp": "2020-12-09T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "3\u00bd ways to workaround missing CloudFormation support | cloudonaut",
+    "link": "https://cloudonaut.io/three-and-a-half-ways-to-workaround-missing-cloudformation-support/",
+    "description": "Are you following the Infrastructure as Code approach using CloudFormation? If so, I bet you encountered a situation where Cl...",
+    "image": "images/7a2b2948df61c47cadbe7a72602275d0.webp",
+    "datetimestamp": "2020-12-09T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to configure SAML for AWS SSO? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-configure-saml-for-aws-sso/",
+    "description": "AWS SSO is a great way to grant engineers access to AWS accounts. By default, AWS SSO comes with a built in user database. Ho...",
+    "image": "images/cf1e7fe16c71e7e5114245e459e7cc34.webp",
+    "datetimestamp": "2020-12-03T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A recap of the re:Invent 2020 Keynote with Andy Jassy | cloudonaut",
+    "link": "https://cloudonaut.io/a-recap-of-the-reinvent-2020-keynote-with-andy-jassy/",
+    "description": "We are discussing Andy Jassy\u2019s keynote from re:Invent 2020. The focus is on the newly announced services and features: ECS An...",
+    "image": "images/0631e81c4b9ab528f1e48ed2859d7f78.webp",
+    "datetimestamp": "2020-12-02T23:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Unusual AWS Architectures | cloudonaut",
+    "link": "https://cloudonaut.io/unusual-aws-architectures/",
+    "description": "AWS provides many building blocks. As architects, we have to choose the right building blocks to construct our systems. But s...",
+    "image": "images/7c2e4a4fffe58e56ee566ad6bd5da0f2.webp",
+    "datetimestamp": "2020-11-26T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CodeBuild Report Groups 101 | cloudonaut",
+    "link": "https://cloudonaut.io/codebuild-report-groups-101/",
+    "description": "AWS CodeBuild provides a fully managed, Docker-based build environment. You can use it in standalone mode or together with Co...",
+    "image": "images/d2886618f1001f48a0b821835b87a4ca.webp",
+    "datetimestamp": "2020-11-24T07:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EventBridge versus Amazon SNS: What's the difference? | cloudonaut",
+    "link": "https://cloudonaut.io/eventbridge-vs-sns/",
+    "description": "Amazon EventBridge (formerly CloudWatch Events) and Amazon SNS provide a way to send events to multiple subscribers. From a h...",
+    "image": "images/a7601a1637c857dfc128bea2f8e556c6.webp",
+    "datetimestamp": "2020-11-18T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Comparing API Gateways on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/comparing-api-gateways-on-aws/",
+    "description": "Of the different API gateways offered by AWS, which option fits your needs? An API Gateway is \u201ca server that acts as an API f...",
+    "image": "images/bf595a9ee6e30ffd7c754f6f1c2c603c.webp",
+    "datetimestamp": "2020-11-11T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Transition to IMDSv2 on EC2 - Introduction, Preparation, Pitfalls | cloudonaut",
+    "link": "https://cloudonaut.io/transition-to-imdsv2-on-ec2/",
+    "description": "IMDSv2 can improve EC2 security. For a couple of weeks, AWS Foundational Security Best Practices recommends that EC2 instance...",
+    "image": "images/9e50a8ff9eee4ede7870ab4a9123d594.webp",
+    "datetimestamp": "2020-11-10T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Tracing an HTTP request | cloudonaut",
+    "link": "https://cloudonaut.io/tracing-an-http-request/",
+    "description": "What to do when customers complain about high latencies or server-side errors? How to find out which part of your infrastruct...",
+    "image": "images/fd90ccdc696b9aed8fd3a5d161d0491b.webp",
+    "datetimestamp": "2020-11-04T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Getting started with IPv6 on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/getting-started-with-ipv6-on-aws/",
+    "description": "In mid-2019, AWS paid ~$108M to access 4 million IPv4 addresses from Amateur Radio Digital Communications - $27 per IP addres...",
+    "image": "images/16706f72c08a6b6bc72a6d3d218c2604.webp",
+    "datetimestamp": "2020-10-28T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to enable CORS on API Gateway with Lambda proxy integration? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-enable-cors-on-api-gateway-with-lambda-proxy-integration/",
+    "description": "When building single-page applications (SPA), you will sooner or later stumble upon Cross-Origin Resource Sharing (CORS). In ...",
+    "image": "images/f22af4351e50d5255584abff00dc9243.webp",
+    "datetimestamp": "2020-10-21T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Unboxing Amazon Timestream | cloudonaut",
+    "link": "https://cloudonaut.io/unboxing-amazon-timestream/",
+    "description": "My first job after graduation in 2011 was all about time-series data. My first task was to connect an exchange data feed with...",
+    "image": "images/51572ea59bdace00874a21791d6140e0.webp",
+    "datetimestamp": "2020-10-14T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Caching on AWS 101 | cloudonaut",
+    "link": "https://cloudonaut.io/caching-on-aws-101/",
+    "description": "Oftentimes, the idea of adding a caching layer arises when users start complaining about the performance of an application. A...",
+    "image": "images/924395665f5f5dc0104e1120d3496e42.webp",
+    "datetimestamp": "2020-10-08T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Have you replaced IAM Users with AWS SSO yet? | cloudonaut",
+    "link": "https://cloudonaut.io/aws-sso-instead-of-iam-users/",
+    "description": "The most secure option to isolate workloads from each other is to use multiple AWS accounts. Many organizations use different...",
+    "image": "images/c6b91738fa0c0df2613d93a3fcd6c1af.webp",
+    "datetimestamp": "2020-10-02T07:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon ECR vs. Docker Hub vs. GitHub Container Registry | cloudonaut",
+    "link": "https://cloudonaut.io/amazon-ecr-vs-docker-hub-vs-github-container-registry/",
+    "description": "Have you worked with a Linux package manager like apt or yum before? A container registry is similar, but instead of packages...",
+    "image": "images/bf8f95fff1dd47b0c8e012811279da91.webp",
+    "datetimestamp": "2020-09-28T19:30:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "I'm losing trust in AWS. SNS is broken for 65 days. | cloudonaut",
+    "link": "https://cloudonaut.io/loosing-trust-in-aws-sns-broken-for-24-days/",
+    "description": "I\u2019m frustrated. A major service of AWS is broken for 65 days. The Simple Notification Service (SNS) delivers messages to HTTP...",
+    "image": "images/5ffded90a0845f45a2a5990d810a1e3c.webp",
+    "datetimestamp": "2020-09-24T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS needs a bug bounty program | cloudonaut",
+    "link": "https://cloudonaut.io/aws-needs-a-bug-bounty-program/",
+    "description": "A few weeks ago, while evaluating an AWS service, I stumbled upon an issue with the way the AWS API evaluates IAM policies fo...",
+    "image": "images/575ea4f5c71f6c56eede1cf5a1072943.webp",
+    "datetimestamp": "2020-09-17T08:45:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Record AWS API calls to improve IAM Policies | cloudonaut",
+    "link": "https://cloudonaut.io/record-aws-api-calls-to-improve-iam-policies/",
+    "description": "Have you ever looked at an IAM policy and wondered: Is it really necessary to grant access to this specific action? Or do you...",
+    "image": "images/afb8eeac1e8eaf1fe233cb5f02398206.webp",
+    "datetimestamp": "2020-09-11T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "NoSQL on AWS: Document-Oriented Databases | cloudonaut",
+    "link": "https://cloudonaut.io/nosql-on-aws-document-oriented-databases/",
+    "description": "A document-oriented database stores keys mapped to JSON documents. You can query all documents in such a document-oriented da...",
+    "image": "images/ed6c0e9e2e9d1a9419785c0cd7574689.webp",
+    "datetimestamp": "2020-09-03T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: AWS App Mesh \u2013 A service mesh for EC2, ECS, and EKS | cloudonaut",
+    "link": "https://cloudonaut.io/review-aws-app-mesh-service-mesh-ec2-ecs-eks/",
+    "description": "It seems to me like everyone is talking about service meshes these days - definitely a hot topic in the world of containers a...",
+    "image": "images/4fd9e25ff235ae18a491e20947851b4f.webp",
+    "datetimestamp": "2020-08-25T22:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Workaround: CodePipeline for GitHub Enterprise | cloudonaut",
+    "link": "https://cloudonaut.io/workaround-codepipeline-for-github-enterprise/",
+    "description": "There is no question that AWS has a strong focus on customer obsession. However, sometimes it takes forever until popular fea...",
+    "image": "images/b4a81cde5a19b9d0b03e4e769ff9d38c.webp",
+    "datetimestamp": "2020-08-21T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "(Erratum) VPC Endpoint increases DynamoDB latency by 30% | cloudonaut",
+    "link": "https://cloudonaut.io/vpc-endpoint-increases-dynamodb-latency-by-30-percent/",
+    "description": "Our reader Tom wrote in to tell me, that the latency for read requests to DynamoDB increased significantly after enabling a V...",
+    "image": "images/6afbb5294c3a3769a32ff6708bb8221a.webp",
+    "datetimestamp": "2020-08-20T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "10 Obstacles for Lift & Shift Architectures | cloudonaut",
+    "link": "https://cloudonaut.io/10-obstacles-for-lift-and-shift-architectures/",
+    "description": "The cloud is not only about greenfield projects. Over the last few years I have accompanied several enterprises in large migr...",
+    "image": "images/b0cfcc4a4a6bbe44fdd503f7b46a4e62.webp",
+    "datetimestamp": "2020-08-13T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Month in Review: July 2020 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-month-in-review-july-2020/",
+    "description": "The world of AWS changes fast. This review summarizes the most important news from July 2020. The roundup does not include ve...",
+    "image": "images/4044bfaae093bca9d9efc31bfc9a5c75.webp",
+    "datetimestamp": "2020-08-03T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How do you choose the best storage option on AWS? | cloudonaut",
+    "link": "https://cloudonaut.io/how-do-you-choose-the-best-storage-option-on-aws/",
+    "description": "Choosing storage service is critical when designing a cloud architecture. Read on to learn about the characteristics, limitat...",
+    "image": "images/a348bf39e8f3dfa52df5afff371083d8.webp",
+    "datetimestamp": "2020-07-29T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Run the AWS CLI v2 inside Docker | cloudonaut",
+    "link": "https://cloudonaut.io/run-the-aws-cli-v2-inside-docker/",
+    "description": "The last time I bought a new laptop, I decided to install it from scratch. My goal: keep the installation as clean as possibl...",
+    "image": "images/02f43ccd8e6b1aed156a46284360d902.webp",
+    "datetimestamp": "2020-07-24T07:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Use multiple AWS accounts, but keep it simple! | cloudonaut",
+    "link": "https://cloudonaut.io/use-multiple-aws-accounts-but-keep-it-simple/",
+    "description": "Getting started with AWS is a challenge. Unlimited possibilities, competing solutions, and distractions. Even the first step ...",
+    "image": "images/7806ebf30d8fbfbbf79b65c8b3be760e.webp",
+    "datetimestamp": "2020-07-22T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "ECS Deployment Options - From rolling updates to blue-green and canary | cloudonaut",
+    "link": "https://cloudonaut.io/ecs-deployment-options/",
+    "description": "\u201cHow often do you deploy to production?\u201d - This is an important question as the best application is useless if you can\u2019t depl...",
+    "image": "images/4a7f4bcf21116d27feffdee22f0d4e4f.webp",
+    "datetimestamp": "2020-07-14T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Resilient event-driven Serverless architectures: Isolate your dependencies | cloudonaut",
+    "link": "https://cloudonaut.io/resilient-event-driven-serverless-architectures-isolate-your-dependencies/",
+    "description": "Most systems grow over time. Dependencies are added, and availability suffers. How can we design an event-driven serverless a...",
+    "image": "images/9b8bcd0d0554a8a4119c82528b55c703.webp",
+    "datetimestamp": "2020-07-10T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Messaging on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/messaging-on-aws/",
+    "description": "Previously, I compared all database options offered by AWS for you. In this post, I compare the available messaging options. ...",
+    "image": "images/603967bd7edc7b540bf607abbdc43d2a.webp",
+    "datetimestamp": "2020-07-01T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Containers vs. Serverless: Thoughts About Your Cloud Strategy | cloudonaut",
+    "link": "https://cloudonaut.io/containers-vs-serverless-cloud-strategy/",
+    "description": "There are many ways to build on AWS. When shaping the strategy for your organization, the following two options should be on ...",
+    "image": "images/81d64f8c24f8f62634c7b439da1f41f3.webp",
+    "datetimestamp": "2020-06-24T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: API Gateway HTTP APIs - Cheaper and Faster REST APIs? | cloudonaut",
+    "link": "https://cloudonaut.io/review-api-gateway-http-apis/",
+    "description": "An API gateway acts as an API front-end that receives API requests from clients and forwards them to back-end services. Typic...",
+    "image": "images/684bed6b3edb88c4e836fc293c2f4033.webp",
+    "datetimestamp": "2020-06-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "End-user monitoring of your website with CloudWatch Synthetics | cloudonaut",
+    "link": "https://cloudonaut.io/monitor-your-website-with-cloudwatch-synthetics/",
+    "description": "There are countless reasons why your website is not working as your users expect. From a technical point of view, you can mon...",
+    "image": "images/53e5fce3dd9fe323418e0467cf1d16a4.webp",
+    "datetimestamp": "2020-06-04T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Terraform, can you keep a secret? | cloudonaut",
+    "link": "https://cloudonaut.io/terraform-can-you-keep-a-secret/",
+    "description": "Did you know that Terraform state can - and most likely does - contain sensitive data? A few examples of sensitive informatio...",
+    "image": "images/7335d80017776a66b115d1f620bea24d.webp",
+    "datetimestamp": "2020-05-29T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "5th Anniversary of cloudonaut | cloudonaut",
+    "link": "https://cloudonaut.io/cloudonaut-5th-anniversary/",
+    "description": "We published the first blog post five years ago, on May 9th, 2015. This was the time when we were writing our first book Amaz...",
+    "image": "images/30f539326e53790599144deed9cbac02.webp",
+    "datetimestamp": "2020-05-11T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Scaling Container Clusters on AWS: ECS and EKS | cloudonaut",
+    "link": "https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/",
+    "description": "Containers are a powerful tool to streamline your development and deployment process. However, a container cluster - no matte...",
+    "image": "images/6d682ce41653ee704ff38a1c037c208d.webp",
+    "datetimestamp": "2020-05-08T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Databases on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/databases-on-aws/",
+    "description": "Andy Jassy, CEO of AWS, proclaimed #DBFreedom, aka use whatever database you like. AWS offers them all. At least, that\u2019s what...",
+    "image": "images/c3058117fc730b4c937c77047cd47848.webp",
+    "datetimestamp": "2020-04-30T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Anonymize CloudFront Access Logs | cloudonaut",
+    "link": "https://cloudonaut.io/anonymize-cloudfront-access-logs/",
+    "description": "Amazon CloudFront can upload access log files to an S3 bucket. By default, CloudFront logs the IP address of the client. Opti...",
+    "image": "images/4c3f4fc83c6c0c28e22dc7df33bc8340.webp",
+    "datetimestamp": "2020-04-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Building with EC2: 10 Tips for the Successful Cloud Architect | cloudonaut",
+    "link": "https://cloudonaut.io/building-with-ec2/",
+    "description": "Despite the Kubernetes and Serverless hypes, the vast majority of cloud workloads still happen on virtual machines. AWS offer...",
+    "image": "images/ccb3253c23d9969a3000b8cdc5d88d1c.webp",
+    "datetimestamp": "2020-04-16T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Account Structure: Think twice before using AWS Organizations | cloudonaut",
+    "link": "https://cloudonaut.io/aws-account-structure-think-twice-before-using-aws-organizations/",
+    "description": "What is an AWS account? I like to use the following two ways to describe the concept of an AWS account: a tenant in Amazon\u2019s ...",
+    "image": "images/14982c9c2dddfa0d713351d4226d664e.webp",
+    "datetimestamp": "2020-04-08T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Top 14 Must-Haves for Your AWS Architecture Checklist | cloudonaut",
+    "link": "https://cloudonaut.io/aws-architecture-checklist/",
+    "description": "After analyzing the requirements of your application, you came up with an AWS architecture. Good job! This blog post contains...",
+    "image": "images/3e41aa7965a4f6592cd8169752e56b4d.webp",
+    "datetimestamp": "2020-04-02T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudWatch Metrics & Alarms reloaded | cloudonaut",
+    "link": "https://cloudonaut.io/cloudwatch-metrics-and-alarms-reloaded/",
+    "description": "Amazon CloudWatch improved significantly over the years. It\u2019s time to look at its monitoring capabilities again. CloudWatch i...",
+    "image": "images/d85725b0b09815d6bd374821f021f478.webp",
+    "datetimestamp": "2020-03-26T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Seamless EC2 monitoring with the Unified CloudWatch Agent | cloudonaut",
+    "link": "https://cloudonaut.io/seamless-ec2-monitoring-with-the-unified-cloudwatch-agent/",
+    "description": "Shipping logs and metrics from an EC2 instance to CloudWatch was painful in the past. By default, you only get metrics about ...",
+    "image": "images/25bbe70d4693bc403fc592f2f15a09cc.webp",
+    "datetimestamp": "2020-03-19T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Advanced AWS Networking: Pitfalls That You Should Avoid | cloudonaut",
+    "link": "https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid/",
+    "description": "AWS offers shiny and powerful networking services. However, you should know about the pitfalls when designing advanced networ...",
+    "image": "images/d0b05c5a0f93f2d44d46f5804b4b43d5.webp",
+    "datetimestamp": "2020-03-17T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to analyze and reduce S3 storage usage? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-analyze-and-reduce-s3-storage-usage/",
+    "description": "S3 is an object store, not a file system. Object storage comes with significant advantages: unlimited storage capacity, high ...",
+    "image": "images/7168648bd567b5566aa32a3aceb60069.webp",
+    "datetimestamp": "2020-03-06T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "On the way to sustainable open source projects | cloudonaut",
+    "link": "https://cloudonaut.io/on-the-way-to-sustainable-open-source-projects/",
+    "description": "Open Source software is the heart of the modern world. Why do we love open source? Maybe, because we can review the source co...",
+    "image": "images/f993f70b09629cb970b8708a206c2095.webp",
+    "datetimestamp": "2020-02-27T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "What's the best AWS Compute option for your project? | cloudonaut",
+    "link": "https://cloudonaut.io/whats-the-best-aws-compute-option-for-your-project/",
+    "description": "There are many good reasons why you should move to the cloud and AWS in particular. Benefit from the latest innovations or co...",
+    "image": "images/a51bad8b8b994a354d2ffba5a5a56fc4.webp",
+    "datetimestamp": "2020-02-25T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "GitHub Actions vs. AWS CodePipeline | cloudonaut",
+    "link": "https://cloudonaut.io/github-actions-vs-aws-codepipeline/",
+    "description": "Deployment pipelines first! When launching a new project, start with building a deployment pipeline. Automating the process f...",
+    "image": "images/70580261681c750f889013f852979f81.webp",
+    "datetimestamp": "2020-02-21T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: Amazon Connect \u2013 A Programmable Telephone System | cloudonaut",
+    "link": "https://cloudonaut.io/review-amazon-connect-programmable-telephone-system/",
+    "description": "Do you provide services to consumer or business clients? Which channels do you provide for clients to get support, leave feed...",
+    "image": "images/18428e6d71191ee1731723a476596c02.webp",
+    "datetimestamp": "2020-02-14T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show your Tool: Parliament | cloudonaut",
+    "link": "https://cloudonaut.io/show-your-tool-parliament/",
+    "description": "In this series, we present AWS tooling from the community for the community. We talk directly with the tool makers. Who are t...",
+    "image": "images/7da41d48dc9fe33f6f62633d65a91ba9.webp",
+    "datetimestamp": "2020-02-04T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Instances 2.0 - Time to Update Your Toolbox | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-instances-2-0-time-to-update-your-toolbox/",
+    "description": "Managing a mutable EC2 instance comes with many responsibilities. In this post, I show you how to solve everyday challenges by leveraging the latest and greatest capabilities of the AWS platform.",
+    "image": "images/ba143455c19c6983a7b8d9eba42b877d.webp",
+    "datetimestamp": "2020-01-28T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to secure your DevOps tools with ALB authentication? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-secure-your-devops-tools-with-alb-authentication/",
+    "description": "Secure your DevOps tools by adding an extra layer of security: authentication provided by the Application Load Balancer (ALB)",
+    "image": "images/b2985b19ca6b7ad589b66b5d8ce75e66.webp",
+    "datetimestamp": "2020-01-21T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "10 Success Factors for Starting Your Cloud Journey | cloudonaut",
+    "link": "https://cloudonaut.io/10-success-factors-for-starting-your-cloud-journey/",
+    "description": "Are you planning to start the cloud journey for your organization soon? Learn from others to turn your initiative into a huge success.",
+    "image": "images/a58d254ff3289ddaacb7c59ca0e38f47.webp",
+    "datetimestamp": "2020-01-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Cost Optimization 101 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-cost-optimization-101/",
+    "description": "The beginning of the year is the perfect time to clean up and optimize. This also applies to your AWS bill. I've composed practical tips on how to cut costs with small effort.",
+    "image": "images/013f9b81ccb1b9d843e2805776437ab5.webp",
+    "datetimestamp": "2020-01-09T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2019: Review and Outlook | cloudonaut",
+    "link": "https://cloudonaut.io/2019-review-outlook/",
+    "description": "The year is coming to an end. We shipped a lot of stuff and we also have plans for next year.",
+    "image": "images/c5f4e5a70f0b96fda07baeba3046ac7d.webp",
+    "datetimestamp": "2019-12-23T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Dockerizing Ruby on Rails | cloudonaut",
+    "link": "https://cloudonaut.io/dockerizing-ruby-on-rails/",
+    "description": "Did you dockerize your Ruby on Rails application already? You definitely should! It simplifies deploying your application a lot. Learn how to create a Dockerfile to build a Docker image for your appli",
+    "image": "images/e19270146b4643db054ff717aadcc33f.webp",
+    "datetimestamp": "2019-12-19T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Combine CloudWatch metrics for Auto Scaling or to reduce costs | cloudonaut",
+    "link": "https://cloudonaut.io/combine-cloudwatch-metrics-autoscaling-reduce-costs/",
+    "description": "Each and every part of your AWS infrastructure emits utilization metrics. Amazon CloudWatch collects these metrics and allows you to visualize them as well as to define alarms. AWS announced an intere",
+    "image": "images/f49ca3df1aea9349b12d427f4a9dc794.webp",
+    "datetimestamp": "2019-12-17T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "All you need to know about AWS re:Invent in 2019 | cloudonaut",
+    "link": "https://cloudonaut.io/reinvent-recap-2019-aws-announcements/",
+    "description": "Our re:Invent recap discusses the 10 most important announcements that you should not miss.",
+    "image": "images/5a1945fd60483af9714237d138be5cce.webp",
+    "datetimestamp": "2019-12-10T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to dockerize your Node.js Express application for AWS Fargate? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-dockerize-your-nodejs-express-application-for-aws-fargate/",
+    "description": "Learn to dockerize your Node.js application based on Express and run it on AWS Fargate. With AWS Fargate, you launch Docker containers in the cloud without any need to manage virtual machines. Operati",
+    "image": "images/a6223b1675f817d66bc23c2744e15d23.webp",
+    "datetimestamp": "2019-12-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show your Tool: Jenkins Pipeline Step Plugin for AWS | cloudonaut",
+    "link": "https://cloudonaut.io/show-your-tool-jekins-pipeline-aws-plugin/",
+    "description": "In this series, we present AWS tooling from the community for the community. We talk directly with the tool makers. Who are t...",
+    "image": "images/e9b12b406339a0702ea2a4cfacd23d6c.webp",
+    "datetimestamp": "2019-12-02T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Checklist: Is your application ready for a container cluster? | cloudonaut",
+    "link": "https://cloudonaut.io/checklist-container-cluster-ecs-fargate/",
+    "description": "Is your application ready to run on a container cluster? Use this checklist to find out whether you are good to deploy your application on Amazon Elastic Container Service (ECS) and AWS Fargate or any",
+    "image": "images/9af9132d48899ab67d5ddcb5d0f618c2.webp",
+    "datetimestamp": "2019-11-28T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Reduce your AWS bill with Savings Plans | cloudonaut",
+    "link": "https://cloudonaut.io/reduce-your-aws-bill-with-savings-plans/",
+    "description": "AWS made a prominent announcement on November 6th, 2019: AWS Savings Plans. It was never easier to get a discount on compute capacity by committing to a monthly consumption and paying upfront. This bl",
+    "image": "images/1ba4b691ba6b11adee02ee2e45487ae7.webp",
+    "datetimestamp": "2019-11-26T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "ETL with a Glue Python Shell Job: Load data from S3 to Redshift | cloudonaut",
+    "link": "https://cloudonaut.io/etl-glue-python-shell-job-load-data-from-s3-to-redshift/",
+    "description": "AWS Glue offers tools for solving ETL challenges. A Glue Python Shell job is a perfect fit for ETL tasks with low to medium complexity and data volume. For example, loading data from S3 to Redshift ca",
+    "image": "images/1ac295c5fb5383437ed3dacd9e23548d.webp",
+    "datetimestamp": "2019-11-21T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to dockerize your Python Django application for AWS Fargate? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-dockerize-your-python-django-application-for-aws-fargate/",
+    "description": "The biggest game-changer for Docker on AWS was the announcement of AWS Fargate. Operating Docker containers could not be easier. With AWS Fargate, you launch Docker containers in the cloud without any",
+    "image": "images/1156d754782c3b22f3cce02620d69daf.webp",
+    "datetimestamp": "2019-11-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "re:Invent Roulette | cloudonaut",
+    "link": "https://cloudonaut.io/aws-reinvent-roulette-2019/",
+    "description": "Going to AWS re:Invent is an excellent opportunity to discover the latest services, to deepen your knowledge, and to meet int...",
+    "image": "images/18350535b358170d64eef9e58848541b.webp",
+    "datetimestamp": "2019-11-14T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: AWS Global Accelerator - Improving Latency and Design for Failure | cloudonaut",
+    "link": "https://cloudonaut.io/review-aws-global-accelerator-latency-multi-region-disaster-recovery/",
+    "description": "The Cloud is all about networking. AWS introduced Global Accelerator at re:Invent in 2018. A year after that, it is about tim...",
+    "image": "images/713ba8220955261386a0852f3bee5f37.webp",
+    "datetimestamp": "2019-11-12T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Resilient task scheduling with ECS Fargate | cloudonaut",
+    "link": "https://cloudonaut.io/resilient-task-scheduling-with-ecs-fargate-cron-scheduled-task/",
+    "description": "Many applications use scheduled jobs to automate recurring tasks, such as:  Generating and sending a monthly report. Disablin...",
+    "image": "images/f3d9d0cb6a1baaeb7c8fc62b45ec8762.webp",
+    "datetimestamp": "2019-11-05T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How we run our blog cloudonaut.io | cloudonaut",
+    "link": "https://cloudonaut.io/how-we-run-our-blog-cloudfront-s3-hexo/",
+    "description": "Now and then you ask us: How do you run cloudonaut.io? Today, I want to share some insights with you about the work and techn...",
+    "image": "images/c23554254c4e5469477133b77d44e4ba.webp",
+    "datetimestamp": "2019-10-29T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show your Tool: awsume | cloudonaut",
+    "link": "https://cloudonaut.io/show-your-tool-awsume/",
+    "description": "In this series, we present AWS tooling from the community for the community. We talk directly with the tool makers. Who are t...",
+    "image": "images/4f936369eaa0473dd6e97dc927917ebd.webp",
+    "datetimestamp": "2019-10-22T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to avoid S3 data leaks? | cloudonaut",
+    "link": "https://cloudonaut.io/s3-security-best-practice/",
+    "description": "Not a week goes by without a frightening announcement that an organization has leaked confidential data from Amazon S3 accide...",
+    "image": "images/afb83ac331e37f3f440c96b94ff9144b.webp",
+    "datetimestamp": "2019-10-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Prevent CloudFormation Change Sets from piling up | cloudonaut",
+    "link": "https://cloudonaut.io/aws-cli-cloudformation-deploy-limit-exceeded/",
+    "description": "Recently, I\u2019ve stumbled upon a problem when using aws cloudformation deploy within deployment pipelines (Jenkins, GitLab CI, ...",
+    "image": "images/2164813b14c544c43ca7155d44a2ca7b.webp",
+    "datetimestamp": "2019-10-10T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Rapid CI/CD with CodeBuild to deploy PHP and Docker | cloudonaut",
+    "link": "https://cloudonaut.io/rapid-ci-cd-with-codebuild-to-deplpy-php-and-docker/",
+    "description": "There are many options available when you are looking for ways to implement a deployment pipeline. You might have heard about...",
+    "image": "images/a4fec53ce9acecc60489631e36facfac.webp",
+    "datetimestamp": "2019-10-01T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to create a customized CloudWatch Dashboard with CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-create-a-customized-cloudwatch-dashboard-with-cloudformation/",
+    "description": "Which metrics are essential to evaluate the state of your cloud infrastructure? Probably a lot. A dashboard allows you to kee...",
+    "image": "images/4d6787381d0926564c91fd1f3cf0eca2.webp",
+    "datetimestamp": "2019-09-25T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: Amazon Aurora Serverless - A cloud-native and production-ready relational database? | cloudonaut",
+    "link": "https://cloudonaut.io/review-amazon-aurora-serverless/",
+    "description": "It was never easier to scale your compute layer. EC2 Auto Scaling, Fargate, and Lambda enable horizontal scaling. But how do ...",
+    "image": "images/466776b60d32d17c0732638ef5af9fb4.webp",
+    "datetimestamp": "2019-09-17T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show your Tool: AWSInfo | cloudonaut",
+    "link": "https://cloudonaut.io/show-your-tool-awsinfo/",
+    "description": "In this series, we present AWS tooling from the community, for the community. We talk directly with the tool makers. Who are ...",
+    "image": "images/cf0a901d5dae61e1e1bc3ffa1881c103.webp",
+    "datetimestamp": "2019-09-10T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to sell pay per use SaaS to AWS customers in the AWS Marketplace | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-sell-pay-per-use-saas-to-aws-customers-in-the-aws-marketplace/",
+    "description": "AWS Marketplace allows you to sell software to AWS customers. The customer can either run the software on its own (using AMIs...",
+    "image": "images/aa35f7a18b039e10f432522d71d74a82.webp",
+    "datetimestamp": "2019-09-04T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Avoid the 60 minutes timeout when using the AWS CLI with IAM roles | cloudonaut",
+    "link": "https://cloudonaut.io/avoid-the-60-minutes-timeout-when-using-the-aws-cli-with-iam-roles/",
+    "description": "You can configure the AWS CLI to assume an IAM role for you in combination with MFA. If you are a power user of the CLI, you ...",
+    "image": "images/c8d663340f88cfef7c591a6d97ab2cd6.webp",
+    "datetimestamp": "2019-08-27T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "We have a podcast! | cloudonaut",
+    "link": "https://cloudonaut.io/we-have-a-podcast/",
+    "description": "We launched the cloudonaut Podcast! Every other week, Andreas or I prepare the topic of the podcast. The topic is not known t...",
+    "image": "images/c93d3d15c4984168ea4a8fc2ca51fbad.webp",
+    "datetimestamp": "2019-08-21T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Instance Connect is an insecure default! | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-instance-connect-is-an-insecure-default/",
+    "description": "Two months before, Michael wrote about why AWS SSM is a trojan horse. Shortly after that, AWS released EC2 Instance Connect, ...",
+    "image": "images/f304279970d6da0afa7a1329f1c32784.webp",
+    "datetimestamp": "2019-08-20T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Verify SNS messages delivered via HTTP(S) in Node.js | cloudonaut",
+    "link": "https://cloudonaut.io/verify-sns-messages-delivered-via-http-or-https-in-node-js/",
+    "description": "Are you implementing an HTTP/HTTPS endpoint for SNS? If so, you should definetly verify the incoming messages. Otherwise...",
+    "image": "images/3cb4cbd7033830ef8db3a95991750c95.webp",
+    "datetimestamp": "2019-08-14T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Review: AWS Backup - A centralized place for managing backups? | cloudonaut",
+    "link": "https://cloudonaut.io/review-aws-backup/",
+    "description": "AWS Backup aims to become a centralized place for managing backups. If possible, AWS Backup uses existing features to create ...",
+    "image": "images/466776b60d32d17c0732638ef5af9fb4.webp",
+    "datetimestamp": "2019-08-08T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Calling AppSync GraphQL from Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/calling-appsync-graphql-from-lambda/",
+    "description": "AWS AppSync provides an easy way to run a GraphQL API that triggers AWS Lambda functions and other AWS services. If you start...",
+    "image": "images/4c7f8f32608beef42f7d9f37f3f854d2.webp",
+    "datetimestamp": "2019-07-26T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Dockerizing legacy applications with confd | cloudonaut",
+    "link": "https://cloudonaut.io/dockerizing-legacy-applications-with-confd/",
+    "description": "A legacy application typically uses files to read configuration parameters. But working with configuration files is cumbersom...",
+    "image": "images/f5fd684fb362446ac2e21eaf496be81d.webp",
+    "datetimestamp": "2019-07-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to dockerize your PHP application for AWS Fargate? | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-dockerize-your-php-application-for-aws-fargate/",
+    "description": "The biggest game-changer for Docker on AWS was the announcement of AWS Fargate. Operating Docker containers could not be easi...",
+    "image": "images/f30cb9ed36dc678c04e5e5a40f0395e6.webp",
+    "datetimestamp": "2019-07-12T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Analyze CloudWatch Logs like a pro | cloudonaut",
+    "link": "https://cloudonaut.io/analyze-cloudwatch-logs-like-a-pro/",
+    "description": "This post was originally published on the marbot blog.  Centralizing the logs from all your systems is critical in a cloud i...",
+    "image": "images/ce3132c6ecf5904e6987605ef8d156f1.webp",
+    "datetimestamp": "2019-07-02T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "School's Out For Summer | cloudonaut",
+    "link": "https://cloudonaut.io/schools-out-for-summer/",
+    "description": "Michael and I have just returned from a trip to France where we enjoyed the sun, the beach, the pool, and - of course - the c...",
+    "image": "images/e2ba8cca7eab6e1eca5532932726a2d2.webp",
+    "datetimestamp": "2019-07-01T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS CloudTrail: your audit log is incomplete | cloudonaut",
+    "link": "https://cloudonaut.io/aws-cloudtrail-your-audit-log-is-incomplete/",
+    "description": "Recently, I was investigating the size of a security breach caused by leaked AWS credentials. The first place to go in such a...",
+    "image": "images/12e4cc58a32352b3b94bfd2c6e160770.webp",
+    "datetimestamp": "2019-06-26T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EFS with TLS behind a proxy | cloudonaut",
+    "link": "https://cloudonaut.io/efs-with-tls-behind-a-proxy/",
+    "description": "Encryption of data at rest and in transit is the new normal. Or as Werner Vogels (Amazon, CTO) says: \u201cDance like nobody\u2019s wat...",
+    "image": "images/e03ae5e608b8c8a5033e00c71df1dea2.webp",
+    "datetimestamp": "2019-06-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS SSM is a trojan horse: fix it now! | cloudonaut",
+    "link": "https://cloudonaut.io/aws-ssm-is-a-trojan-horse-fix-it-now/",
+    "description": "Recently, I held a security workshop together with a team of engineers. At some point, the team demonstrated how they use AWS...",
+    "image": "images/1c95d0cff80b806ea084d2afd71a75b1.webp",
+    "datetimestamp": "2019-06-11T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "More than 25 SSL certificates with ECS | cloudonaut",
+    "link": "https://cloudonaut.io/more-than-25-ssl-certificates-with-ecs/",
+    "description": "Both the Application Load Balancer (ALB) and the Network Load Balancer (NLB) provide TLS/HTTPS listeners allowing you to...",
+    "image": "images/025add00c52b24801f33174921930148.webp",
+    "datetimestamp": "2019-06-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cronjob at the edge with AWS IoT | cloudonaut",
+    "link": "https://cloudonaut.io/cronjob-at-the-edge-with-aws-iot/",
+    "description": "I\u2019m working on a project where I have to manage a cronjob that runs on a small computer with an unreliable Internet connectio...",
+    "image": "images/8ebcba0515858fecfb3a9f775030eca6.webp",
+    "datetimestamp": "2019-05-29T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Download YouTube videos with AWS Lambda and store them on S3 | cloudonaut",
+    "link": "https://cloudonaut.io/download-youtube-videos-with-aws-lambda-and-store-them-on-s3/",
+    "description": "Recently, I was faced with the challenge to download videos from YouTube and store them on S3.   Sounds easy? Remember than L...",
+    "image": "images/f4f0113fb0fb614be9db765b95fd00dd.webp",
+    "datetimestamp": "2019-05-17T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "6 new ways to reduce your AWS bill with little effort | cloudonaut",
+    "link": "https://cloudonaut.io/6-new-ways-to-reduce-your-aws-bill-with-little-effort/",
+    "description": "The last time we wrote about how to save AWS costs was at the end of 2015. AWS has changed a lot since then.   It\u2019s time for ...",
+    "image": "images/8e7a98cfde6ce17ae6bd9d95ad8ed33c.webp",
+    "datetimestamp": "2019-05-07T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitoring EC2 Network Utilization | cloudonaut",
+    "link": "https://cloudonaut.io/monitoring-ec2-network-utilization/",
+    "description": "This post was originally published on the marbot blog.  Are you monitoring the network utilization of your EC2 instances? Wh...",
+    "image": "images/5a5c16045c8979d5f498d376f3006f5d.webp",
+    "datetimestamp": "2019-05-02T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Own your analytics data: Replacing Google Analytics with Amazon QuickSight | cloudonaut",
+    "link": "https://cloudonaut.io/own-your-analytics-data-replacing-google-analytics-with-amazon-quicksight/",
+    "description": "Making decisions based on data is compelling. Especially, when you wrestle with the most straightforward decisions like me. G...",
+    "image": "images/a6fcf1f36d1391dc8df2089785a24703.webp",
+    "datetimestamp": "2019-04-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "6 unknown CloudFormation features you should know about | cloudonaut",
+    "link": "https://cloudonaut.io/6-unknown-cloudformation-features-you-should-know-about/",
+    "description": "I was recently invited to a CloudFormation workshop with a group of early CloudFormation users. I soon realized that the grou...",
+    "image": "images/39535d44fcf3a8915b95fd925171f817.webp",
+    "datetimestamp": "2019-04-15T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Goodbye SSH, use AWS Session Manager instead | cloudonaut",
+    "link": "https://cloudonaut.io/goodbye-ssh-use-aws-session-manager-instead/",
+    "description": "SSH is great. But the AWS Session Manager - whose full name is AWS Systems Manager Session Manager - matches the needs for in...",
+    "image": "images/c363289c8f41b50b3d0f7ceb7ef1a270.webp",
+    "datetimestamp": "2019-03-31T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Three ways to run Docker on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/three-ways-to-run-docker-on-aws/",
+    "description": "There are a bunch of different ways to run your containerized workloads on AWS. This blog post compares the three most import...",
+    "image": "images/3e70c0a5cf5ab70d3a13eb801a19e7df.webp",
+    "datetimestamp": "2019-03-19T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Fargate networking 101 | cloudonaut",
+    "link": "https://cloudonaut.io/fargate-networking-101/",
+    "description": "Fargate runs Docker containers on AWS. ECS is responsible for orchestrating the containers that Fargate runs. If you are new ...",
+    "image": "images/8cfbad0fb730f251feb3a6d15d66d780.webp",
+    "datetimestamp": "2019-03-12T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Beginner-friendly mobile backend based on AWS AppSync | cloudonaut",
+    "link": "https://cloudonaut.io/beginner-friendly-mobile-backend-based-on-aws-appsync/",
+    "description": "Are you looking for a way to build a backend for a mobile or web application on AWS? You should check out the newcomer announ...",
+    "image": "images/107a42e0c54bbfb0d96de70fbef6d785.webp",
+    "datetimestamp": "2019-03-07T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A brief history of AWS architectures | cloudonaut",
+    "link": "https://cloudonaut.io/a-brief-history-of-aws-architectures/",
+    "description": "The way you create architectures on AWS has evolved over the last ten years.  In this blog post, I demonstrate what is better...",
+    "image": "images/f56d226a125e204095fafaa08bac6a70.webp",
+    "datetimestamp": "2019-02-26T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "ECS vs. Fargate: What's the difference? | cloudonaut",
+    "link": "https://cloudonaut.io/ecs-vs-fargate-whats-the-difference/",
+    "description": "When discussing options to run Docker on AWS, I\u2019m often asked about the differences between ECS and EKS or Kubernets. However...",
+    "image": "images/bb47abaacd0cb759f88da21908d96f83.webp",
+    "datetimestamp": "2019-02-21T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless WebSocket API: API Gateway, Kinesis, Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-websocket-api-api-gateway-kinesis-lambda/",
+    "description": "Nowadays, it is a common approach to use a RESTful API following the synchronous request/response model. But what about ...",
+    "image": "images/afae153dfca33f888ed16bf20514a244.webp",
+    "datetimestamp": "2019-02-13T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cost savings with DynamoDB On-Demand: Lessons learned | cloudonaut",
+    "link": "https://cloudonaut.io/cost-savings-with-dynamodb-on-demand-essons-learned/",
+    "description": "One of my favorite features announced during re:Invent 2018 is DynamoDB On-Demand. With DynamoDB On-Demand, we can use Dynamo...",
+    "image": "images/12ee648d38c4f07dddd56d879c8146a8.webp",
+    "datetimestamp": "2019-02-07T15:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS SLA: Are you able to keep your availability promise? | cloudonaut",
+    "link": "https://cloudonaut.io/aws-sla-are-you-able-to-keep-your-availability-promise/",
+    "description": "Are you offering availability of 99.99% or more to your clients? Bad news, you might not be able to keep your promise! Recent...",
+    "image": "images/1f81900a9dff7f93b35b9af19420cbe9.webp",
+    "datetimestamp": "2019-01-31T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Fargate is ready for prime time, and we share our CloudFormation templates | cloudonaut",
+    "link": "https://cloudonaut.io/fargate-is-ready-for-prime-time-and-we-share-our-cloudformation-templates/",
+    "description": "The recent AWS Fargate Price Reduction (up to 50%) is the last piece in the puzzle to call Fargate a reasonable choice for ru...",
+    "image": "images/8aefeaeafd28af1486d39861909342fd.webp",
+    "datetimestamp": "2019-01-15T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2018 in Review | cloudonaut",
+    "link": "https://cloudonaut.io/2018-in-review/",
+    "description": "The year 2018 is coming to an end. We want to thank our readers, customers, supporters, and partners. It was a pleasure to be...",
+    "image": "images/dc022803b834e0e55891f29f84d175af.webp",
+    "datetimestamp": "2018-12-29T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "How to become an AWS expert | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-become-an-aws-expert/",
+    "description": "This post was original published on the AWS News Blog.  If you are just starting to use AWS today, you might think it\u2019s goin...",
+    "image": "images/5f02343006f065163aef64c020c9b457.webp",
+    "datetimestamp": "2018-12-19T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Eat your own dog food: how AWS leverages Serverless | cloudonaut",
+    "link": "https://cloudonaut.io/eat-your-own-dog-food-how-aws-leverages-serverless/",
+    "description": "Tim Bray from Amazon gave a great talk at re:Invent 2018 where he shows us how AWS uses Serverless technologies. Did you know...",
+    "image": "images/8f6ffd616f3da28d2089940b3afd3905.webp",
+    "datetimestamp": "2018-12-10T12:12:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "The somewhat different AWS re:Invent recap | cloudonaut",
+    "link": "https://cloudonaut.io/the-somewhat-different-aws-reinvent-recap/",
+    "description": "I\u2019m still recovering from our trip to AWS re:Invent in Las Vegas. The conference was a blast. It was a huge pleasure to meet ...",
+    "image": "images/9c35fea80c0c94aa7482e83e1ed4def2.webp",
+    "datetimestamp": "2018-12-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "My mental model of AWS | cloudonaut",
+    "link": "https://cloudonaut.io/my-mental-model-of-aws/",
+    "description": "AWS is a complex system that no one can understand end-to-end? As AWS professionals we still have to deal with the AWS system...",
+    "image": "images/83b231a19e1f6faecb3044f27b6adbc9.webp",
+    "datetimestamp": "2018-11-15T16:12:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Meet us at re:Invent (Update) | cloudonaut",
+    "link": "https://cloudonaut.io/meet-us-at-reinvent/",
+    "description": "Michael and I are looking forward to attending re:Invent 2018 in Las Vegas. The most important reason for us to fly off to th...",
+    "image": "images/4936339ab3800fdd85047d3e7a0b89e3.webp",
+    "datetimestamp": "2018-11-08T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Three simple rules to avoid data leaking from S3 | cloudonaut",
+    "link": "https://cloudonaut.io/three-simple-rules-to-avoid-data-leaking-from-s3/",
+    "description": "Reviewing AWS accounts with a focus on security is part of my day-to-day job. My most common finding: unwanted public read or...",
+    "image": "images/7dbf8e356d31dd6b0f7df2a189b9474e.webp",
+    "datetimestamp": "2018-10-30T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Customized rate limiting for API Gateway by path parameter, query parameter, and more | cloudonaut",
+    "link": "https://cloudonaut.io/customized-rate-limiting-for-api-gateway-by-path-parameter-query-parameter-and-more/",
+    "description": "API Gateway provides a feature to limit the number of requests a client can make per second (rate) and per day/week&#x2F...",
+    "image": "images/b785424b8f79ba4bfc71c48343f7d6b8.webp",
+    "datetimestamp": "2018-10-17T13:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Network Performance of t3 | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-network-performance-of-t3/",
+    "description": "AWS introduced the t3 instance type in August. Time to update the EC2 Network Performance Cheat Sheet. The following table s...",
+    "image": "images/8252dbb6f35f53f8414199ba2a4dab73.webp",
+    "datetimestamp": "2018-10-12T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Hot off the press: Amazon Web Services in Action Second Edition | cloudonaut",
+    "link": "https://cloudonaut.io/hot-off-the-press-amazon-web-services-in-action-second-edition/",
+    "description": "We wrote and published the first edition of Amazon Web Services in Action in 2015. Our book quickly became a bestseller. We a...",
+    "image": "images/cfa1fb48dd82ba8bd2f5322171d86988.webp",
+    "datetimestamp": "2018-10-02T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Comparing Serverless offerings from Alibaba Cloud and AWS | cloudonaut",
+    "link": "https://cloudonaut.io/comparing-serverless-offerings-from-alibaba-cloud-and-aws/",
+    "description": "Last weekend, I had the chance to play around with Alibaba Cloud at the DevOps Meetup in my city. An Alibaba Cloud Solution A...",
+    "image": "images/c28387c37d6eaaf624af516ed1349a35.webp",
+    "datetimestamp": "2018-09-26T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A neglected serverless data store: Cloud Directory | cloudonaut",
+    "link": "https://cloudonaut.io/a-neglected-serverless-data-store-cloud-directory/",
+    "description": "Lately, I\u2019ve been having much fun with Amazon Cloud Directory. Three months before, Cloud Directory was all new to me. Today,...",
+    "image": "images/e8a9e9efd5dfc0d5f479164f1044a6a7.webp",
+    "datetimestamp": "2018-09-18T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DevOps on AWS Radio | cloudonaut",
+    "link": "https://cloudonaut.io/devops-on-aws-radio/",
+    "description": "Paul Duvall (CTO at stelligent) interviewed Andreas and me for the DevOps on AWS Radio.  We talked about:  Our book Amazon We...",
+    "image": "images/85d8b9d8d2610a147e05978d8799030a.webp",
+    "datetimestamp": "2018-09-05T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Encrypting sensitive data stored on S3 | cloudonaut",
+    "link": "https://cloudonaut.io/encrypting-sensitive-data-stored-on-s3/",
+    "description": "S3 comes with a bunch of features to encrypt your data at rest. Data at rest means inactive data stored physically on disk. ...",
+    "image": "images/96802a642888f7a1b9ab700b47bb640d.webp",
+    "datetimestamp": "2018-08-14T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Restricting Access to EC2 Instances Based on Tags | cloudonaut",
+    "link": "https://cloudonaut.io/restricting-access-to-ec2-instances-based-on-tags/",
+    "description": "The principle of least privilege is key when it comes to securing your infrastructure on AWS. For example, an engineer should...",
+    "image": "images/1a7ac37aabce5d2a461a28485b670223.webp",
+    "datetimestamp": "2018-08-07T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Analyzing CloudTrail with Athena | cloudonaut",
+    "link": "https://cloudonaut.io/analyzing-cloudtrail-with-athena/",
+    "description": "Which IAM users have been active within your AWS account within the last 30 days? Are all of the 999 IAM roles still in use, ...",
+    "image": "images/e9101c111eee228bd19ee6545f49bdb9.webp",
+    "datetimestamp": "2018-07-27T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Dead man's switch with CloudWatch | cloudonaut",
+    "link": "https://cloudonaut.io/dead-mans-switch-with-cloudwatch/",
+    "description": "While writing this article, I\u2019m traveling from Frankfurt to Stuttgart by high-speed train (ICE) with a top speed of 280 km&#x...",
+    "image": "images/13182b6e1463c446278e9078492dcaa6.webp",
+    "datetimestamp": "2018-07-17T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Rich Social Sharing with single page applications hosted on S3 and delivered via CloudFront | cloudonaut",
+    "link": "https://cloudonaut.io/rich-social-sharing-with-single-page-applications-hosted-on-s3-and-delivered-via-cloudfront/",
+    "description": "You undoubtedly heard about single page applications (SPA) written with frameworks like Angular or React. One of the benefits...",
+    "image": "images/8febc38ac1392467f5c552f20cd3a126.webp",
+    "datetimestamp": "2018-07-06T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Rapid CloudFormation: cfn-modules | cloudonaut",
+    "link": "https://cloudonaut.io/easy-going-aws-cloudformation-cfn-modules/",
+    "description": "Today, we release a new open source project to make your CloudFormation live easier. We promise rapid CloudFormation with cfn...",
+    "image": "images/3af65df9df9561425bfe0c1dfc605998.webp",
+    "datetimestamp": "2018-07-06T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EKS vs. ECS: orchestrating containers on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/eks-vs-ecs-orchestrating-containers-on-aws/",
+    "description": "AWS announced Kubernetes-as-a-Service at re:Invent in November 2017: Elastic Container Service for Kubernetes (EKS). Since ye...",
+    "image": "images/c33c004d26101be11650c475ccd6603f.webp",
+    "datetimestamp": "2018-06-06T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cleaning up an S3 bucket with the help of Athena | cloudonaut",
+    "link": "https://cloudonaut.io/cleaning-up-an-s3-bucket-with-the-help-of-athena/",
+    "description": "Imagine your basement or attic would provide unlimited capacity for storing stuff. Sounds great? Maybe at first. But imagine ...",
+    "image": "images/05e9a6b87e76723616d405c35a96af10.webp",
+    "datetimestamp": "2018-05-14T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Cloud adaption strategy: event-based data synchronization | cloudonaut",
+    "link": "https://cloudonaut.io/cloud-adaption-strategy-event-based-data-synchronization/",
+    "description": "Are you building an application for the cloud without the slightest dependency to an on-premises infrastructure? Lucky you, m...",
+    "image": "images/ab65135abd6ba41c84607f86151a1253.webp",
+    "datetimestamp": "2018-05-02T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Sharing data volumes between machines: EFS | cloudonaut",
+    "link": "https://cloudonaut.io/sharing-data-volumes-between-machines-efs/",
+    "description": "Many legacy applications store state in files on disk. Therefore, using Amazon S3, an object store, is impossible by default....",
+    "image": "images/c113427fea64f3dae3adc72e63ed6840.webp",
+    "datetimestamp": "2018-04-26T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Behind the scenes of the EC2 network performance benchmark | cloudonaut",
+    "link": "https://cloudonaut.io/behind-the-scences-ec2-network-performance-benchmark/",
+    "description": "What is the maximum network throughput you can expect from an EC2 instance of type t2.large? How much does the network perfor...",
+    "image": "images/cbfe187d92e2373dc12200d69794ba64.webp",
+    "datetimestamp": "2018-04-20T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Evolutionary Serverless Architecture: JeffConfg Hamburg 2018 talk | cloudonaut",
+    "link": "https://cloudonaut.io/evolutionary-serverless-architecture/",
+    "description": "I want to share my JeffConf Hamburg talk with you: Evolutionary Serverless Architecture  A system architecture often struggle...",
+    "image": "images/dbf79741468dd15e872b17b726b1ca4e.webp",
+    "datetimestamp": "2018-04-03T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless pattern: accessing public and private resources | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-pattern-accessing-public-and-private-resources/",
+    "description": "Crossing the chasm between the old world - virtual machines isolated within a private network - and the new world - Serverles...",
+    "image": "images/d28c26322f31da915c4fb59c3f6a9827.webp",
+    "datetimestamp": "2018-03-23T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Configure your CloudFormation managed infrastructure with Parameter Store and CodePipeline | cloudonaut",
+    "link": "https://cloudonaut.io/configure-your-cloudformation-managed-infrastructure-with-parameter-store-and-codepipeline/",
+    "description": "Getting started with CI/CD to manage your AWS infrastructure is hard:  You have to familiarize yourself with the availab...",
+    "image": "images/0158fca5cbaba214dde0a7d8f2ecc384.webp",
+    "datetimestamp": "2018-03-20T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Burst credits of t2 EC2 instances need monitoring | cloudonaut",
+    "link": "https://cloudonaut.io/burst-credits-of-t2-ec2-instances-need-monitoring/",
+    "description": "EC2 is one of the fundamental services on AWS. If you are not 100% Serverless, your application health depends on the health ...",
+    "image": "images/dd961afd51fb5dbd11fb20da45a4c06c.webp",
+    "datetimestamp": "2018-03-13T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Templates - Store your state | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-templates-store-your-state/",
+    "description": "We help numerous clients to automate AWS with the help of CloudFormation. As you can imagine, we can reuse CloudFormation tem...",
+    "image": "images/f2a1814e026e1955c3894e0699699a96.webp",
+    "datetimestamp": "2018-03-07T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Tweaking RDS database performance and ElastiCache | cloudonaut",
+    "link": "https://cloudonaut.io/tweaking-rds-performance-and-elasticache/",
+    "description": "Tweaking database performanceAn RDS database, or a SQL database in general, can only be scaled vertically. To scale a databas...",
+    "image": "images/70d54518e2f1e143f631492ad909ff12.webp",
+    "datetimestamp": "2018-03-06T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing AWS Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/introducing-aws-lambda/",
+    "description": "You don\u2019t need a virtual machine to run your own source code any more as AWS Lambda offers execution environments for Java, J...",
+    "image": "images/d3bdc45b00b03d4b6447ff505f632a20.webp",
+    "datetimestamp": "2018-02-12T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitoring a critical part of your infrastructure: Amazon Elasticsearch domain | cloudonaut",
+    "link": "https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-elasticsearch-domain/",
+    "description": "I used Elasticsearch in various projects: to add rich search functionality to applications as well as to collect and analyze ...",
+    "image": "images/bd164f6a8acef2ed112e7efd87387f62.webp",
+    "datetimestamp": "2018-02-08T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitoring a critical part of your infrastructure: Amazon Relational Database Service (RDS) | cloudonaut",
+    "link": "https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-relational-database-service-rds/",
+    "description": "Amazon RDS provides PostgreSQL, MySQL, MariaDB, Oracle, and Microsoft SQL Server as a Service. The fully managed service cove...",
+    "image": "images/fe04f7f5cd8fc884214511da8bedacc4.webp",
+    "datetimestamp": "2018-01-22T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitoring a critical part of your infrastructure: Amazon ElastiCache memcached cluster | cloudonaut",
+    "link": "https://cloudonaut.io/monitoring-a-critical-part-of-your-infrastructure-amazon-elasticache-memcached-cluster/",
+    "description": "In most of my projects where end-user latency is important, I usually add a caching layer to the architecture. The goal of a ...",
+    "image": "images/33cf855bb82633782570f7b150db58fe.webp",
+    "datetimestamp": "2018-01-22T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Migrating to Amazon Linux 2 | cloudonaut",
+    "link": "https://cloudonaut.io/migrating-to-amazon-linux-2/",
+    "description": "I run all my EC2 workloads on Amazon Linux. It comes with a superb AWS integration, a secure default configuration, regular s...",
+    "image": "images/480047a6022bdfadf45acc3378918eec.webp",
+    "datetimestamp": "2018-01-16T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Monitoring Primer | cloudonaut",
+    "link": "https://cloudonaut.io/aws-monitoring-primer/",
+    "description": "Monitoring is critical for a secure, high-performing, resilient, and efficient cloud infrastructure. This blog post summarize...",
+    "image": "images/9dc63a82395f6d8f9707db19253ec47b.webp",
+    "datetimestamp": "2018-01-11T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Network Performance Cheat Sheet | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-network-performance-cheat-sheet/",
+    "description": "What is the maximum network throughput of your EC2 instance? The answer to this question is key to choosing the type of an in...",
+    "image": "images/695d8b723a97d08cd83be5a44f35752f.webp",
+    "datetimestamp": "2018-01-08T13:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2017 in Review | cloudonaut",
+    "link": "https://cloudonaut.io/2017-in-review/",
+    "description": "The year 2017 is coming to an end. We want to thank our readers, customers, supporters, and partners. It was a pleasure to be...",
+    "image": "images/a0a3a1292ba9423493102f2f0de1599d.webp",
+    "datetimestamp": "2017-12-30T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Evolution of the EC2 Network Performance: m3, m4, and m5 | cloudonaut",
+    "link": "https://cloudonaut.io/evolution-of-the-ec2-network-performance-m3-m4-m5/",
+    "description": "AWS announces new generations of EC2 instances from time to time. Typically, each generation offers better performance at low...",
+    "image": "images/9bf1ef49ac709b60cc563390f032c91c.webp",
+    "datetimestamp": "2017-12-19T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS re:Invent 2017 themes | cloudonaut",
+    "link": "https://cloudonaut.io/re-invent-2017-themes/",
+    "description": "I\u2019m in Las Vegas this week. So many new features and services were announce that it\u2019s hard to keep up-to-date. That\u2019s why I...",
+    "image": "images/133a9297e60a08d55a03df1fa721b350.webp",
+    "datetimestamp": "2017-12-01T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Join our re:Invent follow-up group | cloudonaut",
+    "link": "https://cloudonaut.io/join-our-reinvent-follow-up-group/",
+    "description": "Amazing, AWS released an impressive amount of new services and features during re:Invent. As the conference is coming to an e...",
+    "image": "images/d0d4f33ef1418381a9afe9d8bf7a70a8.webp",
+    "datetimestamp": "2017-12-01T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 network performance demystified: m3 and m4 | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-network-performance-demystified-m3-m4/",
+    "description": "AWS offers EC2 instances in different sizes, defined by the instance type. How do you decide which instance type to use? Do y...",
+    "image": null,
+    "datetimestamp": "2017-11-30T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Meet me at AWS re:Invent and have breakfast with me | cloudonaut",
+    "link": "https://cloudonaut.io/meet-me-at-aws-re-invent-and-have-breakfast-with-me/",
+    "description": "If you attend this year\u2019s AWS re:Invent, this blog post is for you! I will invite a group of people to have breakfast togethe...",
+    "image": "images/b6a012f995711273cad7e67e6fab6b62.webp",
+    "datetimestamp": "2017-11-16T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Your Lambda function might execute twice. Be prepared! | cloudonaut",
+    "link": "https://cloudonaut.io/your-lambda-function-might-execute-twice-deal-with-it/",
+    "description": "Are you confused when scheduled Lambdas execute twice, SNS messages trigger an invocation three times, your handmade S3 inven...",
+    "image": "images/5926242cd16ec32afbf044e0cd249812.webp",
+    "datetimestamp": "2017-11-09T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Send CloudWatch Alarms to Slack with AWS Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/send-cloudwatch-alarms-to-slack-with-aws-lambda/",
+    "description": "As we all know, things go wrong. That\u2019s why monitoring and alerting are essential topics. Wouldn\u2019t it be nice, if problems in...",
+    "image": "images/3854cfc1c9839cdd5ec789d403774911.webp",
+    "datetimestamp": "2017-11-01T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Passwordless database authentication for AWS Lambda | cloudonaut",
+    "link": "https://cloudonaut.io/passwordless-database-authentication-for-aws-lambda/",
+    "description": "Does your serverless application need to access an RDS database? Where do you store the username and the password required to...",
+    "image": "images/abe8d4d2a39be6bfe6e50b72a6a0b5b8.webp",
+    "datetimestamp": "2017-10-19T14:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Engaging your users with AWS Step Functions | cloudonaut",
+    "link": "https://cloudonaut.io/engaging-your-users-with-aws-step-functions/",
+    "description": "Imagine a new user signs up for your service. You send an automated welcome message to your new user explaining how the servi...",
+    "image": "images/bb255ecf876541edd08fbdb8e910c299.webp",
+    "datetimestamp": "2017-10-13T13:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A simple way to manage log messages from containers: CloudWatch Logs | cloudonaut",
+    "link": "https://cloudonaut.io/a-simple-way-to-manage-log-messages-from-containers-cloudwatch-logs/",
+    "description": "Gone are the days when administrators logged into their machines to access log files. Containers and virtual machines are lau...",
+    "image": "images/2086945846a3528911b7bee44c25ed4d.webp",
+    "datetimestamp": "2017-09-30T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Web Services in Action Second Edition is in the works | cloudonaut",
+    "link": "https://cloudonaut.io/amazon-web-services-in-action-second-edition-is-in-the-works/",
+    "description": "We released our book Amazon Web Services in Action in September 2015. But AWS didn\u2019t rest on its laurels. Every day, new feat...",
+    "image": "images/70d54518e2f1e143f631492ad909ff12.webp",
+    "datetimestamp": "2017-09-25T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A non-technical way to reduce your AWS bill within 5 minutes | cloudonaut",
+    "link": "https://cloudonaut.io/a-non-technical-way-to-reduce-your-aws-bill-within-5-minutes/",
+    "description": "Are you looking for ways to reduce your monthly AWS bill? Usually, I do share technical tips and tricks to do so: 3 simple wa...",
+    "image": "images/224201b667261535dd340250f51cc5d3.webp",
+    "datetimestamp": "2017-09-01T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "The Cloud Switch: IoT Button, Lambda, and CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/the-cloud-switch-iot-button-lambda-and-cloudformation/",
+    "description": "Last one out turns off the light. What works for boring light bulbs can be adopted to your cloud infrastructure as well. Are ...",
+    "image": "images/35f73946fb777a432de0f1f82b646292.webp",
+    "datetimestamp": "2017-08-23T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudFormation vs Terraform in 2022 | cloudonaut",
+    "link": "https://cloudonaut.io/cloudformation-vs-terraform/",
+    "description": "CloudFormation and Terraform are powerful and mature IaC tools. Learn about the differences! The winner is?",
+    "image": "images/5989b19df070d2504f447a7f58cf0d4b.webp",
+    "datetimestamp": "2017-08-04T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudWatch is neglected: Why is the control room empty? | cloudonaut",
+    "link": "https://cloudonaut.io/cloudwatch-is-neglected-why-is-the-control-room-empty/",
+    "description": "CloudWatch is the most undervalued service on AWS. It\u2019s like an empty control room. All data is there, but no one is looking ...",
+    "image": "images/dfb519cb2f5becdc6eee8eed216f6932.webp",
+    "datetimestamp": "2017-07-18T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Maintaining an Open Source library of production-ready CloudFormation templates | cloudonaut",
+    "link": "https://cloudonaut.io/maintaining-an-os-library-of-production-ready-cloudformation-templates/",
+    "description": "CloudFormation is the standard to provision AWS resources. But developing a template is a lot of work. Let\u2019s speed up develop...",
+    "image": null,
+    "datetimestamp": "2017-07-17T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Move to the Next Level of Load Balancing on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/move-to-the-next-level-of-load-balancing-on-aws/",
+    "description": "Are you still using the Classic Load Balancer - formerly known as Elastic Load Balancer - for distributing incoming requests ...",
+    "image": "images/ea1456005d3b354c07f6675b02b30510.webp",
+    "datetimestamp": "2017-07-08T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Lessons learned: Serverless Chatbot architecture for marbot | cloudonaut",
+    "link": "https://cloudonaut.io/lessons-learned-serverless-chatbot-architecture-for-marbot/",
+    "description": "marbot forwards alerts from AWS to your DevOps team via Slack. marbot was one of the winners of the AWS Serverless Chatbot Co...",
+    "image": "images/361eb2c3d99ced9e12a9e0d572070b3b.webp",
+    "datetimestamp": "2017-06-30T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "ECS vs. Kubernetes: same same but different | cloudonaut",
+    "link": "https://cloudonaut.io/ecs-vs-kubernetes/",
+    "description": "EC2 Container Service (ECS) and Kubernetes (K8s) are solving the same problem: managing containers across a cluster of hosts....",
+    "image": "images/f8aabf3b9ef3f52dd3cc09274aa175ba.webp",
+    "datetimestamp": "2017-06-20T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Elasticsearch Service revised | cloudonaut",
+    "link": "https://cloudonaut.io/amazon-elasticsearch-service-revised/",
+    "description": "AWS first! is one of our consulting principles. Using a managed service provided by AWS is usually offering the most bang for...",
+    "image": "images/c0ad13306f065c16482ad6c51bb00534.webp",
+    "datetimestamp": "2017-05-22T15:00:20",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Security Primer | cloudonaut",
+    "link": "https://cloudonaut.io/aws-security-primer/",
+    "description": "I was preparing some AWS Security related training. Soon, I realized that this topic is too huge to fit into my brain. So I s...",
+    "image": "images/1f334d5dd50a6e56c5d295dacbbecd62.webp",
+    "datetimestamp": "2017-05-11T20:36:20",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Summary | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-summary/",
+    "description": "Do you want to be faster by using AWS? I see many AWS customers struggling with high expectations and some even slow down. Th...",
+    "image": "images/c993b887d33c9f3a51f6db55430a5ddf.webp",
+    "datetimestamp": "2017-05-02T21:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Template - Operational Alerts and new Docs | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-template-operations-alerts-and-docs/",
+    "description": "Today, we release v3.1.x of our Free Templates for AWS CloudFormation. The highlights of the release are:  You can now receiv...",
+    "image": "images/b83aa4b4a07a4d2931f64c43aea1a93e.webp",
+    "datetimestamp": "2017-04-28T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Serverless app | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-serverless-app/",
+    "description": "The API Gateway provides an HTTPS endpoint that invokes a Lambda function when a request arrives.  The diagram was created wi...",
+    "image": "images/bfed9119108d986fe58fb2e8250c8e00.webp",
+    "datetimestamp": "2017-04-24T07:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Containerized ECS based app CI/CD pipeline | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-containerized-ecs-based-app-ci-cd-pipeline/",
+    "description": "In the previous article, you learned how to use CloudFormation to describe a production-ready infrastructure for a containeri...",
+    "image": "images/feee4dcfc8bc6a6bbf793ab5b90ea612.webp",
+    "datetimestamp": "2017-04-03T18:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Containerized ECS based app infrastructure | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-containerized-ecs-based-app-infrastructure/",
+    "description": "EC2 Container Service (ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and man...",
+    "image": "images/dd9d48a778d6b61d184c2524c4cd1417.webp",
+    "datetimestamp": "2017-03-27T16:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Painlessly create or update a CloudFormation stack in an idempotent way | cloudonaut",
+    "link": "https://cloudonaut.io/painlessly-create-or-update-cloudformation-stack-idempotent/",
+    "description": "When integrating CloudFormation into your CI/CD pipeline you are faced with the challenge of creating a CloudFormation s...",
+    "image": "images/df80c2beda956683b16567bcccafaa43.webp",
+    "datetimestamp": "2017-03-16T18:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: EC2 based app CI/CD pipeline | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-ec2-based-app-ci-cd-pipeline/",
+    "description": "In the previous article, you learned how to use CloudFormation to describe a production-ready infrastructure for an EC2 based...",
+    "image": "images/feee4dcfc8bc6a6bbf793ab5b90ea612.webp",
+    "datetimestamp": "2017-03-06T15:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: EC2 based app infrastructure | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-ec2-based-app-infrastructure/",
+    "description": "To run a production-ready application on EC2 gives you maximum freedom but also maximum responsibilities. By production-ready...",
+    "image": "images/4baa6c6101c277c8e2ee5234a721ca48.webp",
+    "datetimestamp": "2017-03-05T18:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DZone Cloud Guide including Serverless Architectures on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/dzone-cloud-guide-serverless-architectures-on-aws/",
+    "description": "DZone released a new guide: Cloud Native Development & Deployment. I\u2019m proud that my article Serverless Architectures on ...",
+    "image": "images/966688722c3f7a95e674c384bcf9a1fe.webp",
+    "datetimestamp": "2017-02-28T21:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Templates - ECS Cluster & Service, legacy VPC wrapper, automated tests | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-templates-ecs-cluster-service-legacy-vpc-wrapper-automated-tests/",
+    "description": "We released v3 of our free and open source CloudFormation templates. This release brings:  new templates for containerized wo...",
+    "image": "images/52a3989754df9cdf883ef0158fdcbfb2.webp",
+    "datetimestamp": "2017-02-28T17:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Running your application | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-running-your-application/",
+    "description": "There are many options when it comes to running an application on AWS. EC2 based, containerized, or serverless. Choosing the ...",
+    "image": "images/feee4dcfc8bc6a6bbf793ab5b90ea612.webp",
+    "datetimestamp": "2017-02-21T09:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: CI/CD Pipeline as Code | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-ci-cd-pipeline-as-code/",
+    "description": "The Continuous Integration / Continuous Deployment pipeline is a major section of your software assembly line. It starts...",
+    "image": "images/8738619dc4f3b0a3a0e96fadf8a032c0.webp",
+    "datetimestamp": "2017-02-14T09:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Free ebook: Exploring Cloud Computing | cloudonaut",
+    "link": "https://cloudonaut.io/free-ebook-exploring-cloud-computing/",
+    "description": "Exploring Cloud Computing is a collection of hand-picked chapters presenting five topics that will give you insights into the...",
+    "image": "images/1cb585cdc165a008099210270862d6ec.webp",
+    "datetimestamp": "2017-02-11T13:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Local development environment | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-local-development-environment/",
+    "description": "The local development environment is where you make changes to the source code, edit configuration files, add images, and so ...",
+    "image": "images/7201e640b6d0abcefaaf910aeeebea29.webp",
+    "datetimestamp": "2017-02-08T09:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series: Set the assembly line up | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-set-the-assembly-line-up/",
+    "description": "What is the first thing you do when starting a new project? For me, I design and set my assembly line up first.   The assembl...",
+    "image": "images/1a6f8c5ea9bbb73dd7e91b677d20bf30.webp",
+    "datetimestamp": "2017-01-31T09:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Velocity Series | cloudonaut",
+    "link": "https://cloudonaut.io/aws-velocity-series/",
+    "description": "Most of our clients use AWS to reduce time-to-market following an agile approach. But AWS is only one part of the solution. I...",
+    "image": "images/57303fa5d2ac1a09000ac1cdec55c9f5.webp",
+    "datetimestamp": "2017-01-31T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Book review: The DevOps Handbook | cloudonaut",
+    "link": "https://cloudonaut.io/book-review-the-devops-handbook/",
+    "description": "How to create world-class agility, reliability, and security in technology organizations? The DevOps Handbook (IT Revolution ...",
+    "image": "images/f0acf3d4c4bd81f43451a2774864ea34.webp",
+    "datetimestamp": "2017-01-13T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "2016 in Review: Thank You! | cloudonaut",
+    "link": "https://cloudonaut.io/2016-in-review-thank-you/",
+    "description": "The year 2016 is coming to an end. We\u2019d like to look back on the past year together with you. Thank you for reading our blog,...",
+    "image": null,
+    "datetimestamp": "2016-12-29T09:05:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Delivery Pipeline as Code: AWS CloudFormation and AWS CodePipeline | cloudonaut",
+    "link": "https://cloudonaut.io/delivery-pipeline-as-code-aws-cloudformation-codepipeline/",
+    "description": "The assembly line is the heart of any factory. Workers and supervisors are giving their best to ensure a steady flow of raw m...",
+    "image": "images/3faa62c3176d000f120fe94fda3cc2bc.webp",
+    "datetimestamp": "2016-12-22T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Designing asynchronous event systems with AWS IoT and Serverless Application Model (SAM) | cloudonaut",
+    "link": "https://cloudonaut.io/designing-asynchronous-event-systems-with-aws-iot-serverless-application-model-sam/",
+    "description": "An event system receives and processes events by following rules that are defined inside the system. All processing happens a...",
+    "image": "images/d089c6c8fb3ab467ae167483932789ab.webp",
+    "datetimestamp": "2016-12-05T12:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Advent has started: Deploy your AWS Infrastructure Continuously | cloudonaut",
+    "link": "https://cloudonaut.io/aws-advent-deploy-your-aws-infrastructure-continuously/",
+    "description": "AWS Advent is a yearly exploration of AWS in 24 parts contributed by volunteers from the AWS community. Follow @AWSAdvent and...",
+    "image": "images/c8e6646c92f4e25dcf948c59b353eb6f.webp",
+    "datetimestamp": "2016-12-01T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DynamoDB pitfall: limited throughout due to hot partitions | cloudonaut",
+    "link": "https://cloudonaut.io/dynamodb-pitfall-limited-throughput-due-to-hot-partitions/",
+    "description": "Is your application suffering from throttled or even rejected requests from DynamoDB? Even if you are not consuming all the p...",
+    "image": "images/d5ec514f23f338759678e73a23a1627c.webp",
+    "datetimestamp": "2016-11-24T16:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A pattern for Continuously Deployed, Immutable and Stateful applications on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/a-pattern-for-continuously-deployed-immutable-and-stateful-applications-on-aws/",
+    "description": "If you are faced with the challenge of running a stateful application on AWS, you will recognize that many building blocks no...",
+    "image": "images/2c38366fc3c264c9780c65507084d171.webp",
+    "datetimestamp": "2016-11-14T21:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "My Opinion on Serverless | cloudonaut",
+    "link": "https://cloudonaut.io/my-opinion-on-serverless/",
+    "description": "I attended Serverlessconf in London to speak with people involved in the Serverless world. Vendors, Framework maintainers, an...",
+    "image": "images/8b0929609fa2fc9414f2d0c499eed9ec.webp",
+    "datetimestamp": "2016-11-09T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "WordPress on AWS: smooth and pain free | cloudonaut",
+    "link": "https://cloudonaut.io/wordpress-on-aws-smooth-and-pain-free/",
+    "description": "I\u2019m not a fan of WordPress, as it is neither cloud-ready nor serverless. That\u2019s why this blog runs on CloudFront and S3 and i...",
+    "image": "images/443797a5abacc09f29009ca340112611.webp",
+    "datetimestamp": "2016-10-31T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS CloudFormation Update Evaluation - YAML, Cross-Stack References, Simplified Substitution | cloudonaut",
+    "link": "https://cloudonaut.io/aws-cloudformation-update-evaluation-yaml-cross-stack-references-simplified-substitution/",
+    "description": "In mid-September, AWS released a big update to CloudFormation. The update contained:  YAML Support \u2013 You can now write your C...",
+    "image": null,
+    "datetimestamp": "2016-10-24T20:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Template - Authentication Proxy using your GitHub Organization and YAML | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-template-auth-proxy-and-yaml/",
+    "description": "We released one new CloudFormation template and updated all of our templates to make use of the new YAML format, cross-stack ...",
+    "image": "images/a69165ee8917b68db255bc26e490a3d3.webp",
+    "datetimestamp": "2016-10-20T09:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless Slack Bot Hero Award | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-slack-bot-hero-award/",
+    "description": "marbot, our chatbot, won the Serverless Slack Bot Hero Award at the AWS Serverless Chatbot Competition! Andreas and I are pro...",
+    "image": null,
+    "datetimestamp": "2016-10-18T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Beyond the default: a Multi-VPC architecture | cloudonaut",
+    "link": "https://cloudonaut.io/beyond-the-default-a-multi-vpc-architecture/",
+    "description": "I created my first AWS account on December 23, 2012. The one thing that surprised me most was the possibility to define priva...",
+    "image": "images/b80769e2962d7056725d31db7060ddb5.webp",
+    "datetimestamp": "2016-10-14T23:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing the real-time data store: Kinesis Streams | cloudonaut",
+    "link": "https://cloudonaut.io/introducing-the-real-time-data-store-kinesis-streams/",
+    "description": "Kinesis is all about real-time data:  Kinesis Streams are a temporary store for real-time data. Append new events or read all...",
+    "image": "images/81cbde52dfdb6e24598137c5b1beb7d8.webp",
+    "datetimestamp": "2016-10-07T16:45:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "marbot, our submission to the AWS Serverless Chatbot Competition | cloudonaut",
+    "link": "https://cloudonaut.io/marbot-aws-serverless-chatbot-competition/",
+    "description": "Three things Michael and I love to do most: prototyping innovative products, playing around with the latest technology and le...",
+    "image": "images/4de685abdd041b119933f21c9c54db75.webp",
+    "datetimestamp": "2016-09-30T16:45:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Connecting Kinesis Analytics with AWS IoT | cloudonaut",
+    "link": "https://cloudonaut.io/connectiong-kinesis-analytics-with-aws-iot/",
+    "description": "In a previous post, Getting started with AWS IoT and Tessel, you learned how to send temperature data from your Tessel microc...",
+    "image": "images/cdf87cc18a2642581640293278d5bd11.webp",
+    "datetimestamp": "2016-09-23T19:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Templates - VPC bastion host, Jenkins, Security AWS Config | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-templates-vpc-bastion-host-jenkins-security-aws-config/",
+    "description": "We released four new CloudFormation templates and updated the other templates to work together with the new SSH bastion host....",
+    "image": "images/dbf5e83f61bfc9999ab2f762889a0b86.webp",
+    "datetimestamp": "2016-09-20T13:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New Online Training - Navigating the AWS Management Console | cloudonaut",
+    "link": "https://cloudonaut.io/new-online-training-navigating-the-aws-management-console/",
+    "description": "I\u2019m excited to announce that our new Pluralsight course was released: Navigating the AWS Management Console. Pluralsight is t...",
+    "image": "images/f985ca12443c6ae80178783bdbe9bb69.webp",
+    "datetimestamp": "2016-09-16T15:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Getting started with AWS IoT and Tessel | cloudonaut",
+    "link": "https://cloudonaut.io/getting-started-with-aws-iot-and-tessel/",
+    "description": "AWS launched its IoT service at re:Invent 2015 and made it available for everyone in December 2015. I\u2019ll show you how to get ...",
+    "image": "images/e216e0d1b4d5097105528a7c0780338b.webp",
+    "datetimestamp": "2016-09-13T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Pitfall: ACM Certificate with CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/pitfall-acm-certificate-cloudfront-cloudformation/",
+    "description": "Good news, CloudFormation added support for AWS Certificate Manager recently. Creating a CloudFront distribution which is usi...",
+    "image": null,
+    "datetimestamp": "2016-09-06T08:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Reference API Gateway Models in CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/reference-api-gateway-models-in-cloudformation/",
+    "description": "API Gateway Models are defined using JSON Schema. You can reference a Model inside another Model using the $ref field. If you...",
+    "image": null,
+    "datetimestamp": "2016-09-02T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Improve Security (Groups) using VPC Flow Logs & AWS Config | cloudonaut",
+    "link": "https://cloudonaut.io/improve-security-groups-using-vpc-flow-logs-aws-config/",
+    "description": "As mentioned in the previous post Your AWS Account is a mess? Learn how to fix it!, most AWS accounts are a mess. This can be...",
+    "image": "images/cb49c66d5428a38744487fd97a74be45.webp",
+    "datetimestamp": "2016-08-26T13:37:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Process-as-Code #c9d9 | cloudonaut",
+    "link": "https://cloudonaut.io/process-as-code-c9d9/",
+    "description": "DevOps at scale requires predictability and consistency. Your application code is versioned. Infrastructure-as-code defines y...",
+    "image": null,
+    "datetimestamp": "2016-08-24T09:04:22",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-33 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-33/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, August 15 Authorizing everything: Ben Rady (Author o...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-08-22T10:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Jenkins Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/jenkins-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/jenkins",
+    "image": null,
+    "datetimestamp": "2016-08-19T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Complete AWS IAM Reference | cloudonaut",
+    "link": "https://cloudonaut.io/complete-aws-iam-reference/",
+    "description": "Writing IAM policies is hard. Following the principle of least privilege is even harder. To write a secure IAM policy you nee...",
+    "image": null,
+    "datetimestamp": "2016-08-18T05:35:24",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-32 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-32/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, August 8 Expanding to Canada: new edge locations for...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-08-15T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Create a serverless RESTful API with the Serverless Framework powered by API Gateway, Lambda, and DynamoDB | cloudonaut",
+    "link": "https://cloudonaut.io/create-a-serverless-restful-api-with-the-serverless-framework-powered-by-api-gateway-lambda-and-dynamodb/",
+    "description": "This article teaches you how to create a Serverless RESTful API on AWS with the Serverless Framework. DynamoDB is used to sto...",
+    "image": "images/be74527d4e41b52046e64165866e71a1.webp",
+    "datetimestamp": "2016-08-10T18:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-31 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-31/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, August 1 Leonardo from Cloud Academy published A cur...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-08-08T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "API Gateway Custom Authorization with Lambda, DynamoDB and CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/api-gateway-custom-authorization-with-lambda-dynamodb-and-cloudformation/",
+    "description": "API Gateway provides an HTTP API endpoint that is fully configurable. You define the HTTP resources (like /user), the HTTP me...",
+    "image": "images/be74527d4e41b52046e64165866e71a1.webp",
+    "datetimestamp": "2016-08-05T18:34:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-30 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-30/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, July 25 Service expansion: API Gateway & AWS Lam...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-08-01T11:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Your AWS Account is a mess? Learn how to fix it! | cloudonaut",
+    "link": "https://cloudonaut.io/your-aws-account-is-a-mess-learn-how-to-fix-it/",
+    "description": "Have you no wildcard ec2:* in your IAM policies? Your Security Group rules are as strict as possible? Your S3 Bucket Access P...",
+    "image": "images/62d879dd6d97de3a5faa3e470f4ff669.webp",
+    "datetimestamp": "2016-07-28T23:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Create a serverless RESTful API with API Gateway, CloudFormation, Lambda, and DynamoDB | cloudonaut",
+    "link": "https://cloudonaut.io/create-a-serverless-restful-api-with-api-gateway-cloudformation-lambda-and-dynamodb/",
+    "description": "This article teaches you how to create a serverless RESTful API on AWS. You will use CloudFormation to define the API Gateway...",
+    "image": "images/be74527d4e41b52046e64165866e71a1.webp",
+    "datetimestamp": "2016-07-26T17:15:51",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-29 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-29/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, July 18 Going Serverless: CloudSploit shared their m...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-07-25T05:57:46",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DevOps and Security #c9d9 | cloudonaut",
+    "link": "https://cloudonaut.io/devops-and-security-c9d9/",
+    "description": "What are some of the best practices for building security as an integral part of your tools and practices throughout your del...",
+    "image": null,
+    "datetimestamp": "2016-07-21T09:04:22",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-28 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-28/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, July 11 Allocating costs: AWS Directory Service supp...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-07-18T08:37:53",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless Big Data pipeline on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-big-data-pipeline-on-aws/",
+    "description": "Lambda is a powerful tool when integrating different services on AWS. During the last months, I\u2019ve successfully used serverle...",
+    "image": "images/d12ab671085dbd53f3be66b6e26eb4c7.webp",
+    "datetimestamp": "2016-07-14T17:24:56",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-27 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-27/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, July 4 Selling software: AWS Marketplace supports IS...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-07-11T07:24:39",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless: Invalidating a DynamoDB Cache | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-invalidating-dynamodb-cache/",
+    "description": "A cache in front of DynamoDB is boosting performance and saving costs. Especially true for read-intensive and spiky workloads...",
+    "image": "images/f4df44a99e03c157dc51b02738cc0e93.webp",
+    "datetimestamp": "2016-07-08T16:48:30",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-26 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-26/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, June 27 AWS announced a new region: Asia Pacific (Mu...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-07-04T07:33:58",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "The Life of a Serverless Microservice on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/the-life-of-a-serverless-microservice-on-aws/",
+    "description": "In this post, I will demonstrate how you can develop, test, deploy and operate a production-ready Serverless Microservice usi...",
+    "image": "images/f994824d211f8e37bffc0c2198884d1f.webp",
+    "datetimestamp": "2016-06-30T21:06:38",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Setup Amazon EFS in 60 seconds | cloudonaut",
+    "link": "https://cloudonaut.io/setup-amazon-efs-in-60-seconds/",
+    "description": "AWS announced Amazon EFS, a scalable network file system, at re:Invent 2014 almost two years ago. Finally, EFS is now general...",
+    "image": "images/4a6b2c64d03fe71aaa20455b0e480989.webp",
+    "datetimestamp": "2016-06-29T16:39:32",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-25 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-25/",
+    "description": "A quick summary of what happened in the AWS universe last week.  Monday, June 20 AWS announced EC2 is now supporting SQL Serv...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-06-28T05:51:25",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Performance boost and cost savings for DynamoDB | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-cache-for-dynamodb-with-elasticache/",
+    "description": "DynamoDB is offering a managed, scalable and highly available database. Compared to SQL databases a big advantage of DynamoDB...",
+    "image": "images/f4df44a99e03c157dc51b02738cc0e93.webp",
+    "datetimestamp": "2016-06-24T18:25:22",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-24 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-2016-24/",
+    "description": "Quick summary of what happened in the AWS universe last week.  Monday, June 13 Cloud Academy explained Everything You Ever Wa...",
+    "image": "images/a0c4b0e32739561a5a9ed3e5c9301a5d.webp",
+    "datetimestamp": "2016-06-22T17:38:16",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Using S3 for static web hosting | cloudonaut",
+    "link": "https://cloudonaut.io/using-s3-for-static-web-hosting/",
+    "description": "Hosting a static website is possible with S3, an AWS service that offers unlimited cloud storage capacity. You are able to de...",
+    "image": "images/3da3843bd8d34ccae941beba1afce0f3.webp",
+    "datetimestamp": "2016-06-16T15:18:10",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "6 tips and tricks for AWS command-line ninjas | cloudonaut",
+    "link": "https://cloudonaut.io/6-tips-and-tricks-for-aws-command-line-ninjas/",
+    "description": "The AWS Command Line Interface (CLI) allows you to manage AWS services. Using the CLI from your terminal interactively allows...",
+    "image": null,
+    "datetimestamp": "2016-06-09T16:30:53",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Monthly Review - May 2016 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-monthly-review-may-2016/",
+    "description": "AWS is innovating fast. This is a summary of what happened during past month. Announcements and News AWS Certificate Manager ...",
+    "image": null,
+    "datetimestamp": "2016-05-31T17:28:16",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Integrate SQS and Lambda: serverless architecture for asynchronous workloads | cloudonaut",
+    "link": "https://cloudonaut.io/integrate-sqs-and-lambda-serverless-architecture-for-asynchronous-workloads/",
+    "description": "The Gold Standard for modern cloud-native applications is a serverless architecture. AWS Lambda allows you to implement scala...",
+    "image": "images/485c17b531058c6cd192fac9e749138f.webp",
+    "datetimestamp": "2016-05-23T06:46:13",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Free ebook: Cloud Native Applications | cloudonaut",
+    "link": "https://cloudonaut.io/free-ebook-cloud-native-applications/",
+    "description": "Cloud Native Applications is a collection of hand-picked chapters presenting five topics that will give you insights into t...",
+    "image": "images/f24218f834aa92b4fb8b58ee7fabf6c0.webp",
+    "datetimestamp": "2016-05-16T17:03:15",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Pro bono: non-profit project wanted | cloudonaut",
+    "link": "https://cloudonaut.io/pro-bono-non-profit-project-wanted/",
+    "description": "Andreas and I would like to give away one month of our consulting time to a non-profit project for free. We can help you with...",
+    "image": "images/65ad46a055239cbb1b329d1bf22795c5.webp",
+    "datetimestamp": "2016-05-12T14:06:09",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "DIY AWS Security Review | cloudonaut",
+    "link": "https://cloudonaut.io/diy-aws-security-review/",
+    "description": "A regular security review of your AWS account can reveal security issues with little effort. There are some very easy things ...",
+    "image": null,
+    "datetimestamp": "2016-05-10T19:59:57",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Monthly Review - April 2016 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-monthly-review-april-2016/",
+    "description": "AWS is innovating fast. This is a summary of what happened during past month. Announcements and News CloudFormation adds supp...",
+    "image": null,
+    "datetimestamp": "2016-04-29T17:18:48",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Avoid security credentials on GitHub | cloudonaut",
+    "link": "https://cloudonaut.io/avoid-security-credentials-on-github/",
+    "description": "Your AWS account is a valuable target for bad guys. With access to your security credentials an attacker is potential able to...",
+    "image": null,
+    "datetimestamp": "2016-04-27T11:08:52",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Free ebook: Building and Deploying Applications on the Cloud | cloudonaut",
+    "link": "https://cloudonaut.io/free-ebook-building-and-deploying-applications-on-the-cloud/",
+    "description": "DZone published a new guide: Building and Deploying Applications on the Cloud. It contains an article from Michael and me: Bu...",
+    "image": "images/3a04ec959e62929801b3503b00135934.webp",
+    "datetimestamp": "2016-04-27T07:05:52",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Antivirus for S3 Buckets | cloudonaut",
+    "link": "https://cloudonaut.io/antivirus-for-s3-buckets/",
+    "description": "Many of our AWS consultancy clients ask me:  \u201cHow can we make sure that the files that we store on S3 are virus free?\u201d  As al...",
+    "image": "images/9d974904ed6529fed0fb6d1f095e66a1.webp",
+    "datetimestamp": "2016-04-18T20:29:49",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Manage AWS EC2 SSH access with IAM | cloudonaut",
+    "link": "https://cloudonaut.io/manage-aws-ec2-ssh-access-with-iam/",
+    "description": "AWS can deploy one EC2 Key Pair to your EC2 instance. But this approach has several disadvantages:  You can only use one key ...",
+    "image": "images/1e0e6e516e3ba4644f27fe7212f990c7.webp",
+    "datetimestamp": "2016-04-14T20:07:42",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New Online Training - Automating AWS with CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/new-online-training-automating-aws-with-cloudformation/",
+    "description": "Michael and I have joined Pluralsight as authors for online trainings. I have worked on a course about Infrastructure as Code...",
+    "image": "images/376581efb7e5c380ecc88e939ededd08.webp",
+    "datetimestamp": "2016-04-08T06:29:27",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "New CloudFormation Templates - NAT Gateway, Static website, Security | cloudonaut",
+    "link": "https://cloudonaut.io/new-cloudformation-templates-nat-gateway-static-website-security/",
+    "description": "We released four new CloudFormation templates. Using our Infrastructure as Code templates will help you to bootstrap common s...",
+    "image": "images/2a224be45398e5c8ab075388008f3040.webp",
+    "datetimestamp": "2016-04-07T07:00:33",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Event Driven Security Automation on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/event-driven-security-automation/",
+    "description": "If your developers create their own infrastructure in minutes, who cares about security? In some organizations the security t...",
+    "image": null,
+    "datetimestamp": "2016-04-04T19:53:39",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Monthly Review - March 2016 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-monthly-review-march-2016/",
+    "description": "AWS is innovating fast. This is a summary of what happened during past month. Announcements and News Happy Birthday AWS, 10 y...",
+    "image": null,
+    "datetimestamp": "2016-03-31T17:19:23",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Security Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/security-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/security",
+    "image": null,
+    "datetimestamp": "2016-03-30T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing the Object Store: S3 | cloudonaut",
+    "link": "https://cloudonaut.io/introducing-the-object-store-s3/",
+    "description": "Back in the old days, data was managed as files in a hierarchy consisting of folders and files. The file was the representati...",
+    "image": "images/26a4c8bc3f4670acd858368525665d38.webp",
+    "datetimestamp": "2016-03-28T13:08:27",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Optional Parameter in CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/optional-parameter-in-cloudformation/",
+    "description": "Sometimes you want a CloudFormation Parameter to be optional. Unfortunately a blank Parameter contains an empty string. If yo...",
+    "image": null,
+    "datetimestamp": "2016-03-23T08:18:52",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Avoid Sharing Key Pairs for EC2 | cloudonaut",
+    "link": "https://cloudonaut.io/avoid-sharing-key-pairs-for-ec2/",
+    "description": "Lock and key devices are used by mankind for more than 6.000 years. Whether mechanical, electrical or digital, the concept st...",
+    "image": "images/1aa29cb951fd3ccd39d6a50d59a94643.webp",
+    "datetimestamp": "2016-03-11T17:03:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Weekly 2016-08 | cloudonaut",
+    "link": "https://cloudonaut.io/aws-weekly-february-29-2016/",
+    "description": "The official AWS Week in Review gets longer and longer. This is a shortened version containing the most important news.  Refe...",
+    "image": null,
+    "datetimestamp": "2016-03-09T12:07:14",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Protect AWS SDK calls with Bulkheads and Circuit Breakers | cloudonaut",
+    "link": "https://cloudonaut.io/protect-aws-sdk-calls-with-bulkheads-and-circuit-breakers/",
+    "description": "If you use one of the AWS SDKs to make queries to the AWS API you need to prepare for network unreliability. One of the AWS s...",
+    "image": "images/d792b1dd82587549dde36b0296d21d38.webp",
+    "datetimestamp": "2016-02-17T20:50:40",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Discovering Machine Learning with Iris flower data set | cloudonaut",
+    "link": "https://cloudonaut.io/discovering-machine-learning-with-iris-flower-data-set/",
+    "description": "Today I want you to show how you can use the Amazon Machine Learning service to train (supervised learning) a model that can ...",
+    "image": "images/0a545a912048fbbb948d82655b3bd67c.webp",
+    "datetimestamp": "2016-01-29T20:33:06",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Rolling Update with AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/rolling-update-with-aws-cloudformation/",
+    "description": "Updating all EC2 instances in an Auto Scaling Group becomes complex and expensive when done manually. If you follow the immut...",
+    "image": "images/681d507fc661ce29c75cac20826244f5.webp",
+    "datetimestamp": "2016-01-18T21:41:12",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Static Website Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/static-website-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/static-website",
+    "image": null,
+    "datetimestamp": "2016-01-18T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "VPC Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/vpc-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/vpc",
+    "image": null,
+    "datetimestamp": "2016-01-04T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS year in review | cloudonaut",
+    "link": "https://cloudonaut.io/aws-year-in-review/",
+    "description": "If you want to provide an excellent AWS consulting service you need to stay up-to-date with all the new AWS stuff (450 announ...",
+    "image": "images/bb4fc6928f1a0f180473da0756f7271e.webp",
+    "datetimestamp": "2016-01-01T21:32:09",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "5 AWS mistakes you should avoid | cloudonaut",
+    "link": "https://cloudonaut.io/5-aws-mistakes-you-should-avoid/",
+    "description": "Since this year I\u2019m working as an AWS Cloud Consultant where I see a lot of small to medium sized AWS deployments. Most of th...",
+    "image": "images/e20675d5b6f362e1df37ec675289236a.webp",
+    "datetimestamp": "2015-12-26T19:28:22",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Show your SaaS architecture: Time Series Guru | cloudonaut",
+    "link": "https://cloudonaut.io/show-your-saas-architecture-timeseries-guru/",
+    "description": "Today I want to show you the architecture of my latest AWS project: Software-as-a-Service time series database with REST API....",
+    "image": "images/2f05a00b2a940de44cb3319b0862b52a.webp",
+    "datetimestamp": "2015-12-16T16:17:18",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Serverless image resizing at any scale | cloudonaut",
+    "link": "https://cloudonaut.io/serverless-image-resizing-at-any-scale/",
+    "description": "This post demonstrates how you can create a bunch of resized images right after uploading an image to S3. The solution requ...",
+    "image": "images/da024facb4bbdd1a2cd20a8b1272ae79.webp",
+    "datetimestamp": "2015-12-10T07:21:38",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "A look at DynamoDB | cloudonaut",
+    "link": "https://cloudonaut.io/a-look-at-dynamodb/",
+    "description": "Scaling a traditional, relational database is very hard because transactional guarantees (Atomicity, Consistency, Isolation, ...",
+    "image": null,
+    "datetimestamp": "2015-11-24T07:49:26",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "3 simple ways of saving up to 90% of EC2 costs | cloudonaut",
+    "link": "https://cloudonaut.io/3-simple-ways-of-saving-up-to-90-of-ec2-costs/",
+    "description": "An EC2 instance is billed at an hourly rate depending on the instance type and the region by default. This pricing model is c...",
+    "image": "images/014fbe87cd0448d137eb4be5efe00bd9.webp",
+    "datetimestamp": "2015-11-12T08:20:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "High availability is a no-brainer: EC2 auto-recovery | cloudonaut",
+    "link": "https://cloudonaut.io/high-availability-is-a-no-brainer-ec2-auto-recovery/",
+    "description": "Werner Vogels (CTO of AWS) is quoted with \u201cEverything fails all the time.\u201d. This does not mean AWS is an unreliable cloud pro...",
+    "image": "images/659b8dd2103204f9ca96c338d63b5530.webp",
+    "datetimestamp": "2015-11-09T18:08:25",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Create a serverless RESTful API with API Gateway, Swagger, Lambda, and DynamoDB | cloudonaut",
+    "link": "https://cloudonaut.io/create-a-serverless-restful-api-with-api-gateway-swagger-lambda-and-dynamodb/",
+    "description": "This article teaches you how to create a serverless RESTful API on AWS. You will use OpenAPI Specification formerly known as ...",
+    "image": "images/be74527d4e41b52046e64165866e71a1.webp",
+    "datetimestamp": "2015-11-05T16:30:30",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "EC2 Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/ec2-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/ec2",
+    "image": null,
+    "datetimestamp": "2015-11-04T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "WordPress on AWS: you are holding it wrong | cloudonaut",
+    "link": "https://cloudonaut.io/wordpress-on-aws-you-are-holding-it-wrong/",
+    "description": "WordPress is a very popular blogging software. You can run the PHP application together with a MySQL database on an EC2 insta...",
+    "image": "images/dd1faecb37fa2fd04b9523b830512a42.webp",
+    "datetimestamp": "2015-11-03T11:30:44",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "WordPress Templates for AWS CloudFormation | cloudonaut",
+    "link": "https://cloudonaut.io/wordpress-templates-for-aws-cloudformation/",
+    "description": "This page has moved to GitHub: https://github.com/widdix/aws-cf-templates/tree/master/wordpress",
+    "image": null,
+    "datetimestamp": "2015-10-28T00:00:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Improve AWS security: protect your keys with ease | cloudonaut",
+    "link": "https://cloudonaut.io/improve-aws-security-protect-your-keys-with-ease/",
+    "description": "As a DevOps engineer, I love to work with the AWS Command Line Interface (CLI) to control various AWS resources in an (half-)...",
+    "image": "images/c557714b81315b2bbd05eb6ff9cf711a.webp",
+    "datetimestamp": "2015-10-23T20:32:29",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "CloudFormation vs Engineers: How to protect your CloudFormation managed AWS account from human intervention | cloudonaut",
+    "link": "https://cloudonaut.io/how-to-protect-your-cloudformation-managed-aws-account-from-human-intervention/",
+    "description": "To eliminate human error as much as possible I advised you to follow the idea of Infrastructure as Code implemented by AWS Cl...",
+    "image": null,
+    "datetimestamp": "2015-10-12T16:25:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "5 announcements I missed at re:Invent | cloudonaut",
+    "link": "https://cloudonaut.io/5-announcements-i-missed-at-reinvent-2015/",
+    "description": "This year\u2019s re:Invent is over. 19,000 attendees are traveling back home. AWS announced tons of new features and services. We ...",
+    "image": null,
+    "datetimestamp": "2015-10-10T12:59:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Day 2 at the AWS re:Invent \u2013 what we learned | cloudonaut",
+    "link": "https://cloudonaut.io/day-2-at-the-aws-re-invent-what-we-learned/",
+    "description": "Every year AWS runs a big conference with 19,000 attendees in Las Vegas to announce new services and to educate people in mor...",
+    "image": null,
+    "datetimestamp": "2015-10-09T18:54:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Understanding Infrastructure as Code | cloudonaut",
+    "link": "https://cloudonaut.io/understanding-infrastructure-as-code/",
+    "description": "Infrastructure as Code describes the idea of using a high level programming language to control IT systems. In software devel...",
+    "image": "images/3fa69231038984348f649f68c2944555.webp",
+    "datetimestamp": "2015-10-09T15:06:53",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Day 1 at the AWS re:Invent \u2013 what we learned | cloudonaut",
+    "link": "https://cloudonaut.io/day-1-at-the-aws-re-invent-what-we-learned/",
+    "description": "Every year AWS runs a big conference with 19,000 attendees in Las Vegas to announce new services and to educate people in mor...",
+    "image": null,
+    "datetimestamp": "2015-10-08T18:49:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Web Services in Action is available | cloudonaut",
+    "link": "https://cloudonaut.io/amazon-web-services-in-action-is-available/",
+    "description": "Michael and I have written a book about Amazon Web Services. Our goal was to provide you a deep introduction to AWS with a lo...",
+    "image": "images/d2f75f530f56eb47a46050ab464131b5.webp",
+    "datetimestamp": "2015-10-06T21:48:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Prevent outages with redundant EC2 instances | cloudonaut",
+    "link": "https://cloudonaut.io/prevent-outages-with-redundant-ec2-instances/",
+    "description": "Unfortunately, EC2 instances aren\u2019t fault-tolerant. Under your virtual server is a host system. These are a few reasons your ...",
+    "image": "images/0ce4933ae07a73c4454c3584d68f6715.webp",
+    "datetimestamp": "2015-10-01T05:39:43",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Building blocks for highly available systems | cloudonaut",
+    "link": "https://cloudonaut.io/building-blocks-for-highly-available-systems/",
+    "description": "Thanks to the cloud, highly available systems are becoming the new standard. Creating an architecture offering high availabil...",
+    "image": "images/e236c1278955568cf414fbd9e26ffac6.webp",
+    "datetimestamp": "2015-09-14T12:26:03",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Monitor your AWS account to detect suspicious behavior in real time | cloudonaut",
+    "link": "https://cloudonaut.io/monitor-your-aws-account-to-detect-suspicious-behavior-in-real-time/",
+    "description": "You can track every change made to your AWS account with CloudTrail. Did you know that you can also monitor your AWS account ...",
+    "image": "images/116ccdace7da125921eaba2803c4e98e.webp",
+    "datetimestamp": "2015-08-23T13:03:18",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Your single AWS account is a serious risk | cloudonaut",
+    "link": "https://cloudonaut.io/your-single-aws-account-is-a-serious-risk/",
+    "description": "Your AWS account is one of the most valuable things you own if you run a business on AWS. If you only own a single AWS accoun...",
+    "image": "images/7be71f134609fe4c01b8dc74110667ab.webp",
+    "datetimestamp": "2015-08-07T20:46:24",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Private subnets are broken on AWS | cloudonaut",
+    "link": "https://cloudonaut.io/private-subnets-are-broken-on-aws/",
+    "description": "This blog post was written in July 2015 and is partly outdated. Amazon released [VPC endpoint for S3](http://aws.amazon.com/d...",
+    "image": "images/16c84bdb0a722e8656e0f026921f263b.webp",
+    "datetimestamp": "2015-07-01T08:31:48",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Web Services in Action | cloudonaut",
+    "link": "https://cloudonaut.io/amazon-web-services-in-action/",
+    "description": "Newer edition available! Amazon Web Services in Action, Second Edition is now available.   Andreas and I, have written a boo...",
+    "image": "images/0d5a602671491fd9e4fe69703760cab1.webp",
+    "datetimestamp": "2015-05-09T14:36:20",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Interacting with AWS to turn system diagrams into reality | cloudonaut",
+    "link": "https://cloudonaut.io/interacting-with-aws-to-turn-system-diagrams-into-reality/",
+    "description": "Generally speaking, you can host any application on AWS. If you interact with AWS, you will always make calls to the API. The...",
+    "image": "images/305e4f15d785a2d8b461d95b90422563.webp",
+    "datetimestamp": "2015-05-09T14:36:20",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "What can you do with AWS? | cloudonaut",
+    "link": "https://cloudonaut.io/what-can-you-do-with-aws/",
+    "description": "This article excerpted from Amazon Web Services in Action, shows that you can run any application on AWS by using one or a co...",
+    "image": "images/5d4ce0e5b579be66a2c0ff12d7793201.webp",
+    "datetimestamp": "2015-05-09T14:35:00",
+    "source": "Cloudonaut",
+    "category": "Cloud & DevOps"
+  }
+]

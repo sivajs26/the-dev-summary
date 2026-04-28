@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
+    "description": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended resource specifications on a Job while it is suspended, before it starts or resumes running.\nWhy mutable pod resources for suspended Jobs? Batch and machine learning workloads often have resource requirements that are not precisely known at Job creation time.",
+    "image": null,
+    "datetimestamp": "2026-04-27T18:35:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
+    "description": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36!\nThe KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v1.32, then graduated to beta (enabled by default) in v1.33. Now, the feature is generally available and the feature gate is locked to enabled. This feature enables more precise, least-privilege access control over the kubelet's HTTPS API, replacing the need to grant the overly broad nodes/proxy permission for common monitoring and observability use cases.",
+    "image": null,
+    "datetimestamp": "2026-04-24T18:35:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+    "description": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature.\nFor those of us working on low level container runtimes and rootless technologies, this has been a long awaited milestone. We finally reached the point where \"rootless\" security isolation can be used for Kubernetes workloads.\nThis feature also enables a critical pattern: running workloads with privileges and still being confined in the user namespace.",
+    "image": null,
+    "datetimestamp": "2026-04-23T18:35:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/",
+    "description": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depend on the older recursive relabeling model in subtle ways (for example, sharing one volume between privileged and unprivileged Pods on the same node). Kubernetes v1.",
+    "image": null,
+    "datetimestamp": "2026-04-22T18:35:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.36: \u30cf\u30eb (Haru) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/",
+    "description": "Editors: Chad M. Crowell, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Utkarsh Umre\nSimilar to previous releases, the release of Kubernetes v1.36 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 70 enhancements. Of those enhancements, 18 have graduated to Stable, 25 are entering Beta, and 25 have graduated to Alpha.",
+    "image": null,
+    "datetimestamp": "2026-04-22T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Gateway API v1.5: Moving features to Stable | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
+    "description": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on February 27, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable).\nThe Gateway API v1.5.1 patch release is already available.\nThe Gateway API v1.5 brings six widely-requested feature promotions to the Standard channel (Gateway API's GA release channel):\nListenerSet TLSRoute HTTPRoute CORS Filter Client Certificate Validation Certificate Selection for Gateway TLS Origination ReferenceGrant Special thanks for Gateway API Contributors for their efforts on this release.",
+    "image": "/blog/2026/04/21/gateway-api-v1-5/gateway-api-logo.svg",
+    "datetimestamp": "2026-04-21T16:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.36 Sneak Peek | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
+    "description": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle!\nPlease note that this information reflects the current state of v1.36 development and may change before release.\nThe Kubernetes API removal and deprecation process The Kubernetes project has a well-documented deprecation policy for features.",
+    "image": null,
+    "datetimestamp": "2026-03-30T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
+    "description": "With the Ingress-NGINX retirement scheduled for March 2026, the Kubernetes networking landscape is at a turning point. For most organizations, the question isn't whether to migrate to Gateway API, but how to do so safely.\nMigrating from Ingress to Gateway API is a fundamental shift in API design. Gateway API provides a modular, extensible API with strong support for Kubernetes-native RBAC. Conversely, the Ingress API is simple, and implementations such as Ingress-NGINX extend the API through esoteric annotations, ConfigMaps, and CRDs.",
+    "image": null,
+    "datetimestamp": "2026-03-20T19:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Running Agents on Kubernetes with Agent Sandbox | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/",
+    "description": "The landscape of artificial intelligence is undergoing a massive architectural shift. In the early days of generative AI, interacting with a model was often treated as a transient, stateless function call: a request that spun up, executed for perhaps 50 milliseconds, and terminated.\nToday, the world is witnessing AI v2 eating AI v1. The ecosystem is moving from short-lived, isolated tasks to deploying multiple, coordinated AI agents that run constantly. These autonomous agents need to maintain context, use external tools, write and execute code, and communicate with one another over extended periods.",
+    "image": null,
+    "datetimestamp": "2026-03-20T18:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Securing Production Debugging in Kubernetes | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
+    "description": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and temporary exceptions have a way of becoming routine.\nThis post offers my recommendations for good practices applicable to existing Kubernetes environments with minimal tooling changes:\nLeast privilege with RBAC Short-lived, identity-bound credentials An SSH-style handshake model for cloud native debugging A good architecture for securing production debugging workflows is to use a just-in-time secure shell gateway (often deployed as an on demand pod in the cluster).",
+    "image": null,
+    "datetimestamp": "2026-03-18T18:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
+    "description": "Every container image you pull from registry.k8s.io got there through kpromo, the Kubernetes image promoter. It copies images from staging registries to production, signs them with cosign, replicates signatures across more than 20 regional mirrors, and generates SLSA provenance attestations. If this tool breaks, no Kubernetes release ships. Over the past few weeks, we rewrote its core from scratch, deleted 20% of the codebase, made it dramatically faster, and nobody noticed.",
+    "image": null,
+    "datetimestamp": "2026-03-17T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Announcing the AI Gateway Working Group | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/",
+    "description": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today, we're excited to announce the formation of the AI Gateway Working Group, a new initiative focused on developing standards and best practices for networking infrastructure that supports AI workloads in Kubernetes environments.\nWhat is an AI Gateway? In a Kubernetes context, an AI Gateway refers to network gateway infrastructure (including proxy servers, load-balancers, etc.",
+    "image": null,
+    "datetimestamp": "2026-03-09T18:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/",
+    "description": "As announced November 2025, Kubernetes will retire Ingress-NGINX in March 2026. Despite its widespread usage, Ingress-NGINX is full of surprising defaults and side effects that are probably present in your cluster today. This blog highlights these behaviors so that you can migrate away safely and make a conscious decision about which behaviors to keep. This post also compares Ingress-NGINX with Gateway API and shows you how to preserve Ingress-NGINX behavior in Gateway API.",
+    "image": null,
+    "datetimestamp": "2026-02-27T15:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/02/26/ccm-new-metric-route-sync-total/",
+    "description": "Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider. This metric increments each time routes are synced with the cloud provider.\nA/B testing watch-based route reconciliation This metric was added to help operators validate the CloudControllerManagerWatchBasedRoutesReconciliation feature gate introduced in Kubernetes v1.35. That feature gate switches the route controller from a fixed-interval loop to a watch-based approach that only reconciles when nodes actually change.",
+    "image": null,
+    "datetimestamp": "2026-02-26T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Spotlight on SIG Architecture: API Governance | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
+    "description": "This is the fifth interview of a SIG Architecture Spotlight series that covers the different subprojects, and we will be covering SIG Architecture: API Governance.\nIn this SIG Architecture spotlight we talked with Jordan Liggitt, lead of the API Governance sub-project.\nIntroduction FM: Hello Jordan, thank you for your availability. Tell us a bit about yourself, your role and how you got involved in Kubernetes.\nJL: My name is Jordan Liggitt.",
+    "image": null,
+    "datetimestamp": "2026-02-12T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Introducing Node Readiness Controller | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
+    "description": "In the standard Kubernetes model, a node\u2019s suitability for workloads hinges on a single binary \"Ready\" condition. However, in modern Kubernetes environments, nodes require complex infrastructure dependencies\u2014such as network agents, storage drivers, GPU firmware, or custom health checks\u2014to be fully operational before they can reliably host pods.\nToday, on behalf of the Kubernetes project, I am announcing the Node Readiness Controller. This project introduces a declarative system for managing node taints, extending the readiness guardrails during node bootstrapping beyond standard conditions.",
+    "image": "./node-readiness-controller-logo.svg",
+    "datetimestamp": "2026-02-03T02:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
+    "description": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2.\nBackground Kubernetes was originally designed with cgroup v1 in mind, where CPU shares were defined simply by assigning the container's CPU requests in millicpu form.\nFor example, a container requesting 1 CPU (1024m) would get (cpu.",
+    "image": "/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/linear-conversion.png",
+    "datetimestamp": "2026-01-30T16:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+    "description": "In March 2026, Kubernetes will retire Ingress NGINX, a piece of critical infrastructure for about half of cloud native environments. The retirement of Ingress NGINX was announced for March 2026, after years of public warnings that the project was in dire need of contributors and maintainers. There will be no more releases for bug fixes, security patches, or any updates of any kind after the project is retired. This cannot be ignored, brushed off, or left until the last minute to address.",
+    "image": null,
+    "datetimestamp": "2026-01-29T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Experimenting with Gateway API using kind | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+    "description": "This document will guide you through setting up a local experimental environment with Gateway API on kind. This setup is designed for learning and testing. It helps you understand Gateway API concepts without production complexity.\nCaution:This is an experimentation learning setup, and should not be used for production. The components used on this document are not suited for production usage. Once you're ready to deploy Gateway API in a production environment, select an implementation that suits your needs.",
+    "image": null,
+    "datetimestamp": "2026-01-28T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
+    "description": "Cluster API brings declarative management to Kubernetes cluster lifecycle, allowing users and platform teams to define the desired state of clusters and rely on controllers to continuously reconcile toward it.\nSimilar to how you can use StatefulSets or Deployments in Kubernetes to manage a group of Pods, in Cluster API you can use KubeadmControlPlane to manage a set of control plane Machines, or you can use MachineDeployments to manage a group of worker Nodes.",
+    "image": null,
+    "datetimestamp": "2026-01-27T16:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Headlamp in 2025: Project Highlights | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
+    "description": "This announcement is a recap from a post originally published on the Headlamp blog.\nHeadlamp has come a long way in 2025. The project has continued to grow \u2013 reaching more teams across platforms, powering new workflows and integrations through plugins, and seeing increased collaboration from the broader community.\nWe wanted to take a moment to share a few updates and highlight how Headlamp has evolved over the past year.",
+    "image": "images/585bc13e86b3a785d4cd34220099eef9.webp",
+    "datetimestamp": "2026-01-22T02:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Announcing the Checkpoint/Restore Working Group | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
+    "description": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today we would like to announce the new Kubernetes Checkpoint Restore WG focusing on the integration of Checkpoint/Restore functionality into Kubernetes.\nMotivation and use cases There are several high-level scenarios discussed in the working group:\nOptimizing resource utilization for interactive workloads, such as Jupyter notebooks and AI chatbots Accelerating startup of applications with long initialization times, including Java applications and LLM inference services Using periodic checkpointing to enable fault-tolerance for long-running workloads, such as distributed model training Providing interruption-aware scheduling with transparent checkpoint/restore, allowing lower-priority Pods to be preempted while preserving the runtime state of applications Facilitating Pod migration across nodes for load balancing and maintenance, without disrupting workloads.",
+    "image": null,
+    "datetimestamp": "2026-01-21T18:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Uniform API server access using clientcmd | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
+    "description": "If you've ever wanted to develop a command line client for a Kubernetes API, especially if you've considered making your client usable as a kubectl plugin, you might have wondered how to make your client feel familiar to users of kubectl. A quick glance at the output of kubectl options might put a damper on that: \"Am I really supposed to implement all those options?\"\nFear not, others have done a lot of the work involved for you.",
+    "image": null,
+    "datetimestamp": "2026-01-19T18:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
+    "description": "Did you know that kubectl can run arbitrary executables, including shell scripts, with the full privileges of the invoking user, and without your knowledge? Whenever you download or auto-generate a kubeconfig, the users[n].exec.command field can specify an executable to fetch credentials on your behalf. Don't get me wrong, this is an incredible feature that allows you to authenticate to the cluster with external identity providers. Nevertheless, you probably see the problem: Do you know exactly what executables your kubeconfig is running on your system?",
+    "image": null,
+    "datetimestamp": "2026-01-09T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
+    "description": "The PersistentVolume node affinity API dates back to Kubernetes v1.10. It is widely used to express that volumes may not be equally accessible by all nodes in the cluster. This field was previously immutable, and it is now mutable in Kubernetes v1.35 (alpha). This change opens a door to more flexible online volume management.\nWhy make node affinity mutable? This raises an obvious question: why make node affinity mutable now? While stateless workloads like Deployments can be changed freely and the changes will be rolled out automatically by re-creating every Pod, PersistentVolumes (PVs) are stateful and cannot be re-created easily without losing data.",
+    "image": null,
+    "datetimestamp": "2026-01-08T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/",
+    "description": "If you maintain a CSI driver that uses service account tokens, Kubernetes v1.35 brings a refinement you'll want to know about. Since the introduction of the TokenRequests feature, service account tokens requested by CSI drivers have been passed to them through the volume_context field. While this has worked, it's not the ideal place for sensitive information, and we've seen instances where tokens were accidentally logged in CSI drivers.\nKubernetes v1.35 introduces a beta solution to address this: CSI Driver Opt-in for Service Account Tokens via Secrets Field.",
+    "image": null,
+    "datetimestamp": "2026-01-07T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/05/kubernetes-v1-35-numeric-toleration-operators/",
+    "description": "Many production Kubernetes clusters blend on-demand (higher-SLA) and spot/preemptible (lower-SLA) nodes to optimize costs while maintaining reliability for critical workloads. Platform teams need a safe default that keeps most workloads away from risky capacity, while allowing specific workloads to opt-in with explicit thresholds like \"I can tolerate nodes with failure probability up to 5%\".\nToday, Kubernetes taints and tolerations can match exact values or check for existence, but they can't compare numeric thresholds.",
+    "image": null,
+    "datetimestamp": "2026-01-05T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart | Kubernetes",
+    "link": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
+    "description": "The release of Kubernetes 1.35 introduces a powerful new feature that provides a much-requested capability: the ability to trigger a full, in-place restart of the Pod. This feature, Restart All Containers (alpha in 1.35), allows for an efficient way to reset a Pod's state compared to resource-intensive approach of deleting and recreating the entire Pod. This feature is especially useful for AI/ML workloads allowing application developers to concentrate on their core training logic while offloading complex failure-handling and recovery mechanisms to sidecars and declarative Kubernetes configuration.",
+    "image": null,
+    "datetimestamp": "2026-01-02T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
+    "description": "Debugging Kubernetes control plane components can be challenging, especially when you need to quickly understand the runtime state of a component or verify its configuration. With Kubernetes 1.35, we're enhancing the z-pages debugging endpoints with structured, machine-parseable responses that make it easier to build tooling and automate troubleshooting workflows.\nWhat are z-pages? z-pages are special debugging endpoints exposed by Kubernetes control plane components. Introduced as an alpha feature in Kubernetes 1.",
+    "image": null,
+    "datetimestamp": "2025-12-31T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
+    "description": "Up to and including Kubernetes v1.34, the route controller in Cloud Controller Manager (CCM) implementations built using the k8s.io/cloud-provider library reconciles routes at a fixed interval. This causes unnecessary API requests to the cloud provider when there are no changes to routes. Other controllers implemented through the same library already use watch-based mechanisms, leveraging informers to avoid unnecessary API calls. A new feature gate is being introduced in v1.35 to allow changing the behavior of the route controller to use watch-based informers.",
+    "image": null,
+    "datetimestamp": "2025-12-30T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
+    "description": "Scheduling large workloads is a much more complex and fragile operation than scheduling a single Pod, as it often requires considering all Pods together instead of scheduling each one independently. For example, when scheduling a machine learning batch job, you often need to place each worker strategically, such as on the same rack, to make the entire process as efficient as possible. At the same time, the Pods that are part of such a workload are very often identical from the scheduling perspective, which fundamentally changes how this process should look.",
+    "image": null,
+    "datetimestamp": "2025-12-29T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
+    "description": "On behalf of Kubernetes SIG Node, we are pleased to announce the graduation of fine-grained supplemental groups control to General Availability (GA) in Kubernetes v1.35!\nThe new Pod field, supplementalGroupsPolicy, was introduced as an opt-in alpha feature for Kubernetes v1.31, and then had graduated to beta in v1.33. Now, the feature is generally available. This feature allows you to implement more precise control over supplemental groups in Linux containers that can strengthen the security posture particularly in accessing volumes.",
+    "image": null,
+    "datetimestamp": "2025-12-23T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Kubelet Configuration Drop-in Directory Graduates to GA | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/",
+    "description": "With the recent v1.35 release of Kubernetes, support for a kubelet configuration drop-in directory is generally available. The newly stable feature simplifies the management of kubelet configuration across large, heterogeneous clusters.\nWith v1.35, the kubelet command line argument --config-dir is production-ready and fully supported, allowing you to specify a directory containing kubelet configuration drop-in files. All files in that directory will be automatically merged with your main kubelet configuration. This allows cluster administrators to maintain a cohesive base configuration for kubelets while enabling targeted customizations for different node groups or use cases, and without complex tooling or manual configuration management.",
+    "image": null,
+    "datetimestamp": "2025-12-22T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Avoiding Zombie Cluster Members When Upgrading to etcd v3.6 | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/21/preventing-etcd-zombies/",
+    "description": "The key takeaway? Always upgrade to etcd v3.5.26 or later before moving to v3.6. This ensures your cluster is automatically repaired, and avoids zombie members.",
+    "image": null,
+    "datetimestamp": "2025-12-21T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes 1.35: In-Place Pod Resize Graduates to Stable | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/",
+    "description": "This release marks a major step: more than 6 years after its initial conception, the In-Place Pod Resize feature (also known as In-Place Pod Vertical Scaling), first introduced as alpha in Kubernetes v1.27, and graduated to beta in Kubernetes v1.33, is now stable (GA) in Kubernetes 1.35!\nThis graduation is a major milestone for improving resource efficiency and flexibility for workloads running on Kubernetes.\nWhat is in-place Pod Resize? In the past, the CPU and memory resources allocated to a container in a Pod were immutable.",
+    "image": null,
+    "datetimestamp": "2025-12-19T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Job Managed By Goes GA | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/18/kubernetes-v1-35-job-managedby-for-jobs-goes-ga/",
+    "description": "In Kubernetes v1.35, the ability to specify an external Job controller (through .spec.managedBy) graduates to General Availability.\nThis feature allows external controllers to take full responsibility for Job reconciliation, unlocking powerful scheduling patterns like multi-cluster dispatching with MultiKueue.\nWhy delegate Job reconciliation? The primary motivation for this feature is to support multi-cluster batch scheduling architectures, such as MultiKueue.\nThe MultiKueue architecture distinguishes between a Management Cluster and a pool of Worker Clusters:",
+    "image": null,
+    "datetimestamp": "2025-12-18T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35: Timbernetes (The World Tree Release) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/12/17/kubernetes-v1-35-release/",
+    "description": "Editors: Aakanksha Bhende, Arujjwal Negi, Chad M. Crowell, Graziano Casto, Swathi Rao\nSimilar to previous releases, the release of Kubernetes v1.35 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 60 enhancements, including 17 stable, 19 beta, and 22 alpha features.\nThere are also some deprecations and removals in this release; make sure to read about those.",
+    "image": null,
+    "datetimestamp": "2025-12-17T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.35 Sneak Peek | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/11/26/kubernetes-v1-35-sneak-peek/",
+    "description": "As the release of Kubernetes v1.35 approaches, the Kubernetes project continues to evolve. Features may be deprecated, removed, or replaced to improve the project's overall health. This blog post outlines planned changes for the v1.35 release that the release team believes you should be aware of to ensure the continued smooth operation of your Kubernetes cluster(s), and to keep you up to date with the latest developments. The information below is based on the current status of the v1.",
+    "image": null,
+    "datetimestamp": "2025-11-26T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes Configuration Good Practices | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/11/25/configuration-good-practices/",
+    "description": "Configuration is one of those things in Kubernetes that seems small until it's not. Configuration is at the heart of every Kubernetes workload. A missing quote, a wrong API version or a misplaced YAML indent can ruin your entire deploy.\nThis blog brings together tried-and-tested configuration best practices. The small habits that make your Kubernetes setup clean, consistent and easier to manage. Whether you are just starting out or already deploying apps daily, these are the little things that keep your cluster stable and your future self sane.",
+    "image": null,
+    "datetimestamp": "2025-11-25T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Ingress NGINX Retirement: What You Need to Know | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/",
+    "description": "To prioritize the safety and security of the ecosystem, Kubernetes SIG Network and the Security Response Committee are announcing the upcoming retirement of Ingress NGINX. Best-effort maintenance will continue until March 2026. Afterward, there will be no further releases, no bugfixes, and no updates to resolve any security vulnerabilities that may be discovered. Existing deployments of Ingress NGINX will continue to function and installation artifacts will remain available.\nWe recommend migrating to one of the many alternatives.",
+    "image": null,
+    "datetimestamp": "2025-11-11T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Announcing the 2025 Steering Committee Election Results | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/11/09/steering-committee-results-2025/",
+    "description": "The 2025 Steering Committee Election is now complete. The Kubernetes Steering Committee consists of 7 seats, 4 of which were up for election in 2025. Incoming committee members serve a term of 2 years, and all members are elected by the Kubernetes Community.\nThe Steering Committee oversees the governance of the entire Kubernetes project. With that great power comes great responsibility. You can learn more about the steering committee\u2019s role in their charter.",
+    "image": null,
+    "datetimestamp": "2025-11-09T20:10:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Gateway API 1.4: New Features | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/11/06/gateway-api-v1-4/",
+    "description": "Ready to rock your Kubernetes networking? The Kubernetes SIG Network community presented the General Availability (GA) release of Gateway API (v1.4.0)! Released on October 6, 2025, version 1.4.0 reinforces the path for modern, expressive, and extensible service networking in Kubernetes.\nGateway API v1.4.0 brings three new features to the Standard channel (Gateway API's GA release channel):\nBackendTLSPolicy for TLS between gateways and backends supportedFeatures in GatewayClass status Named rules for Routes and introduces three new experimental features:",
+    "image": "/blog/2025/11/06/gateway-api-v1-4/gateway-api-logo.svg",
+    "datetimestamp": "2025-11-06T17:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "7 Common Kubernetes Pitfalls (and How I Learned to Avoid Them) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/",
+    "description": "It\u2019s no secret that Kubernetes can be both powerful and frustrating at times. When I first started dabbling with container orchestration, I made more than my fair share of mistakes enough to compile a whole list of pitfalls. In this post, I want to walk through seven big gotchas I\u2019ve encountered (or seen others run into) and share some tips on how to avoid them. Whether you\u2019re just kicking the tires on Kubernetes or already managing production clusters, I hope these insights help you steer clear of a little extra stress.",
+    "image": null,
+    "datetimestamp": "2025-10-20T15:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Spotlight on Policy Working Group | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/10/18/wg-policy-spotlight-2025/",
+    "description": "(Note: The Policy Working Group has completed its mission and is no longer active. This article reflects its work, accomplishments, and insights into how a working group operates.)\nIn the complex world of Kubernetes, policies play a crucial role in managing and securing clusters. But have you ever wondered how these policies are developed, implemented, and standardized across the Kubernetes ecosystem? To answer that, let's take a look back at the work of the Policy Working Group.",
+    "image": null,
+    "datetimestamp": "2025-10-18T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Introducing Headlamp Plugin for Karpenter - Scaling and Visibility | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/10/06/introducing-headlamp-plugin-for-karpenter/",
+    "description": "Headlamp is an open\u2011source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources.\nKarpenter is a Kubernetes Autoscaling SIG node provisioning project that helps clusters scale quickly and efficiently. It launches new nodes in seconds, selects appropriate instance types for workloads, and manages the full node lifecycle, including scale-down.\nThe new Headlamp Karpenter Plugin adds real-time visibility into Karpenter\u2019s activity directly from the Headlamp UI.",
+    "image": "/blog/2025/10/06/introducing-headlamp-plugin-for-karpenter/mini-map-view.png",
+    "datetimestamp": "2025-10-06T00:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Announcing Changed Block Tracking API support (alpha) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/",
+    "description": "We're excited to announce the alpha support for a changed block tracking mechanism. This enhances the Kubernetes storage ecosystem by providing an efficient way for CSI storage drivers to identify changed blocks in PersistentVolume snapshots. With a driver that can use the feature, you could benefit from faster and more resource-efficient backup operations.\nIf you're eager to try this feature, you can skip to the Getting Started section.\nWhat is changed block tracking?",
+    "image": null,
+    "datetimestamp": "2025-09-25T13:00:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.34: Pod Level Resources Graduated to Beta | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/",
+    "description": "On behalf of the Kubernetes community, I am thrilled to announce that the Pod Level Resources feature has graduated to Beta in the Kubernetes v1.34 release and is enabled by default! This significant milestone introduces a new layer of flexibility for defining and managing resource allocation for your Pods. This flexibility stems from the ability to specify CPU and memory resources for the Pod as a whole. Pod level resources can be combined with the container-level specifications to express the exact resource requirements and limits your application needs.",
+    "image": null,
+    "datetimestamp": "2025-09-22T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.34: Recovery From Volume Expansion Failure (GA) | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/",
+    "description": "Have you ever made a typo when expanding your persistent volumes in Kubernetes? Meant to specify 2TB but specified 20TiB? This seemingly innocuous problem was kinda hard to fix - and took the project almost 5 years to fix. Automated recovery from storage expansion has been around for a while in beta; however, with the v1.34 release, we have graduated this to general availability.\nWhile it was always possible to recover from failing volume expansions manually, it usually required cluster-admin access and was tedious to do (See aformentioned link for more information).",
+    "image": null,
+    "datetimestamp": "2025-09-19T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.34: DRA Consumable Capacity | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/",
+    "description": "Dynamic Resource Allocation (DRA) is a Kubernetes API for managing scarce resources across Pods and containers. It enables flexible resource requests, going beyond simply allocating N number of devices to support more granular usage scenarios. With DRA, users can request specific types of devices based on their attributes, define custom configurations tailored to their workloads, and even share the same resource among multiple containers or Pods.\nIn this blog, we focus on the device sharing feature and dive into a new capability introduced in Kubernetes 1.",
+    "image": null,
+    "datetimestamp": "2025-09-18T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  },
+  {
+    "title": "Kubernetes v1.34: Pods Report DRA Resource Health | Kubernetes",
+    "link": "https://kubernetes.io/blog/2025/09/17/kubernetes-v1-34-pods-report-dra-resource-health/",
+    "description": "The rise of AI/ML and other high-performance workloads has made specialized hardware like GPUs, TPUs, and FPGAs a critical component of many Kubernetes clusters. However, as discussed in a previous blog post about navigating failures in Pods with devices, when this hardware fails, it can be difficult to diagnose, leading to significant downtime. With the release of Kubernetes v1.34, we are excited to announce a new alpha feature that brings much-needed visibility into the health of these devices.",
+    "image": null,
+    "datetimestamp": "2025-09-17T18:30:00",
+    "source": "Kubernetes Blog",
+    "category": "Cloud"
+  }
+]

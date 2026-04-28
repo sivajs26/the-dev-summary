@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Microservices Platforms - part 7: Deployment platform",
+    "link": "https://microservices.io/post/architecture/2026/04/23/qconsf-microservices-platforms-part-7.html",
+    "description": "The Deployment platform provides production and production-like environments, infrastructure-as-code modules for provisioning them, and reusable Helm templates so that service teams can focus on delivering business value rather than being burdened with managing deployment environments.",
+    "image": "images/678d89ebff332c3c9f1a5fbc8081b071.webp",
+    "datetimestamp": "2026-04-23T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "GenAI-based development platform - part 3: Announcing Isolarium, three flavors of secure sandboxes for GenAI-based coding agents",
+    "link": "https://microservices.io/post/architecture/2026/03/26/genai-development-platform-part-3-announcing-isolarium.html",
+    "description": "Announcing Isolarium, an open-source tool that provides three flavors of secure sandboxes - Nono, container, and virtual machine - for running GenAI-based coding agents like Claude Code in isolated environments.",
+    "image": "images/cfcf462513e5acba9eb6b2307c2b6195.webp",
+    "datetimestamp": "2026-03-26T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "Microservices Platforms - part 6: Build platform",
+    "link": "https://microservices.io/post/architecture/2026/03/20/qconsf-microservices-platforms-part-6.html",
+    "description": "The Build platform provides deployment pipeline infrastructure, reusable pipeline components, and pipeline templates so that service teams can focus on delivering business value rather than being burdened with setting up and managing deployment pipelines.",
+    "image": "images/71f7246d8096e4ac1c6cb1894866d088.webp",
+    "datetimestamp": "2026-03-20T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "GenAI-based development platform - part 2: How Idea to Code turns an idea into working, tested software",
+    "link": "https://microservices.io/post/architecture/2026/03/17/overview-i2code-implement-agent-orchestrator.html",
+    "description": "How the Idea to Code 'implement' command orchestrates Claude Code to turn a plan into a pull request, using TDD, automatic CI failure recovery, and PR review handling in an iterative loop.",
+    "image": "images/5b99d6710193b933abc8e7f9c7971ed9.webp",
+    "datetimestamp": "2026-03-17T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "GenAI-based development platform - part 1: guardrails",
+    "link": "https://microservices.io/post/architecture/2026/03/09/genai-development-platform-part-1-development-guardrails.html",
+    "description": "How pre-commit checklists, Git hooks, GitHub Actions workflows, and automated PR reviews provide defense in depth for GenAI-based coding agents",
+    "image": "images/9fb9cdf5694059887f921c1cbf814716.webp",
+    "datetimestamp": "2026-03-09T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "Why GenAI-based coding agents are a complex domain in Cynefin - and what that means for adoption",
+    "link": "https://microservices.io/post/architecture/2026/03/01/using-genai-based-coding-agents-cynefin-complex-domain.html",
+    "description": "Using GenAI-based coding agents is a complex domain in Cynefin terms: the relationship between prompt and outcome cannot be fully predicted, and effective practices emerge through experimentation rather than upfront analysis. Organizations must shift from top-down standardization to a platform strategy that amplifies learning through safe-to-fail experiments, rapid feedback, and shared emerging patterns.",
+    "image": "images/802a52a2eba93c5c5c15ca7a48bb0a36.webp",
+    "datetimestamp": "2026-03-01T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "Microservices Platforms - part 5: Observability platform",
+    "link": "http://microservices.io//post/architecture/2026/02/24/qconsf-microservices-platforms-part-5.html",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-02-24T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "Authentication and authorization in a microservice architecture: Part 6 - implementing complex authorization using Oso Cloud local authorization",
+    "link": "https://microservices.io/post/architecture/2026/02/13/microservices-authn-authz-part-6-oso-local-authorization.html",
+    "description": "Oso Cloud local authorization enables a microservice to make authorization decisions using a combination of facts stored in Oso Cloud and the service's local database. listLocal() returns SQL WHERE clause fragments for bulk queries, and authorizeLocal() returns SQL SELECT statements for single-entity operations.",
+    "image": "images/4469c8fdf02f477a7be122ea975a9a78.webp",
+    "datetimestamp": "2026-02-13T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "QCONSF Microservices Platforms - part 4: Infrastructure services platform",
+    "link": "http://microservices.io//post/architecture/2026/02/12/qconsf-microservices-platforms-part-4.html",
+    "description": null,
+    "image": null,
+    "datetimestamp": "2026-02-12T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  },
+  {
+    "title": "GenAI-based software delivery needs a fast flow architecture",
+    "link": "https://microservices.io/post/architecture/2026/02/08/architecting-for-genai-based-software-delivery.html",
+    "description": "GenAI-based software development is an amplifier of organizational capabilities. Fast flow is therefore not optional, but essential. What's more, the microservice architecture provides the boundaries and fast feedback that GenAI-based coding agents need.",
+    "image": "images/c8051eb8d6d5f573a9ea15c47f7de607.webp",
+    "datetimestamp": "2026-02-08T08:03:00",
+    "source": "Microservices.io",
+    "category": "System Design"
+  }
+]

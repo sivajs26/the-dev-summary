@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Code is Clay \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/code-is-clay/",
+    "description": "A nice essay from Cam Pedersen. Clay breaks. A lot. My first few attempts collapsed on the wheel. One piece cracked in the kiln. I dropped another walking to my car. But nobody cries about it, you just start over. The clay doesn\u2019t care. It\u2019s just material waiting for the next idea. You\u2019re gonna have [\u2026]",
+    "image": "images/022da80bfa321b9970ac30530a124d5c.webp",
+    "datetimestamp": "2026-04-27T19:15:23",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "Auto `sizes` on Images \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/auto-sizes-on-images/",
+    "description": "Hand-writing/maintaining a sizes attribute is just not going to happen. This is the way.",
+    "image": "images/abc3aee46644609b0fb01612677edc8e.webp",
+    "datetimestamp": "2026-04-24T15:11:56",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "Constructable Stylesheets and adoptedStyleSheets: One Parse, Every Shadow Root \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/constructable-stylesheets-and-adoptedstylesheets-one-parse-every-shadow-root/",
+    "description": "If you have any shared styles across multiple shadow DOMs (imagine 20 custom button components), a Constructable Stylesheets is just way more efficient.",
+    "image": "images/dc67c0a883b4a74a7188b90ce6e7e5cb.webp",
+    "datetimestamp": "2026-04-23T16:20:23",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "The Incredible Overcomplexity of the Shadcn Radio Button \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/the-incredible-overcomplexity-of-the-shadcn-radio-button/",
+    "description": "A radio button is this: Paul Hebert took at fair look at how Shadcn turns that into 45 lines of code and three imports, which in turn uses Radix which is 215 lines of code and 7 more imports. But do you get better accessibility? No, it\u2019s arguably worse. But do you get ease of [\u2026]",
+    "image": "images/4677e1e8e7f204f98ddc97c317638b47.webp",
+    "datetimestamp": "2026-04-22T22:10:56",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "The Web Is Fun Again: First Experiments with HTML in Canvas \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/the-web-is-fun-again-first-experiments-with-html-in-canvas/",
+    "description": "An experimental API let's us put HTML within those opening and closing canvas tags and render it to the canvas, while remaining interactive. Lots of possibility here! ",
+    "image": "images/b9162a569c7d0b720bae582b6a131a40.webp",
+    "datetimestamp": "2026-04-21T13:34:17",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "Building a Blog in TanStack (Part 2 of 2) \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/building-a-blog-in-tanstack-part-2-of-2/",
+    "description": "A blog is a perfect use case for pre-rendering, so that the static build files can render all on their own. TanStack Start can even help with the server functions via middleware.",
+    "image": "images/c89b7540287de7f763212faf71e503fb.webp",
+    "datetimestamp": "2026-04-20T13:18:55",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "Building a Blog in TanStack (Part 1 of 2) \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/building-a-blog-in-tanstack-part-1-of-2/",
+    "description": "A site building framework like TanStack Start can be used to make a server-side rendered blog, no problemo. ",
+    "image": "images/c89b7540287de7f763212faf71e503fb.webp",
+    "datetimestamp": "2026-04-17T13:18:19",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "Building a UI Without Breakpoints \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/building-a-ui-without-breakpoints/",
+    "description": "This article covers a layout approach that better fits the modern web: fluid, intrinsic components that adapt by default, and treat conditional rules as local, intentional exceptions.",
+    "image": "images/1721193a4748ab42f3395b38e55b5b35.webp",
+    "datetimestamp": "2026-04-15T18:51:41",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "You Should Take Our Free Workshop \u201cClaude Code Deep Dive\u201d with Lydia Hallie and Here\u2019s Why \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/free-claude-workshop/",
+    "description": "The conversation about AI and coding work is full of highs. These models are incredible! I\u2019m so productive. I\u2019m not blocked by a lack of knowledge in certain areas like I used to get. I\u2019m making projects I never would have gotten around to making. I\u2019m having fun with code for the first time in [\u2026]",
+    "image": "images/b338a8f759fd08f496077fe192751c87.webp",
+    "datetimestamp": "2026-04-15T01:24:00",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
+    "title": "AI-Generated UI Is Inaccessible by Default \u2013 Frontend Masters Blog",
+    "link": "https://frontendmasters.com/blog/ai-generated-ui-is-inaccessible-by-default/",
+    "description": "It doesn't mean you can't get AI to help with accessible code, you've just got to know what you're doing.",
+    "image": "images/ed27fc5ad8ac8259744cbd48b4b954bc.webp",
+    "datetimestamp": "2026-04-13T15:17:39",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  }
+]

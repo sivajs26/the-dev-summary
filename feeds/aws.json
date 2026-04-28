@@ -1,0 +1,902 @@
+[
+  {
+    "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
+    "description": "Discover more about what's new at AWS with Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
+    "image": null,
+    "datetimestamp": "2026-04-27T22:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS KMS now tracks last usage of all KMS keys - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
+    "description": "Discover more about what's new at AWS with AWS KMS now tracks last usage of all KMS keys",
+    "image": null,
+    "datetimestamp": "2026-04-27T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
+    "description": "Discover more about what's new at AWS with Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
+    "image": null,
+    "datetimestamp": "2026-04-27T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect increases attachment file sizes and adds custom file types - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
+    "description": "Discover more about what's new at AWS with Amazon Connect increases attachment file sizes and adds custom file types",
+    "image": null,
+    "datetimestamp": "2026-04-27T18:45:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud (US) Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
+    "description": "Discover more about what's new at AWS with Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud (US) Regions",
+    "image": null,
+    "datetimestamp": "2026-04-27T16:53:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
+    "image": null,
+    "datetimestamp": "2026-04-27T15:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing Amazon EC2 M8in and M8ib instances  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
+    "description": "Discover more about what's new at AWS with Introducing Amazon EC2 M8in and M8ib instances ",
+    "image": null,
+    "datetimestamp": "2026-04-27T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing Amazon EC2 R8in and R8ib instances  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
+    "description": "Discover more about what's new at AWS with Introducing Amazon EC2 R8in and R8ib instances ",
+    "image": null,
+    "datetimestamp": "2026-04-27T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing Amazon EC2 C8ine and M8ine instances  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
+    "description": "Discover more about what's new at AWS with Introducing Amazon EC2 C8ine and M8ine instances ",
+    "image": null,
+    "datetimestamp": "2026-04-27T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04 - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
+    "description": "Discover more about what's new at AWS with Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
+    "image": null,
+    "datetimestamp": "2026-04-24T22:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
+    "description": "Discover more about what's new at AWS with AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
+    "image": null,
+    "datetimestamp": "2026-04-24T21:13:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick now integrates with Visier\u2019s Vee agent for workforce intelligence - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
+    "description": "Discover more about what's new at AWS with Amazon Quick now integrates with Visier\u2019s Vee agent for workforce intelligence",
+    "image": null,
+    "datetimestamp": "2026-04-24T21:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/",
+    "description": "Discover more about what's new at AWS with Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
+    "image": null,
+    "datetimestamp": "2026-04-24T21:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+    "description": "Discover more about what's new at AWS with Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+    "image": null,
+    "datetimestamp": "2026-04-24T17:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in additional regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 High Memory U7i instances now available in additional regions",
+    "image": null,
+    "datetimestamp": "2026-04-24T17:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Marketplace Management Portal now supports bank account deletion - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-management-portal/",
+    "description": "Discover more about what's new at AWS with AWS Marketplace Management Portal now supports bank account deletion",
+    "image": null,
+    "datetimestamp": "2026-04-24T16:37:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports custom scripting for job submission workflows - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
+    "description": "Discover more about what's new at AWS with AWS Deadline Cloud now supports custom scripting for job submission workflows",
+    "image": null,
+    "datetimestamp": "2026-04-24T15:42:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Athena simplifies federated queries with managed connectors - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
+    "description": "Discover more about what's new at AWS with Amazon Athena simplifies federated queries with managed connectors",
+    "image": null,
+    "datetimestamp": "2026-04-23T21:15:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Client VPN now supports native AWS Transit Gateway integration - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-client-vpn-transit-gateway/",
+    "description": "Discover more about what's new at AWS with AWS Client VPN now supports native AWS Transit Gateway integration",
+    "image": null,
+    "datetimestamp": "2026-04-23T21:11:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports automatic Slurm topology management - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-automatic-slurm-topology/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports automatic Slurm topology management",
+    "image": null,
+    "datetimestamp": "2026-04-23T20:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Parallel Computing Service now supports Slurm 25.11 - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-pcs-slurm-25-11/",
+    "description": "Discover more about what's new at AWS with AWS Parallel Computing Service now supports Slurm 25.11",
+    "image": null,
+    "datetimestamp": "2026-04-23T20:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker supports notebooks and data agent for IdC domains - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-idc/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker supports notebooks and data agent for IdC domains",
+    "image": null,
+    "datetimestamp": "2026-04-23T19:13:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now offers CI/CD CLI for data and AI applications - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-smus-ci-cd-cli/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio now offers CI/CD CLI for data and AI applications",
+    "image": null,
+    "datetimestamp": "2026-04-23T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Compute Optimizer supports 162 new EC2 instance types and 32 new RDS DB instance classes - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-compute-optimizer-ec2-rds/",
+    "description": "Discover more about what's new at AWS with AWS Compute Optimizer supports 162 new EC2 instance types and 32 new RDS DB instance classes",
+    "image": null,
+    "datetimestamp": "2026-04-23T18:28:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Attributed Revenue Dashboard Now Available in AWS Partner Central - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/",
+    "description": "Discover more about what's new at AWS with Attributed Revenue Dashboard Now Available in AWS Partner Central",
+    "image": null,
+    "datetimestamp": "2026-04-23T16:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Elastic Beanstalk AI-powered environment analysis now supports Windows - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-ai-analysis-windows/",
+    "description": "Discover more about what's new at AWS with AWS Elastic Beanstalk AI-powered environment analysis now supports Windows",
+    "image": null,
+    "datetimestamp": "2026-04-23T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-generation-aws-outposts-racks-sydney-seoul-paris/",
+    "description": "Discover more about what's new at AWS with Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions",
+    "image": null,
+    "datetimestamp": "2026-04-23T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-sharepoint/",
+    "description": "Discover more about what's new at AWS with Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases",
+    "image": null,
+    "datetimestamp": "2026-04-23T15:59:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 X8g instances now available in Europe (Ireland) region - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8g-instances-europe-ireland/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 X8g instances now available in Europe (Ireland) region",
+    "image": null,
+    "datetimestamp": "2026-04-23T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/redshift-update-delete-merge-iceberg-tables/",
+    "description": "Discover more about what's new at AWS with Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
+    "image": null,
+    "datetimestamp": "2026-04-23T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick now supports permission verification for ACL-enabled knowledge bases - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
+    "description": "Discover more about what's new at AWS with Amazon Quick now supports permission verification for ACL-enabled knowledge bases",
+    "image": null,
+    "datetimestamp": "2026-04-23T14:56:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon S3 now supports five additional checksum algorithms - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/",
+    "description": "Discover more about what's new at AWS with Amazon S3 now supports five additional checksum algorithms",
+    "image": null,
+    "datetimestamp": "2026-04-23T13:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/",
+    "description": "Discover more about what's new at AWS with AWS Backup expands support for Amazon Aurora PITR to six Regions",
+    "image": null,
+    "datetimestamp": "2026-04-23T10:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports VPC for notebook kernels - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-unified-studio-vpc/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio now supports VPC for notebook kernels",
+    "image": null,
+    "datetimestamp": "2026-04-23T00:57:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains ",
+    "image": null,
+    "datetimestamp": "2026-04-22T20:31:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
+    "image": null,
+    "datetimestamp": "2026-04-22T19:46:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-instances-europe-ireland-asia-pacific-new-zealand-regions/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions",
+    "image": null,
+    "datetimestamp": "2026-04-22T19:31:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/marketplace-managed-rules-enhancements/",
+    "description": "Discover more about what's new at AWS with Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners",
+    "image": null,
+    "datetimestamp": "2026-04-22T18:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
+    "image": null,
+    "datetimestamp": "2026-04-22T17:53:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 announces Managed resource visibility settings - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 announces Managed resource visibility settings",
+    "image": null,
+    "datetimestamp": "2026-04-22T17:53:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-gpu-auto-repair/",
+    "description": "Discover more about what's new at AWS with Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances",
+    "image": null,
+    "datetimestamp": "2026-04-22T17:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/secrets-manager-managed-external-secrets-mongodb-confluent/",
+    "description": "Discover more about what's new at AWS with AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
+    "image": null,
+    "datetimestamp": "2026-04-22T16:21:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/",
+    "description": "Discover more about what's new at AWS with Amazon Bedrock AgentCore adds new features to help developers build agents faster",
+    "image": null,
+    "datetimestamp": "2026-04-22T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon IVS Low-Latency Streaming now supports server-side ad insertion - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-low-latency-streaming-server-side-ad-insertion/",
+    "description": "Discover more about what's new at AWS with Amazon IVS Low-Latency Streaming now supports server-side ad insertion",
+    "image": null,
+    "datetimestamp": "2026-04-22T15:29:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 for SQL Server HA now supports health notifications - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-sql-ha-health-notifications/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 for SQL Server HA now supports health notifications",
+    "image": null,
+    "datetimestamp": "2026-04-22T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Corretto April 2026 Quarterly Updates - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-corretto-april-2026-quarterly-updates/",
+    "description": "Discover more about what's new at AWS with Amazon Corretto April 2026 Quarterly Updates",
+    "image": null,
+    "datetimestamp": "2026-04-22T14:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-custom-sql-server-supports-latest-gdr-updates-for-microsoft-sql-server/",
+    "description": "Discover more about what's new at AWS with Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+    "image": null,
+    "datetimestamp": "2026-04-22T07:43:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/",
+    "description": "Discover more about what's new at AWS with AWS Lambda durable functions are now available in 16 additional AWS Regions",
+    "image": null,
+    "datetimestamp": "2026-04-22T06:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon OpenSearch Service now supports rollback for service software updates - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-now-supports-rollback-for-service-software-updates/",
+    "description": "Discover more about what's new at AWS with Amazon OpenSearch Service now supports rollback for service software updates",
+    "image": null,
+    "datetimestamp": "2026-04-22T03:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker AI launches optimized generative AI inference recommendations - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker AI launches optimized generative AI inference recommendations",
+    "image": null,
+    "datetimestamp": "2026-04-21T22:38:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker now supports multi-region replication from IAM Identity Center",
+    "image": null,
+    "datetimestamp": "2026-04-21T21:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
+    "description": "Discover more about what's new at AWS with Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
+    "image": null,
+    "datetimestamp": "2026-04-21T20:05:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": " Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
+    "description": "Discover more about what's new at AWS with  Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
+    "image": null,
+    "datetimestamp": "2026-04-21T19:51:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
+    "description": "Discover more about what's new at AWS with AWS Marketplace streamlines VAT payment for deemed supply transactions",
+    "image": null,
+    "datetimestamp": "2026-04-21T19:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Athena Spark adds support for AWS PrivateLink - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
+    "description": "Discover more about what's new at AWS with Amazon Athena Spark adds support for AWS PrivateLink",
+    "image": null,
+    "datetimestamp": "2026-04-21T18:09:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
+    "description": "Discover more about what's new at AWS with AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
+    "image": null,
+    "datetimestamp": "2026-04-21T17:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
+    "description": "Discover more about what's new at AWS with Amazon CloudWatch pipelines now supports configuration of processors via AI",
+    "image": null,
+    "datetimestamp": "2026-04-21T16:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
+    "description": "Discover more about what's new at AWS with AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
+    "image": null,
+    "datetimestamp": "2026-04-21T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Transform custom is now available in six additional AWS Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
+    "description": "Discover more about what's new at AWS with AWS Transform custom is now available in six additional AWS Regions",
+    "image": null,
+    "datetimestamp": "2026-04-21T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon MSK Serverless expands to 13 new AWS regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-serverless-13-regions/",
+    "description": "Discover more about what's new at AWS with Amazon MSK Serverless expands to 13 new AWS regions",
+    "image": null,
+    "datetimestamp": "2026-04-21T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
+    "image": null,
+    "datetimestamp": "2026-04-21T14:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-location-service-bulk-address-validation/",
+    "description": "Discover more about what's new at AWS with Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom",
+    "image": null,
+    "datetimestamp": "2026-04-21T14:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
+    "description": "Discover more about what's new at AWS with Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
+    "image": null,
+    "datetimestamp": "2026-04-21T13:53:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
+    "description": "Discover more about what's new at AWS with AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
+    "image": null,
+    "datetimestamp": "2026-04-21T10:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick Automate announces shared file storage for automations - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-automate-shared-file-storage/",
+    "description": "Discover more about what's new at AWS with Amazon Quick Automate announces shared file storage for automations",
+    "image": null,
+    "datetimestamp": "2026-04-21T06:22:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Lambda Durable Execution SDK for Java GA - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
+    "description": "Discover more about what's new at AWS with AWS Lambda Durable Execution SDK for Java GA",
+    "image": null,
+    "datetimestamp": "2026-04-21T06:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick Automate now provides APIs to trigger and monitor automation jobs - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-automate-api-trigger/",
+    "description": "Discover more about what's new at AWS with Amazon Quick Automate now provides APIs to trigger and monitor automation jobs",
+    "image": null,
+    "datetimestamp": "2026-04-21T05:49:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering   - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
+    "description": "Discover more about what's new at AWS with Amazon Connect Outbound Campaigns now supports contact priority ordering  ",
+    "image": null,
+    "datetimestamp": "2026-04-21T02:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
+    "description": "Discover more about what's new at AWS with Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
+    "image": null,
+    "datetimestamp": "2026-04-20T20:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Quick Automate now supports import and export of automations across AWS accounts - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-automate-import-export/",
+    "description": "Discover more about what's new at AWS with Amazon Quick Automate now supports import and export of automations across AWS accounts",
+    "image": null,
+    "datetimestamp": "2026-04-20T20:12:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EVS now offers Microsoft Windows Server Licensing - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
+    "description": "Discover more about what's new at AWS with Amazon EVS now offers Microsoft Windows Server Licensing",
+    "image": null,
+    "datetimestamp": "2026-04-20T20:05:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": " Amazon Connect expands agentic voice speech-to-speech experiences to three new AWS Regions and ten locales - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-aws/",
+    "description": "Discover more about what's new at AWS with  Amazon Connect expands agentic voice speech-to-speech experiences to three new AWS Regions and ten locales",
+    "image": null,
+    "datetimestamp": "2026-04-20T19:33:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-greengrass-v217/",
+    "description": "Discover more about what's new at AWS with AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
+    "image": null,
+    "datetimestamp": "2026-04-20T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0 - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
+    "description": "Discover more about what's new at AWS with Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
+    "image": null,
+    "datetimestamp": "2026-04-20T18:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EKS enhances cluster governance with new IAM condition keys - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
+    "description": "Discover more about what's new at AWS with Amazon EKS enhances cluster governance with new IAM condition keys",
+    "image": null,
+    "datetimestamp": "2026-04-20T17:48:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect outbound campaigns now supports hourly segment refresh - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
+    "description": "Discover more about what's new at AWS with Amazon Connect outbound campaigns now supports hourly segment refresh",
+    "image": null,
+    "datetimestamp": "2026-04-20T16:56:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-logs-insights-join-sub-query/",
+    "description": "Discover more about what's new at AWS with Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands",
+    "image": null,
+    "datetimestamp": "2026-04-20T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon MSK Replicator now supports log forwarding for replication visibility - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
+    "description": "Discover more about what's new at AWS with Amazon MSK Replicator now supports log forwarding for replication visibility",
+    "image": null,
+    "datetimestamp": "2026-04-20T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
+    "description": "Discover more about what's new at AWS with Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
+    "image": null,
+    "datetimestamp": "2026-04-20T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
+    "description": "Discover more about what's new at AWS with MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
+    "image": null,
+    "datetimestamp": "2026-04-20T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon S3 Express One Zone now supports S3 Inventory - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
+    "description": "Discover more about what's new at AWS with Amazon S3 Express One Zone now supports S3 Inventory",
+    "image": null,
+    "datetimestamp": "2026-04-20T13:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect adds touchtone buffering for AI-powered self-service - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-touchtone-buffering/",
+    "description": "Discover more about what's new at AWS with Amazon Connect adds touchtone buffering for AI-powered self-service",
+    "image": null,
+    "datetimestamp": "2026-04-20T12:29:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Transform automates landing zone creation in migration workflows - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-automates-landing-zone/",
+    "description": "Discover more about what's new at AWS with AWS Transform automates landing zone creation in migration workflows",
+    "image": null,
+    "datetimestamp": "2026-04-20T11:59:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016 - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
+    "description": "Discover more about what's new at AWS with AWS Managed Microsoft AD is now available on Windows functional level 2016",
+    "image": null,
+    "datetimestamp": "2026-04-20T07:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Managed Microsoft AD now supports Kerberos Encryption audit event logs - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-kerberose-encrption-logs/",
+    "description": "Discover more about what's new at AWS with AWS Managed Microsoft AD now supports Kerberos Encryption audit event logs",
+    "image": null,
+    "datetimestamp": "2026-04-20T07:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
+    "image": null,
+    "datetimestamp": "2026-04-17T20:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports flexible instance groups - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports flexible instance groups",
+    "image": null,
+    "datetimestamp": "2026-04-17T20:03:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Neuron SDK 2.29.0 now available with NKI and Neuron Explorer out of Beta, a new CPU Simulator, and an expanded NKI Library - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-2-29/",
+    "description": "Discover more about what's new at AWS with AWS Neuron SDK 2.29.0 now available with NKI and Neuron Explorer out of Beta, a new CPU Simulator, and an expanded NKI Library",
+    "image": null,
+    "datetimestamp": "2026-04-17T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
+    "description": "Discover more about what's new at AWS with Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
+    "image": null,
+    "datetimestamp": "2026-04-17T18:29:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports on-demand deep health checks - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-on-demand-deep-health-check/",
+    "description": "Discover more about what's new at AWS with Amazon SageMaker HyperPod now supports on-demand deep health checks",
+    "image": null,
+    "datetimestamp": "2026-04-17T18:16:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
+    "description": "Discover more about what's new at AWS with AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
+    "image": null,
+    "datetimestamp": "2026-04-17T16:40:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Connect flow modules now work across all flow types and within other modules - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-flow-modules-enhancements/",
+    "description": "Discover more about what's new at AWS with Amazon Connect flow modules now work across all flow types and within other modules",
+    "image": null,
+    "datetimestamp": "2026-04-17T15:04:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
+    "description": "Discover more about what's new at AWS with Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
+    "image": null,
+    "datetimestamp": "2026-04-17T15:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Clean Rooms now supports configurable Spark properties for PySpark - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-clean-rooms-configurable-properties-pyspark/",
+    "description": "Discover more about what's new at AWS with AWS Clean Rooms now supports configurable Spark properties for PySpark",
+    "image": null,
+    "datetimestamp": "2026-04-17T12:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "SageMaker JumpStart now offers optimized deployments for foundation models - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-jumpstart-optimized-deployments/",
+    "description": "Discover more about what's new at AWS with SageMaker JumpStart now offers optimized deployments for foundation models",
+    "image": null,
+    "datetimestamp": "2026-04-17T00:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon CloudWatch RUM now available in AWS European Sovereign Cloud - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-rum-european-sovereign-cloud/",
+    "description": "Discover more about what's new at AWS with Amazon CloudWatch RUM now available in AWS European Sovereign Cloud",
+    "image": null,
+    "datetimestamp": "2026-04-16T21:47:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
+    "description": "Discover more about what's new at AWS with Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
+    "image": null,
+    "datetimestamp": "2026-04-16T20:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
+    "description": "Discover more about what's new at AWS with AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
+    "image": null,
+    "datetimestamp": "2026-04-16T19:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
+    "description": "Discover more about what's new at AWS with Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
+    "image": null,
+    "datetimestamp": "2026-04-16T17:38:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions  - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
+    "description": "Discover more about what's new at AWS with Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions ",
+    "image": null,
+    "datetimestamp": "2026-04-16T16:30:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  }
+]

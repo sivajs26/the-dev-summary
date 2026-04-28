@@ -1,0 +1,236 @@
+[
+  {
+    "title": "Expo bets big on React Native\u2019s agentic future - The New Stack",
+    "link": "https://thenewstack.io/expo-bets-big-on-react-natives-agentic-future/",
+    "description": "Open source app-building platform raises $45M and hires former Meta React lead Seth Webster as it embraces AI coding agents.",
+    "image": "images/c364ec9f6a3295e74577767edab5bfdf.webp",
+    "datetimestamp": "2026-04-16T15:37:32",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Digital Experience Monitoring belongs in the modern developer workflow - The New Stack",
+    "link": "https://thenewstack.io/digital-experience-monitoring-workflow/",
+    "description": "Digital Experience Monitoring connects frontend signals with backend data to help developers ship better user experiences with confidence.",
+    "image": "images/c1cc84a606994221a9ee65a0068cdaa8.webp",
+    "datetimestamp": "2026-04-03T14:00:00",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "WebMCP turns any Chrome web page into an MCP server for AI agents - The New Stack",
+    "link": "https://thenewstack.io/webmcp-chrome-ai-agents/",
+    "description": "WebMCP turns web pages into MCP servers via a Chrome extension, letting AI agents interact with sites directly. Google and Microsoft back the new standard.",
+    "image": "images/28a16d6b3ad6a0998b851b6a50a3fced.webp",
+    "datetimestamp": "2026-03-17T18:50:12",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Confluent adds A2A support, anomaly detection, and Queues for Kafka in major platform update - The New Stack",
+    "link": "https://thenewstack.io/confluent-kafka-a2a-agents/",
+    "description": "Confluent adds support for the Agent2Agent protocol, using Apache Kafka to orchestrate inter-agent communication among streaming agents and for anomaly detection.",
+    "image": "images/05ea7d2b308a55ad83a456c65fdc3e36.webp",
+    "datetimestamp": "2026-03-03T18:21:51",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Google's Chrome browser moves to a two-week release cycle - The New Stack",
+    "link": "https://thenewstack.io/chrome-two-week-releases/",
+    "description": "Google Chrome will ship new major versions every two weeks starting with version 153 in September 2026, doubling the pace of its current four-week cycle.",
+    "image": "images/feb58281e96847d43af48c7863322fc2.webp",
+    "datetimestamp": "2026-03-03T17:00:40",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Meta gave React its own foundation. But it's not letting go just yet. - The New Stack",
+    "link": "https://thenewstack.io/react-foundation-open-source-governance/",
+    "description": "Meta's move of React to a Linux Foundation\u2013backed entity raises questions about control, neutrality, and what makes open source governance transitions succeed.",
+    "image": "images/dedc8890c0ec8d7c1db30be5d7f625c3.webp",
+    "datetimestamp": "2026-03-03T12:00:36",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "The shift left hangover: Why modern platforms are shifting down to cure developer fatigue - The New Stack",
+    "link": "https://thenewstack.io/shift-left-hangover-steve-corndell/",
+    "description": "The next phase of platform engineering isn't about giving developers more tools; it's about taking requirements off their plate.",
+    "image": "images/e10f2d1a2c46eb55400991fcfb715795.webp",
+    "datetimestamp": "2026-01-31T02:22:06",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Mastra empowers web devs to build AI agents in TypeScript - The New Stack",
+    "link": "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
+    "description": "Stop letting non-devs have all the fun. Learn agentic AI with Mastra, the open source TypeScript framework for web devs.",
+    "image": "images/89e64a479c46299e99ef467b60ea7745.webp",
+    "datetimestamp": "2026-01-28T19:00:08",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Drupal turns 25: From simple to complex \u2014 then simple again - The New Stack",
+    "link": "https://thenewstack.io/drupal-turns-25-from-simple-to-complex-then-simple-again/",
+    "description": "With the release of Drupal CMS 2.0, Drupal marks its 25th year by returning to a simpler content management system \u2014 rebuilt for the AI era.",
+    "image": "images/47ebc8739d547d51aa9bb523261a7ae6.webp",
+    "datetimestamp": "2026-01-28T16:00:02",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Anthropic extends MCP with a UI framework - The New Stack",
+    "link": "https://thenewstack.io/anthropic-extends-mcp-with-an-app-framework/",
+    "description": "Anthropic is turning Claude into an app platform, with interactive widgets from Slack, Figma, Asana, and others.",
+    "image": "images/49686bc483d3584c835329615155a912.webp",
+    "datetimestamp": "2026-01-26T18:00:53",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Distributed apps platform Aspire supports JavaScript, Python - The New Stack",
+    "link": "https://thenewstack.io/distributed-apps-platform-aspire-supports-javascript-python/",
+    "description": "In other dev news: Rust updates, a six-month hackathon for useful applications, and a new tool that supports custom AI model benchmarks.",
+    "image": "images/a06cdf79135651adbea0cf6d6364bc5b.webp",
+    "datetimestamp": "2026-01-24T17:00:34",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Vercel\u2019s json-render: A step toward generative UI - The New Stack",
+    "link": "https://thenewstack.io/vercels-json-render-a-step-toward-generative-ui/",
+    "description": "A new open source tool brings AI-generated UIs a step closer. Vercel CEO Guillermo Rauch tells frontend devs how to prepare.",
+    "image": "images/6d694e15e5f451ce0bdb7df816edc8fc.webp",
+    "datetimestamp": "2026-01-23T21:00:04",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Why platform companies keep buying frontend framework teams - The New Stack",
+    "link": "https://thenewstack.io/why-platform-companies-keep-buying-frontend-framework-teams/",
+    "description": "The news of Cloudflare acquiring the company behind Astro is just the latest in a string of similar frontend framework deals. We look at the risks and rewards.",
+    "image": "images/29f8375eeff602cff8d6c95eff260770.webp",
+    "datetimestamp": "2026-01-22T17:00:44",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Astro Redesigns Its Development Server - The New Stack",
+    "link": "https://thenewstack.io/astro-redesigns-its-development-server/",
+    "description": "In other dev news, React framework Waku updates its Cloudflare Worker adapter, Svelte fixes vulnerabilities and Bun gets a benchmark.",
+    "image": "images/a06cdf79135651adbea0cf6d6364bc5b.webp",
+    "datetimestamp": "2026-01-17T15:00:43",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Cloudflare Acquires Team Behind Open Source Framework Astro - The New Stack",
+    "link": "https://thenewstack.io/cloudflare-acquires-team-behind-open-source-framework-astro/",
+    "description": "According to a blog post announcement, the move will let the Astro team \u201cdouble down\u201d on making Astro the best framework for content-driven websites.",
+    "image": "images/e1ad382da11cc1d8c1294a4e84aec881.webp",
+    "datetimestamp": "2026-01-16T20:45:39",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "StyleX vs. Tailwind: Meta's Take on CSS-in-JS Maintainability - The New Stack",
+    "link": "https://thenewstack.io/stylex-vs-tailwind-metas-take-on-css-in-js-maintainability/",
+    "description": "Meta's StyleX is a CSS-in-JS solution for large apps. We look at how it compares to Tailwind on code maintainability, scale and atomic CSS.",
+    "image": "images/ca31e00943dfe4a1ce26f818046041e2.webp",
+    "datetimestamp": "2026-01-15T15:34:02",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "The React Framework Face-Off: Which One Owns the Future? - The New Stack",
+    "link": "https://thenewstack.io/the-react-framework-face-off-which-one-owns-the-future/",
+    "description": "Jack Herrington, aka the Blue Collar Coder, asked framework creators \"What's The Framework of the React Future?\"",
+    "image": "images/3e14f8a6fbe04bc8db691e04f86ee5d4.webp",
+    "datetimestamp": "2026-01-14T19:30:35",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Why the Frontend Should Embrace Platform Engineering - The New Stack",
+    "link": "https://thenewstack.io/why-the-frontend-should-embrace-platform-engineering/",
+    "description": "We look at how platform engineering on the frontend can speed development while maintaining the entire web dev technology stack.",
+    "image": "images/157e83f4c45a8b885ea3820ea48e8daa.webp",
+    "datetimestamp": "2026-01-13T16:00:04",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Postman Adds Open Source Documentation and SDK Products - The New Stack",
+    "link": "https://thenewstack.io/postman-adds-open-source-documentation-and-sdk-products/",
+    "description": "In other dev news: Good AI code is hard to find, React Router/Remix identifies security issues, and Chrome's new MCP server feature.",
+    "image": "images/a06cdf79135651adbea0cf6d6364bc5b.webp",
+    "datetimestamp": "2026-01-10T13:00:33",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Tailwind Creator Says AI Played a Role in Downsizing - The New Stack",
+    "link": "https://thenewstack.io/tailwind-creator-says-ai-played-a-role-in-downsizing/",
+    "description": "Tailwind CSS is the most popular CSS framework and previously served as an open source success story. Here's why it laid off staff on Monday.",
+    "image": "images/91fde366ac4c3caf9f08f5520a9dab57.webp",
+    "datetimestamp": "2026-01-09T17:00:45",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "A New JavaScript Framework? In this Economy? - The New Stack",
+    "link": "https://thenewstack.io/a-new-javascript-framework-in-this-economy/",
+    "description": "Sigment is the latest framework to offer a streamlined, \"no-build\" alternative to the complexity of React. Find out how Sigment simplifies.",
+    "image": "images/60df55c9a54911417d70c7a21af845c5.webp",
+    "datetimestamp": "2026-01-08T20:00:36",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Why Developers Are Ditching Frameworks for Vanilla JavaScript - The New Stack",
+    "link": "https://thenewstack.io/why-developers-are-ditching-frameworks-for-vanilla-javascript/",
+    "description": "Frontend developers are returning to Vanilla JavaScript. Here's how native APIs and AI tools are making plain JS the cure for framework fatigue.",
+    "image": "images/417df7af2fda23cb3fcac04b0134222c.webp",
+    "datetimestamp": "2025-12-30T16:00:11",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "2025\u2019s Radical Frontend AI Shift - The New Stack",
+    "link": "https://thenewstack.io/2025s-radical-frontend-ai-shift/",
+    "description": "From Netlify\u2019s Agent Runners to the Hashbrown Framework, we look at the innovations that turned the UI into a responsive Gen AI experience.",
+    "image": "images/74d9b869110d766af7f271042f7f3083.webp",
+    "datetimestamp": "2025-12-30T15:00:52",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Trends That Defined JavaScript in 2025 - The New Stack",
+    "link": "https://thenewstack.io/trends-that-defined-javascript-in-2025/",
+    "description": "Despite AI and the push for simplification in web development, JavaScript frameworks aren\u2019t quite ready to yield their hold on the frontend.",
+    "image": "images/74d9b869110d766af7f271042f7f3083.webp",
+    "datetimestamp": "2025-12-27T14:00:53",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "Web Components Are the Comeback Nobody Saw Coming - The New Stack",
+    "link": "https://thenewstack.io/web-components-are-the-comeback-nobody-saw-coming/",
+    "description": "Web components enable UI interoperability, allowing you to build reusable components that work across any framework \u2014 or to avoid frameworks altogether.",
+    "image": "images/badf0dcd63f529927d57ceb7729c113c.webp",
+    "datetimestamp": "2025-12-23T20:00:52",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  },
+  {
+    "title": "TanStack Adds Framework-Agnostic AI Toolkit - The New Stack",
+    "link": "https://thenewstack.io/tanstack-adds-framework-agnostic-ai-toolkit/",
+    "description": "In other dev news: Anthropic acquires Bun; Rolldown powers Vite 8 beta; and Infragistics open sources Ignite UI for enterprise components.",
+    "image": "images/a06cdf79135651adbea0cf6d6364bc5b.webp",
+    "datetimestamp": "2025-12-20T15:00:56",
+    "source": "The New Stack Frontend",
+    "category": "Frontend"
+  }
+]

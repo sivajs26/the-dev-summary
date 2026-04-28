@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Top Resiliency Patterns for Developers - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/top-resiliency-patterns-for-developers",
+    "description": "Quick Guide",
+    "image": "images/c5c656be5520f7f46f5405ccf619bf1d.webp",
+    "datetimestamp": "2026-04-21T06:08:56",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "What is the BFF Pattern? - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/what-is-the-bff-pattern",
+    "description": "And when do you need it?",
+    "image": "images/654b4a255d84f20c59b3d7acbb419658.webp",
+    "datetimestamp": "2026-04-07T08:41:56",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "How TCP Handshake Works - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/how-tcp-handshake-works",
+    "description": "The 3 step process",
+    "image": "images/09c489e26ad35fc318c24e439072f69e.webp",
+    "datetimestamp": "2026-03-31T08:17:52",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Object Oriented Programming - The Key Terms",
+    "link": "https://newsletter.systemdesigncodex.com/p/object-oriented-programming-the-key",
+    "description": "The essential concepts",
+    "image": "images/5889fd96fbc96f62df902d041584984d.webp",
+    "datetimestamp": "2026-03-24T08:38:43",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Inside Look at Reddit's Metadata Store - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/inside-look-at-reddits-metadata-store",
+    "description": "How it works",
+    "image": "images/d8b02e197757d49b88e8a75a66d58906.webp",
+    "datetimestamp": "2026-03-17T08:41:58",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "How Agoda Load Balanced Kafka - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/how-agoda-load-balanced-kafka",
+    "description": "Deep Dive",
+    "image": "images/c904de13defd2e6eacb9641749e3492c.webp",
+    "datetimestamp": "2026-03-10T08:01:37",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "What Happens to an SQL Query? - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/what-happens-to-an-sql-query",
+    "description": "The Journey Through the DB",
+    "image": "images/d118d001b4b4eee964cb537833bbf0be.webp",
+    "datetimestamp": "2026-03-04T03:14:28",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "How to Prevent the DB from Becoming a Bottleneck",
+    "link": "https://newsletter.systemdesigncodex.com/p/how-to-prevent-the-db-from-becoming",
+    "description": "Tips and Strategies",
+    "image": "images/5eb1d5210ea8bbe2756ed9aa9fd26f32.webp",
+    "datetimestamp": "2026-02-24T08:15:03",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Airbnb's Move from Monolith - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/airbnbs-move-from-monolith",
+    "description": "The journey of migration",
+    "image": "images/d9ac106b7ea0d34301c618ad6edb5ef9.webp",
+    "datetimestamp": "2026-02-17T07:56:10",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Eraser\u2019s New AI-Driven Diagramming Workflow",
+    "link": "https://newsletter.systemdesigncodex.com/p/erasers-new-ai-driven-diagramming",
+    "description": "Making Documentation Wonderful Again",
+    "image": "images/8e3b9981e3c8d9d5d10d58f04ad9ea1b.webp",
+    "datetimestamp": "2026-02-10T08:52:33",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "The Role of Caching at Netflix - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/the-role-of-caching-at-netflix",
+    "description": "How Netflix Holds Your Attention",
+    "image": "images/c9d1d07cf70c9f4ebd6f6f72ac2dda94.webp",
+    "datetimestamp": "2026-02-03T08:52:57",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Synchronous Communication is NOT the Only Way",
+    "link": "https://newsletter.systemdesigncodex.com/p/synchronous-communication-is-not",
+    "description": "There are other ways your application components can talk to each other",
+    "image": "images/41e18fa21c135c1de117b6ac417a52dd.webp",
+    "datetimestamp": "2026-01-28T01:57:51",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Top Strategies to Reduce Latency - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/top-strategies-to-reduce-latency",
+    "description": "Latency is the new downtime",
+    "image": "images/afd2cbfe32d7281e836ab80e83725b7a.webp",
+    "datetimestamp": "2026-01-20T13:27:51",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Sticky Sessions or Not? - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/sticky-sessions-or-not",
+    "description": "How to decide?",
+    "image": "images/edd1e4a2a12d3a13e89e2fd2bdb073f2.webp",
+    "datetimestamp": "2026-01-13T08:43:21",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Consistent Hashing in a Nutshell - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/consistent-hashing-in-a-nutshell",
+    "description": "How it works?",
+    "image": "images/f653cae9da31ff19d7a545661e43874a.webp",
+    "datetimestamp": "2026-01-06T08:40:29",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Polling or Webhooks - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/polling-or-webhooks",
+    "description": "When to use what?",
+    "image": "images/16d74689c73712cd75a8256b2e41d532.webp",
+    "datetimestamp": "2025-12-30T11:44:43",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Multiple Places Where Caching Exists - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/multiple-places-where-caching-exists",
+    "description": "Caching is everywhere",
+    "image": "images/56d6db6fbdf4a21ec018fcc3142b00d9.webp",
+    "datetimestamp": "2025-12-23T09:17:41",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Database Scaling and Performance Tips - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/database-scaling-and-performance",
+    "description": "Strategies you must know",
+    "image": "images/877863f6eda994ed31f78908ce2a2357.webp",
+    "datetimestamp": "2025-12-16T08:47:15",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "LSM Trees Explained - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/lsm-trees-explained",
+    "description": "Making database writes fast",
+    "image": "images/e9bc62ce8519c82d9baf19927e4e46be.webp",
+    "datetimestamp": "2025-12-09T09:04:35",
+    "source": "System Design Codex",
+    "category": "System Design"
+  },
+  {
+    "title": "Top Microservices Patterns - by Saurabh Dashora",
+    "link": "https://newsletter.systemdesigncodex.com/p/top-microservices-patterns",
+    "description": "The ones that are most common",
+    "image": "images/a32216b753215df6d51533f70249789e.webp",
+    "datetimestamp": "2025-12-02T08:41:51",
+    "source": "System Design Codex",
+    "category": "System Design"
+  }
+]
