@@ -107,4 +107,50 @@
     "source": "Dev.to React",
     "category": "Frontend"
   }
+][
+  {
+    "title": "How to Build and Scale Design Systems: Starting with the Right Framework - DEV Community",
+    "link": "https://dev.to/yaaooo/how-to-build-and-scale-design-systems-starting-with-the-right-framework-29lf",
+    "description": "I've been spending the past few months juggling product engineering work with the building and...",
+    "image": "images/47bb5384e64d5212e6c7c71c8137a56d.webp",
+    "datetimestamp": "2026-04-28T05:04:30",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show DEV: I refused to pay $40 for a clunky PC sensor panel, so I built my own with React & Electron. - DEV Community",
+    "link": "https://dev.to/viablemedia/show-dev-i-refused-to-pay-40-for-a-clunky-pc-sensor-panel-so-i-built-my-own-with-react--1n0p",
+    "description": "If you\u2019ve built a custom PC recently, you\u2019ve probably looked into putting a 5-inch or 8.8-inch...",
+    "image": "images/b34584df91fe41cba21651aca48b653a.webp",
+    "datetimestamp": "2026-04-28T05:01:25",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "How to Optimize SEO for React Apps Fast - DEV Community",
+    "link": "https://dev.to/mitudas/how-to-optimize-seo-for-react-apps-fast-30l3",
+    "description": "I Spent 3 Hours Debugging Why Google Couldn't See My React App. The Fix Was 4 Lines of...",
+    "image": "images/3f0f011906f8bace2c16b64f9fbdd030.webp",
+    "datetimestamp": "2026-04-28T04:38:40",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "What is React memo? How to improve React performance - DEV Community",
+    "link": "https://dev.to/hugodev/what-is-react-memo-how-to-improve-react-performance-fk",
+    "description": "React memo is a powerful feature that improves the performance of your React applications by letting...",
+    "image": "images/e7fe6e65659f24a17f9f2cff4f93be99.webp",
+    "datetimestamp": "2026-04-28T04:35:57",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  },
+  {
+    "title": "I Spent Six Months Chasing Core Web Vitals. Here\u2019s What Actually Moved the Needle. - DEV Community",
+    "link": "https://dev.to/shudhanshuraj/i-spent-six-months-chasing-core-web-vitals-heres-what-actually-moved-the-needle-2ofd",
+    "description": "I Spent Six Months Chasing Core Web Vitals. Here's What Actually Moved the Needle.   A field...",
+    "image": "images/e679da62ff8ed948dc975ceb79441756.webp",
+    "datetimestamp": "2026-04-28T04:30:00",
+    "source": "Dev.to React",
+    "category": "Frontend"
+  }
 ]

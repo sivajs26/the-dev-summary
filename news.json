@@ -1,182 +1,182 @@
 [
   {
-    "title": "Design Meet the Internet | Figma | Figma Blog",
-    "link": "https://www.figma.com/blog/design-meet-the-internet/",
-    "description": "Today, after three years of silence and hard work, I finally get to announce the launch of Figma, a collaborative interface design tool. ",
-    "image": "images/22d6046629543ea4b50aeb51ffb14806.webp",
-    "datetimestamp": "2026-04-28T04:35:30.254094",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "Frontend Dogma\u2019s Global RSS Feed Is Now a Paid Feature \u00b7 Frontend Dogma",
+    "link": "https://frontenddogma.com/posts/2025/frontend-dogma-rss-feed/",
+    "description": "<p><em>TL;DR: Access to Frontend Dogma\u2019s main feed\u2014which features some exclusive news\u2014now requires a <a href=\"https://j9t.gumroad.com/l/fd\">small maintenance fee of $12 per year</a>.</em></p>\n<p>Over the years, Frontend Dogma has become one of the main sources of frontend development news and tools. <a href=\"https://frontenddogma.com/topics/\">Frontend Dogma\u2019s growing archives</a> provide <a href=\"https://meiert.com/blog/identify-your-unknown-unknowns/\">unique</a> access to the history of the wider field of web development.</p>\n<p>Providing this service for free is not sustainable, however. <a href=\"https://frontenddogma.com/books/\">Book sales</a> pay for some of the work, but so far, few people acknowledge Frontend Dogma\u2019s value by supporting the project <a href=\"https://opencollective.com/frontenddogma\">on Open Collective</a>.</p>\n<p><em>Starting today, the global RSS feed (with the 250 newest articles and videos) is a paid feature.</em></p>\n<p>You can get access by a <a href=\"https://j9t.gumroad.com/l/fd\">small maintenance contribution of only $12 per year</a>.</p>\n<p>If you <em>don\u2019t</em> like to support Frontend Dogma, you can still follow Frontend Dogma\u2019s <a href=\"https://frontenddogma.com/posts/2024/follow-your-favorite-web-dev-topics-with-topic-feeds/\">individual topic feeds</a> as well as Frontend Dogma\u2019s social media accounts <a href=\"https://mas.to/@frontenddogma\">on Mastodon</a> and <a href=\"https://bsky.app/profile/frontenddogma.com\">Bluesky</a>. These are less convenient and reliable but still workable options to stay up-to-date.</p>\n<p>Also, if you want to support Frontend Dogma in a different manner and so that the main feed may be made free again, consider buying <a href=\"https://frontenddogma.com/books/\">Frontend Dogma\u2019s books</a> or contributing to the project <a href=\"https://opencollective.com/frontenddogma\">on Open Collective</a>. You\u2019re not alone: We do the same for the projects we use and like. Thank you.</p>",
+    "image": "images/4d5fe3b927a3ffeb6caf293d638bff6b.webp",
+    "datetimestamp": "2026-04-28T05:29:26.415661",
+    "source": "Frontend Dogma",
+    "category": "Frontend"
   },
   {
-    "title": "Building a professional design tool on the web | Figma Blog",
-    "link": "https://www.figma.com/blog/building-a-professional-design-tool-on-the-web/",
-    "description": "Our vision for the future of design tools is one where both the tool and the content are easily available to anyone, anywhere. ",
-    "image": "images/c82ea91a181e87fe4f1f0729577b6e8f.webp",
-    "datetimestamp": "2026-04-28T04:35:29.572116",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "I built 14,000 lines of code before talking to a single user. Here's what I learned. - DEV Community",
+    "link": "https://dev.to/sszz01/i-built-14000-lines-of-code-before-talking-to-a-single-user-heres-what-i-learned-3c17",
+    "description": "10 weeks ago I was convinced I was building something nobody else had.  The idea: a GitHub App that...",
+    "image": "images/9561837f32fdf595e72f3ba2262f5d01.webp",
+    "datetimestamp": "2026-04-28T04:04:27",
+    "source": "Testing",
+    "category": "Testing"
   },
   {
-    "title": "Grid Systems for Screen Design | Figma Blog",
-    "link": "https://www.figma.com/blog/grid-systems-for-screen-design/",
-    "description": "In the 1950s, a small group of Swiss designers started searching for a better way of systematizing how information was organized on the printed page. ",
-    "image": "images/0902134b561f028dfca0a0035425107b.webp",
-    "datetimestamp": "2026-04-28T04:35:28.074269",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.22777] An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
+    "link": "https://arxiv.org/abs/2604.22777v1",
+    "description": "Fault diagnosis of general aviation aircraft faces challenges including scarce real fault data, diverse fault types, and weak fault signatures. This paper proposes an intelligent fault diagnosis framework based on multi-fidelity digital twin, integrating four modules: high-fidelity flight dynamics simulation, FMEA-driven fault injection, multi-fidelity residual feature extraction, and large language model (LLM)-enhanced interpretable report generation. A digital twin is constructed using the JSBSim six-degree-of-freedom (6-DoF) flight dynamics engine, generating 23-channel engine health monitoring data via semi-empirical sensor synthesis equations. A three-layer fault injection engine based on failure mode and effects analysis (FMEA) models the physical causal propagation of 19 engine fault types. A multi-fidelity residual computation framework comprising paired-mirror residuals and GRU surrogate prediction residuals is proposed: the high-fidelity path obtains clean fault deviation signals using nominal mirror trajectories with identical initial conditions, while the low-fidelity path achieves online real-time residual computation through a multi-step prediction GRU surrogate model. A 1D-CNN classifier performs end-to-end diagnosis of 20 fault classes. An LLM diagnostic report engine enhanced with FMEA knowledge fuses classification results, residual evidence, and domain causal knowledge to generate interpretable natural language reports. Experiments show the paired-mirror residual scheme achieves a Macro-F1 of 96.2% on the 20-class task, while the GRU surrogate scheme achieves 4.3x inference acceleration at only 0.6% performance cost. Comparison across 24 schemes reveals that residual feature quality contributes approximately 5x more to diagnostic performance than classifier architecture, establishing the \"residual quality first\" design principle.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Slack From the Start | Figma Blog",
-    "link": "https://www.figma.com/blog/slack-from-the-start/",
-    "description": "A few weeks ago, we launched Figma, a collaborative interface design tool. Our integration with Slack is foundational to how users collaborate inside Figma.",
-    "image": "images/0c2a7eb87225304e1ee3dfab6d1ebc40.webp",
-    "datetimestamp": "2026-04-28T04:35:27.093592",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.22934] PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+    "link": "https://arxiv.org/abs/2604.22934v1",
+    "description": "LLM-based agents for text-to-SQL often struggle with latency-performance trade-off, where performance improvements come at the cost of latency or vice versa. We reformulate text-to-SQL generation within the lens of software test coverage where the original query is prepared with a suite of test cases with simpler, atomic SQLs that are executed in parallel and together ensure semantic coverage of the original query. After iterating on test case coverage, the final SQL is generated only when enough information is gathered, leveraging the explored test case SQLs to ground the final generation. We validated our framework on a state-of-the-art benchmark for text-to-SQL, Spider 2.0, achieving a new state-of-the-art with 70.2% execution accuracy.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "From Furniture to Screens | Figma Blog",
-    "link": "https://www.figma.com/blog/from-furniture-to-screens/",
-    "description": "How furniture making has influenced the design of Figma",
-    "image": "images/7e4865ad8d8befdcbcd156268ae3e108.webp",
-    "datetimestamp": "2026-04-28T04:35:26.225203",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning",
+    "link": "https://arxiv.org/abs/2604.22951v1",
+    "description": "Natural language data follows a power-law distribution, with most knowledge and skills appearing at very low frequency. While a common intuition suggests that reweighting or curating data towards a uniform distribution may help models better learn these long-tail skills, we find a counterintuitive result: across a wide range of compositional reasoning tasks, such as state tracking and multi-step arithmetic, training under power-law distributions consistently outperforms training under uniform distributions. To understand this advantage, we introduce a minimalist skill-composition task and show that learning under a power-law distribution provably requires significantly less training data. Our theoretical analysis reveals that power law sampling induces a beneficial asymmetry that improves the pathological loss landscape, which enables models to first acquire high-frequency skill compositions with low data complexity, which in turn serves as a stepping stone to efficiently learn rare long-tailed skills. Our results offer an alternative perspective on what constitutes an effective data distribution for training models.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Introducing Vector Networks | Figma Blog",
-    "link": "https://www.figma.com/blog/introducing-vector-networks/",
-    "description": "Before I co-founded Figma my background was in game development, not in design. ",
-    "image": "images/864db5a3178835bc445f784e030b090f.webp",
-    "datetimestamp": "2026-04-28T04:35:25.247484",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.22958] On the Existence of an Inverse Solution for Preference-Based Reductions in Argumentation",
+    "link": "https://arxiv.org/abs/2604.22958v1",
+    "description": "Preference-based argumentation frameworks (PAFs) extend Dung's approach to abstract argumentation (AAFs) by encoding preferences over arguments. Such preferences control the transformation of attacks into defeats, and different approaches to doing so result in different reductions from a PAF to an AAF. In this paper we consider a PAF inverse problem which takes an argumentation graph, a labelling and a semantics as an input, and outputs a ``yes\" or ``no\" as to whether there is a preference relation between the arguments which can yield the desired labelling. This inverse problem has applications in areas including preference elicitation and explainability. We consider this problem in the context of the four most widely-used preference based reductions under the complete semantics. We show that in most cases, the problem can be answered in polynomial time.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "How to do content design / UX writing in Figma | Figma Blog",
-    "link": "https://www.figma.com/blog/how-to-do-content-design-ux-writing-in-figma/",
-    "description": "5 practical lessons on working content-first, collaborating with designers and using Figma to its wordiest potential",
-    "image": "images/547c552e635fa6ae46719de658a91dc8.webp",
-    "datetimestamp": "2026-04-28T04:35:24.540886",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.22979] Towards Causally Interpretable Wi-Fi CSI-Based Human Activity Recognition with Discrete Latent Compression and LTL Rule Extraction",
+    "link": "https://arxiv.org/abs/2604.22979v1",
+    "description": "We address Human Activity Recognition (HAR) utilizing Wi-Fi Channel State Information (CSI) under the joint requirements of causal interpretability, symbolic controllability, and direct operation on high-dimensional raw signals. Deep neural models achieve strong predictive performance on CSI-based HAR (CHAR), yet rely on continuous latent representations that are opaque and difficult to modify; purely symbolic approaches, in contrast, cannot process raw CSI streams. We propose a fully automatic and strictly decoupled pipeline in which CSI magnitude windows are compressed by a categorical variational autoencoder with Gumbel-Softmax latent variables under a capacity-controlled objective, yielding a compact discrete representation. The encoder is then frozen and used as a deterministic mapping to one-hot latent trajectories. Causal discovery is performed on these trajectories to estimate class-conditional temporal dependency graphs. Statistically supported lagged dependencies are translated into Linear Temporal Logic (LTL) rules, producing a fully symbolic and deterministic classifier based solely on rule evaluation and aggregation, without any learned discriminative head. Because rules are defined over discrete latent variables, antenna-specific rule sets can in principle be combined at the symbolic level, enabling structured multi-antenna fusion without retraining the encoder. Results from CHAR Latent Temporal Rule Extraction (CHARL-TRE) indicate competitive performance while preserving explicit temporal and causal structure, showing that deterministic symbolic classification grounded in unsupervised discrete latent representations constitutes a viable alternative to end-to-end black-box models for wireless HAR.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Introducing Figma\u2019s Integration with Framer | Figma Blog",
-    "link": "https://www.figma.com/blog/introducing-figmas-integration-with-framer/",
-    "description": "Today I\u2019m excited to announce Figma is integrating with Framer!",
-    "image": "images/921655587e0ca1f319f7e394638b0588.webp",
-    "datetimestamp": "2026-04-28T04:35:23.983919",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23002] FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean",
+    "link": "https://arxiv.org/abs/2604.23002v1",
+    "description": "Formalising informal mathematical reasoning into formally verifiable code is a significant challenge for large language models. In scientific fields such as physics, domain-specific machinery (\\textit{e.g.} Dirac notation, vector calculus) imposes additional formalisation challenges that modern LLMs and agentic approaches have yet to tackle. To aid autoformalisation in scientific domains, we present FormalScience; a domain-agnostic human-in-the-loop agentic pipeline that enables a single domain expert (without deep formal language experience) to produce \\textit{syntactically correct} and \\textit{semantically aligned} formal proofs of informal reasoning for low economic cost. Applying FormalScience to physics, we construct FormalPhysics, a dataset of 200 university-level (LaTeX) physics problems and solutions (primarily quantum mechanics and electromagnetism), along with their Lean4 formal representations. Compared to existing formal math benchmarks, FormalPhysics achieves perfect formal validity and exhibits greater statement complexity. We evaluate open-source models and proprietary systems on a statement autoformalisation task on our dataset via zero-shot prompting, self-refinement with error feedback, and a novel multi-stage agentic approach, and explore autoformalisation limitations in modern LLM-based approaches. We provide the first systematic characterisation of semantic drift in physics autoformalisation in terms of concepts such as notational collapse and abstraction elevation which reveals what formal language verifies when full semantic preservation is unattainable. We release the codebase together with an interactive UI-based FormalScience system which facilitates autoformalisation and theorem proving in scientific domains beyond physics.https://github.com/jmeadows17/formal-science",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Multiplayer Editing in Figma | Figma Blog",
-    "link": "https://www.figma.com/blog/multiplayer-editing-in-figma/",
-    "description": "Today\u2019s public release of Figma contains two long-awaited changes. ",
-    "image": "images/2782aecee06ec2aea6db43abfec2f541.webp",
-    "datetimestamp": "2026-04-28T04:35:23.328359",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23027] A Systematic Approach for Large Language Models Debugging",
+    "link": "https://arxiv.org/abs/2604.23027v1",
+    "description": "Large language models (LLMs) have become central to modern AI workflows, powering applications from open-ended text generation to complex agent-based reasoning. However, debugging these models remains a persistent challenge due to their opaque and probabilistic nature and the difficulty of diagnosing errors across diverse tasks and settings. This paper introduces a systematic approach for LLM debugging that treats models as observable systems, providing structured, model-agnostic methods from issue detection to model refinement. By unifying evaluation, interpretability, and error-analysis practices, our approach enables practitioners to iteratively diagnose model weaknesses, refine prompts and model parameters, and adapt data for fine-tuning or assessment, while remaining effective in contexts where standardized benchmarks and evaluation criteria are lacking. We argue that such a structured methodology not only accelerates troubleshooting but also fosters reproducibility, transparency, and scalability in the deployment of LLM-based systems.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Debugging Data Corruption with Emscripten | Figma Blog",
-    "link": "https://www.figma.com/blog/debugging-data-corruption-with-emscripten/",
-    "description": "We discovered an issue with saving in Figma back in June 2015 that turned out to be the hardest and least-satisfying bug I\u2019ve ever tackled.",
-    "image": "images/d4ab9187c1505f5401dda90d77a7dcb3.webp",
-    "datetimestamp": "2026-04-28T04:35:22.665526",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23049] A Decoupled Human-in-the-Loop System for Controlled Autonomy in Agentic Workflows",
+    "link": "https://arxiv.org/abs/2604.23049v1",
+    "description": "AI agents are increasingly deployed to execute tasks and make decisions within agentic workflows, introducing new requirements for safe and controlled autonomy. Prior work has established the importance of human oversight for ensuring transparency, accountability, and trustworthiness in such systems. However, existing implementations of Human-in-the-Loop (HITL) mechanisms are typically embedded within application logic, limiting reuse, consistency, and scalability across multi-agent environments.\n  This paper presents a decoupled HITL system architecture that treats human oversight as an independent system component within the agent operating environment. The proposed design separates human interaction management from application workflows through explicit interfaces and a structured execution model. In addition, a design framework is introduced to formalize HITL integration along four dimensions: intervention conditions, role resolution, interaction semantics, and communication channel. This framework enables selective and context-aware human involvement while maintaining system-level consistency.\n  The approach supports alignment with emerging agent communication protocols, allowing HITL to be implemented as a protocol-level concern. By externalizing HITL and structuring its integration, the system provides a foundation for scalable governance and progressive autonomy in agentic workflows.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Delete and Heal for Vector Networks | Figma Blog",
-    "link": "https://www.figma.com/blog/delete-and-heal-for-vector-networks/",
-    "description": "Since I joined Figma in September, among many other things, I had the pleasure of working on the intuitive yet surprisingly complex behavior you see above (You might need to give it a second to load the GIF).",
-    "image": "images/58db28bcc838517e5a13a4d15bf2efe1.webp",
-    "datetimestamp": "2026-04-28T04:35:21.524681",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23057] Don't Make the LLM Read the Graph: Make the Graph Think",
+    "link": "https://arxiv.org/abs/2604.23057v1",
+    "description": "We investigate whether explicit belief graphs improve LLM performance in cooperative multi-agent reasoning. Through 3,000+ controlled trials across four LLM families in the cooperative card game Hanabi, we establish four findings. First, integration architecture determines whether belief graphs provide value: as prompt context, graphs are decorative for strong models and beneficial only for weak models on 2nd-order Theory of Mind (80% vs 10%, p<0.0001, OR=36.0); when graphs gate action selection through ranked shortlists, they become structurally essential even for strong models (100% vs 20% on 2nd-order ToM, p<0.001). Second, we identify \"Planner Defiance,\" a model-family-specific failure where LLMs override correct planner recommendations at partial competence (90% override, replicated N=20); Gemini models show near-zero defiance while Llama 70B shows 90%, and models distinguish factual context (deferred to) from advisory recommendations (overridden). Third, full-game evidence confirms inter-agent conventions (+128% over baseline, p=0.003) outperform all single-agent interventions, and individual belief-graph components must be combined to produce gains. Fourth, preliminary scaling analysis (N=10/cell, exploratory) suggests graph depth has diminishing returns: shallow graphs provide the best cost-benefit ratio, while deeper ToM graphs appear harmful at larger player counts (-1.5 pts at 5-player, p=0.029).",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Components in Figma | Figma Blog",
-    "link": "https://www.figma.com/blog/components-in-figma/",
-    "description": "Today we are excited to release Components in Figma.",
-    "image": "images/3234b744a80c18318b3f3289b5b2179a.webp",
-    "datetimestamp": "2026-04-28T04:35:20.988562",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23072] Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
+    "link": "https://arxiv.org/abs/2604.23072v1",
+    "description": "Large language model (LLM) agents are increasingly tasked with complex real-world analysis (e.g., in financial forecasting, scientific discovery), yet their reasoning suffers from stochastic instability and lacks a verifiable, compositional structure. To address this, we introduce Analytica, a novel agent architecture built on the principle of Soft Propositional Reasoning (SPR). SPR reframes complex analysis as a structured process of estimating the soft truth values of different outcome propositions, allowing us to formally model and minimize the estimation error in terms of its bias and variance. Analytica operationalizes this through a parallel, divide-and-conquer framework that systematically reduces both sources of error. To reduce bias, problems are first decomposed into a tree of subpropositions, and tool-equipped LLM grounder agents are employed, including a novel Jupyter Notebook agent for data-driven analysis, that help to validate and score facts. To reduce variance, Analytica recursively synthesizes these grounded leaves using robust linear models that average out stochastic noise with superior efficiency, scalability, and enable interactive \"what-if\" scenario analysis. Our theoretical and empirical results on economic, financial, and political forecasting tasks show that Analytica improves 15.84% accuracy on average over diverse base models, achieving 71.06% accuracy with the lowest variance of 6.02% when working with a Deep Research grounder. Our Jupyter Notebook grounder shows strong cost-effectiveness that achieves a close 70.11% accuracy with 90.35% less cost and 52.85% less time. Analytica also exhibits highly noise-resilient and stable performance growth as the analysis depth increases, with a near-linear time complexity, as well as good adaptivity to open-weight LLMs and scientific domains.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Team Libraries in Figma | Figma Blog",
-    "link": "https://www.figma.com/blog/team-libraries-in-figma/",
-    "description": "Today, we\u2019re excited to announce the beta release of Team Libraries for sharing components across projects. ",
-    "image": "images/576c34b0bb2b2de748de88d5b1712c56.webp",
-    "datetimestamp": "2026-04-28T04:35:20.313417",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23090] Towards Automated Ontology Generation from Unstructured Text: A Multi-Agent LLM Approach",
+    "link": "https://arxiv.org/abs/2604.23090v1",
+    "description": "Automatically generating formal ontologies from unstructured natural language remains a central challenge in knowledge engineering. While large language models (LLMs) show promise, it remains unclear which architectural design choices drive generation quality and why current approaches fail. We present a controlled experimental study using domain-specific insurance contracts to investigate these questions. We first establish a single-agent LLM baseline, identifying key failure modes such as poor Ontology Design Pattern compliance, structural redundancy, and ineffective iterative repair. We then introduce a multi-agent architecture that decomposes ontology construction into four artifact-driven roles: Domain Expert, Manager, Coder, and Quality Assurer. We evaluate performance across architectural quality (via a panel of heterogeneous LLM judges) and functional usability (via competency question driven SPARQL evaluation with complementary retrieval augmented generation based assessment). Results show that the multi-agent approach significantly improves structural quality and modestly enhances queryability, with gains driven primarily by front-loaded planning. These findings highlight planning-first, artifact-driven generation as a promising and more auditable path toward scalable automated ontology engineering.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Can designers make a political difference? | Figma Blog",
-    "link": "https://www.figma.com/blog/can-designers-make-a-political-difference/",
-    "description": "The morning after Trump won the presidency, Portland designer Jen Thomas woke up wrapped in a blanket of dread.",
-    "image": "images/a9c9b97a3fe40dedd6ec563e881a9620.webp",
-    "datetimestamp": "2026-04-28T04:35:19.304356",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23148] PhySE: A Psychological Framework for Real-Time AR-LLM Social Engineering Attacks",
+    "link": "https://arxiv.org/abs/2604.23148v1",
+    "description": "The emerging threat of AR-LLM-based Social Engineering (AR-LLM-SE) attacks (e.g. SEAR) poses a significant risk to real-world social interactions. In such an attack, a malicious actor uses Augmented Reality (AR) glasses to capture a target visual and vocal data. A Large Language Model (LLM) then analyzes this data to identify the individual and generate a detailed social profile. Subsequently, LLM-powered agents employ social engineering strategies, providing real-time conversation suggestions, to gain the target trust and ultimately execute phishing or other malicious acts. Despite its potential, the practical application of AR-LLM-SE faces two major bottlenecks, (1) Cold-start personalization, Current Retrieval-Augmented Generation (RAG) methods introduce critical delays in the earliest turns, slowing initial profile formation and disrupting real-time interaction, (2) Static Attack Strategies, Existing approaches rely on fixed-stage, handcrafted social engineering tactics that lack foundation in established psychological theory. To address these limitations, we propose PhySE, a novel framework with two core innovations, (1) VLM-Based SocialContext Training, To eliminate profiling delays, we efficiently pre-train a Visual Language Model (VLM) with social-context data, enabling rapid, on-the-fly profile generation, (2) Adaptive Psychological Agent, We introduce a psychological LLM that dynamically deploys distinct classes of psychological strategies based on target response, moving beyond static, handcrafted scripts. We evaluated PhySE through an IRB-approved user study with 60 participants, collecting a novel dataset of 360 annotated conversations across diverse social scenarios.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Realtime Editing of Ordered Sequences | Figma Blog",
-    "link": "https://www.figma.com/blog/realtime-editing-of-ordered-sequences/",
-    "description": "One of the problems we had to solve when we added multiplayer editing to Figma was supporting simultaneous editing of ordered sequences of objects. ",
-    "image": "images/9b0810d9cd8438bdbe887c0be2de7b6c.webp",
-    "datetimestamp": "2026-04-28T04:35:18.949448",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23178] Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
+    "link": "https://arxiv.org/abs/2604.23178v1",
+    "description": "LLM-as-a-Judge has become the dominant paradigm for evaluating language model outputs, yet LLM judges exhibit systematic biases that compromise evaluation reliability. We present a comprehensive empirical study comparing nine debiasing strategies across five judge models from four provider families (Google, Anthropic, OpenAI, Meta), three benchmarks (MT-Bench n=400, LLMBar n=200, custom n=225), and four bias types. Our key findings: (1) Style bias is the dominant bias (0.76-0.92 across all models), far exceeding position bias (<= 0.04), yet has received minimal research attention. (2) All models show a conciseness preference on expansion pairs, but truncation controls confirm they correctly distinguish quality from length (0.92-1.00 accuracy), suggesting quality-sensitive evaluation rather than a simple length bias. (3) Debiasing is beneficial but model-dependent: the combined budget strategy significantly improves Claude Sonnet 4 by +11.2 pp (p < 0.0001), with directionally positive trends for other models. Only 2 of 20 non-baseline configurations show decreased agreement. We release our evaluation framework, controlled dataset, and all experimental artifacts at https://github.com/sksoumik/llm-as-judge.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Did Snapchat succeed because of its controversial UI? | Figma Blog",
-    "link": "https://www.figma.com/blog/did-snapchat-succeed-because-of-its-controversial-ui/",
-    "description": "At Figma, we found ourselves wondering just how the hell Snapchat became a $28 billion company with its Mad Hatter interface. So we talked to five designers we respect to get their take.",
-    "image": "images/99d62e8b7f6cb76edb4fad5948da2817.webp",
-    "datetimestamp": "2026-04-28T04:35:17.321604",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23194] From Coarse to Fine: Self-Adaptive Hierarchical Planning for LLM Agents",
+    "link": "https://arxiv.org/abs/2604.23194v1",
+    "description": "Large language model-based agents have recently emerged as powerful approaches for solving dynamic and multi-step tasks. Most existing agents employ planning mechanisms to guide long-term actions in dynamic environments. However, current planning approaches face a fundamental limitation that they operate at a fixed granularity level. Specifically, they either provide excessive detail for simple tasks or insufficient detail for complex ones, failing to achieve an optimal balance between simplicity and complexity. Drawing inspiration from the principle of \\textit{progressive refinement} in cognitive science, we propose \\textbf{AdaPlan-H}, a self-adaptive hierarchical planning mechanism that mimics human planning strategies. Our method initiates with a coarse-grained macro plan and progressively refines it based on task complexity. It generates self-adaptive hierarchical plans tailored to the varying difficulty levels of different tasks, which can be optimized by imitation learning and capability enhancement. Experimental results demonstrate that our method significantly improves task execution success rates while mitigating overplanning at the planning level, providing a flexible and efficient solution for multi-step complex decision-making tasks. To contribute to the community, our code and data will be made publicly available at https://github.com/import-myself/AHP.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "The 6 design trends John Maeda predicted in his State of the Union | Figma Blog",
-    "link": "https://www.figma.com/blog/the-6-design-trends-john-maeda-predicted-in-his-state-of-the-union/",
-    "description": "Design State of the Union",
-    "image": "images/a78507e3772e15af71e739a88117c37c.webp",
-    "datetimestamp": "2026-04-28T04:35:16.772078",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23198] StoryTR: Narrative-Centric Video Temporal Retrieval with Theory of Mind Reasoning",
+    "link": "https://arxiv.org/abs/2604.23198v1",
+    "description": "Current video moment retrieval excels at action-centric tasks but struggles with narrative content. Models can see \\textit{what is happening} but fail to reason \\textit{why it matters}. This semantic gap stems from the lack of \\textbf{Theory of Mind (ToM)}: the cognitive ability to infer implicit intentions, mental states, and narrative causality from surface-level observations. We introduce \\textbf{StoryTR}, the first video moment retrieval benchmark requiring ToM reasoning, comprising 8.1k samples from narrative short-form videos (shorts/reels). These videos present an ideal testbed. Their high information density encodes meaning through subtle multimodal cues. For instance, a glance paired with a sigh carries entirely different semantics than the glance alone. Yet multimodal perception alone is insufficient; ToM is required to decode that a character ``smiling'' may actually be ``concealing hostility.'' To teach models this reasoning capability, we propose an \\textbf{Agentic Data Pipeline} that generates training data with explicit three-tier ToM chains (intent decoding, narrative reasoning, boundary localization). Experiments reveal the severity of the reasoning gap: Gemini-3.0-Pro achieves only 0.53 Avg IoU on StoryTR. However, our 7B \\textbf{Shorts-Moment} model, trained on ToM-guided data, improves +15.1\\% relative IoU over baselines, demonstrating that \\textit{narrative reasoning capability matters more than parameter scale}.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Should designers learn to code? | Figma Blog",
-    "link": "https://www.figma.com/blog/deciding-whether-to-learn-code-wasnt-always-such-a-weird-rite-of-passage/",
-    "description": "Interview with Alex Cornell, the lead designer of Facebook Live",
-    "image": "images/049eebb3a4cab450ec52c6016d53ded4.webp",
-    "datetimestamp": "2026-04-28T04:35:15.865829",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23210] Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+    "link": "https://arxiv.org/abs/2604.23210v1",
+    "description": "Can large language model agents discover hidden safety objectives through experience alone? We introduce EPO-Safe (Experiential Prompt Optimization for Safe Agents), a framework where an LLM iteratively generates action plans, receives sparse binary danger warnings, and evolves a natural language behavioral specification through reflection. Unlike standard LLM reflection methods that rely on rich textual feedback (e.g., compiler errors or detailed environment responses), EPO-Safe demonstrates that LLMs can perform safety reasoning from a strictly impoverished signal in structured, low-dimensional environments: the agent never observes the hidden performance function $R^*$, only a single bit per timestep indicating that an action was unsafe. We evaluate on five AI Safety Gridworlds (Leike et al., 2017) and five text-based scenario analogs where visible reward $R$ may diverge from $R^*$. EPO-Safe discovers safe behavior within 1-2 rounds (5-15 episodes), producing human-readable specifications with correct explanatory hypotheses about hazards (e.g., \"X cells are directionally hazardous: entering from the north is dangerous\"). Critically, we show that standard reward-driven reflection actively degrades safety: agents reflecting on reward alone use the loop to justify and accelerate reward hacking, proving that reflection must be paired with a dedicated safety channel to discover hidden constraints. We further evaluate robustness to noisy oracles: even when 50% of non-dangerous steps produce spurious warnings, mean safety performance degrades by only 15% on average, though sensitivity is environment-dependent, as cross-episode reflection naturally filters inconsistent signals. Each evolved specification functions as an auditable set of grounded behavioral rules discovered autonomously through interaction, rather than authored by humans as in Constitutional AI (Bai et al., 2022).",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "Figma\u2019s new icon | Figma Blog",
-    "link": "https://www.figma.com/blog/figmas-new-icon/",
-    "description": "Today we\u2019re excited to release our new icon, which builds upon our larger identity system and core values as a company.",
-    "image": "images/515690aa0524699f53b52d78365fc6eb.webp",
-    "datetimestamp": "2026-04-28T04:35:15.327456",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23239] AdaMamba: Adaptive Frequency-Gated Mamba for Long-Term Time Series Forecasting",
+    "link": "https://arxiv.org/abs/2604.23239v1",
+    "description": "Accurate long-term time series forecasting (LTSF) requires the capture of complex long-range dependencies and dynamic periodic patterns. Recent advances in frequency-domain analysis offer a global perspective for uncovering temporal characteristics. However, real-world time series often exhibit pronounced cross-domain heterogeneity where variables that appear synchronized in the time domain can differ substantially in the frequency domain. Existing frequency-based LTSF methods often rely on implicit assumptions of cross-domain homogeneity, which limits their ability to adapt to such intricate variability. To effectively integrate frequency-domain analysis with temporal dependency learning, we propose AdaMamba, a novel framework that endogenizes adaptive and context-aware frequency analysis within the Mamba state-space update process. Specifically, AdaMamba introduces an interactive patch encoding module to capture inter-variable interaction dynamics. Then, we develop an adaptive frequency-gated state-space module that generates input-dependent frequency bases, and generalizes the conventional temporal forgetting gate into a unified time-frequency forgetting gate. This allows dynamic calibration of state transitions based on learned frequency-domain importance, while preserving Mamba's capability in modeling long-range dependencies. Extensive experiments on seven public LTSF benchmarks and two domain-specific datasets demonstrate that AdaMamba consistently outperforms state-of-the-art methods in forecasting accu racy while maintaining competitive computational efficiency. The code of AdaMamba is available at https://github.com/XDjiang25/AdaMamba.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   },
   {
-    "title": "An alternative approach to rate limiting | Figma Blog",
-    "link": "https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/",
-    "description": "Our rate limiting system is homegrown, and I\u2019d like to explain its design in case it\u2019s useful to others.",
-    "image": "images/375a82b81a002261d4d0ce448c6f343b.webp",
-    "datetimestamp": "2026-04-28T04:35:14.516968",
-    "source": "Figma Blog",
-    "category": "Design & UX"
+    "title": "[2604.23270] CAP-CoT: Cycle Adversarial Prompt for Improving Chain of Thoughts in LLM Reasoning",
+    "link": "https://arxiv.org/abs/2604.23270v1",
+    "description": "Chain-of-Thought (CoT) prompting has emerged as a simple and effective way to elicit step-by-step solutions from large language models (LLMs). However, CoT reasoning can be unstable across runs on long, multi-step problems, leading to inconsistent answers for unchanged task. Most prior work focuses on improving the forward reasoning chain within a single pass, with less attention to iterative and contrastive correction. To address this gap, we propose CAP-CoT, a Cycle Adversarial Prompt optimization framework designed to improve both CoT reasoning accuracy and stability of a single deployed solver. In each cycle, a forward solver generates candidate reasoning chains, an adversarial challenger constructs plausible but deliberately flawed chains using targeted error strategies, and a feedback agent contrasts the two chains and produces step-aligned structured feedback. This feedback closes the optimization loop in two directions, including updating the solver prompt based on errors exposed by the challenger, and updating the challenger prompt to generate increasingly targeted errors in subsequent cycles. Unlike safety-oriented adversarial prompting such as jailbreak or prompt-injection attacks, our adversarial component is task-semantic and aims to expose logical vulnerabilities in reasoning chains. Experiments across six benchmarks and four LLM backbones demonstrate that within two to three adversarial prompt optimization cycles, CAP-CoT consistently reduces variability across runs while improving reasoning accuracy and robustness to prompt perturbations.",
+    "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "datetimestamp": "2026-04-28T04:00:00",
+    "source": "ArXiv: Artificial Intelligence",
+    "category": "Research"
   }
 ]
