@@ -167,7 +167,7 @@ def phase1_fetch_feed(feed):
         
         # Save temp file with newly fetched items ONLY
         if new_fetched_items:
-            new_fetched_items = new_fetched_items[:50]
+            new_fetched_items = new_fetched_items[:100]
             temp_path = f"{TEMP_DIR}/{slugify(feed_name)}.json"
             with open(temp_path, 'w', encoding='utf-8') as f:
                 json.dump(new_fetched_items, f, indent=2)
@@ -200,7 +200,7 @@ def phase1_process_custom_site(site):
     try:
         scraped_items = scrape_custom(site['url'], site['config'])
         # get the first 50 items from scraped_items
-        scraped_items = scraped_items[:50]
+        scraped_items = scraped_items[:100]
         new_items = []
         for item in scraped_items:
             item['source'] = source_name
@@ -244,7 +244,7 @@ def phase2_process_temp_file(filename):
                 # Get the preview values and use those for title, description and image
                 if preview.get('title'):
                     item['title'] = preview['title']
-                if preview.get('description'):
+                if preview.get('description') and not preview.get('description').endswith('..'):
                     item['description'] = preview['description']
                 if preview.get('image'):
                     item['image'] = preview['image']
@@ -316,10 +316,4 @@ def main():
     print("Completed successfully!")
 
 if __name__ == "__main__":
-    # cleanup function to delete the images folder
-    if os.path.exists("images"):
-        for filename in os.listdir("images"):
-            file_path = os.path.join("images", filename)
-            if os.path.isfile(file_path):
-                os.unlink(file_path)
     main()
