@@ -169,10 +169,6 @@
             animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
 
-        .news-card:hover {
-            cursor: pointer;
-        }
-
         /* Responsive Grid Spans */
         .card-featured {
             grid-column: span 12;
@@ -223,12 +219,10 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: grayscale(100%) contrast(1.1) brightness(0.9);
             transition: filter 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .news-card:hover .news-image {
-            filter: grayscale(0%) contrast(1) brightness(1);
             transform: scale(1.05);
             /* Subtle zoom */
         }
@@ -478,6 +472,7 @@
 
         .marquee-content {
             display: inline-block;
+            padding-left: 100%;
             animation: marquee linear infinite;
         }
 
@@ -487,7 +482,7 @@
 
         @keyframes marquee {
             0% {
-                transform: translateX(19%);
+                transform: translateX(0%);
             }
 
             100% {
@@ -502,7 +497,13 @@
     <header class="masthead">
         <div class="masthead-meta">
             <span id="dateDisplay"></span>
-            <span id="google_translate_element"></span>
+            <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <select id="feedFilter" onchange="handleFilterChange(this.value)"
+                    style="padding: 5px 10px; font-family: var(--font-mono); font-size: 0.8rem; border: 1px solid var(--border-color); background: var(--bg-page); outline: none; cursor: pointer; max-width: 300px;">
+                    <option value="news.json">All Headlines (Top 250)</option>
+                </select>
+                <span id="google_translate_element"></span>
+            </div>
         </div>
         <h1>The Daily Tech</h1>
         <p>Curated signals from the noise of the digital age.</p>
@@ -554,113 +555,6 @@
                     icon.style.color = '';
                 }, 2000);
             }).catch(err => console.error('Failed to copy: ', err));
-        }
-
-        // Ensure voices are loaded asynchronously in advance for Chrome
-        if ('speechSynthesis' in window) {
-            window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
-        }
-
-        function speakText(event) {
-            event.preventDefault();
-            event.stopPropagation();
-
-            const card = event.target.closest('.news-card');
-            if (!card) return;
-
-            const title = card.querySelector('.news-title')?.textContent.trim() || '';
-            const description = card.querySelector('.news-desc')?.textContent.trim() || '';
-
-            if ('speechSynthesis' in window) {
-                // Stop any current standard speech
-                window.speechSynthesis.cancel();
-                // Stop any remote fallback speech
-                if (window.currentRemoteAudio) {
-                    window.currentRemoteAudio.pause();
-                    window.currentRemoteAudio = null;
-                }
-
-                // Use localStorage first (crucial for local file:// execution), then custom cookie, then Googtrans
-                let lang = document.documentElement.lang || 'en-US';
-                let savedLang = null;
-                try { savedLang = localStorage.getItem('custom_lang'); } catch (e) { }
-                console.log("Saved lang : ", savedLang)
-
-                const customMatch = document.cookie.match(/(^|;) ?custom_lang=([^;]*)(;|$)/);
-                if (savedLang) {
-                    lang = savedLang;
-                } else if (customMatch && customMatch[2]) {
-                    lang = customMatch[2];
-                } else {
-                    const match = document.cookie.match(/(^|;) ?googtrans=([^;]*)(;|$)/);
-                    if (match) {
-                        const parts = match[2].split('/');
-                        if (parts.length > 2) {
-                            lang = parts[2];
-                        }
-                    }
-                }
-                console.log("Speaking in lang:", lang);
-
-                // Helper to explicitly assign the nearest matching system voice
-                const configureUtterance = (utt) => {
-                    utt.lang = lang;
-                    const voices = window.speechSynthesis.getVoices();
-                    let matchedVoice = null;
-                    if (voices.length > 0) {
-                        const searchLang = lang.toLowerCase().replace('_', '-');
-
-                        // Specifically hunt for premium/news-reader voices for English
-                        if (searchLang.startsWith('en')) {
-                            const premiumNewsVoices = [
-                                'Google UK English Male',
-                                'Google US English',
-                                'Daniel',
-                                'Tom',
-                                'Ava',
-                                'Fiona'
-                            ];
-                            for (const preferred of premiumNewsVoices) {
-                                matchedVoice = voices.find(v => v.name.includes(preferred) && v.lang.toLowerCase().startsWith('en'));
-                                if (matchedVoice) break;
-                            }
-                        }
-
-                        // Standard matching for non-English or fallback
-                        if (!matchedVoice) {
-                            matchedVoice = voices.find(v => v.lang.toLowerCase() === searchLang);
-                        }
-                        if (!matchedVoice) {
-                            // Fallback to partial match (e.g., matching 'fr-FR' when looking for 'fr')
-                            matchedVoice = voices.find(v => v.lang.toLowerCase().startsWith(searchLang.split('-')[0]));
-                        }
-                        if (matchedVoice) {
-                            utt.voice = matchedVoice;
-                        }
-                    }
-                    utt.rate = 1.0; // Ensure utterance speed is set firmly to 'normal' (1.0)
-                    utt.pitch = 1.0;
-                    return matchedVoice;
-                };
-
-                // Standardize utterance delivery directly to the OS Speech Synthesis engine.
-                // Modern browsers seamlessly map missing phonetic engines organically.
-
-                let utterance = new SpeechSynthesisUtterance(title);
-                configureUtterance(utterance);
-                window.speechSynthesis.speak(utterance);
-
-                // Add a pause before speaking the description
-                utterance.onend = function (e) {
-                    let descUtterance = new SpeechSynthesisUtterance(description);
-                    configureUtterance(descUtterance);
-                    setTimeout(() => {
-                        window.speechSynthesis.speak(descUtterance);
-                    }, 1250);
-                };
-            } else {
-                alert("Text-to-speech is not supported in this browser.");
-            }
         }
 
         function downloadAsImage(event) {
@@ -765,115 +659,78 @@
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
 
-        const RSS_FEEDS = [
-            // General Tech & Startups
-            { url: 'https://techcrunch.com/feed/', category: 'TechCrunch' },
-            { url: 'https://news.ycombinator.com/rss', category: 'Hacker News' },
-            { url: 'https://arstechnica.com/feed/', category: 'Ars Technica' },
-            { url: 'https://www.theverge.com/tech/rss/index.xml', category: 'The Verge' },
-            { url: 'https://feeds.feedburner.com/TechCrunch/startups', category: 'Startups' },
+        // Fetch and render news
+        const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/daily-tech-news/main/';
+        let currentFeedUrl = BASE_RAW_URL + 'news.json';
 
-            // Frontend & Design
-            { url: 'https://css-tricks.com/feed/', category: 'Frontend' },
-            { url: 'https://www.smashingmagazine.com/feed/', category: 'Design' },
-            { url: 'https://frontendfoc.us/rss', category: 'UI/UX Focus' },
-            { url: 'https://dev.to/feed/tag/css', category: 'CSS Mastery' },
-            { url: 'https://dev.to/feed/tag/react', category: 'ReactJS' },
-
-            // Backend & Architecture
-            { url: 'https://dev.to/feed/tag/backend', category: 'Backend' },
-            { url: 'https://javascriptweekly.com/rss/25xldlji', category: 'JavaScript' },
-            { url: 'https://dev.to/feed/tag/python', category: 'Python' },
-            { url: 'https://dev.to/feed/tag/go', category: 'Golang' },
-            { url: 'https://dev.to/feed/tag/rust', category: 'Rust' },
-
-            // Cloud & Databases
-            { url: 'https://aws.amazon.com/blogs/aws/feed/', category: 'AWS Cloud' },
-            { url: 'https://azure.microsoft.com/en-us/blog/feed/', category: 'Azure' },
-            { url: 'https://dev.to/feed/tag/database', category: 'Database' },
-            { url: 'https://www.mongodb.com/blog/rss', category: 'MongoDB' },
-            { url: 'https://planet.postgresql.org/rss20.xml', category: 'Postgres' },
-
-            // AI & Machine Learning
-            { url: 'https://bair.berkeley.edu/blog/feed.xml', category: 'Berkeley AI' },
-            { url: 'https://towardsdatascience.com/feed', category: 'Data Science' },
-            { url: 'https://machinelearningmastery.com/blog/feed/', category: 'Machine Learning' },
-            { url: 'https://dev.to/feed/tag/ai', category: 'AI Trends' },
-
-            // Cybersecurity & Testing
-            { url: 'https://thehackernews.com/feeds/posts/default', category: 'Cybersecurity' },
-            { url: 'https://krebsonsecurity.com/feed/', category: 'Security' },
-            { url: 'https://www.darkreading.com/rss.xml', category: 'Dark Reading' },
-            { url: 'https://dev.to/feed/tag/testing', category: 'QA Testing' },
-
-            // Engineering Blogs & Open Source
-            { url: 'https://github.blog/feed/', category: 'GitHub' },
-            { url: 'https://netflixtechblog.com/feed', category: 'Netflix Eng' },
-            { url: 'https://engineering.fb.com/feed/', category: 'Meta Eng' },
-            { url: 'https://changelog.com/master/feed', category: 'Open Source' },
-            { url: 'https://dev.to/feed/tag/opensource', category: 'OSS Community' },
-            
-            // Metaverse & Web3
-            { url: 'https://dev.to/feed/tag/metaverse', category: 'Metaverse' },
-            { url: 'https://dev.to/feed/tag/web3', category: 'Web3' }
-        ];
-
-        async function fetchNews() {
+        async function fetchFeedsList() {
             try {
-                const container = document.getElementById('news-feed');
-                container.innerHTML = '<div class="loading-text">Synchronizing Global RSS Feeds...</div>';
+                const response = await fetch(BASE_RAW_URL + 'feeds.json');
+                const feeds = await response.json();
 
-                const fetchPromises = RSS_FEEDS.map(async (feed) => {
-                    try {
-                        const rs = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
-                        if (!rs.ok) return [];
-                        const json = await rs.json();
-                        if (json.status !== 'ok') return [];
-                        
-                        return json.items.slice(0, 3).map(item => { // top 3 from each category
-                            // Universal Image Extractor
-                            let img = item.thumbnail || (item.enclosure && item.enclosure.link);
-                            if (!img) {
-                                const imgMatch = item.description.match(/<img[^>]+src="([^">]+)"/);
-                                if (imgMatch) img = imgMatch[1];
-                            }
-                            if (!img) {
-                                // Default tech placeholder
-                                img = 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80';
-                            }
-                            
-                            // Safe HTML stripper
-                            let desc = item.description.replace(/<[^>]*>?/gm, '').trim();
-                            // Decode basic HTML entities to pure text to prevent &lt; bugs etc
-                            const txt = document.createElement("textarea");
-                            txt.innerHTML = desc;
-                            desc = txt.value.substring(0, 180) + '...';
+                const select = document.getElementById('feedFilter');
 
-                            return {
-                                title: `[${feed.category}] ${item.title}`,
-                                description: desc,
-                                link: item.link,
-                                pubDate: new Date(item.pubDate.replace(/-/g, '/')), // Safely parse Safari dates
-                                image: img
-                            };
-                        });
-                    } catch (err) {
-                        return [];
-                    }
+                // Add AssemblyAI as it's custom scraped
+                if (!feeds.some(f => f.feedname === 'AssemblyAI')) {
+                    feeds.push({ feedname: 'AssemblyAI', category: 'AI' });
+                }
+
+                const categories = {};
+                feeds.forEach(feed => {
+                    const cat = feed.category || 'General';
+                    if (!categories[cat]) categories[cat] = [];
+                    categories[cat].push(feed);
                 });
 
-                let data = (await Promise.all(fetchPromises)).flat();
-                
-                // Sort chronologically by newest available dispatches
-                data = data.sort((a,b) => b.pubDate - a.pubDate);
-                
-                if (data.length === 0) throw new Error("No RSS data harvested");
+                for (const [category, items] of Object.entries(categories).sort()) {
+                    const optgroup = document.createElement('optgroup');
+                    optgroup.label = `--- ${category} ---`;
 
+                    items.sort((a, b) => a.feedname.localeCompare(b.feedname)).forEach(item => {
+                        // Python slugify logic replica
+                        let slug = item.feedname.toLowerCase()
+                            .replace(/[^\w\s-]/g, '')
+                            .replace(/[-\s]+/g, '-')
+                            .replace(/^-+|-+$/g, '');
+
+                        // Prevent duplicates
+                        if (!Array.from(select.options).some(opt => opt.value === `feeds/${slug}.json`)) {
+                            const option = document.createElement('option');
+                            option.value = `feeds/${slug}.json`;
+                            option.textContent = item.feedname;
+                            optgroup.appendChild(option);
+                        }
+                    });
+                    select.appendChild(optgroup);
+                }
+            } catch (err) {
+                console.error("Failed to load feed list", err);
+            }
+        }
+
+        function handleFilterChange(value) {
+            document.getElementById('news-feed').innerHTML = '<div class="loading-text">Fetching dispatches...</div>';
+            document.getElementById('marqueeText').textContent = '';
+
+            if (value === 'news.json') {
+                currentFeedUrl = BASE_RAW_URL + 'news.json';
+            } else {
+                currentFeedUrl = BASE_RAW_URL + value; // e.g. feeds/assemblyai.json
+            }
+            fetchNews(currentFeedUrl);
+        }
+
+        async function fetchNews(url = currentFeedUrl) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+
+                const container = document.getElementById('news-feed');
                 container.innerHTML = '';
-                const marqueeText = document.getElementById('marqueeText');
-                marqueeText.textContent = ''; // clear initial
 
                 data.forEach((item, index) => {
+                    // Determine grid class based on index to create masonry/editorial layout
                     let cardClass = 'card-regular';
 
                     if (index === 0) {
@@ -882,55 +739,69 @@
                         cardClass = 'card-wide';
                     }
 
+                    // add title to marquee text
+                    const marqueeText = document.getElementById('marqueeText');
                     if (index < data.length - 1) {
-                        marqueeText.textContent += item.title + '  ///  ';
+                        marqueeText.textContent += item.title + ' | ';
                     } else {
                         marqueeText.textContent += item.title;
                     }
 
+                    // Stagger animation timing
                     const animDelay = (index % 10) * 0.1;
+
+                    // Calculate reading time based on description length (assuming 200 words/min)
                     const wordCount = item.description ? item.description.split(/\s+/).length : 0;
                     const readTime = Math.max(1, Math.ceil(wordCount / 200));
+                    const image_url = item.image.startsWith("https") ? item.image : BASE_RAW_URL + item.image;
+
+                    const pubDate = new Date(item.datetimestamp || item.published);
+                    const formattedDate = isNaN(pubDate) ? "" : pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 
                     const cardHTML = `
-                        <a href="${item.link}" target="_blank" class="news-card ${cardClass}" style="animation-delay: ${animDelay}s">
+                        <div class="news-card ${cardClass}" style="animation-delay: ${animDelay}s">
                             ${item.image ? `
                                 <div class="news-image-wrapper">
-                                    <img src="${item.image}" class="news-image" alt="Article image" loading="lazy">
+                                    <img src="${image_url}" class="news-image" alt="Article image" loading="lazy">
                                 </div>
-                            ` : `<div class="news-image-wrapper" style="background:#222;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-mono)"><i class="fas fa-satellite-dish fa-2x"></i></div>`}
+                            ` : `<div class="news-image-wrapper" style="background:#222;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-mono)"><i class="fas fa-newspaper fa-2x"></i></div>`}
                             <div class="news-content">
+                                <div class="news-meta" style="margin-bottom: 6px;">
+                                    <span style="color: var(--accent); padding-right: 8px;">${item.category || 'Tech'}</span>
+                                    <span style="color: var(--text-muted);">${formattedDate}</span>
+                                </div>
                                 <div class="news-meta">
-                                    <span class="action-icons" style="font-size: 1.1rem;">
+                                    <span class="action-icons" style="font-size: 1.1rem; color: var(--text-muted);">
                                         <i class="fas fa-copy" title="Copy to clipboard" style="margin-right: 10px; cursor: pointer;" onclick="copyToClipboard(event)"></i>
-                                        <i class="fas fa-volume-up" title="Text to Speech" style="cursor: pointer;" onclick="speakText(event)"></i>
                                         <i class="fas fa-download" title="Download as image" id="${index}" style="cursor: pointer;" onclick="downloadAsImage(event)"></i>
                                     </span>
-                                    <span>${readTime} MIN READ</span>
+                                    <span style="color: var(--text-muted);">${readTime} MIN READ</span>
                                 </div>
                                 <h2 class="news-title">
-                                    <span class="title-hover-effect">${item.title}</span>
+                                    <a href="${item.link}" style="text-decoration: none; color: inherit;" target="_blank" rel="noopener noreferrer">
+                                        <span class="title-hover-effect">${item.title}</span>
+                                    </a>
                                 </h2>
                                 <p class="news-desc">${item.description}</p>
                             </div>
-                        </a>
+                        </div>
                     `;
                     container.innerHTML += cardHTML;
                 });
-                // marquee scrolling time calculation
-                const marquee = document.querySelector('.marquee');
+                // marquee scrolling time calculation for perfect responsive speed
                 const marqueeContent = document.querySelector('.marquee-content');
-                const marqueeWidth = marquee.offsetWidth;
-                const marqueeSpeed = 8; // Adjust speed for longer RSS titles
-                const marqueeTime = marqueeWidth / marqueeSpeed;
+                const totalScrollWidth = marqueeContent.scrollWidth; // Total width to scroll including padding
+                const pixelsPerSecond = 50; // Constant readable speed
+                const marqueeTime = totalScrollWidth / pixelsPerSecond;
                 marqueeContent.style.animationDuration = marqueeTime + 's';
             } catch (error) {
-                console.error('Error fetching RSS network:', error);
-                document.getElementById('news-feed').innerHTML = '<div class="loading-text" style="color:var(--accent);">Global RSS Synchronization Failed. Please verify uplinks.</div>';
+                console.error('Error fetching news:', error);
+                document.getElementById('news-feed').innerHTML = '<div class="loading-text" style="color:var(--accent);">Error connecting to the printing press. Please try again.</div>';
             }
         }
 
         // Initialize
+        fetchFeedsList();
         fetchNews();
     </script>
 

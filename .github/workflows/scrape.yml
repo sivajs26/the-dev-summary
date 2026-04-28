@@ -10,6 +10,7 @@ on:
 
 jobs:
   scrape:
+    if: github.event_name == 'schedule' || contains(github.event.head_commit.modified, 'scraper.py')
     runs-on: ubuntu-latest
     permissions:
       contents: write
