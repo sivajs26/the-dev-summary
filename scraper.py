@@ -167,9 +167,10 @@ def phase1_fetch_feed(feed):
         
         # Save temp file with newly fetched items ONLY
         if new_fetched_items:
+            new_fetched_items = new_fetched_items[:50]
             temp_path = f"{TEMP_DIR}/{slugify(feed_name)}.json"
             with open(temp_path, 'w', encoding='utf-8') as f:
-                json.dump(new_fetched_items[:50], f, indent=2)
+                json.dump(new_fetched_items, f, indent=2)
             print(f"Phase 1 - Saved {len(new_fetched_items)} new temp items to {feed_name}")
             
     except Exception as e: 
