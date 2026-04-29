@@ -1,5 +1,122 @@
 [
   {
+    "title": "Bugs Rust Won't Catch | corrode Rust Consulting",
+    "link": "https://corrode.dev/blog/bugs-rust-wont-catch/",
+    "description": "In April 2026, Canonical disclosed 44 CVEs in uutils, the Rust reimplementation of GNU coreutil\u2026",
+    "image": "https://corrode.dev/blog/bugs-rust-wont-catch/social.png",
+    "datetimestamp": "2026-04-29T02:19:11",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "We Upgraded to a Frontier Model and Our Costs Went Down | Mendral",
+    "link": "https://www.mendral.com/blog/frontier-model-lower-costs",
+    "description": "We switched to a frontier model and our costs went down. Here's the architecture that made it possible.",
+    "image": "https://mendral.com/og?title=We%20Upgraded%20to%20a%20Frontier%20Model%20and%20Our%20Costs%20Went%20Down",
+    "datetimestamp": "2026-04-29T00:57:12",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "[Bug] Regression: malware reminder on every Read still causes subagent refusals in v2.1.111 (fix from #47027 / v2.1.92 did not hold) \u00b7 Issue #49363 \u00b7 anthropics/claude-code \u00b7 GitHub",
+    "link": "https://github.com/anthropics/claude-code/issues/49363",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47942492\">Comments</a>",
+    "image": "https://opengraph.githubassets.com/1064771c48ee8924f01657569f38b44040f2a114639cd110cdf58bf25a4cd0db/anthropics/claude-code/issues/49363",
+    "datetimestamp": "2026-04-28T23:59:57",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "How ChatGPT serves ads. Here's the full attribution loop.",
+    "link": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+    "description": "OpenAI's ad platform has two halves. On the ChatGPT side, the backend injects structured single_advertiser_ad_unit objects into the conversation SSE stream while the model is responding. On the merchant side, a tracking SDK called OAIQ runs in the visitor's browser and reports product views back to OpenAI.",
+    "image": "",
+    "datetimestamp": "2026-04-28T23:54:14",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Claude for Creative Work \\ Anthropic",
+    "link": "https://www.anthropic.com/news/claude-for-creative-work",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeArrow&backgroundColor=cactus",
+    "datetimestamp": "2026-04-28T23:46:56",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47942353\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-28T23:43:53",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Before GitHub | Armin Ronacher's Thoughts and Writings",
+    "link": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+    "description": "Open Source before GitHub was reputation-driven and full of friction",
+    "image": "https://lucumr.pocoo.org/social/2026-04-28-before-github-social.png",
+    "datetimestamp": "2026-04-28T21:17:40",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "How I Won a Championship That Doesn\u2019t Exist | Ron Stoner",
+    "link": "https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/",
+    "description": "Poisoning the LLM knowledge supply chain with a fake Wikipedia edit and a single domain registration",
+    "image": "https://ron.stoner.com/images/6nimmt/poison.jpg",
+    "datetimestamp": "2026-04-28T20:38:21",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Ghostty Is Leaving GitHub \u2013 Mitchell Hashimoto",
+    "link": "https://mitchellh.com/writing/ghostty-leaving-github",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47939579\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-28T19:44:52",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents \u2013 Stratechery by Ben Thompson",
+    "link": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+    "description": "An interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman about their new partnership, plus my thoughts on OpenAI and Microsoft\u2019s new deal.",
+    "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+    "datetimestamp": "2026-04-28T19:24:43",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "CJIT",
+    "link": "https://dyne.org/cjit/",
+    "description": "C, Just in Time!",
+    "image": "",
+    "datetimestamp": "2026-04-28T19:10:14",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "DOOM runs in ChatGPT and Claude / Blog / Chris Nager",
+    "link": "https://chrisnager.com/blog/doom-runs-in-chatgpt-and-claude/",
+    "description": "How I built a playable DOOM MCP app that runs inline in compatible AI clients and falls back to a browser launch URL.",
+    "image": "https://chrisnager.com/chris-nager-card.png",
+    "datetimestamp": "2026-04-28T19:08:47",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "auto-arch-tournament/docs/auto-arch-tournament-blog-post.md at main \u00b7 FeSens/auto-arch-tournament \u00b7 GitHub",
+    "link": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+    "description": "Contribute to FeSens/auto-arch-tournament development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/20a5127c0e3044b5af770797edb35735d52ef3628b927ac30ce6411a62494a20/FeSens/auto-arch-tournament",
+    "datetimestamp": "2026-04-28T17:12:30",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
     "title": "Full Stack Engineer (Americas) @ Infisical",
     "link": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
     "description": "Infisical https://infisical.com/ is looking to hire exceptional talent to join our teams in building the open source security infrastructure stack for the AI era.\n\nWe're building a generational company with a world-class team. This isn\u2019t a place to coast \u2014 but if you want to grow fast, take ownership, and solve tough problems, you\u2019ll be challenged like nowhere else.\n\nWhat We\u2019re Looking For\n\nWe\u2019re looking for an exceptional Full Stack Engineer to help us build, optimize, and expand the foundation of the platform.\n\nWe\u2019ve kept our hiring standards exceptionally high since we expect engineers to tackle a broad range of challenges on a day-to-day basis. Examples of past engineering initiatives include developing strategies for secret rotation and dynamic secrets, a gateway to provide secure access to private resources, protocols like EST https://infisical.com/docs/documentation/platform/pki/est and KMIP https://infisical.com/docs/documentation/platform/kms/kmip#kmip-integration, integrations for syncing secrets across cloud providers, and entire new product lines such as Infisical PKI and Infisical SSH.\n\nYou\u2019ll be working closely with our CTO and the rest of the engineering team to:\n\n - Develop and maintain features whilst communicating directly with enterprise customers.\n\n - Expand our newer Infisical PKI https://infisical.com/docs/documentation/platform/pki/overview, Infisical SSH https://infisical.com/docs/documentation/platform/ssh, and Infisical KMS https://infisical.com/docs/documentation/platform/kms/overview product lines.\n\n - Experiment with novel approaches for applying AI to secrets management and more broadly security infrastructure.\n\nRequirements\n\n - Deep technical mastery of the JavaScript ecosystem, particularly React.js, Node.js, and TypeScript.\n\n - Exceptional attention to detail and eager to learn.\n\n - A bias toward action\u2014able to make decisions with incomplete information, iterate quickly, and take calculated risks.\n\n - Based in the Americas (US, Canada, or LATAM) \u2014 See the SF listing https://jobs.ashbyhq.com/infisical/71237975-dd45-4ee1-8e3f-3372c2b17b3f if based in or willing to relocate to San Francisco to work on site.\n\nBonus\n\n - Expertise in Go.\n\n - Has some understanding of devops/developer tools.\n\n - Previous founder or startup experience.\n\n - Previous experience building in open source or developer tools in either a professional or personal setting.\n\n - Excellent written and oral communication skills to interact with customers directly.\n\nHow You\u2019ll Grow\n\nIn this role, you\u2019ll play a pivotal part in shaping Infisical\u2019s future\u2014making key technical decisions, establishing foundational processes, and tackling complex scalability challenges. As you gain experience and the team expands, you'll have the opportunity to take full ownership of specific areas of our platform, driving them end-to-end with autonomy and impact.\n\nOverall, you\u2019ll be one of the defining pieces of our team as we scale to thousands of customers over the next 18 months.\n\nTeam, Values & Benefits\n\nOur team brings experience from companies like Figma, AWS, and Red Hat. We operate primarily as a remote team but maintain a strong presence in San Francisco, where we have an office. We also get together in person throughout the year for off-sites, conferences, and team gatherings.\n\nAt Infisical, we offer competitive compensation, including both salary and equity options. Additional benefits, such as a lunch stipend and a work setup budget, are available with more details to be found on our careers page https://infisical.com/careers.\n\nAbout Us\n\nInfisical is the open source security infrastructure platform that engineers use for secrets, certificates, and privileged access management. We help developers and organizations securely manage over 1.5 billion secrets each month including application configuration, database credentials, certificates, and more.\n\nWe\u2019ve raised $19M from Y Combinator, Google, and Elad Gil, and our customers include Hugging Face, Lucid, and LG.\n\nJoin us on a mission to make security easier for all developers \u2014 starting with secrets management.",

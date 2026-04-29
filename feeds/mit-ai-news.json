@@ -1,5 +1,14 @@
 [
   {
+    "title": "Enabling privacy-preserving AI training on everyday devices | MIT News | Massachusetts Institute of Technology",
+    "link": "https://news.mit.edu/2026/enabling-privacy-preserving-ai-training-everyday-devices-0429",
+    "description": "MIT researchers developed a technique that accelerates a privacy-preserving approach for training AI models on edge devices. Their new framework could enable more accurate, efficient, and secure AI models to be used in under-resourced settings.  ",
+    "image": "https://news.mit.edu/sites/default/files/images/202604/MIT-Federated-Constrained-01-press.jpg",
+    "datetimestamp": "2026-04-29T04:00:00",
+    "source": "Mit Ai News",
+    "category": "AI"
+  },
+  {
     "title": "A faster way to estimate AI power consumption | MIT News | Massachusetts Institute of Technology",
     "link": "https://news.mit.edu/2026/faster-way-to-estimate-ai-power-consumption-0427",
     "description": "The EnergAIzer technique can predict how much power a certain AI workload will consume when run on a particular processor. This method could help data center operators and algorithm developers improve the sustainability of AI workloads.",

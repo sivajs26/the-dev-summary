@@ -1,5 +1,14 @@
 [
   {
+    "title": "How Slack Manages Context in Long-running Multi-agent Systems - InfoQ",
+    "link": "https://www.infoq.com/news/2026/04/slack-agent-context-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design-news",
+    "description": "To sustain productivity in long-running agent systems, Slack engineers moved away from accumulating chat logs and started using structured memory, validation, and distilled truth to maintain coherence and accuracy of long-running agent systems.",
+    "image": "https://res.infoq.com/news/2026/04/slack-agent-context-management/en/headerimage/slack-context-management-agents-1777407896875.jpeg",
+    "datetimestamp": "2026-04-28T21:00:00",
+    "source": "InfoQ Architecture",
+    "category": "System Design"
+  },
+  {
     "title": "Java News Roundup: OpenJDK, Oracle Critical Patches, Open Liberty, Testcontainers, IntelliJ IDEA - InfoQ",
     "link": "https://www.infoq.com/news/2026/04/java-news-roundup-apr20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design-news",
     "description": "This week's Java roundup for April 20th, 2026, features news highlighting: updates on OpenJDK JEPs; JDK 27 release schedule finalized; the Oracle Critical Patch Updates for April 2026 and corresponding patch updates from BellSoft and Azul; the April 2026 edition of Open Liberty; and maintenance releases of Testcontainers, Multik and IntelliJ IDEA.",

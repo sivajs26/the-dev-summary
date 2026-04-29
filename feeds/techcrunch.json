@@ -1,5 +1,68 @@
 [
   {
+    "title": "How one venture firm is investing in an increasingly fragmented world | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/how-one-venture-firm-is-navigating-an-increasingly-fragmented-world/",
+    "description": "Geopolitical turmoil has made venture investing challenging, leading Kompas VC to carve out a niche in startups focused on the physical world.",
+    "image": "https://techcrunch.com/wp-content/uploads/2021/11/GettyImages-1176441713.jpeg?resize=1200,800",
+    "datetimestamp": "2026-04-29T03:00:00",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "At his OpenAI trial, Musk relitigates an old friendship | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+    "description": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+    "image": "https://techcrunch.com/wp-content/uploads/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?resize=1200,675",
+    "datetimestamp": "2026-04-29T00:40:16",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Amazon is already offering new OpenAI products on AWS | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "description": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Data-center-ChatGPT.png?resize=1200,600",
+    "datetimestamp": "2026-04-28T19:48:02",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Amazon launches an AI-powered audio Q&A experience on product pages | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+    "description": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Amazon-Jointhe-chat-AI.jpeg?resize=1200,675",
+    "datetimestamp": "2026-04-28T18:49:54",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Match Group invests $100M in Sniffies, a cruising app for gay men | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/match-group-invests-100-million-in-sniffies-a-cruising-app-for-gay-men/",
+    "description": "The app is Match Group's newest attempt to get mobile users excited about online romance again.",
+    "image": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1241790742.jpeg?w=1024",
+    "datetimestamp": "2026-04-28T18:16:54",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Google expands Pentagon's access to its AI after Anthropic's refusal | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+    "description": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department.",
+    "image": "https://techcrunch.com/wp-content/uploads/2018/12/GettyImages-1080946342.jpeg?resize=1200,800",
+    "datetimestamp": "2026-04-28T18:15:00",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Paragon is not collaborating with Italian authorities probing spyware attacks, report says | TechCrunch",
+    "link": "https://techcrunch.com/2026/04/28/paragon-is-not-collaborating-with-italian-authorities-probing-spyware-attacks-report-says/",
+    "description": "Despite promising to help determine what happened with the hacks targeting journalists and activists in Italy, Israeli American spyware maker Paragon has reportedly not responded to authorities\u2019 requests for information.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/italy-phone-flag.jpg?resize=1200,800",
+    "datetimestamp": "2026-04-28T17:46:47",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
     "title": "US Supreme Court appears split over controversial use of 'geofence' search warrants | TechCrunch",
     "link": "https://techcrunch.com/2026/04/28/scotus-chatrie-geofence-search-warrant-ruling-arguments/",
     "description": "The U.S. top court is expected to rule on whether to allow police to identify criminal suspects by dragnet searching the databases of tech giants.",

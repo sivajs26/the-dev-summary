@@ -1,5 +1,14 @@
 [
   {
+    "title": "Terminal themes assume you're scanning code. Most reading isn't. - DEV Community",
+    "link": "https://dev.to/palo_alto_ai/terminal-themes-assume-youre-scanning-code-most-reading-isnt-512f",
+    "description": "<p>Most of my screen time in a Claude Code session is reading reasoning traces, tool output, permission prompts \u2014 English paragraphs, not syntax trees. Every terminal theme I tried was tuned for the wrong thing: short identifiers at a glance, not sustained prose at body size for three-hour sessions.</p>\n\n<p>So I built klein-blue: four Terminal.app themes anchored to Yves Klein's IKB pigment, with contrast targets set for prose legibility, not syntax scanning.</p>\n\n<p>The contrast model is APCA Lc rather than WCAG ratio. WCAG treats all text sizes the same; APCA doesn't. For body-size prose at typical terminal font sizes, the gates I set are: body &gt;= 90 Lc, subtle &gt;= 75, muted &gt;= 45, accent &gt;= 60. The strictest variation, Klein Void Prot, is the only one where every single accent slot clears those gates.</p>\n\n<p>The IKB color itself fails as readable text on a dark ground \u2014 it scores Lc -12, effectively invisible. The fix was splitting it across two ANSI slots: pure IKB in ansi:blue for decorative borders and highlights, and a lifted Klein-family blue (Lc -78) in ansi:blueBright for permission-prompt text that actually needs to be read quickly.</p>\n\n<p>The four variations diverge on one axis: what happens to ansi:redBright, the slot Claude Code uses for its claude-sand brand color. Klein Void Sand &amp; Sea treats it as a second hero alongside IKB. Klein Void Gallery neutralizes it entirely \u2014 one blue, maximum void.</p>\n\n<p>One setup detail worth flagging: Claude Code has to be set to dark-ansi via <code>/theme</code> or it ignores the Terminal.app ANSI palette entirely and falls back to its hardcoded RGB values.</p>\n\n<p>Ships as .terminal profile files for macOS Terminal.app, with full rollback via restore.sh.</p>\n\n<p><a href=\"https://github.com/robertnowell/klein-blue\" rel=\"noopener noreferrer\">https://github.com/robertnowell/klein-blue</a></p>",
+    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fef6i8m8gv3dnxfm4man9.png",
+    "datetimestamp": "2026-04-28T19:22:46",
+    "source": "Devto Ux",
+    "category": "Design & UX"
+  },
+  {
     "title": "Coercion-Resistant UX: Designing Interfaces That Don't Pressure Users Under Stress - DEV Community",
     "link": "https://dev.to/crisiscoresystems/coercion-resistant-ux-designing-interfaces-that-dont-pressure-users-under-stress-18m9",
     "description": "Interfaces are part of the pressure around the user. Coercion-resistant UX keeps defaults honest, recovery possible, and urgency truthful when people are under strain.",

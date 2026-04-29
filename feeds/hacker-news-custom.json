@@ -1,5 +1,95 @@
 [
   {
+    "title": "We Upgraded to a Frontier Model and Our Costs Went Down | Mendral",
+    "link": "https://www.mendral.com/blog/frontier-model-lower-costs",
+    "description": "We switched to a frontier model and our costs went down. Here's the architecture that made it possible.",
+    "image": "https://mendral.com/og?title=We%20Upgraded%20to%20a%20Frontier%20Model%20and%20Our%20Costs%20Went%20Down",
+    "datetimestamp": "2026-04-29T00:57:12",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Claude for Creative Work \\ Anthropic",
+    "link": "https://www.anthropic.com/news/claude-for-creative-work",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeArrow&backgroundColor=cactus",
+    "datetimestamp": "2026-04-28T23:46:56",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller By Getting Rid Of Electron - Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
+    "description": "<p>Article URL: <a href=\"https://www.phoronix.com/news/AMD-Lemonade-10.3\">https://www.phoronix.com/news/AMD-Lemonade-10.3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47940723\">https://news.ycombinator.com/item?id=47940723</a></p>\n<p>Points: 28</p>\n<p># Comments: 5</p>",
+    "image": "https://www.phoronix.net/image.php?id=2026&image=lemonade_103",
+    "datetimestamp": "2026-04-28T21:02:57",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Bloomberg - Are you a robot?",
+    "link": "https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals",
+    "description": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals\">https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47940086\">https://news.ycombinator.com/item?id=47940086</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T20:17:26",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents \u2013 Stratechery by Ben Thompson",
+    "link": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+    "description": "An interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman about their new partnership, plus my thoughts on OpenAI and Microsoft\u2019s new deal.",
+    "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+    "datetimestamp": "2026-04-28T19:24:43",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Bankruptcies Increase 11.9 Percent",
+    "link": "https://www.uscourts.gov/data-news/judiciary-news/2026/04/23/bankruptcies-increase-119-percent",
+    "description": "Bankruptcy filings increased 11.9 percent during the 12-month period ending March 31, 2026.",
+    "image": "",
+    "datetimestamp": "2026-04-28T18:47:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Just a moment...",
+    "link": "https://saturnino.substack.com/p/jobs-was-right-gates-was-wrong",
+    "description": "<p>Article URL: <a href=\"https://saturnino.substack.com/p/jobs-was-right-gates-was-wrong\">https://saturnino.substack.com/p/jobs-was-right-gates-was-wrong</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47938646\">https://news.ycombinator.com/item?id=47938646</a></p>\n<p>Points: 17</p>\n<p># Comments: 5</p>",
+    "image": "",
+    "datetimestamp": "2026-04-28T18:41:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "A good AGENTS.md is a model upgrade. A bad one is worse than no docs at all. | Augment Code",
+    "link": "https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files",
+    "description": "The most powerful AI software development platform with the industry-leading context engine.",
+    "image": "https://cdn.sanity.io/images/oraw2u2c/production/ec6322df1a2861100ef5aa99f5013ce3ecff20ca-1920x1280.png?w=1200&h=630&fit=crop&auto=format",
+    "datetimestamp": "2026-04-28T18:26:53",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Claude Status - Claude.ai unavailable and elevated errors on the API",
+    "link": "https://status.claude.com/incidents/9l93x2ht4s5w",
+    "description": "Claude's Status Page - Claude.ai unavailable and elevated errors on the API.",
+    "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+    "datetimestamp": "2026-04-28T18:01:21",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "OpenAI frontier models on Amazon Bedrock",
+    "link": "https://aws.amazon.com/bedrock/openai/",
+    "description": "Access open weight models from OpenAI",
+    "image": "",
+    "datetimestamp": "2026-04-28T17:38:07",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "AI's Economics Don't Make Sense",
     "link": "https://www.wheresyoured.at/ais-economics-dont-make-sense/",
     "description": "If you liked this piece, please subscribe to my premium newsletter. It\u2019s $70 a year, or $7 a month, and in return you get a weekly newsletter that\u2019s usually anywhere from 5,000 to 18,000 words, including vast, detailed analyses of NVIDIA, Anthropic and OpenAI\u2019s finances,",

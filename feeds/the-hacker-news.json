@@ -1,5 +1,23 @@
 [
   {
+    "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+    "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+    "description": "CVE-2026-3854 (CVSS 8.7) enabled GitHub RCE via git push, risking cross-tenant access to millions of repositories.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztlzahKA2HwUQiNDerhbX2l415JinNIW5jaU5tgskPVHqpMhba_NorYL9SSWRzLdSPjSnsxZKQic97f8H2Bx2G0Dsjb58dcdFuZoL0c5Gno3BVvYa4vi62_PNr1Qh-kBYED7YbTPw3fqQklMmnoPV0b1KYaienKHzIAtBuktMqyVCxGU0u8Hkd-zzYeNU/s1600/github.jpg",
+    "datetimestamp": "2026-04-28T18:19:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+    "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+    "description": "LofyGang resurfaces with LofyStealer disguised as Minecraft hack, exfiltrating IBANs and passwords to 24.152.36[.]241, escalating gaming threats.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQf8Wzg1Ms0KVsO546uQuwlR3w_8qW1MQZExs5TgKCGHSNNS1UEnOITq-_y8HIrA_3n_gfq7Hm0IMb-XSRJSsGL1ncRPlPoyDX7cf_wFbEGAJCPkv6ZDBzjN1Nswe9-CMR3Tmn1F5KuVyWGdOkGEIbeI9R7zGKplJPofRFBx-Ru20JOGfAFEpiZOAlDBXh/s1600/hackers.jpg",
+    "datetimestamp": "2026-04-28T17:39:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
     "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
     "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
     "description": "VECT 2.0 destroys files over 131KB due to nonce flaw, launched December 2025, making ransom payments useless.",

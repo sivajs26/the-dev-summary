@@ -1,5 +1,23 @@
 [
   {
+    "title": "How Slack Manages Context in Long-running Multi-agent Systems - InfoQ",
+    "link": "https://www.infoq.com/news/2026/04/slack-agent-context-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "To sustain productivity in long-running agent systems, Slack engineers moved away from accumulating chat logs and started using structured memory, validation, and distilled truth to maintain coherence and accuracy of long-running agent systems.",
+    "image": "https://res.infoq.com/news/2026/04/slack-agent-context-management/en/headerimage/slack-context-management-agents-1777407896875.jpeg",
+    "datetimestamp": "2026-04-28T21:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle - InfoQ",
+    "link": "https://www.infoq.com/news/2026/04/agents-cli-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Google Cloud has introduced Agents CLI within its Agent Platform, aiming to streamline the development lifecycle of AI agents from local prototyping to production deployment. The release targets a common challenge in agent development, where tooling and infrastructure are often fragmented across multiple services and environments.",
+    "image": "https://res.infoq.com/news/2026/04/agents-cli-google-cloud/en/headerimage/generatedHeaderImage-1777398240597.jpg",
+    "datetimestamp": "2026-04-28T17:55:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
     "title": "GitHub Uses eBPF to Eliminate Deployment Risks and Prevent Circular Failures - InfoQ",
     "link": "https://www.infoq.com/news/2026/04/github-ebpf-deployment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "description": "GitHub has introduced a new approach to improving deployment safety by leveraging eBPF, enabling the company to detect and prevent hidden circular dependencies that could block recovery during outages.",

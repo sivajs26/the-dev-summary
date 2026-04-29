@@ -1,5 +1,41 @@
 [
   {
+    "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
+    "description": "Discover more about what's new at AWS with AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
+    "image": "",
+    "datetimestamp": "2026-04-28T18:44:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Cost Optimization Hub now supports CSV download - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
+    "description": "Discover more about what's new at AWS with AWS Cost Optimization Hub now supports CSV download",
+    "image": "",
+    "datetimestamp": "2026-04-28T17:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
+    "description": "Discover more about what's new at AWS with Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
+    "image": "",
+    "datetimestamp": "2026-04-28T16:51:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EC2 C8gn instances are now available in additional regions - AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
+    "description": "Discover more about what's new at AWS with Amazon EC2 C8gn instances are now available in additional regions",
+    "image": "",
+    "datetimestamp": "2026-04-28T16:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
     "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview) - AWS",
     "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
     "description": "Discover more about what's new at AWS with Amazon Connect Talent for AI-powered hiring (now available in Preview)",

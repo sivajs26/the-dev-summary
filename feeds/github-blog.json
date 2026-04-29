@@ -1,5 +1,14 @@
 [
   {
+    "title": "GitHub for Beginners: Getting started with Markdown - The GitHub Blog",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/",
+    "description": "Discover how to format and edit your comments and posts using Markdown.",
+    "image": "https://github.blog/wp-content/uploads/2026/04/GIT879_THUMB_GFB_B-1.png?fit=1280%2C720",
+    "datetimestamp": "2026-04-28T18:00:00",
+    "source": "GitHub Blog",
+    "category": "GitHub Projects"
+  },
+  {
     "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability - The GitHub Blog",
     "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
     "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation.",

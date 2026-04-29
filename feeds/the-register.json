@@ -1,5 +1,77 @@
 [
   {
+    "title": "Future holiday horror: \u2018A robot lost my luggage in Tokyo\u2019 \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/japan_airport_robot_trial/",
+    "description": ": Haneda airport will start testing humanoid robots, because everything that gets a plane flying was designed for our species",
+    "image": "https://regmedia.co.uk/2023/11/16/shutterstock_japanairlines.jpg",
+    "datetimestamp": "2026-04-29T02:15:26",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "The future of software development has less development \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/software_development_ai_dev25xsf/",
+    "description": ": At AI Dev 26 x SF, code slingers confront their relationship with AI",
+    "image": "https://regmedia.co.uk/2026/04/28/speed_is_the_moat.jpg",
+    "datetimestamp": "2026-04-28T22:00:29",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Oracle plans to power its New Mexico DC with fuel cell farm \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/oracle_new_mexico_power_fuel_cell_farm/",
+    "description": ": No sense in OpenAI stressing over its cloud bills if Oracle can't get the lights on",
+    "image": "https://regmedia.co.uk/2024/03/13/shutterstock_larry_e.jpg",
+    "datetimestamp": "2026-04-28T21:58:58",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Cloudera allegedly overlooked US job candidates: DoJ \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/cloudera_doj_employment_discrimination_lawsuit/",
+    "description": ": PERM filings require employers to show American workers had a fair shot at the role",
+    "image": "https://regmedia.co.uk/2017/02/17/shutterstock_recycle_bin.jpg",
+    "datetimestamp": "2026-04-28T20:46:57",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "OpenAI jumps out of Microsoft's bed, into Amazon's Bedrock \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/openai_climbs_into_amazons_bedrock/",
+    "description": ": Altman's gaggle of GPTs now available in limited preview in an AWS region near you",
+    "image": "https://regmedia.co.uk/2024/02/22/shutterstock_sam_altman.jpg",
+    "datetimestamp": "2026-04-28T19:21:50",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Don\u2019t pay VECT a ransom - your big files are likely gone \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/dont_pay_vect_a_ransom/",
+    "description": ": 'Full recovery is impossible for anyone, including the attacker'",
+    "image": "https://regmedia.co.uk/2018/05/21/shutterstock_torchedboard.jpg",
+    "datetimestamp": "2026-04-28T18:36:31",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "US pays wind developers to quit, back fossil fuel projects \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/trump_admin_pay_off_wind_farm/",
+    "description": ": DoI offers up to $885M if they abandon offshore wind projects",
+    "image": "https://regmedia.co.uk/2024/02/13/turbine_shutterstock.jpg",
+    "datetimestamp": "2026-04-28T18:10:21",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Vintage chatbot lives in the past like an elderly relative \u2022 The Register",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/vintage_chatbot_lives_in_past/",
+    "description": ": Talkie's training data stops at the end of 1930, and its creators hope it'll help us better understand how AI thinks",
+    "image": "https://regmedia.co.uk/2026/04/28/chat-gpt-1930s-ai.jpg",
+    "datetimestamp": "2026-04-28T17:51:08",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
     "title": "IBM's AI coding 'partner' Bob hits general availability \u2022 The Register",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/ibms_ai_coding_partner_bob/",
     "description": ": 80,000 internal guinea pigs, Bobcoins, mainframe dreams and a name that really should have raised more flags",

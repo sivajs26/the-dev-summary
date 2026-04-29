@@ -1,5 +1,32 @@
 [
   {
+    "title": "\"Developer loyalty is at zero right now\": Google doesn't care which AI coding tool you use - The New Stack",
+    "link": "https://thenewstack.io/google-doesnt-care/",
+    "description": "Google Cloud's Chief Evangelist Richard Seroter discusses developer loyalty, AI dev tools competition with AWS and Azure, and Google's platform strategy.",
+    "image": "https://cdn.thenewstack.io/media/2026/04/0986a88a-screenshot-2026-04-28-at-15.02.20-1024x546.png",
+    "datetimestamp": "2026-04-28T20:29:49",
+    "source": "The New Stack",
+    "category": "Tech News"
+  },
+  {
+    "title": "Why Broadcom is betting on a private cloud comeback - The New Stack",
+    "link": "https://thenewstack.io/broadcom-vcf-kubernetes-platform/",
+    "description": "Broadcom's Jad El-Zein and Myles Gray on how VMware Cloud Foundation embraces Kubernetes, open source and the private cloud resurgence at KubeCon EU 2026.",
+    "image": "https://cdn.thenewstack.io/media/2026/04/faa0bb9d-for-thumbnail-4.png",
+    "datetimestamp": "2026-04-28T18:09:41",
+    "source": "The New Stack",
+    "category": "Tech News"
+  },
+  {
+    "title": "SAS opens its analytics engine to Claude, Copilot and any AI agent with Viya MCP Server - The New Stack",
+    "link": "https://thenewstack.io/sas-viya-mcp-governance/",
+    "description": "SAS bets on AI governance and domain expertise with new Viya MCP Server, exposing analytics as tools any AI agent can call across enterprises.",
+    "image": "https://cdn.thenewstack.io/media/2026/04/a3b3fd69-img_3755-scaled.jpg",
+    "datetimestamp": "2026-04-28T17:29:49",
+    "source": "The New Stack",
+    "category": "Tech News"
+  },
+  {
     "title": "Why JSON Schema matters more than ever in the age of generative AI - The New Stack",
     "link": "https://thenewstack.io/json-schema-ai-reliability/",
     "description": "JSON Schema is essential for grounding unpredictable AI outputs. Discover why this standard ensures enterprise data reliability in 2026.",

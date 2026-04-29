@@ -1,5 +1,68 @@
 [
   {
+    "title": "Backend Architecture Series \u2014 Part 8 | by Oshadha Thrimavithana | Apr, 2026 | Medium",
+    "link": "https://medium.com/@oshadhaj/backend-architecture-series-part-8-daeaf9fa4746?source=rss------system_design-5",
+    "description": "Resiliency in backend systems \u2014 retries, timeouts, idempotency, and surviving failure without chaos",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*8gKd935FRydndGHQkqMLsw.png",
+    "datetimestamp": "2026-04-29T03:01:01",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Design Doesn\u2019t End in Figma. Why design handoff is not the end of a\u2026 | by Azwa Safrina | Apr, 2026 | Medium",
+    "link": "https://medium.com/@safrinaa172/design-doesnt-end-in-figma-617de3e57155?source=rss------system_design-5",
+    "description": "Why design handoff is not the end of a designer\u2019s job",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*zWTnYvX8zVqn2iUyDX9a0Q.jpeg",
+    "datetimestamp": "2026-04-29T01:31:01",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Al\u00e9m do Figma: O que Devs e QAs realmente precisam (mas raramente recebem) no Handoff | by Stephany Palos | Apr, 2026 | Medium",
+    "link": "https://medium.com/@stephany.f.palos/al%C3%A9m-do-figma-por-que-devs-e-qas-precisam-de-mais-do-que-telas-4111b90d4da1?source=rss------system_design-5",
+    "description": "Quando o handoff \u00e9 s\u00f3 um link do Figma, Devs e QAs recebem uma parte da hist\u00f3ria. O que falta \u00e9 contexto para construir com confian\u00e7a.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*Q_TFIHXomb0o4Df4T89dIA.png",
+    "datetimestamp": "2026-04-29T00:19:37",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Rate Limiters Are System Boundaries | by Amir Hossein Rassafi | Apr, 2026 | Medium",
+    "link": "https://medium.com/@amir.rassafi/rate-limiters-are-system-boundaries-fe8ad3eae36c?source=rss------system_design-5",
+    "description": "Subtitle: Placement, state, capacity, and failure modes matter more than the algorithm.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*KWGumgAtEtC3ju8l_V6zIA.png",
+    "datetimestamp": "2026-04-28T22:03:25",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "[Design System] Building Responsive Typography with Figma Variables | by Tha\u00eds Polonio  | Medium",
+    "link": "https://www.designsystemscollective.com/design-system-building-responsive-typography-with-figma-variables-a52086ca5329?source=rss------system_design-5",
+    "description": "My Design Team is currently building the company\u2019s Design System, and during this process, we quickly came face-to-face with typography \u2014\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*1_vfa7iQAuGy71IQobcEBw.png",
+    "datetimestamp": "2026-04-28T20:48:47",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Agent Systems Don\u2019t Fail Linearly \u2014 They Degrade. Here\u2019s What I Found Building One | by Simarpreet Singh Bedi | Apr, 2026 | Medium",
+    "link": "https://medium.com/@simarbedi/agent-systems-dont-fail-linearly-they-degrade-here-s-what-i-found-building-one-69b2a70bd520?source=rss------system_design-5",
+    "description": "A practical comparison of MCP, A2A, and distributed agent systems under real-world failure conditions.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*uYcN3GfI4ls6mp9R2FsLVw.png",
+    "datetimestamp": "2026-04-28T20:05:15",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Why Adoption Is More Important Than Perfection | by Tina Singh | Apr, 2026 | Medium",
+    "link": "https://www.designsystemscollective.com/why-adoption-is-more-important-than-perfection-79247c888bd2?source=rss------system_design-5",
+    "description": "I spent three months building what I thought was the perfect data table. It had sorting, filtering, column resizing, virtualization for\u2026",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Bx1nWY55yDw0jYi_",
+    "datetimestamp": "2026-04-28T17:26:36",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "I Used Claude Design for a Day. Here\u2019s What It Actually Felt Like | by Fahbid | Apr, 2026 | Medium",
     "link": "https://medium.com/@abrar.fahbid/i-used-claude-design-for-a-day-heres-what-it-actually-felt-like-ca847d382c9d?source=rss------system_design-5",
     "description": "A first-hand look at Anthropic\u2019s new AI design tool \u2014 what works, what doesn\u2019t, and why it matters if you\u2019ve ever stared at a blank Figma\u2026",
