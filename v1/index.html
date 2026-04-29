@@ -4,8 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dev Summary | Realtime Feed</title>
-
+    <title>The Dev Summary</title>
+    <meta name="description" content="Daily Tech News to keep you updated">
+    <!-- schema for rich snippet -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "The Dev Summary",
+      "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
+      "logo": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg",
+      "description": "Daily Tech News to keep you updated",
+      "sameAs": [
+        "https://github.com/sivasubramoniam-js/daily-tech-news",
+      ]
+    }
+    </script>
+    <!-- favicon -->
+    <link rel="icon" href="logo.svg" type="image/svg">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Top-tier Typography from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -473,10 +490,26 @@
             display: inline-block;
             padding-left: 100%;
             animation: marquee linear infinite;
+            cursor: pointer;
         }
 
-        .marquee-content span {
-            margin-right: 50px;
+        .marquee:hover .marquee-content {
+            animation-play-state: paused;
+        }
+
+        .marquee-item {
+            margin-right: 10px;
+            color: var(--text-main);
+            text-decoration: none;
+            font-family: var(--font-mono);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            transition: color 0.2s;
+        }
+
+        .marquee-item:hover {
+            color: var(--accent);
         }
 
         @keyframes marquee {
@@ -1155,12 +1188,18 @@
             const marqueeText = document.getElementById('marqueeText');
 
             container.innerHTML = '';
-            marqueeText.textContent = '';
+            marqueeText.innerHTML = '';
 
             if (data.length === 0) {
                 container.innerHTML = '<div class="loading-text">No articles found in this category.</div>';
                 return;
             }
+
+            const stripHTML = (html) => {
+                const tmp = document.createElement("DIV");
+                tmp.innerHTML = html;
+                return tmp.textContent || tmp.innerText || "";
+            };
 
             data.forEach((item, index) => {
                 // Determine grid class based on index to create masonry/editorial layout
@@ -1173,11 +1212,18 @@
                 }
 
                 // add title to marquee text
-                if (index < data.length - 1) {
-                    marqueeText.textContent += item.title + ' | ';
-                } else {
-                    marqueeText.textContent += item.title;
-                }
+                const marqueeItem = document.createElement('span');
+                marqueeItem.className = 'marquee-item';
+                marqueeItem.textContent = item.title + (index < data.length - 1 ? ' | ' : '');
+                marqueeItem.onclick = () => {
+                    const card = document.getElementById(`news-card-${index}`);
+                    if (card) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        card.style.borderColor = 'var(--accent)';
+                        setTimeout(() => card.style.borderColor = '', 2000);
+                    }
+                };
+                marqueeText.appendChild(marqueeItem);
 
                 // Stagger animation timing
                 const animDelay = (index % 10) * 0.1;
@@ -1194,8 +1240,8 @@
                 const pubDate = new Date(item.datetimestamp || item.published);
                 const formattedDate = isNaN(pubDate) ? "" : pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 
-                // Truncate description for "Read More"
-                let displayDesc = item.description || "";
+                const rawDesc = stripHTML(item.description || "");
+                let displayDesc = rawDesc;
                 let readMoreLink = "";
                 if (displayDesc.length > 200) {
                     displayDesc = displayDesc.substring(0, 200);
@@ -1203,7 +1249,7 @@
                 }
 
                 const cardHTML = `
-                    <div class="news-card ${cardClass}" style="animation-delay: ${animDelay}s">
+                    <div class="news-card ${cardClass}" id="news-card-${index}" style="animation-delay: ${animDelay}s">
                         ${item.image ? `
                             <div class="news-image-wrapper">
                                 <img src="${image_url}" class="news-image" alt="Article image" loading="lazy">
