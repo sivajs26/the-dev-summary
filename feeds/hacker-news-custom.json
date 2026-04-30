@@ -1,5 +1,131 @@
 [
   {
+    "title": "The FCC is about to ban 21% of its test labs today. I mapped them all",
+    "link": "https://markready.io/blog/fcc-accredited-test-labs-complete-guide",
+    "description": "591 FCC-accredited test labs mapped across 28 countries. Location, accreditation status, TCB capability, and which labs face the Bad Labs ban.",
+    "image": "https://markready.io/og-image.png",
+    "datetimestamp": "2026-04-30T13:45:10",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "U.S. Debt Tops 100% of GDP",
+    "link": "https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7",
+    "description": "<p>Article URL: <a href=\"https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7\">https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961804\">https://news.ycombinator.com/item?id=47961804</a></p>\n<p>Points: 101</p>\n<p># Comments: 132</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T13:04:09",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show HN: Kanwas, open-source shared context board for teams and agents",
+    "link": "https://github.com/kanwas-ai/kanwas",
+    "description": "Kanwas \u2014 open source thinking space for teams and agents - kanwas-ai/kanwas",
+    "image": "https://opengraph.githubassets.com/0aaf68e5300520b5245ca67a96f08c2ff8d2101e8172cef64377c18269a2ef31/kanwas-ai/kanwas",
+    "datetimestamp": "2026-04-30T12:35:37",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "1.4 GW: battery storage at former Grohnde nuclear power plant",
+    "link": "https://www.heise.de/en/news/1-4-GW-Huge-battery-storage-at-former-Grohnde-nuclear-power-plant-11277367.html",
+    "description": "1.4 GW power, 6 GWh capacity: Emmerthal energy cluster to exceed Grohnde NPP output, located on major power lines.",
+    "image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/7/4/0/4/2/BESS-GESI-Grohnde-16-9-d9d7a171b660eebb.jpg",
+    "datetimestamp": "2026-04-30T11:08:34",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+    "link": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+    "description": "IBM just released Granite 4.1, a family of open source language models built specifically for enterprise use. Three sizes, Apache 2.0 licensed and trained on 15 trillion tokens with a level of pipeline obsession that's worth understanding. But there's one result in the benchmarks I keep coming back to. The 8B model. Dense architecture, no MoE tricks, no extended reasoning chains. It matches or beats Granite 4.0-H-Small across basically every benchmark they ran. That older model has 32B parameters with 9B active. This one has 8 billion. Full stop. That result is either very impressive or it means the old model was underbuilt. Probably both. Here's how they built it, what the numbers actually say, and whether any of it matters for your use case.",
+    "image": "https://firethering.com/wp-content/uploads/2026/04/Granite-4.1-IBMs-8B-Model-Is-Competing-With-Models-Four-Times-Its-Size.jpg",
+    "datetimestamp": "2026-04-30T10:31:17",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Chrome looks set to ship an LLM Prompt API to the web. We oppose this API",
+    "link": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
+    "description": "Chrome looks set to ship an LLM Prompt API to the web platform. At Mozilla, we oppose this API.\n\nWe feel it has a large interoperability risk, and Google imposing T&Cs on a web API sets a dangerous precedent.\n\nFull details: https://github.com/mozilla/standards-positions/issues/1213#issuecomment-4347988313",
+    "image": "",
+    "datetimestamp": "2026-04-30T09:16:07",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "DataCenter.FM \u2013 background noise app featuring the sound of the AI bubble",
+    "link": "https://datacenter.fm/",
+    "description": "Experience the real-world sounds of AI with this interactive audio generator.",
+    "image": "https://datacenter.fm/_assets/social.jpg",
+    "datetimestamp": "2026-04-30T07:52:12",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Copy Fail: 732 Bytes to Root on Every Major Linux Distribution",
+    "link": "https://xint.io/blog/copy-fail-linux-distributions",
+    "description": "Xint Code disclosed CVE-2026-31431, an authencesn scratch-write bug chaining AF_ALG + splice() into a 4-byte page cache write. A 732-byte PoC gets root on Ubuntu, Amazon Linux, RHEL, SUSE. | AI for Security,  Vulnerability Research",
+    "image": "https://inblog.ai/api/og?title=Copy%20Fail%3A%20732%20Bytes%20to%20Root%20on%20Every%20Major%20Linux%20Distribution.&logoUrl=https%3A%2F%2Fsource.inblog.dev%2Flogo%2F2026-04-21T20%3A39%3A21.712Z-fe202dd0-0a7f-41d2-a9bd-88052b6a6250&blogTitle=",
+    "datetimestamp": "2026-04-30T05:07:21",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Tell HN: VS Code v1.117.0 automatically adds GitHub Copilot as your co author",
+    "link": "https://news.ycombinator.com/item?id=47958353",
+    "description": "<p>I don\u2019t even use copilot. Yet, if you are like me and sometimes use the Source Control tab to stage files or manually write commit messages, it automatically appends Copilot as the co author for that commit.<p>How does anyone at Microsoft/Github thinks this is ok? I don\u2019t even use your AI, this is code I have written myself. This just looks desperate.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958353\">https://news.ycombinator.com/item?id=47958353</a></p>\n<p>Points: 44</p>\n<p># Comments: 31</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T05:05:40",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Functional programmers need to take a look at Zig",
+    "link": "https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html",
+    "description": "<p>Article URL: <a href=\"https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html\">https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957624\">https://news.ycombinator.com/item?id=47957624</a></p>\n<p>Points: 161</p>\n<p># Comments: 126</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T03:11:33",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Microsoft open sources DOS 1.00 on 45th anniversary",
+    "link": "https://opensource.microsoft.com/blog/2026/04/28/continuing-the-story-of-early-dos-development/",
+    "description": "In 2018 we (re)-open-sourced MS\u2011DOS 1.25 and 2.11, and more recently in 2024 we were able to make the source for MS\u2011DOS 4.0 available to the public as well. Today, on 86-DOS 1.00\u2019s 45th anniversary, we\u2019re continuing that tradition with the earliest DOS source code discovered to date.",
+    "image": "https://opensource.microsoft.com/blog/wp-content/uploads/2026/04/86-DOS-Changelist.png",
+    "datetimestamp": "2026-04-30T02:52:57",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "The Zig project's rationale for their anti-AI contribution policy",
+    "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+    "description": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the \u2026",
+    "image": "",
+    "datetimestamp": "2026-04-30T02:15:47",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Zulip 12.0 Released",
+    "link": "https://blog.zulip.com/2026/04/27/zulip-12-0-released/",
+    "description": "We\u2019re excited to announce the release of Zulip Server 12.0, containing hundreds\nof new features and bug fixes: end-to-end encryption for mobile push\nnotifications, a major upgrade for Docker, configurable image previews, and much\nmore! Almost 5,500 new commits have been merged across the project since \u2026",
+    "image": "https://blog.zulip.com/_astro/zulip-cover.CJjNjBYz.png",
+    "datetimestamp": "2026-04-30T02:00:51",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "A grounded conceptual model for ownership types in Rust",
+    "link": "https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/",
+    "description": "<p>Article URL: <a href=\"https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/\">https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957116\">https://news.ycombinator.com/item?id=47957116</a></p>\n<p>Points: 42</p>\n<p># Comments: 2</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T01:47:19",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "Claude.ai and API unavailable [fixed]",
     "link": "https://status.claude.com/incidents/2gf1jpyty350",
     "description": "Claude's Status Page - claude.ai and API unavailable.",

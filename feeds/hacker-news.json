@@ -1,5 +1,140 @@
 [
   {
+    "title": "How an Oil Refinery Works",
+    "link": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
+    "description": "Though wind and solar continue to carve out larger and larger shares of world energy supply, the modern world still runs on petroleum, and will continue to do so for the foreseeable future.",
+    "image": "https://substackcdn.com/image/fetch/$s_!AIFC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff98b1375-89f9-4b10-a92a-25faf8a82069_800x600.png",
+    "datetimestamp": "2026-04-30T13:54:20",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "The FCC is about to ban 21% of its test labs today. I mapped them all",
+    "link": "https://markready.io/blog/fcc-accredited-test-labs-complete-guide",
+    "description": "591 FCC-accredited test labs mapped across 28 countries. Location, accreditation status, TCB capability, and which labs face the Bad Labs ban.",
+    "image": "https://markready.io/og-image.png",
+    "datetimestamp": "2026-04-30T13:45:10",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "The Science Behind Honey's Eternal Shelf Life (2013)",
+    "link": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/",
+    "description": "A slew of factors\u2014its acidity, its lack of water and the presence of hydrogen peroxide\u2014work in perfect harmony, allowing the sticky treat to last forever",
+    "image": "https://th-thumbnailer.cdn-si-edu.com/EatmTIW2gw9eXANL9RF6CGbgp8o=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Surprising-Science-honey.jpg",
+    "datetimestamp": "2026-04-30T13:15:04",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Meta in row after workers who saw smart glasses users having sex lose jobs",
+    "link": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
+    "description": "Meta and its subcontractor disagree over why over 1000 Kenya-based workers were made redundant.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ef60/live/2404fb20-4498-11f1-b4a4-6ff2bccf200b.jpg",
+    "datetimestamp": "2026-04-30T13:07:42",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "I aggregated 28 US Government auction sites into one search",
+    "link": "https://bidprowl.com",
+    "description": "Search 46,000+ government surplus auctions from 27 sites at once. Vehicles, equipment, electronics, and seized property across all 50 states. Deal scores, sold prices, and email alerts. Free.",
+    "image": "https://bidprowl.com/api/og?title=Government+Surplus+Auctions+in+One+Place&subtitle=Search+GSA,+GovDeals,+GovPlanet+and+more",
+    "datetimestamp": "2026-04-30T12:24:53",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Belgium stops decommissioning nuclear power plants",
+    "link": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47961319\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-30T12:17:14",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "GCC 16 has been released",
+    "link": "https://gcc.gnu.org/gcc-16/changes.html",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47961004\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-30T11:40:13",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+    "link": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+    "description": "IBM just released Granite 4.1, a family of open source language models built specifically for enterprise use. Three sizes, Apache 2.0 licensed and trained on 15 trillion tokens with a level of pipeline obsession that's worth understanding. But there's one result in the benchmarks I keep coming back to. The 8B model. Dense architecture, no MoE tricks, no extended reasoning chains. It matches or beats Granite 4.0-H-Small across basically every benchmark they ran. That older model has 32B parameters with 9B active. This one has 8 billion. Full stop. That result is either very impressive or it means the old model was underbuilt. Probably both. Here's how they built it, what the numbers actually say, and whether any of it matters for your use case.",
+    "image": "https://firethering.com/wp-content/uploads/2026/04/Granite-4.1-IBMs-8B-Model-Is-Competing-With-Models-Four-Times-Its-Size.jpg",
+    "datetimestamp": "2026-04-30T10:31:17",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "DataCenter.FM \u2013 background noise app featuring the sound of the AI bubble",
+    "link": "https://datacenter.fm/",
+    "description": "Experience the real-world sounds of AI with this interactive audio generator.",
+    "image": "https://datacenter.fm/_assets/social.jpg",
+    "datetimestamp": "2026-04-30T07:52:12",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Mozilla's Opposition to Chrome's Prompt API",
+    "link": "https://github.com/mozilla/standards-positions/issues/1213",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47959463\">Comments</a>",
+    "image": "https://opengraph.githubassets.com/f04751271bfe6c1bc2154314252384998a0d2ba810956f9f4dc30b257fdba69c/mozilla/standards-positions/issues/1213",
+    "datetimestamp": "2026-04-30T07:43:55",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Monad Tutorials Timeline",
+    "link": "https://wiki.haskell.org/Monad_tutorials_timeline",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47958106\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-04-30T04:28:07",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Biology is a Burrito: A text- and visual-based journey through a living cell",
+    "link": "https://burrito.bio/essays/biology-is-a-burrito",
+    "description": "A bacterium's genome, pulled into a straight thread, is nearly 1,000 times longer than the cell from which it came.",
+    "image": "",
+    "datetimestamp": "2026-04-30T03:24:41",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Where the goblins came from",
+    "link": "https://openai.com/index/where-the-goblins-came-from/",
+    "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/4VaLYtAwgfUg82VF32O2gz/834e00a334c85794f329b2cb534e7a23/Goblins-SEO.jpg?w=1600&h=900&fit=fill",
+    "datetimestamp": "2026-04-30T03:21:04",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+    "link": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+    "description": "The official code repo of Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models - cauchy221/Alignment-Whack-a-Mole-Code",
+    "image": "https://opengraph.githubassets.com/4c499441ddd8b447bccc3e3b066e7b993704f921184587332cf9cf6437699b3e/cauchy221/Alignment-Whack-a-Mole-Code",
+    "datetimestamp": "2026-04-30T03:11:51",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "The Zig project's rationale for their anti-AI contribution policy",
+    "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+    "description": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the \u2026",
+    "image": "",
+    "datetimestamp": "2026-04-30T02:15:47",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
     "title": "A Grounded Conceptual Model for Ownership Types in Rust",
     "link": "https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/",
     "description": "<a href=\"https://news.ycombinator.com/item?id=47957116\">Comments</a>",

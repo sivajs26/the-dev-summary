@@ -1,5 +1,95 @@
 [
   {
+    "title": "Amazon SQS: The Serverless Messaging Guide for Modern Applications",
+    "link": "https://medium.com/@kartikeykumarsrivastava/amazon-sqs-the-serverless-messaging-guide-for-modern-applications-dc0cdfad3df8?source=rss------system_design-5",
+    "description": "Everything you need to know about building scalable, cost-effective messaging systems with SQS",
+    "image": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+    "datetimestamp": "2026-04-30T14:23:57",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Burning Down the House: Design Debt, UX Failure, and Scaled Exclusion",
+    "link": "https://medium.com/@reginamcdonaldrussian/burning-down-the-house-design-debt-ux-failure-and-scaled-exclusion-b1e7c4ce3781?source=rss------system_design-5",
+    "description": "When systems scale broken patterns, exclusion stops being accidental. It becomes infrastructure.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*S85q_e3IqiRCV70uOElg6w.png",
+    "datetimestamp": "2026-04-30T14:09:54",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Agentic AI Is Mostly Plumbing (And That\u2019s Fine)",
+    "link": "https://medium.com/@anwar.haidar/agentic-ai-is-mostly-plumbing-and-thats-fine-58da498aeca0?source=rss------system_design-5",
+    "description": "A systems engineer\u2019s view of why \u201cagents\u201d are mostly orchestration \u2014 and where the real complexity now lives",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*mm92a_G4pR4Sb2a4gld99g.png",
+    "datetimestamp": "2026-04-30T13:37:48",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "HTTP Caching vs React Query: What I Got Wrong (and Finally Understood)",
+    "link": "https://medium.com/@prathameshdeo14/http-caching-vs-react-query-what-i-got-wrong-and-finally-understood-7cc1990a9234?source=rss------system_design-5",
+    "description": "HTTP Caching vs React Query: What I Got Wrong (and Finally Understood) I thought React Query solved caching. Turns out I was only understanding half the story. Here\u2019s what actually happens behind \u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*7k1rYee8ajtLGvrthb450Q.png",
+    "datetimestamp": "2026-04-30T10:25:24",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Why Intelligence Fails Without Real-World Constraints A Practical Perspective Inspired by\u2026",
+    "link": "https://medium.com/@christopherlafataflorida/why-intelligence-fails-without-real-world-constraints-a-practical-perspective-inspired-by-bf83589eb6bd?source=rss------system_design-5",
+    "description": "Introduction",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*flBw7cYlIlKZEe22pTA8QQ.jpeg",
+    "datetimestamp": "2026-04-30T09:56:03",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "When frequency isn\u2019t signal",
+    "link": "https://www.designsystemscollective.com/when-frequency-isnt-signal-75e2dc39ce4c?source=rss------system_design-5",
+    "description": "The rule design systems use to promote patterns stops working the moment AI is generating the instances",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*8nC0UvxZAil2HiebRLX5YQ.jpeg",
+    "datetimestamp": "2026-04-30T09:54:38",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "What Is a Design System (Actually)",
+    "link": "https://www.designsystemscollective.com/what-is-a-design-system-actually-b200e0ee6d93?source=rss------system_design-5",
+    "description": "Here\u2019s what design systems actually are for the rest of us.",
+    "image": "https://miro.medium.com/v2/resize:fit:800/0*u4FUkHugoGDsmVTY.png",
+    "datetimestamp": "2026-04-30T09:54:06",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "How to Build a Growth Engine That Doesn\u2019t Break at Scale",
+    "link": "https://medium.com/@shahzad_3157/how-to-build-a-growth-engine-that-doesnt-break-at-scale-bc603632b694?source=rss------system_design-5",
+    "description": "Every founder dreams of hockey-stick growth. The kind where one month you\u2019re at\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:600/1*nduOID9VQ-zWKhDFVdcchw.png",
+    "datetimestamp": "2026-04-30T09:17:09",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "The Bill is Due: Why Thousands of Startups are Quietly Imploding in 2026",
+    "link": "https://medium.com/@info_69552/the-bill-is-due-why-thousands-of-startups-are-quietly-imploding-in-2026-02b2b4fc9054?source=rss------system_design-5",
+    "description": "Two years ago, we were told that AI would make developers 10x faster. We were told that \u201cshipping is the only thing that matters.\u201d We were\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*F9F4i7ZkeDh7ZuAwONA0JA.png",
+    "datetimestamp": "2026-04-30T07:10:20",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Yoga Studio Website Template: Build a Stunning Wellness Website With UI and Code",
+    "link": "https://medium.com/@allclonescript/yoga-studio-website-template-build-a-stunning-wellness-website-with-ui-and-code-dc23a6ade89e?source=rss------system_design-5",
+    "description": "Launch a polished yoga studio website with less effort and greater impact.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*nGAZ2lWoy5ezIVOrLGPdMQ.jpeg",
+    "datetimestamp": "2026-04-30T06:30:06",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "Your AI Isn\u2019t Dumb\u2026 Your Chunking Is Breaking It",
     "link": "https://vinitpahwa.medium.com/your-ai-isnt-dumb-your-chunking-is-breaking-it-9080c8f8be0d?source=rss------system_design-5",
     "description": "The silent RAG mistake that turns good models into useless ones",

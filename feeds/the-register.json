@@ -1,5 +1,113 @@
 [
   {
+    "title": "Survey says no, American workers are not keen on Microsoft's AI",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/survey_us_workers_e7_ms_ai/",
+    "description": ": Lock-in worries threaten to dampen the E7 launch party",
+    "image": "https://regmedia.co.uk/2026/04/30/shutterstock_2522929613.jpg",
+    "datetimestamp": "2026-04-30T14:19:08",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "SAP user group slams 'uncertainty' in ERP giant's API policy",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/germanspeaking_user_group_slams_uncertainty/",
+    "description": ": Concerns over new rules might stop customers from adopting innovations \u2013\u00a0including AI \u2013 that connect to SAP systems",
+    "image": "https://regmedia.co.uk/2021/03/02/shutterstock_sap_bikes.jpg",
+    "datetimestamp": "2026-04-30T13:41:13",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Microsoft boss tells investors the company is working to 'win back fans'",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/microsoft_boss_says_company_is/",
+    "description": ": But why did those fans go away in the first place, Satya?",
+    "image": "https://regmedia.co.uk/2024/03/19/shutterstock_nadella.jpg",
+    "datetimestamp": "2026-04-30T13:00:12",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Fewer users, fatter wallets is why Anthropic tops OpenAI in LLM revenue stakes",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/openai_anthropic_top_lines_research_counterpoint/",
+    "description": ": AI boom splits between companies hoarding eyeballs and those actually charging for them",
+    "image": "https://regmedia.co.uk/2025/05/16/leonardo_ai_llm_battle.jpg",
+    "datetimestamp": "2026-04-30T12:20:12",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Nearly half of UK businesses pwned last year as phishing keeps doing the job like it's 2005",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/almost_half_of_uk_firms/",
+    "description": ": Turns out the real problem is not AI but staff still clicking on dodgy emails from 'IT support'",
+    "image": "https://regmedia.co.uk/2025/07/07/shutterstock_login.jpg",
+    "datetimestamp": "2026-04-30T11:35:10",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "What type of 'C2 on a sleep cycle' do they leave behind? Novel Chinese spy group found in critical networks in Poland, Asia",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/chinese_spies_lurking_networks/",
+    "description": "Exclusive: Just in time for the Trump-Xi summit",
+    "image": "https://regmedia.co.uk/2021/10/29/shutterstock_china_flag_code.jpg",
+    "datetimestamp": "2026-04-30T11:00:08",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Bug of the year (so far): Nasty cPanel vulnerability probably exploited as a 0-day",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/cpanel_whn_cves/",
+    "description": ": Emergency patches out now for those managing the millions of domains assumed to be affected",
+    "image": "https://regmedia.co.uk/2023/05/16/cables_shutterstock.jpg",
+    "datetimestamp": "2026-04-30T10:14:07",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Met Police's Palantir deployment has its own officers watching their backs",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/met_police_palantir_deployment_cop_probe/",
+    "description": ": Federation warns members to ditch work devices off duty as force uses AI to probe 600+ cops",
+    "image": "https://regmedia.co.uk/2024/09/19/shutterstock_met_police.jpg",
+    "datetimestamp": "2026-04-30T09:29:10",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Britain's \u00a36B armoured sickener Ajax cleared for duty despite injuring troops",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/ajax_armored_vehicle_cleared/",
+    "description": ": Investigation finds no single cause for soldiers falling ill, just bad bolts, cold air, and apparently the soldiers themselves",
+    "image": "https://regmedia.co.uk/2025/11/10/ajax_mod_crown_copyright.jpg",
+    "datetimestamp": "2026-04-30T08:45:12",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Finance company stores DB credentials in helpfully labeled spreadsheet",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/finance_company_stored_their_db_pwned_column/",
+    "description": "PWNED: Great idea, guys. Let's keep all of the data in an Excel file with weak password protection",
+    "image": "https://regmedia.co.uk/2026/04/29/shutterstock_2380487729.jpg",
+    "datetimestamp": "2026-04-30T08:00:12",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Microsoft levels up Azure Local to make it fit for large-scale sovereign clouds",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/azure_local_upgrade/",
+    "description": ": Can now use SANs for storage, and adds a local control plane and key management",
+    "image": "https://regmedia.co.uk/2026/04/30/shutterstock_us_flag_blowing_away_in_the_clouds.jpg",
+    "datetimestamp": "2026-04-30T06:59:19",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Google to sell its TPUs to some customers, who also fancy big-G GPUs",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/alphabet_google_q1_fy26/",
+    "description": ": AI is driving more searches and ads",
+    "image": "https://regmedia.co.uk/2026/04/30/nano_banana_google_enterprise_hardware_store.jpg",
+    "datetimestamp": "2026-04-30T03:49:05",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
     "title": "Microsoft lifts 2026 AI spend by $25 billion to cover component price rises",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/microsoft_q3_2026/",
     "description": ": Will write checks for $190 billion and even those megabucks may not satisfy demand",

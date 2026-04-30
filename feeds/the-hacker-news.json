@@ -1,5 +1,50 @@
 [
   {
+    "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+    "description": "Latest ThreatsDay: SMS blasters, npm supply chain hits, and unpatched Windows flaws. Stay ahead of new phishing kits and exposed servers.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwfqxUhPz38fAoq0CZr2tW8KqGW-Cr0zJloN9kS_80QO2e7yyah4N-nMKNxoSllB2tpyjKO25s2f8eFJNd2bBo50XRAVatMKnnk8ZAbRbz6kfQUhVUoD5vutOmFpYzojybY8aJZhA6KGL3sawNEyaqjlW63hAeEwrTsj8lnpou-4mThnzwCzO442aue-R0/s1600/threats.jpg",
+    "datetimestamp": "2026-04-30T13:55:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+    "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+    "description": "DEEP#DOOR embeds a Python RAT in a dropper script, using bore[.]pub C2 to steal credentials and evade Windows defenses, complicating detection.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnv1KtLLlZSnm9a16bN-o_szrBiAIN_QljTfe09K4RzFxSqhFADtuXmRzOPZ_Poazif-VadFAnRnboCWX5yZtc5JntGopn5Fy6T1X2BexXelFOxYtEA7qULoTCkAMwEybLf42JJ_yGjSPf_T-tjYvbqxscVgZ6OyL65yKcTjC0KQL48pgYLZUmLjxfBBhd/s1600/malware-data.jpg",
+    "datetimestamp": "2026-04-30T12:36:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+    "link": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+    "description": "44 GitHub facades and Ethereum smart contracts power a March 2026 admin-targeted campaign, enabling resilient C2 rotation and enterprise compromise.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8d19xBfapc_ToA1XOK4xdQ815tfHldoYH0Cy7zsTwOoWlFNQDdubeXMv4Udo6DaFXWJK3lG4meqdmtLAuaCMfa7R1KM_EfiGE5cZItYx6NdnqjB-R_6neMFv5iIG6SjUDkRUUiZg_j7oOaueXGZb4M-K7EmJM3MCjSvgxfok9gTFNd9Qwdf-AKu_DsP4/s1600/github-2.jpg",
+    "datetimestamp": "2026-04-30T11:30:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+    "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+    "description": "CVE-2026-31431 CVSS 7.8 flaw since 2017 enables root via 732-byte exploit, impacting major Linux distributions.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYpnBkrLNj-dAKcwAbvRIvfXg8YDXoO3yfrl3vvXBOBwo2zga2asWZ0at4FLcLbiqQ1N7BsYA2szKbuqeVLBkrD80tMqYguBbqvrhEude6Fe9ayQpNs-meP8h4-f6ReWVeIU0zYp31XU7K-Kgxm5OKdI77HPQWgTx41al_WH3gYkMjEoROl6zvXF8HPRf5/s1600/root.jpg",
+    "datetimestamp": "2026-04-30T09:24:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+    "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+    "description": "Gemini CLI CVSS 10.0 flaw in versions below 0.39.1 enabled RCE in CI workflows, forcing Google to mandate explicit workspace trust.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoqSVEXaseT8C79cbC1Wjec2TiF4nMK72XiCPL3WBxqwNy9iUk5CSEqSXgwJFRug0zXq5foMAXzMYCSIP0nEnr-CxCeYFgjmVcOfPtK4nocQaGDzIFecL9SScOScUhVAgGkff6wO5ks-sqWA_KCEZnfrQhfViSGai-g0MOd2IHOYX_N03JvwIipkQ1gso7/s1600/gemini-cursor.jpg",
+    "datetimestamp": "2026-04-30T07:07:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
     "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
     "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
     "description": "SAP npm packages poisoned on April 29, 2026 + AES-256-GCM encrypted credential theft + AI coding tools abused for spread.",

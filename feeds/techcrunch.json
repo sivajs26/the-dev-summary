@@ -1,5 +1,50 @@
 [
   {
+    "title": "Spotify introduces verified artist badges to help distinguish humans from AI",
+    "link": "https://techcrunch.com/2026/04/30/spotify-introduces-verified-artist-badges-to-help-distinguish-humans-from-ai/",
+    "description": "As AI-generated artists and tracks flood music streaming platforms, Spotify is rolling out a new \u201cVerified by Spotify\u201d badge to help listeners more easily",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/S4A_Verified_Header_Ravyn.jpg?resize=1200,683",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Netflix wants you to watch \u2018Clips,\u2019 its TikTok-like vertical video feed",
+    "link": "https://techcrunch.com/2026/04/30/netflix-wants-you-to-watch-clips-its-tiktok-like-vertical-video-feed/",
+    "description": "Netflix is redesigning its mobile app and introducing Clips, a vertical video feed intended to help users discover new content by sharing highlights from original Netflix programming.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/en-US-VVF-UI-Still.jpg?resize=1200,675",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Meta says its business AI now facilitates 10 million conversations a week",
+    "link": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+    "description": "Meta said over 8 billion advertisers have used at least one of its gen AI tools",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2194278734.jpg?w=1024",
+    "datetimestamp": "2026-04-30T12:08:45",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Instagram cracks down on content aggregators",
+    "link": "https://techcrunch.com/2026/04/30/instagram-restricts-reach-of-content-aggregators-in-new-crackdown/",
+    "description": "The update targets content aggregators that don't post original content and instead simply re-upload others' posts.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/10/instagram-app-icon-GettyImages-1046023150.jpg?resize=1200,801",
+    "datetimestamp": "2026-04-30T12:00:00",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "SoftBank is creating a robotics company that builds data centers \u2014 and already eyeing a $100B IPO",
+    "link": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+    "description": "You need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure.",
+    "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1229449621.jpg?resize=1200,800",
+    "datetimestamp": "2026-04-30T03:58:22",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
     "title": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India",
     "link": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
     "description": "PhonePe and Google Pay command 80% of India's UPI instant payments network. Rivals are set to meet with regulators to lobby for restrictions.",

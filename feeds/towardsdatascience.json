@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python",
+    "link": "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
+    "description": "<p>How can you validate that your variables tell a consistent risk?</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/\">How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T13:30:00",
+    "source": "Towardsdatascience",
+    "category": "AI"
+  },
+  {
+    "title": "Why AI Engineers Are Moving Beyond LangChain to Native Agent Architectures",
+    "link": "https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/",
+    "description": "<p>Frameworks accelerated the first wave of LLM apps, but production demands a different architecture.</p>\n<p>The post <a href=\"https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/\">Why AI Engineers Are Moving Beyond LangChain to Native Agent Architectures</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+    "image": "",
+    "datetimestamp": "2026-04-30T12:00:00",
+    "source": "Towardsdatascience",
+    "category": "AI"
+  },
+  {
     "title": "4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers",
     "link": "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
     "description": "<p>How we replaced Python pipelines with dlt, dbt, and Trino \u2014 and cut delivery time from weeks to one day.</p>\n<p>The post <a href=\"https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/\">4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",

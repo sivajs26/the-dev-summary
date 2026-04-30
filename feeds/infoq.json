@@ -1,5 +1,86 @@
 [
   {
+    "title": "Driving and Measuring the Impact of Platform Engineering",
+    "link": "https://www.infoq.com/news/2026/04/measure-platform-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Platform engineering has to be approached from a socio-technical perspective, and shaped by all stakeholders, not just developers, Sergiu Petean said in his talk Driving the Future of Insurance through Platform Engineering. Platform success depends on written principles that endure change while embracing change as the main design force, to enable teams to build, run, and release software.",
+    "image": "https://res.infoq.com/news/2026/04/measure-platform-engineering/en/headerimage/measure-platform-engineering-header-1776687178658.jpg",
+    "datetimestamp": "2026-04-30T11:22:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Cloudflare Announces Agent Memory, a Managed Persistent Memory Service for AI Agents",
+    "link": "https://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Cloudflare announced Agent Memory in private beta, a managed service that extracts structured memories from AI agent conversations and retrieves them on demand using five-channel parallel retrieval with Reciprocal Rank Fusion. Shared memory profiles let teams of agents access common knowledge. Competitors include Mem0, Zep, LangMem, and Letta.",
+    "image": "https://res.infoq.com/news/2026/04/cloudflare-agent-memory-beta/en/headerimage/generatedHeaderImage-1777209282399.jpg",
+    "datetimestamp": "2026-04-30T10:10:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Meta's Approach to Migrating their Systems to Post-Quantum Cryptography",
+    "link": "https://www.infoq.com/news/2026/04/meta-quantum-crypto-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Meta has already begun preparing for the threats posed by quantum computing and migrating its systems to post-quantum cryptography, a complex process that will take multiple years to complete. In a recent article, Meta researchers outline their strategy and share key lessons learned along the way.",
+    "image": "https://res.infoq.com/news/2026/04/meta-quantum-crypto-migration/en/headerimage/meta-post-quantum-migration-1777540275642.jpeg",
+    "datetimestamp": "2026-04-30T10:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Presentation: Stripe\u2019s Docdb: How Zero-Downtime Data Movement Powers Trillion-Dollar Payment Processing",
+    "link": "https://www.infoq.com/presentations/docdb-online-database/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Jimmy Morzaria discusses the evolution of Stripe\u2019s database tier to support 5 million QPS with 5.5 nines of reliability. He explains the architecture of DocDB and shares how Stripe leverages a custom zero-downtime data movement platform to perform horizontal sharding, version upgrades, and multi-tenant migrations - all while maintaining the strict consistency required for global commerce.",
+    "image": "https://res.infoq.com/presentations/docdb-online-database/en/card_header_image/jimmy-morzaria-twitter-card-1776864724742.jpg",
+    "datetimestamp": "2026-04-30T09:52:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Dropbox Redesigns Compaction to Reclaim Space from Underfilled Storage Volumes",
+    "link": "https://www.infoq.com/news/2026/04/dropbox-tiered-compaction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Dropbox recently explained how it improved storage efficiency in Magic Pocket, the company's internal immutable blob store for storing user files at scale, by redesigning compaction strategies to reclaim space from severely underfilled storage volumes. The system now periodically reorganizes valid data into new volumes, allowing old, partially used ones to be cleared and reused.",
+    "image": "https://res.infoq.com/news/2026/04/dropbox-tiered-compaction/en/headerimage/generatedHeaderImage-1776799745799.jpg",
+    "datetimestamp": "2026-04-30T09:23:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Vercel Releases Open Agents to Support Background AI Coding Workflows",
+    "link": "https://www.infoq.com/news/2026/04/vercel-open-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Vercel has launched Open Agents, an open-source app that enables the creation and execution of background coding agents. It provides a complete stack for developers to run independent coding workflows without relying on local machines.",
+    "image": "https://res.infoq.com/news/2026/04/vercel-open-agents/en/headerimage/generatedHeaderImage-1777539257071.jpg",
+    "datetimestamp": "2026-04-30T09:20:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Article: The DPoP Storage Paradox: Why Browser-Based Proof-of-Possession Remains an Unsolved Problem",
+    "link": "https://www.infoq.com/articles/dpop-key-storage-unsolved-problem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "DPoP closes a real gap in OAuth 2.0. Sender-constrained tokens are a meaningful upgrade over bearer tokens for any client that can implement them. But RFC 9449's silence on browser key storage creates the need for an architectural decision that each team must confront deliberately \u2014 there is no safe default that works everywhere.",
+    "image": "https://res.infoq.com/articles/dpop-key-storage-unsolved-problem/en/headerimage/dpop-key-storage-unsolved-problem-header-1777296488937.jpg",
+    "datetimestamp": "2026-04-30T09:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Netflix Scales \"Human Infrastructure\" to Manage Global Live Operations",
+    "link": "https://www.infoq.com/news/2026/04/netflix-live-human-ops-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Netflix has introduced a \"human infrastructure\" layer to manage live broadcasts at scale. Using a low-latency \"telemetry hot path\" and a Live Operations Centre, the company now balances automated scaling with human oversight. This shift, which mirrors strategies at AWS and Disney+, focuses on maintaining reliability through expert intervention during high-concurrency global events.",
+    "image": "https://res.infoq.com/news/2026/04/netflix-live-human-ops-scale/en/headerimage/header-1777364196733.jpeg",
+    "datetimestamp": "2026-04-30T08:10:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "DBmaestro MCP Server Puts Natural Language in Control of Database Pipelines",
+    "link": "https://www.infoq.com/news/2026/04/dbmaestro-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "DBmaestro has launched an MCP server that connects AI agents and enterprise copilots to its database DevOps platform, allowing teams to issue natural language commands that trigger real, governed platform workflows. The MCP server, announced on 7 April 2026, allows DBAs to expose DBmaestro's release automation, source control, CI/CD orchestration, and compliance capabilities through MCP.",
+    "image": "https://res.infoq.com/news/2026/04/dbmaestro-mcp-server/en/headerimage/generatedHeaderImage-1777159490832.jpg",
+    "datetimestamp": "2026-04-30T08:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
     "title": "VoidZero\u2019s Experimental Oxc Angular Compiler with Up to 20x Faster Build Performance",
     "link": "https://www.infoq.com/news/2026/04/angular-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "description": "VoidZero has released an experimental Angular compiler in Rust, promising improved build performance compared to Angular CLI. Benchmarks indicate it is up to 6.4x faster than Angular CLI, especially for larger applications. Developed over two months with AI collaboration, it integrates with Vite and offers significant reductions in build time. The initiative is for research purposes only.",

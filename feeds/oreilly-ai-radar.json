@@ -1,5 +1,14 @@
 [
   {
+    "title": "AI Code Review Only Catches Half of Your Bugs",
+    "link": "https://www.oreilly.com/radar/ai-code-review-only-catches-half-of-your-bugs/",
+    "description": "Luckily, there's a way to catch the ones that no structural analysis ever will",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/AI-code-review-only-catches-half-of-your-bugs-1600x1244.jpg",
+    "datetimestamp": "2026-04-30T11:14:49",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
     "title": "Don\u2019t Automate Your Moat: Matching AI Autonomy to Risk and Competitive Stakes",
     "link": "https://www.oreilly.com/radar/dont-automate-your-moat-matching-ai-autonomy-to-risk-and-competitive-stakes/",
     "description": "Velocity is table stakes. Code is a commodity. Understanding is the edge.",

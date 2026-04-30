@@ -1,5 +1,59 @@
 [
   {
+    "title": "Check out the new ways to explore Route 66 on Google Maps.",
+    "link": "https://blog.google/products-and-platforms/products/maps/route-66/",
+    "description": "In celebration of Route 66\u2019s 100th anniversary, Google Maps is rolling out two new ways to help you explore it, virtually or IRL.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Route_66_Doodle.max-1440x810.png",
+    "datetimestamp": "2026-04-30T14:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "Preferred Sources is now available in all languages.",
+    "link": "https://blog.google/products-and-platforms/products/search/preferred-sources-language-expansion/",
+    "description": "Preferred Sources is now rolling out globally in all supported languages, giving users more control over the news they see on Search.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HeroImage_Template-v1_gADFpm0.max-1440x810.png",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "Adapt your Shopping campaigns to modern Search with AI Max.",
+    "link": "https://blog.google/products/ads-commerce/ai-max-for-shopping/",
+    "description": "Built for the next generation of Search, AI Max for Shopping campaigns helps retailers reach shoppers the moment discovery begins.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Shopping_x_AI_Max_Road_to_GML_Master-Header.max-1440x810.png",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "Meet travelers in the moments that matter with Search Campaigns for Travel.",
+    "link": "https://blog.google/products/ads-commerce/ai-max-for-travel/",
+    "description": "Upgrade to AI Max to simplify your workflow and access our most advanced tools.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Max_Travel_Hero_-_Bidding_2x.max-1440x810.jpg",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "AI Max Turns 1 with new ways to steer performance and expansion to more advertisers",
+    "link": "https://blog.google/products/ads-commerce/ai-max-new-features/",
+    "description": "As AI Max turns 1, we\u2019re helping you capture even more opportunities in the expanding Search universe.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Max_Road_to_GML_Master-Header-4.width-1300.png",
+    "datetimestamp": "2026-04-30T13:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
+    "title": "How we\u2019re protecting energy affordability in Oklahoma",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+    "description": "A new agreement between Google and OG&E to protect energy affordability in Oklahoma.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oklahoma_herosocial.width-1300.png",
+    "datetimestamp": "2026-04-30T11:00:00",
+    "source": "Google Blog",
+    "category": "Backend"
+  },
+  {
     "title": "Q1 2026 earnings call: Remarks from our CEO",
     "link": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/",
     "description": "Read Sundar Pichai\u2019s remarks during the Alphabet earnings call for Q1 2026.",
