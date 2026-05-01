@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="j958zz_-DGpx_t_hM-QWYHELDqZN1ybUzpIWXhNhZ4M" />
     <title>The Dev Summary | Daily Tech News for Developers & Engineers</title>
     <meta name="description"
         content="Daily tech news summaries, editorial dispatches, and curated updates for developers, engineers, and tech enthusiasts. Stay ahead with The Dev Summary.">
@@ -38,13 +39,70 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "NewsMediaOrganization",
-      "name": "The Dev Summary",
-      "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
-      "logo": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg",
-      "description": "Daily Tech News for Developers & Engineers",
-      "sameAs": [
-        "https://github.com/sivasubramoniam-js/daily-tech-news"
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/#website",
+          "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
+          "name": "The Dev Summary",
+          "description": "Daily Tech News for Developers & Engineers",
+          "publisher": {
+            "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "NewsMediaOrganization",
+          "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/#organization",
+          "name": "The Dev Summary",
+          "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg",
+            "width": 512,
+            "height": 512
+          },
+          "sameAs": [
+            "https://github.com/sivasubramoniam-js/daily-tech-news"
+          ]
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/#collectionpage",
+          "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
+          "name": "Latest Tech News for Developers",
+          "isPartOf": {
+            "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/#website"
+          },
+          "description": "Curated daily dispatches from the global tech community.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://sivasubramoniam-js.github.io/daily-tech-news/v1"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/#itemlist",
+          "name": "Top Tech Stories Today",
+          "itemListElement": []
+        }
       ]
     }
     </script>
