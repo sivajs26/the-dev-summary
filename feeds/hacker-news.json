@@ -1,5 +1,104 @@
 [
   {
+    "title": "Running Adobe's 1991 PostScript Interpreter in the Browser",
+    "link": "https://www.pagetable.com/?p=1854",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47973755\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-05-01T11:58:11",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "A Letter from Dijkstra on APL",
+    "link": "https://www.jsoftware.com/papers/Dijkstra_Letter.htm",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47973635\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-05-01T11:42:12",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Apple accidentally left Claude.md files Apple Support app",
+    "link": "https://xcancel.com/aaronp613/status/2049986504617820551",
+    "description": "Apple accidentally left Claude.md files in today's Apple Support app update (v5.13)",
+    "image": "https://pbs.twimg.com/media/HHMDhzqXEAATAX9.jpg",
+    "datetimestamp": "2026-05-01T11:08:32",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Your Website Is Not for You",
+    "link": "https://websmith.studio/blog/your-website-is-not-for-you/",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47973376\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-05-01T11:08:20",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber",
+    "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+    "description": "OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+    "datetimestamp": "2026-05-01T10:28:12",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+    "link": "https://news.ycombinator.com/item?id=47972888",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47972888\">Comments</a>",
+    "image": "",
+    "datetimestamp": "2026-05-01T09:52:15",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "The Rotary Un-Smartphone (2023)",
+    "link": "https://skysedge.com/telecom/RUSP/index.html",
+    "description": "Rotary Cell Phone Kit",
+    "image": "https://www.skysedge.us/images/favicon.png",
+    "datetimestamp": "2026-05-01T09:39:07",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Advanced Quantization Algorithm for LLMs",
+    "link": "https://github.com/intel/auto-round",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=47972659\">Comments</a>",
+    "image": "https://opengraph.githubassets.com/4ca8844c023302aa379a82576d31089c2ecf3e1f4cc711d0c9b5d20603c073e4/intel/auto-round",
+    "datetimestamp": "2026-05-01T09:10:02",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
+    "link": "https://github.com/darrylmorley/whatcable",
+    "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do - darrylmorley/whatcable",
+    "image": "https://repository-images.githubusercontent.com/1226286910/faabb9c8-772f-43d0-8643-57d90b45f5b2",
+    "datetimestamp": "2026-05-01T08:43:45",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Grok 4.3",
+    "link": "https://docs.x.ai/developers/models/grok-4.3",
+    "description": "Learn how to use our products and services",
+    "image": "https://docs.x.ai/api/og?t=eyJ0aXRsZSI6Ikdyb2sgNC4zIiwidiI6IjMiLCJzY29wZSI6ImRldmVsb3BlcnMiLCJzZWN0aW9uIjoiTW9kZWxzIGFuZCBQcmljaW5nIn0.SMidkHaGudRzuawDgM_H4n4Y3WQgd7xcEmaQjlFarcw",
+    "datetimestamp": "2026-05-01T08:29:31",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
+    "title": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+    "link": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+    "description": "How Lovable's infrastructure team tracked down sporadic networking errors in Kubernetes, from crashing anetd pods to MTU mismatches, using AI-assisted debugging and deep packet inspection.",
+    "image": "https://lovable.dev/content/news/covers/blog-hunting-networking-bugs-in-kubernetes.jpg",
+    "datetimestamp": "2026-05-01T08:14:07",
+    "source": "Hacker News",
+    "category": "General Tech"
+  },
+  {
     "title": "Show HN: Winpodx \u2013 run Windows apps on Linux as native windows",
     "link": "https://github.com/kernalix7/winpodx",
     "description": "Windows pod system for Linux. Contribute to kernalix7/winpodx development by creating an account on GitHub.",

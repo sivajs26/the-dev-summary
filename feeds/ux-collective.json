@@ -1,5 +1,23 @@
 [
   {
+    "title": "Usability, accessibility, and the human-AI paradigm",
+    "link": "https://uxdesign.cc/usability-accessibility-and-the-human-ai-paradigm-6ffda2806b56?source=rss----138adf9c44c---4",
+    "description": "The divergence between usability and accessibility in the age of AI and vibe coding",
+    "image": "https://miro.medium.com/v2/resize:fit:1024/0*MomesNz_Wt78lJUe.png",
+    "datetimestamp": "2026-05-01T11:19:38",
+    "source": "UX Collective",
+    "category": "Design"
+  },
+  {
+    "title": "Thoughtful AI Implementation for UXR Leaders",
+    "link": "https://uxdesign.cc/ai-uxr-implementation-d0e1b8a33613?source=rss----138adf9c44c---4",
+    "description": "A guide for UXR leaders on implementing AI with their teams.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*d0PRdzqeTdLo81XDjaZIoQ.png",
+    "datetimestamp": "2026-05-01T11:19:22",
+    "source": "UX Collective",
+    "category": "Design"
+  },
+  {
     "title": "A GenAI perplexed by color theory",
     "link": "https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10?source=rss----138adf9c44c---4",
     "description": "Using Perplexity to build an accessible perceptual uniform triad.",

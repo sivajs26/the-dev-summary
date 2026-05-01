@@ -1,5 +1,14 @@
 [
   {
+    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+    "link": "https://blog.cloudflare.com/dynamic-workflows/",
+    "description": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+    "image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/45alfDLgghrtXEb4mEsC4u/2211947d011e4e41e9bfc544080552f8/Introducing_Dynamic_Workflows-_durable_execution_that_follows_the_tenant-OG.png",
+    "datetimestamp": "2026-05-01T13:00:00",
+    "source": "Cloudflare Blog",
+    "category": "Engineering"
+  },
+  {
     "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
     "link": "https://blog.cloudflare.com/post-quantum-ipsec/",
     "description": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We\u2019ve confirmed interoperability with Cisco and Fortinet.",

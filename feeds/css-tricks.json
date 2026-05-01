@@ -1,5 +1,14 @@
 [
   {
+    "title": "What\u2019s !important #10: HTML-in-Canvas, Hex Maps, E-ink Optimization, and More",
+    "link": "https://css-tricks.com/whats-important-10/",
+    "description": "Developers have been experimenting with HTML-in-Canvas, a hexagonal world map-analytics feature, a web-based OS for e-ink devices, replacing image sources using the content property, and more. This is What\u2019s !important #10.",
+    "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/wh10.jpg",
+    "datetimestamp": "2026-05-01T13:43:26",
+    "source": "CSS-Tricks",
+    "category": "Frontend"
+  },
+  {
     "title": "The Importance of Native Randomness in CSS",
     "link": "https://css-tricks.com/the-importance-of-native-randomness-in-css/",
     "description": "We're getting new functions for generating random numbers in CSS! But the road to get here has been a long and winding one.",

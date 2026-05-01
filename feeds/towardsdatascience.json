@@ -1,5 +1,23 @@
 [
   {
+    "title": "Ghost: A Database for Our\u00a0Times?",
+    "link": "https://towardsdatascience.com/ghost-a-database-for-our-times/",
+    "description": "<p>The first database built for AI\u00a0Agents</p>\n<p>The post <a href=\"https://towardsdatascience.com/ghost-a-database-for-our-times/\">Ghost: A Database for Our\u00a0Times?</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+    "image": "",
+    "datetimestamp": "2026-05-01T13:30:00",
+    "source": "Towardsdatascience",
+    "category": "AI"
+  },
+  {
+    "title": "Why Powerful Machine Learning Is Deceptively Easy",
+    "link": "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/",
+    "description": "<p>Or why what appears powerful can be methodologically fragile</p>\n<p>The post <a href=\"https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/\">Why Powerful Machine Learning Is Deceptively Easy</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+    "image": "",
+    "datetimestamp": "2026-05-01T12:00:00",
+    "source": "Towardsdatascience",
+    "category": "AI"
+  },
+  {
     "title": "A Gentle Introduction to Stochastic Programming",
     "link": "https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/",
     "description": "<p>How to make decisions when your spreadsheet is lying about the future</p>\n<p>The post <a href=\"https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/\">A Gentle Introduction to Stochastic Programming</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",

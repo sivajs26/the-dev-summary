@@ -1,5 +1,95 @@
 [
   {
+    "title": "How Deloitte reduced environment provisioning from 45 minutes to under 5 minutes, saved 500+ hours\u2026",
+    "link": "https://medium.com/@jappreets4747/how-deloitte-reduced-environment-provisioning-from-45-minutes-to-under-5-minutes-saved-500-hours-8ca4b54177b9?source=rss------system_design-5",
+    "description": "Table of Contents",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*xOuCvuRHOi9bDm9c",
+    "datetimestamp": "2026-05-01T13:44:39",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "We Built an SMS Feature\u2026 and Discovered a Hidden System Design Flaw",
+    "link": "https://medium.com/@supunimanamperi/we-built-an-sms-feature-and-discovered-a-hidden-system-design-flaw-c0f61e3e8ca8?source=rss------system_design-5",
+    "description": "A few weeks ago, something didn\u2019t add up. One of our merchants \u2014 on a ~$29/month plan \u2014 generated nearly $96 in SMS costs in a single day.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*XFeiYxPRPtCsN4szCuoUYQ.png",
+    "datetimestamp": "2026-05-01T13:02:11",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Prompt Engineering Is Dead. System Design Is What Replaces It",
+    "link": "https://anggaprytn.medium.com/prompt-engineering-is-dead-system-design-is-what-replaces-it-c92a7b58d390?source=rss------system_design-5",
+    "description": "If your AI fails, it\u2019s not the model. It\u2019s your inability to structure reality",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*G-3I11lrtE4nc3WKTBgABA.png",
+    "datetimestamp": "2026-05-01T12:48:38",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "What is DevOps",
+    "link": "https://medium.com/@afzalkhan101/what-is-devops-a8832deeb4f6?source=rss------system_design-5",
+    "description": "DevOps is a modern approach to software development that integrates development and operations teams, enabling faster and more reliable\u2026",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1099/0*Nff8yyyuA8nouf-0",
+    "datetimestamp": "2026-05-01T12:14:57",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Design Systems in UI: The Secret Behind Great Digital Products",
+    "link": "https://medium.com/@allclonescript/design-systems-in-ui-the-secret-behind-great-digital-products-94b1e0ad678e?source=rss------system_design-5",
+    "description": "Why do top apps feel seamless? The answer starts with a strong design system. Know how it shapes better UI and faster growth.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*me_TxBceJUSry_mQ2R8ctw.jpeg",
+    "datetimestamp": "2026-05-01T12:11:38",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Cockpit or Maze? Redesigning Jira to Improve Clarity in a Data-Heavy Interface",
+    "link": "https://shalvi-rewired.medium.com/cockpit-or-maze-redesigning-jira-to-improve-clarity-in-a-data-heavy-interface-1d4a06bca99b?source=rss------system_design-5",
+    "description": "A UX case study on reducing cognitive load through better hierarchy, navigation, and interaction design.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*jbOla5OAuBORA4PMDwagbQ.jpeg",
+    "datetimestamp": "2026-05-01T11:06:13",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "How Internet Traffic Worked Before Reverse Proxy",
+    "link": "https://medium.com/@marimuthuceo/how-internet-traffic-worked-before-reverse-proxy-d63d6d8a6afd?source=rss------system_design-5",
+    "description": "Understanding how client-server communication worked before reverse proxies and why modern systems use them",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1193/0*AJINk6mE5whwRCHU",
+    "datetimestamp": "2026-05-01T08:54:16",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "How I built a Bulletproof Booking and Availability System for a Peer-to-Peer App",
+    "link": "https://medium.com/@olukmark/how-i-built-a-bulletproof-booking-and-availability-system-for-a-peer-to-peer-app-ca2d5f3ed299?source=rss------system_design-5",
+    "description": "If you\u2019ve ever used Airbnb or any platform where people rent things to other people, you know that the calendar is the heartbeat of the\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:640/1*0CaLlLIszXJILWUE-3UUYA.png",
+    "datetimestamp": "2026-05-01T08:44:31",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "What I Didn\u2019t Know About NGINX Until Production Taught Me",
+    "link": "https://medium.com/reversebits/what-i-didnt-know-about-nginx-until-production-taught-me-883a2e702df0?source=rss------system_design-5",
+    "description": "Most backend systems aren\u2019t architected. They\u2019re just deployed. And that gap is exactly where things break.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*-5-DVWCBwC52xq63HK6tPw.png",
+    "datetimestamp": "2026-05-01T07:41:22",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Design Token Generation is Not About Variables \u2014 It\u2019s About Decisions",
+    "link": "https://shreya-roy-blogs.medium.com/design-token-generation-is-not-about-variables-its-about-decisions-badd9528e70f?source=rss------system_design-5",
+    "description": "Most designers think design tokens are just\u2026 variables.",
+    "image": "https://miro.medium.com/v2/resize:fit:1024/1*gZn6s3rY1QO9PwMyiFhnpA.png",
+    "datetimestamp": "2026-05-01T07:24:35",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "Why Innovation Fails, And What It Actually Takes to Build Something That Works",
     "link": "https://medium.com/@nish_81716/why-innovation-fails-and-what-it-actually-takes-to-build-something-that-works-f6f0ff29dce4?source=rss------system_design-5",
     "description": "When people think about innovation, they often imagine a breakthrough moment.",

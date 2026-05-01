@@ -1,5 +1,32 @@
 [
   {
+    "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+    "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+    "description": "MSP sales gaps persist as 77% report low urgency and 66% SMBs cite cost, delaying cybersecurity adoption and revenue growth.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc4T6K9zSg5-BFr6xjfFnVhxj3Jx5R5CCUbEmTDssJXlPDiPYcCwFRAfSP_09Kcds90YN7CUwv2Y5ZhglKxLgEbyDRaudcoZXL1PfftGo5BloLB9LInZGWvVaKEdYEoHBJjyP3wwxkfEWWg4pcPTtBUnr6zCJRvre9YzZs4OagcnBVFiAbjbEGc7WY-98/s16000/cynomi.png",
+    "datetimestamp": "2026-05-01T10:30:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+    "description": "Two cybersecurity experts got 4-year sentences after enabling 2023 BlackCat attacks, exposing insider abuse and $1.2M ransom impact.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxhvaGpPe8ES3q62CqgJTkgm4Raiy6ugjF7dOgRUC4Sd6SsspaPB7tzYYK8lmeUi__TGffqjUeumdmUnA34ZmWJKLDG-TGoZXbyaFAaGR_49JYN9GxVGFQ13allcDdinlnrqtOUeRW6M3wdgvPyRYT_TzmYLpjYPGjYi43laVhtbrPjXs3P7dmN_DQ1Lnd/s1600/ransomware-install.jpg",
+    "datetimestamp": "2026-05-01T09:56:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+    "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+    "description": "Sleeper packages in Ruby and Go steal credentials and alter CI workflows, leading to persistent access and data exfiltration.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg",
+    "datetimestamp": "2026-05-01T09:43:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
     "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
     "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
     "description": "Malicious Lightning 2.6.2/2.6.3 released April 30 enable credential theft via hidden payload, leading to PyPI quarantine and forced remediation.",

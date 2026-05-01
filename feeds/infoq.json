@@ -1,5 +1,50 @@
 [
   {
+    "title": "Meta Deploys Unified AI Agents to Automate Performance Optimization at Hyperscale",
+    "link": "https://www.infoq.com/news/2026/05/meta-ai-agents-hyperscale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Meta has unveiled a new AI-driven capacity efficiency platform that uses unified AI agents to automatically detect and resolve performance issues across its global infrastructure, marking a significant step toward self-optimizing systems at hyperscale.",
+    "image": "https://res.infoq.com/news/2026/05/meta-ai-agents-hyperscale/en/headerimage/generatedHeaderImage-1777275523688.jpg",
+    "datetimestamp": "2026-05-01T12:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Presentation: The Next Generation of AI Products",
+    "link": "https://www.infoq.com/presentations/ai-products/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Hilary Mason shares her journey from academia to building AI products at scale.  She discusses the shift from discrete engineering to probabilistic mindsets, explaining why managing \"human considerations\" is the hardest part of the stack.  She explains the \"existential crisis\" for engineers, arguing that great architecture today is about context management, systems thinking, and good taste.",
+    "image": "https://res.infoq.com/presentations/ai-products/en/card_header_image/twitter-card-1776947360498.jpg",
+    "datetimestamp": "2026-05-01T09:23:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Vitest 4.1: Test Tags, Native Node.js Execution and AI Agent Reporter",
+    "link": "https://www.infoq.com/news/2026/05/vitest-4-1-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Vitest 4.1, developed by VoidZero, enhances JavaScript testing with features like test tags for filtering and configuring tests, an experimental mode to bypass Vite's module runner, and new lifecycle hooks. It supports Vite 8 from the start. Notably, it reports improvements in performance compared to Jest. The release addresses issues and provides guides for migration.",
+    "image": "https://res.infoq.com/news/2026/05/vitest-4-1-ai-agents/en/headerimage/generatedHeaderImage-1777557935260.jpg",
+    "datetimestamp": "2026-05-01T09:03:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Article: Securing Autonomous AI Agents on Kubernetes: Trust Boundaries, Secrets, and Observability for a New Category of Cloud Workload",
+    "link": "https://www.infoq.com/articles/securing-autonomous-ai-agents-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Autonomous AI agents break Kubernetes security assumptions with dynamic dependencies, multi-domain credentials, and unpredictable resource use. This article covers production-tested patterns: Job-based isolation, Vault for scoped short-lived credentials, a four-phase trust model from shadow mode to autonomous operation, and observability for non-deterministic reasoning cycles.",
+    "image": "https://res.infoq.com/articles/securing-autonomous-ai-agents-kubernetes/en/headerimage/securing-autonomous-ai-agents-kubernetes-header-1777378848477.jpg",
+    "datetimestamp": "2026-05-01T09:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
+    "title": "Broadcom Donates Velero to CNCF, Shifting Kubernetes Backup to Community Governance",
+    "link": "https://www.infoq.com/news/2026/05/broadcom-velero-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "description": "Broadcom has announced the contribution of Velero, its Kubernetes-native backup, restore and migration project, to the Cloud Native Computing Foundation (CNCF) as a Sandbox project. Velero It operates at the Kubernetes API layer, capturing cluster state through Custom Resource Definitions (CRDs) rather than through hypervisor or storage-layer snapshots.",
+    "image": "https://res.infoq.com/news/2026/05/broadcom-velero-cncf/en/headerimage/generatedHeaderImage-1777157417934.jpg",
+    "datetimestamp": "2026-05-01T08:00:00",
+    "source": "Infoq",
+    "category": "Tech News"
+  },
+  {
     "title": "NVIDIA Launches Ising Open Models for Quantum Computing",
     "link": "https://www.infoq.com/news/2026/04/nvidia-ising-quantum/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "description": "NVIDIA has announced a new family of open models called NVIDIA Ising, designed to address quantum processor calibration and quantum error correction. These are two of the main engineering challenges limiting the scalability of current quantum systems, where noise and instability in qubits reduce the reliability of computations.",

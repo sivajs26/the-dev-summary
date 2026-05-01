@@ -1,5 +1,50 @@
 [
   {
+    "title": "Artemis timeline shifts: Can NASA still land astronauts on the Moon in 2028?",
+    "link": "https://indianexpress.com/article/technology/science/artemis-timeline-shifts-can-nasa-still-land-astronauts-on-the-moon-in-2028-10666254/",
+    "description": "Artemis III\u00a0 is now planned for late 2027, leaving a narrow window for a 2028 crewed Moon landing",
+    "image": "https://images.indianexpress.com/2023/12/Artemis-3-mission-20231202.jpg",
+    "datetimestamp": "2026-05-01T12:35:31",
+    "source": "Indianexpress",
+    "category": "Tech News"
+  },
+  {
+    "title": "Big Tech Q1 2026 earnings: Key takeaways on AI spending, cloud growth, and more",
+    "link": "https://indianexpress.com/article/technology/tech-news-technology/big-tech-q1-fy2026-earnings-ai-cloud-growth-capex-roundup-10666191/",
+    "description": "From accelerated cloud revenue growth to rising AI-related capex, layoffs, and more, here\u2019s a look at the key takeaways from Big Tech\u2019s latest quarterly earnings results. ",
+    "image": "https://images.indianexpress.com/2025/01/big-tech.jpg",
+    "datetimestamp": "2026-05-01T12:30:23",
+    "source": "Indianexpress",
+    "category": "Tech News"
+  },
+  {
+    "title": "Airport of the future? Tokyo tests humanoid robots for ground operations",
+    "link": "https://indianexpress.com/article/technology/tech-news-technology/airport-of-the-future-tokyo-tests-humanoid-robots-for-ground-operations-10666133/",
+    "description": "Japan Airlines has launched a two-year trial of humanoid robots at Haneda Airport to support ground operations like baggage handling and cabin cleaning.",
+    "image": "https://images.indianexpress.com/2026/05/Tech-Daily-51.jpg",
+    "datetimestamp": "2026-05-01T11:41:09",
+    "source": "Indianexpress",
+    "category": "Tech News"
+  },
+  {
+    "title": "India faces cybersecurity talent crunch as AI, cloud drive demand: Report",
+    "link": "https://indianexpress.com/article/technology/artificial-intelligence/india-cybersecurity-skills-gap-ai-demand-report-10665764/",
+    "description": "A recent study sheds light on how changing technology trends are influencing cybersecurity roles, skills, and talent availability in India.",
+    "image": "https://images.indianexpress.com/2026/05/Cybersecurity-Professionals.jpg",
+    "datetimestamp": "2026-05-01T09:00:52",
+    "source": "Indianexpress",
+    "category": "Tech News"
+  },
+  {
+    "title": "Google Gemini adds file generation feature for documents and spreadsheets",
+    "link": "https://indianexpress.com/article/technology/tech-news-technology/google-gemini-adds-file-generation-feature-for-documents-and-spreadsheets-10665606/",
+    "description": "\u00a0Gemini can now generate files like PDFs, Word documents and spreadsheets directly from a prompt.",
+    "image": "https://images.indianexpress.com/2026/05/Tech-Daily-50.jpg",
+    "datetimestamp": "2026-05-01T07:45:16",
+    "source": "Indianexpress",
+    "category": "Tech News"
+  },
+  {
     "title": "Mark Zuckerberg on Meta layoffs: \u2018If we invest more in one area, we have less capital for others\u2019",
     "link": "https://indianexpress.com/article/technology/artificial-intelligence/mark-zuckerberg-on-meta-layoff-ai-spending-10665195/",
     "description": "CEO Mark Zuckerberg has pointed to rising AI spending as a key driver of workforce cuts at Meta Platforms.",

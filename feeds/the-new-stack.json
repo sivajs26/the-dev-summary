@@ -1,5 +1,14 @@
 [
   {
+    "title": "Cursor\u2019s $60 billion bet is on the harness, not the model",
+    "link": "https://thenewstack.io/cursor-sdk-harness/",
+    "description": "Cursor's SDK launch, its SpaceX compute deal, and Google's developer-loyalty shrug all point to the same shift: models are becoming commodities, and the harness is becoming the product.",
+    "image": "https://cdn.thenewstack.io/media/2026/04/c29038b1-naila-conita-w84kgrt8fx0-unsplash-scaled.jpg",
+    "datetimestamp": "2026-05-01T12:00:00",
+    "source": "The New Stack",
+    "category": "Tech News"
+  },
+  {
     "title": "A nine-point checklist for shipping production-ready AI",
     "link": "https://thenewstack.io/production-ready-ai-platforms/",
     "description": "A guide to taking AI agents from prototype to production using retrieval, guardrails, observability, and platform engineering best practices.",

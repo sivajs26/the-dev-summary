@@ -1,5 +1,14 @@
 [
   {
+    "title": "MemPalace Explained: Building Long-Term Memory for AI Agents Beyond RAG",
+    "link": "https://www.analyticsvidhya.com/blog/2026/05/mempalace-explained/",
+    "description": "A complete guide to MemPalace, the open-source, local-first memory system for AI agents. Learn how it differs from traditional RAG.",
+    "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/04/MemPalace-1.webp",
+    "datetimestamp": "2026-05-01T12:54:39",
+    "source": "Analytics Vidhya",
+    "category": "AI"
+  },
+  {
     "title": "Grok Voice Think Fast 1.0: Build Voice AI Agents That Actually Think",
     "link": "https://www.analyticsvidhya.com/blog/2026/05/grok-voice-think-fast-1-0/",
     "description": "Learn how to build intelligent real-time voice agents with xAI's Grok Voice Think Fast 1.0. This hands-on guide covers its full capabilities.",

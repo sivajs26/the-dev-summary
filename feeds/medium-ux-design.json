@@ -1,5 +1,95 @@
 [
   {
+    "title": "The Psychology of Subtraction",
+    "link": "https://saropa-contacts.medium.com/the-psychology-of-subtraction-a4b5b9d9ff85?source=rss------ux_design-5",
+    "description": "A Product Manager\u2019s Guide to How Behavioral Economics Drives Modern Product Design",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*hPwQ2I4ss_zdnngeEiBjSw.png",
+    "datetimestamp": "2026-05-01T12:59:49",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "I Learned These AI Terms in a Few Weeks \u2014 If You Want to Thrive in AI & UX, You Should Know Them\u2026",
+    "link": "https://maitraudit.medium.com/i-learned-these-ai-terms-in-a-few-weeks-if-you-want-to-thrive-in-ai-ux-you-should-know-them-adb4bce54ffb?source=rss------ux_design-5",
+    "description": "When the AI boom started, I found myself in conversations where terms like LLMs, agents, and generative AI were being used frequently \u2014 and\u2026",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*bTV7i4GZnveH514G",
+    "datetimestamp": "2026-05-01T12:46:47",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Creative Design That Builds Brands, Not Just Graphics",
+    "link": "https://medium.com/@creative4dotss/creative-design-that-builds-brands-not-just-graphics-8aa56281beca?source=rss------ux_design-5",
+    "description": "We are a graphic design agency focused on helping brands communicate visually with clarity, consistency, and impact. In today\u2019s\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*NOfUqqiYnLFdcAiB9iLiIg.png",
+    "datetimestamp": "2026-05-01T12:45:31",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Stop Guessing: When to Conduct Generative & Formative Research vs Evaluative A/B Testing",
+    "link": "https://dareegan.medium.com/stop-guessing-when-to-conduct-generative-formative-research-vs-evaluative-a-b-testing-37fc6be0fd1a?source=rss------ux_design-5",
+    "description": "Using the right method at the right time.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*VOWLyuXfxwIVLDM4M_baTg@2x.jpeg",
+    "datetimestamp": "2026-05-01T12:43:35",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How to design a SaaS landing page in Figma",
+    "link": "https://medium.com/@ryan.almeida86/how-to-design-a-saas-landing-page-in-figma-c5ed3b8196a4?source=rss------ux_design-5",
+    "description": "Designing a SaaS landing Page in Figma sounds simple until you actually open a blank file and realize you now have to make decisions about\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*KhXdGRB5yjggxyzIiF276w.png",
+    "datetimestamp": "2026-05-01T12:38:21",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "How a Single Gesture Could Make YouTube Feel Personal",
+    "link": "https://medium.com/@manishpedamkar03/how-a-single-gesture-could-make-youtube-feel-personal-f6e24215b27c?source=rss------ux_design-5",
+    "description": "A concept that lets habitual users pin topic chips to the front of their feed, turning a changing recommendation row into a stable\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*xz2l9a206cgievYEeiJLaA.jpeg",
+    "datetimestamp": "2026-05-01T12:14:02",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Designing Across Cultures",
+    "link": "https://medium.com/the-interaction-lab/designing-across-cultures-d972efcd516b?source=rss------ux_design-5",
+    "description": "How UX designers working in global teams must navigate cultural differences and why user behavior is never as universal as we think",
+    "image": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+    "datetimestamp": "2026-05-01T11:02:23",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "UX Design 2026+: From producing to deciding, from craft to operation",
+    "link": "https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803?source=rss------ux_design-5",
+    "description": "Annually take on UX design in future: industry, job and craft.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*asF-L0w1P0mNw6vjJgFg-Q.png",
+    "datetimestamp": "2026-05-01T11:01:02",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Ensuring Accessibility for All ; What Flutter Engineering Taught Me About the Users I Barely\u2026",
+    "link": "https://medium.com/@haywhy2946/ensuring-accessibility-for-all-what-flutter-engineering-taught-me-about-the-users-i-barely-e1c2de8bbda4?source=rss------ux_design-5",
+    "description": "I joined the Flutter Book Club late. By the time I got in, we were already on Chapter 20. So I missed a good chunk of Flutter Engineering\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1124/1*tRqBOpwFLDhQQAu0dNDjdQ.jpeg",
+    "datetimestamp": "2026-05-01T10:48:34",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Thinking fast, thinking slow, or not thinking at all.",
+    "link": "https://mennocramer.medium.com/neuroscience-in-design-82dff7c8769e?source=rss------ux_design-5",
+    "description": "Neuroscience in Design and Why the Brain Is the Real Interface.",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*8A99bWJfDB3vSbrXVJ6t7g.png",
+    "datetimestamp": "2026-05-01T10:41:48",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
     "title": "AI Wants Builders. Here\u2019s How to Become One.",
     "link": "https://medium.com/@usabilitycounts/ai-wants-builders-heres-how-to-become-one-b064e8e72c69?source=rss------ux_design-5",
     "description": "Something has changed in how building products is done; if you\u2019re an individual contributor, it\u2019s going to land on your desk before it\u2026",

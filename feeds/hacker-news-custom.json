@@ -1,5 +1,59 @@
 [
   {
+    "title": "Apple accidentally left Claude.md files Apple Support app",
+    "link": "https://xcancel.com/aaronp613/status/2049986504617820551",
+    "description": "Apple accidentally left Claude.md files in today's Apple Support app update (v5.13)",
+    "image": "https://pbs.twimg.com/media/HHMDhzqXEAATAX9.jpg",
+    "datetimestamp": "2026-05-01T11:08:32",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber",
+    "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+    "description": "OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+    "datetimestamp": "2026-05-01T10:28:12",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Grok 4.3",
+    "link": "https://docs.x.ai/developers/models/grok-4.3",
+    "description": "Learn how to use our products and services",
+    "image": "https://docs.x.ai/api/og?t=eyJ0aXRsZSI6Ikdyb2sgNC4zIiwidiI6IjMiLCJzY29wZSI6ImRldmVsb3BlcnMiLCJzZWN0aW9uIjoiTW9kZWxzIGFuZCBQcmljaW5nIn0.SMidkHaGudRzuawDgM_H4n4Y3WQgd7xcEmaQjlFarcw",
+    "datetimestamp": "2026-05-01T08:29:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+    "link": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+    "description": "How Lovable's infrastructure team tracked down sporadic networking errors in Kubernetes, from crashing anetd pods to MTU mismatches, using AI-assisted debugging and deep packet inspection.",
+    "image": "https://lovable.dev/content/news/covers/blog-hunting-networking-bugs-in-kubernetes.jpg",
+    "datetimestamp": "2026-05-01T08:14:07",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "How People ask Claude for personal guidance",
+    "link": "https://www.anthropic.com/research/claude-personal-guidance",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&backgroundColor=heather",
+    "datetimestamp": "2026-05-01T05:35:49",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "U.S. Aims to Penalize Disabled Adults Who Live with Their Families",
+    "link": "https://www.propublica.org/article/trump-social-security-ssi-disability-benefits-cuts-parents-children",
+    "description": "A rule change pushed by White House officials would slash benefits or end support for as many as 400,000 Supplemental Security Income recipients with Down syndrome, dementia and other disabilities whose parents or relatives receive SNAP benefits.",
+    "image": "https://www.propublica.org/wp-content/uploads/2026/04/Gutman_ShyTyraRondell_Lead.jpg?resize=2000,1333",
+    "datetimestamp": "2026-05-01T05:02:15",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "Show HN: Winpodx \u2013 run Windows apps on Linux as native windows",
     "link": "https://github.com/kernalix7/winpodx",
     "description": "Windows pod system for Linux. Contribute to kernalix7/winpodx development by creating an account on GitHub.",

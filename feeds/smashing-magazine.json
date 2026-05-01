@@ -1,5 +1,14 @@
 [
   {
+    "title": "Designing Stable Interfaces For Streaming Content",
+    "link": "https://smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/",
+    "description": "Streaming UIs are an easy concept on the surface, but are quite complicated in practice. There are many considerations that need to be accounted for, from layout shifts and motion preferences to proper markup and various states, that may not be instantly obvious. What happens if the stream is interrupted? Can users tab through the UI on the keyboard as it shifts? What ARIA attributes might be needed?",
+    "image": "https://files.smashing.media/articles/designing-stable-interfaces-streaming-content/designing-stable-interfaces-streaming-content.jpg",
+    "datetimestamp": "2026-05-01T08:00:00",
+    "source": "Smashing Magazine",
+    "category": "Design"
+  },
+  {
     "title": "A Fresh View In May (2026 Wallpapers Edition)",
     "link": "https://smashingmagazine.com/2026/04/desktop-wallpaper-calendars-may-2026/",
     "description": "Let\u2019s welcome May with a new collection of desktop wallpapers! Following our monthly tradition, the wallpapers were created by the community for the community and can be downloaded for free. Enjoy!",

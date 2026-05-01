@@ -1,5 +1,14 @@
 [
   {
+    "title": "A Virtual Agent team at Docker: How the Coding Agent Sandboxes team uses a fleet of agents to ship faster",
+    "link": "https://www.docker.com/blog/a-virtual-agent-team-at-docker-how-the-coding-agent-sandboxes-team-uses-a-fleet-of-agents-to-ship-faster/",
+    "description": "Learn how Docker uses a fleet of AI agents in CI to test, triage, and fix code automatically, helping teams ship faster with secure sandboxes.",
+    "image": "https://www.docker.com/app/uploads/2025/03/image.png",
+    "datetimestamp": "2026-05-01T13:00:00",
+    "source": "Docker Blog",
+    "category": "Cloud"
+  },
+  {
     "title": "From Security Blocked to Prod Ready: ClickHouse on Docker Hardened Images",
     "link": "https://www.docker.com/blog/from-security-blocked-to-prod-ready-clickhouse-on-docker-hardened-images/",
     "description": "Learn how Docker Hardened Images help run ClickHouse in production by reducing CVEs and improving container security without changing your workflow.",
