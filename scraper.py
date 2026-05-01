@@ -319,6 +319,40 @@ def main():
         random.shuffle(flat)
         json.dump(flat, f, indent=2)
 
+    # --- SEO Update Phase: Hardcode current date into HTML and Sitemap ---
+    print("--- Starting SEO Update Phase: Syncing dates ---")
+    current_date = datetime.now().strftime("%A, %B %d, %Y")
+    iso_date = datetime.now().strftime("%Y-%m-%d")
+    
+    # 1. Update v1/index.html
+    index_path = 'v1/index.html'
+    if os.path.exists(index_path):
+        with open(index_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Update <title>
+        content = re.sub(r'<title>.*?</title>', f'<title>The Dev Summary | Tech News - {current_date}</title>', content)
+        # Update Open Graph Title
+        content = re.sub(r'<meta property="og:title" content=".*?">', f'<meta property="og:title" content="The Dev Summary | News for {current_date}">', content)
+        # Update Twitter Title
+        content = re.sub(r'<meta property="twitter:title" content=".*?">', f'<meta property="twitter:title" content="The Dev Summary | News for {current_date}">', content)
+        
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"Updated {index_path} with date: {current_date}")
+
+    # 2. Update sitemap.xml
+    sitemap_path = 'sitemap.xml'
+    if os.path.exists(sitemap_path):
+        with open(sitemap_path, 'r', encoding='utf-8') as f:
+            sitemap_content = f.read()
+        
+        sitemap_content = re.sub(r'<lastmod>.*?</lastmod>', f'<lastmod>{iso_date}</lastmod>', sitemap_content)
+        
+        with open(sitemap_path, 'w', encoding='utf-8') as f:
+            f.write(sitemap_content)
+        print(f"Updated {sitemap_path} with date: {iso_date}")
+
     print("Completed successfully!")
 
 if __name__ == "__main__":

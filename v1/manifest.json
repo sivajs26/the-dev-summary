@@ -1,0 +1,16 @@
+{
+  "name": "The Dev Summary",
+  "short_name": "DevSummary",
+  "description": "Daily Tech News for Developers & Engineers",
+  "start_url": "/daily-tech-news/v1/index.html",
+  "display": "standalone",
+  "background_color": "#f9f8f4",
+  "theme_color": "#d32f2f",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

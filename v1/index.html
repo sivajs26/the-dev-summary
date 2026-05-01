@@ -4,8 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dev Summary</title>
-    <meta name="description" content="Daily Tech News to keep you updated">
+    <title>The Dev Summary | Daily Tech News for Developers & Engineers</title>
+    <meta name="description"
+        content="Daily tech news summaries, editorial dispatches, and curated updates for developers, engineers, and tech enthusiasts. Stay ahead with The Dev Summary.">
+    <meta name="keywords"
+        content="tech news, developer news, programming updates, open source, engineering summaries, software development, AI news, frontend, backend">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sivasubramoniam-js.github.io/daily-tech-news/v1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sivasubramoniam-js.github.io/daily-tech-news/v1">
+    <meta property="og:title" content="The Dev Summary | Daily Tech News for Developers">
+    <meta property="og:description"
+        content="Daily tech news summaries and curated updates for engineers. Stay informed with minimal noise.">
+    <meta property="og:image" content="https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg">
+
+    <meta property="og:site_name" content="The Dev Summary">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sivasubramoniam-js.github.io/daily-tech-news/v1">
+    <meta property="twitter:title" content="The Dev Summary | Daily Tech News for Developers">
+    <meta property="twitter:description"
+        content="Daily tech news summaries and curated updates for engineers. Stay informed with minimal noise.">
+    <meta property="twitter:image" content="https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg">
+
+    <!-- manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+
     <!-- schema for rich snippet -->
     <script type="application/ld+json">
     {
@@ -14,9 +42,9 @@
       "name": "The Dev Summary",
       "url": "https://sivasubramoniam-js.github.io/daily-tech-news/v1",
       "logo": "https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg",
-      "description": "Daily Tech News to keep you updated",
+      "description": "Daily Tech News for Developers & Engineers",
       "sameAs": [
-        "https://github.com/sivasubramoniam-js/daily-tech-news",
+        "https://github.com/sivasubramoniam-js/daily-tech-news"
       ]
     }
     </script>
@@ -32,10 +60,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         :root {
             --bg-page: #f9f8f4;
             /* High-end magazine paper texture approximation */
-            --text-main: #111111;
+            --text-main: #111111bd;
             --text-muted: #5a5a5a;
             --accent: #d32f2f;
             /* Deep editorial red */
@@ -61,6 +93,8 @@
             line-height: 1.5;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+            width: 100%;
         }
 
         /* ---------------- MASTHEAD ---------------- */
@@ -70,6 +104,11 @@
             border-bottom: 3px solid var(--border-color);
             padding: 20px;
             text-align: center;
+        }
+
+        #dateDisplay {
+            display: flex;
+            align-items: center;
         }
 
         .masthead-meta {
@@ -147,29 +186,12 @@
             padding: 0 20px;
         }
 
-        .section-header {
-            font-family: var(--font-mono);
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-bottom: 30px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .section-header::after {
-            content: "";
-            flex: 1;
-            height: 2px;
-            background-color: var(--border-color);
-        }
-
         /* ---------------- GRID LAYOUT ---------------- */
         #news-feed {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             gap: 40px;
+            min-height: 65vh;
         }
 
         .news-card {
@@ -264,16 +286,8 @@
             line-height: 1.2;
             margin: 0 0 12px 0;
             color: var(--text-main);
-        }
-
-        .card-featured .news-title {
-            font-size: 3rem;
-            line-height: 1.1;
-            margin-bottom: 20px;
-        }
-
-        .card-wide .news-title {
-            font-size: 2rem;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         /* Underline Animation Effect */
@@ -294,14 +308,6 @@
             color: var(--text-muted);
             line-height: 1.6;
             margin: 0;
-        }
-
-        .card-featured .news-desc {
-            font-size: 1.2rem;
-        }
-
-        .card-side .news-desc {
-            font-size: 0.9rem;
         }
 
         /* Footer */
@@ -350,74 +356,6 @@
             to {
                 opacity: 1;
                 transform: translateY(0);
-            }
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .card-featured .news-image-wrapper {
-                height: 400px;
-            }
-
-            .card-regular {
-                grid-column: span 6;
-            }
-
-            .card-side {
-                grid-column: span 6;
-                border-left: none;
-                padding-left: 0;
-            }
-        }
-
-        @media (max-width: 900px) {
-            .masthead h1 {
-                font-size: 4.5rem;
-            }
-
-            .card-featured {
-                flex-direction: column;
-                gap: 20px;
-            }
-
-            .card-featured .news-image-wrapper {
-                height: 350px;
-            }
-
-            .nav-links {
-                gap: 1.5rem;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .masthead h1 {
-                font-size: 3.5rem;
-            }
-
-            .masthead-meta {
-                flex-direction: column;
-                gap: 10px;
-                align-items: center;
-            }
-
-            .nav-links {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .card-regular,
-            .card-side,
-            .card-wide,
-            .card-featured {
-                grid-column: span 12;
-            }
-
-            .card-featured .news-title {
-                font-size: 2.2rem;
-            }
-
-            #news-feed {
-                gap: 30px;
             }
         }
 
@@ -481,7 +419,7 @@
             border-top: 1px solid var(--border-color);
             border-bottom: 1px solid var(--border-color);
             padding: 10px 0;
-            width: 100vw;
+            width: 100%;
             max-width: 1400px;
             margin: 0 auto;
         }
@@ -538,63 +476,12 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none;
+            margin: 0 auto;
+            max-width: 1400px;
         }
 
         .category-nav::-webkit-scrollbar {
             display: none;
-        }
-
-        .date-filter-nav {
-            display: none;
-            /* Hidden by default */
-        }
-
-        .filter-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            padding: 0 20px;
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        .date-input-group {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .date-input-group input {
-            padding: 4px 8px;
-            border: 1px solid var(--border-color);
-            background: var(--bg-page);
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
-            outline: none;
-            cursor: pointer;
-        }
-
-        .date-input-group input:hover {
-            background: rgba(0, 0, 0, 0.03);
-        }
-
-        .filter-btn {
-            background: var(--text-main);
-            color: var(--bg-page);
-            border: none;
-            padding: 5px 15px;
-            cursor: pointer;
-            text-transform: uppercase;
-            font-size: 0.7rem;
-            transition: opacity 0.2s;
-        }
-
-        .filter-btn:hover {
-            opacity: 0.9;
         }
 
         .category-list {
@@ -627,6 +514,16 @@
             border-color: var(--border-color);
             color: var(--accent);
             background: rgba(0, 0, 0, 0.03);
+        }
+
+        .category-item.saved-trigger {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .category-item.saved-trigger.active {
+            background-color: var(--accent);
+            color: white;
         }
 
         /* ---------------- ARTICLE DIALOG ---------------- */
@@ -723,6 +620,146 @@
         .read-more:hover {
             border-bottom-color: var(--accent);
         }
+
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .card-featured .news-image-wrapper {
+                height: 400px;
+            }
+
+            .card-regular {
+                grid-column: span 6;
+            }
+
+            .card-side {
+                grid-column: span 6;
+                border-left: none;
+                padding-left: 0;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .masthead h1 {
+                font-size: 4.5rem;
+            }
+
+            .card-featured {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .card-featured .news-image-wrapper {
+                height: 350px;
+            }
+
+            .nav-links {
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .masthead h1 {
+                font-size: 2.5rem;
+            }
+
+            .masthead p {
+                font-size: 1rem;
+            }
+
+            .masthead-meta {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .nav-links a {
+                font-size: 0.75rem;
+            }
+
+            .card-regular,
+            .card-side,
+            .card-wide,
+            .card-featured {
+                grid-column: span 12;
+            }
+
+            .news-title {
+                font-size: 2rem;
+            }
+
+            #news-feed {
+                gap: 30px;
+            }
+
+            .dialog-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .dialog-desc {
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            header h1 {
+                margin-top: 12px;
+            }
+
+            .masthead h1 {
+                font-size: 1.5rem;
+            }
+
+            .masthead p {
+                font-size: 0.9rem;
+            }
+
+            .masthead-meta {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .nav-links a {
+                font-size: 0.625rem;
+            }
+
+            .card-regular,
+            .card-side,
+            .card-wide,
+            .card-featured {
+                grid-column: span 12;
+            }
+
+            .news-desc {
+                font-size: 0.75rem;
+            }
+
+            #news-feed {
+                gap: 30px;
+            }
+
+            .news-title {
+                font-size: 1.25rem;
+            }
+
+            .news-meta {
+                font-size: 0.75rem;
+            }
+        }
     </style>
 </head>
 
@@ -731,16 +768,12 @@
     <header class="masthead">
         <div class="masthead-meta">
             <span id="dateDisplay"></span>
-            <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <select id="feedFilter" onchange="handleFilterChange(this.value)"
-                    style="padding: 5px 10px; font-family: var(--font-mono); font-size: 0.8rem; border: 1px solid var(--border-color); background: var(--bg-page); outline: none; cursor: pointer; max-width: 300px;">
-                    <option value="news.json">Latest news (24 hours)</option>
-                </select>
+            <div style="display: flex; gap: 15px; align-items: center; justify-content: center; flex-wrap: wrap;">
                 <span id="google_translate_element"></span>
             </div>
         </div>
         <h1>The Dev Summary</h1>
-        <p>Daily Tech News to keep you updated</p>
+        <p>Daily Tech News for Developers & Engineers</p>
     </header>
 
     <!-- scrolling marquee text based on the title of each news -->
@@ -757,28 +790,7 @@
         </ul>
     </nav>
 
-    <!-- Date Filter Navigation Bar (For specific feeds) -->
-    <nav class="date-filter-nav" id="dateFilterNav">
-        <div class="filter-container">
-            <div class="date-input-group">
-                <span>Filter by Date:</span>
-                <input type="date" id="singleDate" onchange="applyDateFilter('single')">
-            </div>
-            <div style="height: 15px; width: 1px; background: var(--border-color);"></div>
-            <div class="date-input-group">
-                <span>Or Range:</span>
-                <input type="date" id="startDate" onchange="applyDateFilter('range')">
-                <span>to</span>
-                <input type="date" id="endDate" onchange="applyDateFilter('range')">
-            </div>
-            <button class="filter-btn" onclick="resetDateFilter()" style="margin-left: auto;">Reset</button>
-        </div>
-    </nav>
-
     <main>
-        <div class="section-header">
-            Top Technology Events
-        </div>
         <div id="news-feed">
             <div class="loading-text">Fetching the latest dispatches...</div>
         </div>
@@ -798,9 +810,10 @@
         <p>The Dev Summary ©
             <script>document.write(new Date().getFullYear())</script> — Minimalist Tech Editorial by <a
                 href="https://github.com/sivasubramoniam-js" target="_blank"
-                style="text-decoration: none; color: var(--text-main);">
+                style="text-decoration: none; color: white;">
                 sivasubramoniam-js</a>
         </p>
+        <span>Content curated from the global tech community</span>
     </footer>
 
     <script>
@@ -905,8 +918,9 @@
                         <p style="font-family: var(--font-sans), sans-serif; font-size: 32px; color: #333333; line-height: 1.55; margin: 0; overflow: hidden;">${desc}</p>
                     </div>
                     
-                    <div style="display: flex; justify-content: center; align-items: center; height: 50px; color: #666666; font-family: var(--font-mono), monospace; font-size: 24px; font-weight: 600; margin-bottom: 12px">
-                        <i class="fab fa-github" style="margin-right: 14px; font-size: 30px;"></i>sivasubramoniam-js/daily-tech-news
+                    <div style="display: flex; justify-content: center; align-items: center; height: 50px; color: #666666; font-family: var(--font-mono), monospace; font-size: 20px; font-weight: 600; margin-bottom: 12px">
+                        <span style="margin-right: 25px;"><i class="fab fa-github" style="margin-right: 8px;"></i>sivasubramoniam-js/daily-tech-news</span>
+                        <span><i class="fas fa-globe" style="margin-right: 8px;"></i>sivasubramoniam-js.github.io/daily-tech-news/v1</span>
                     </div>
                 `;
 
@@ -945,24 +959,24 @@
                 renderAndDownload();
             }
         }
+
         // Set dynamic masthead date
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
+        const dateStr = new Date().toLocaleDateString('en-US', options);
+        document.getElementById('dateDisplay').textContent = dateStr;
 
         // Categories Configuration
         let categories = [];
         let currentCategory = '';
         let allNewsData = []; // Store the full list for local filtering
         let currentDisplayedData = []; // Store currently visible news for dialog lookup
+        let isInitialLoad = true; // Flag to prevent scroll on first load
 
         function showArticleDialog(index) {
             const item = currentDisplayedData[index];
             if (!item) return;
 
-            let image_url = "";
-            if (item.image) {
-                image_url = item.image.startsWith("https") ? item.image : BASE_RAW_URL + item.image;
-            }
+            let image_url = item.image;
 
             const dialogContent = document.getElementById('dialogContent');
 
@@ -987,26 +1001,28 @@
             document.body.style.overflow = 'auto';
         }
 
-        function initCategoryNav() {
+        async function initCategoryNav() {
             // Dynamically extract unique categories from the news data
             const uniqueCategories = new Set();
             allNewsData.forEach(item => {
                 let cat = item.category || 'Tech';
-                // Normalize "General Tech" to "Tech" if needed or keep as is
                 if (cat.toLowerCase() === 'general tech') cat = 'Tech';
                 uniqueCategories.add(cat);
             });
 
-            // Sort alphabetically (removed 'all')
+            // Sort alphabetically
             categories = Array.from(uniqueCategories).sort((a, b) => a.localeCompare(b));
-
-            // Set default category if not set, or if current category no longer exists in the data
-            if (!currentCategory || currentCategory === 'all' || !categories.includes(currentCategory)) {
-                currentCategory = categories[0] || 'Tech';
-            }
 
             const list = document.getElementById('categoryList');
             list.innerHTML = '';
+
+            // Add Saved Items trigger
+            const savedLi = document.createElement('li');
+            savedLi.className = `category-item saved-trigger ${currentCategory === 'Saved Items' ? 'active' : ''}`;
+            savedLi.textContent = 'Saved Items';
+            savedLi.onclick = () => filterByCategory('Saved Items');
+            list.appendChild(savedLi);
+
             categories.forEach(cat => {
                 const li = document.createElement('li');
                 li.className = `category-item ${cat.toLowerCase() === currentCategory.toLowerCase() ? 'active' : ''}`;
@@ -1015,13 +1031,13 @@
                 list.appendChild(li);
             });
 
-            // Automatically trigger filtering for the default category if we just loaded the main feed
-            if (currentFeedUrl.includes('news.json')) {
-                filterByCategory(currentCategory);
+            // Automatically trigger filtering for the default category
+            if (currentFeedUrl.includes('news.json') && currentCategory !== 'Saved Items') {
+                filterByCategory(currentCategory || (categories[0] || 'Tech'));
             }
         }
 
-        function filterByCategory(category) {
+        async function filterByCategory(category) {
             currentCategory = category;
 
             // Update UI
@@ -1032,103 +1048,117 @@
             const container = document.getElementById('news-feed');
             container.innerHTML = '<div class="loading-text">Filtering...</div>';
 
-            let filteredData = allNewsData;
-            if (category.toLowerCase() !== 'all') {
-                filteredData = allNewsData.filter(item => {
+            let dataToRender = [];
+
+            if (category === 'Saved Items') {
+                dataToRender = await db.getAllArticles();
+                if (dataToRender.length === 0) {
+                    container.innerHTML = '<div class="loading-text">No saved articles yet. Bookmark some interesting dispatches!</div>';
+                    document.getElementById('marqueeText').textContent = 'Your library is empty.';
+                    return;
+                }
+            } else if (category.toLowerCase() === 'all') {
+                dataToRender = allNewsData;
+            } else {
+                dataToRender = allNewsData.filter(item => {
                     let itemCat = item.category || 'Tech';
                     if (itemCat.toLowerCase() === 'general tech') itemCat = 'Tech';
-
                     return itemCat.toLowerCase() === category.toLowerCase();
                 });
             }
+            // blur the news feed
+            container.style.filter = 'blur(5px)';
+            // Small timeout to give visual feedback
+            setTimeout(() => renderNews(dataToRender), 100);
+        }
 
-            // Small timeout to give visual feedback of filtering
-            setTimeout(() => renderNews(filteredData), 100);
+        // --- IndexedDB Utility ---
+        const db = {
+            name: 'DevSummaryDB',
+            version: 1,
+            store: 'savedArticles',
+
+            open() {
+                return new Promise((resolve, reject) => {
+                    const request = indexedDB.open(this.name, this.version);
+                    request.onupgradeneeded = (e) => {
+                        const db = e.target.result;
+                        if (!db.objectStoreNames.contains(this.store)) {
+                            db.createObjectStore(this.store, { keyPath: 'link' });
+                        }
+                    };
+                    request.onsuccess = (e) => resolve(e.target.result);
+                    request.onerror = (e) => reject(e.target.error);
+                });
+            },
+
+            async saveArticle(article) {
+                const database = await this.open();
+                return new Promise((resolve, reject) => {
+                    const tx = database.transaction(this.store, 'readwrite');
+                    tx.objectStore(this.store).put(article);
+                    tx.oncomplete = () => resolve();
+                });
+            },
+
+            async removeArticle(link) {
+                const database = await this.open();
+                return new Promise((resolve, reject) => {
+                    const tx = database.transaction(this.store, 'readwrite');
+                    tx.objectStore(this.store).delete(link);
+                    tx.oncomplete = () => resolve();
+                });
+            },
+
+            async getAllArticles() {
+                const database = await this.open();
+                return new Promise((resolve, reject) => {
+                    const tx = database.transaction(this.store, 'readonly');
+                    const request = tx.objectStore(this.store).getAll();
+                    request.onsuccess = () => resolve(request.result);
+                });
+            },
+
+            async isSaved(link) {
+                const database = await this.open();
+                return new Promise((resolve, reject) => {
+                    const tx = database.transaction(this.store, 'readonly');
+                    const request = tx.objectStore(this.store).get(link);
+                    request.onsuccess = () => resolve(!!request.result);
+                });
+            }
+        };
+
+        async function toggleSave(event, index) {
+            event.preventDefault();
+            event.stopPropagation();
+            const icon = event.currentTarget;
+            const newsItem = currentDisplayedData[index];
+            const isSaved = await db.isSaved(newsItem.link);
+
+            if (isSaved) {
+                await db.removeArticle(newsItem.link);
+                icon.style.color = 'var(--text-muted)';
+                icon.classList.replace('fas', 'far');
+                if (currentCategory === 'Saved Items') {
+                    filterByCategory('Saved Items');
+                }
+            } else {
+                await db.saveArticle(newsItem);
+                icon.style.color = 'crimson';
+                icon.classList.replace('far', 'fas');
+            }
         }
 
         // Fetch and render news
         const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/daily-tech-news/main/';
         let currentFeedUrl = BASE_RAW_URL + 'news.json';
 
-        async function fetchFeedsList() {
-            try {
-                const response = await fetch(BASE_RAW_URL + 'feeds.json');
-                const feeds = await response.json();
-
-                const select = document.getElementById('feedFilter');
-
-                // Add AssemblyAI as it's custom scraped
-                if (!feeds.some(f => f.feedname === 'AssemblyAI')) {
-                    feeds.push({ feedname: 'AssemblyAI', category: 'AI' });
-                }
-
-                const catGroups = {};
-                feeds.forEach(feed => {
-                    const cat = feed.category || 'General';
-                    if (!catGroups[cat]) catGroups[cat] = [];
-                    catGroups[cat].push(feed);
-                });
-
-                for (const [category, items] of Object.entries(catGroups).sort()) {
-                    const optgroup = document.createElement('optgroup');
-                    optgroup.label = `--- ${category} ---`;
-
-                    items.sort((a, b) => a.feedname.localeCompare(b.feedname)).forEach(item => {
-                        // Python slugify logic replica
-                        let slug = item.feedname.toLowerCase()
-                            .replace(/[^\w\s-]/g, '')
-                            .replace(/[-\s]+/g, '-')
-                            .replace(/^-+|-+$/g, '');
-
-                        // Prevent duplicates
-                        if (!Array.from(select.options).some(opt => opt.value === `feeds/${slug}.json`)) {
-                            const option = document.createElement('option');
-                            option.value = `feeds/${slug}.json`;
-                            option.textContent = item.feedname;
-                            optgroup.appendChild(option);
-                        }
-                    });
-                    select.appendChild(optgroup);
-                }
-            } catch (err) {
-                console.error("Failed to load feed list", err);
-            }
-        }
-
-        function handleFilterChange(value) {
-            const categoryNav = document.getElementById('categoryNav');
-            const dateFilterNav = document.getElementById('dateFilterNav');
-            const newsFeed = document.getElementById('news-feed');
-            const marqueeText = document.getElementById('marqueeText');
-
-            newsFeed.innerHTML = '<div class="loading-text">Fetching dispatches...</div>';
-            marqueeText.textContent = '';
-
-            // Reset date filters
-            document.getElementById('singleDate').value = '';
-            document.getElementById('startDate').value = '';
-            document.getElementById('endDate').value = '';
-
-            if (value === 'news.json') {
-                categoryNav.style.display = 'block';
-                dateFilterNav.style.display = 'none';
-                currentFeedUrl = BASE_RAW_URL + 'news.json';
-            } else {
-                categoryNav.style.display = 'none';
-                dateFilterNav.style.display = 'block';
-                currentFeedUrl = BASE_RAW_URL + value;
-            }
-            fetchNews(currentFeedUrl);
-        }
-
-        let currentRawData = []; // Store the data before date filtering
-
         async function fetchNews(url = currentFeedUrl) {
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
-                currentRawData = data;
 
                 if (url.includes('news.json')) {
                     allNewsData = data;
@@ -1140,49 +1170,6 @@
                 console.error('Error fetching news:', error);
                 document.getElementById('news-feed').innerHTML = '<div class="loading-text" style="color:var(--accent);">Error connecting to the printing press. Please try again.</div>';
             }
-        }
-
-        function applyDateFilter(mode) {
-            let filtered = [...currentRawData];
-
-            const formatDate = (dateInput) => {
-                const d = new Date(dateInput);
-                if (isNaN(d)) return "";
-                return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-            };
-
-            if (mode === 'single') {
-                const dateVal = document.getElementById('singleDate').value;
-                if (dateVal) {
-                    document.getElementById('startDate').value = '';
-                    document.getElementById('endDate').value = '';
-                    filtered = currentRawData.filter(item => {
-                        const itemDate = formatDate(item.datetimestamp || item.published);
-                        return itemDate === dateVal;
-                    });
-                }
-            } else if (mode === 'range') {
-                const start = document.getElementById('startDate').value;
-                const end = document.getElementById('endDate').value;
-                if (start || end) {
-                    document.getElementById('singleDate').value = '';
-                    filtered = currentRawData.filter(item => {
-                        const itemDate = formatDate(item.datetimestamp || item.published);
-                        if (start && end) return itemDate >= start && itemDate <= end;
-                        if (start) return itemDate >= start;
-                        if (end) return itemDate <= end;
-                        return true;
-                    });
-                }
-            }
-            renderNews(filtered);
-        }
-
-        function resetDateFilter() {
-            document.getElementById('singleDate').value = '';
-            document.getElementById('startDate').value = '';
-            document.getElementById('endDate').value = '';
-            renderNews(currentRawData);
         }
 
         function renderNews(data) {
@@ -1204,7 +1191,7 @@
                 return tmp.textContent || tmp.innerText || "";
             };
 
-            data.forEach((item, index) => {
+            data.forEach(async (item, index) => {
                 // Determine grid class based on index to create masonry/editorial layout
                 let cardClass = 'card-regular';
 
@@ -1251,11 +1238,15 @@
                     readMoreLink = `<span class="read-more" onclick="showArticleDialog(${index})">...more</span>`;
                 }
 
+                const isSaved = await db.isSaved(item.link);
+                const saveIconClass = isSaved ? 'fas' : 'far';
+                const saveIconColor = isSaved ? 'crimson' : 'var(--text-muted)';
+
                 const cardHTML = `
-                    <div class="news-card ${cardClass}" id="news-card-${index}" style="animation-delay: ${animDelay}s">
+                    <article class="news-card ${cardClass}" id="news-card-${index}" style="animation-delay: ${animDelay}s">
                         ${item.image ? `
                             <div class="news-image-wrapper">
-                                <img src="${image_url}" class="news-image" alt="Article image" loading="lazy">
+                                <img src="${image_url}" class="news-image" alt="${item.title}" loading="lazy">
                             </div>
                         ` : `<div class="news-image-wrapper" style="background:#222;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-mono)"><i class="fas fa-newspaper fa-2x"></i></div>`}
                         <div class="news-content">
@@ -1265,8 +1256,8 @@
                             </div>
                             <div class="news-meta">
                                 <span class="action-icons" style="font-size: 1.1rem; color: var(--text-muted);">
-                                    <i class="fas fa-copy" title="Copy to clipboard" style="margin-right: 10px; cursor: pointer;" onclick="copyToClipboard(event)"></i>
-                                    <i class="fas fa-download" title="Download as image" id="${index}" style="cursor: pointer;" onclick="downloadAsImage(event)"></i>
+                                    <i class="fas fa-copy" title="Copy to clipboard" style="margin-right: 15px; cursor: pointer;" onclick="copyToClipboard(event)"></i>
+                                    <i class="${saveIconClass} fa-bookmark" title="Save article" style="cursor: pointer; color: ${saveIconColor};" onclick='toggleSave(event, ${index})'></i>
                                 </span>
                                 <span style="color: var(--text-muted);">${readTime} MIN READ</span>
                             </div>
@@ -1277,10 +1268,19 @@
                             </h2>
                             <p class="news-desc">${displayDesc}${readMoreLink}</p>
                         </div>
-                    </div>
+                    </article>
                 `;
-                container.innerHTML += cardHTML;
+                container.insertAdjacentHTML('beforeend', cardHTML);
             });
+
+            // Post-render actions
+            if (!isInitialLoad) {
+                const categoryNav = document.querySelector('.category-nav');
+                const targetTop = categoryNav.getBoundingClientRect().top + window.scrollY - 10;
+                window.scrollTo({ top: targetTop, behavior: 'smooth' });
+            }
+            container.style.filter = 'blur(0px)';
+            isInitialLoad = false;
 
             // marquee scrolling time calculation
             const marqueeContent = document.querySelector('.marquee-content');
@@ -1293,7 +1293,6 @@
         }
 
         // Initialize
-        fetchFeedsList();
         fetchNews();
     </script>
 
