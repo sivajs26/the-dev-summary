@@ -1,5 +1,23 @@
 [
   {
+    "title": "Cyber-Insecurity in the AI Era",
+    "link": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+    "description": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review\u2019s EmTech AI conference explores why security must be rethought with AI at its core, not layered on after\u2026",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/BP0A9302.jpg?resize=1200,600",
+    "datetimestamp": "2026-05-01T15:54:01",
+    "source": "Tech Review",
+    "category": "Tech News"
+  },
+  {
+    "title": "Operationalizing AI for Scale and Sovereignty",
+    "link": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+    "description": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high\u2011quality data needed to power reliable insights. This conversation from MIT Technology Review\u2019s EmTech AI conference examines how AI factories unlock new levels of scale, sustainability, and governance\u2014positioning data\u2026",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/BP0A8304.jpg?resize=1200,600",
+    "datetimestamp": "2026-05-01T15:31:09",
+    "source": "Tech Review",
+    "category": "Tech News"
+  },
+  {
     "title": "The Download: a new Christian phone network, and debugging LLMs",
     "link": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
     "description": "Plus: Elon Musk has admitted that xAI trained Grok on OpenAI models.",

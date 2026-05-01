@@ -1,5 +1,32 @@
 [
   {
+    "title": "Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
+    "description": "Discover more about what's new at AWS with Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
+    "image": "",
+    "datetimestamp": "2026-05-01T14:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "AWS Payment Cryptography now supports paper-based key exchange",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
+    "description": "Discover more about what's new at AWS with AWS Payment Cryptography now supports paper-based key exchange",
+    "image": "",
+    "datetimestamp": "2026-04-30T22:08:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "title": "Amazon EKS now supports one-click cluster access through CloudShell",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-one-click-cluster-access/",
+    "description": "Discover more about what's new at AWS with Amazon EKS now supports one-click cluster access through CloudShell",
+    "image": "",
+    "datetimestamp": "2026-04-30T22:00:00",
+    "source": "Aws",
+    "category": "Cloud & DevOps"
+  },
+  {
     "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
     "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
     "description": "Discover more about what's new at AWS with AWS Outposts racks now support LagStatus CloudWatch metric",

@@ -1,5 +1,41 @@
 [
   {
+    "title": "Design Patterns for Microservices",
+    "link": "https://medium.com/@avindusridharmawardhana/design-patterns-for-microservices-35d43ca5ea9b?source=rss------system_design-5",
+    "description": "The shift toward microservices is often driven by the need for speed and scalability, but without a disciplined structural foundation, it\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/0*_KHnCvjjHMjqO0Of.png",
+    "datetimestamp": "2026-05-01T16:04:38",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Your SaaS Won\u2019t Survive 100 Users \u2014 Fix These Before It Breaks (Part 2)",
+    "link": "https://medium.com/write-a-catalyst/your-saas-wont-survive-100-users-fix-these-before-it-breaks-part-2-0de41d8bc7f6?source=rss------system_design-5",
+    "description": "If your system can\u2019t handle retries and failures, it\u2019s not production-ready yet.",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*h6jNRKDU1uQUnVF_",
+    "datetimestamp": "2026-05-01T15:50:13",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "Designing Scalable and Secure Event-Driven Microservices for High-Volume Financial Systems",
+    "link": "https://medium.com/@jhabindra793/designing-scalable-and-secure-event-driven-microservices-for-high-volume-financial-systems-250a70669881?source=rss------system_design-5",
+    "description": "Designing Scalable and Secure Event-Driven Microservices for High-Volume Financial Systems Introduction Modern financial systems operate under extreme demands: millions of transactions per day \u2026",
+    "image": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+    "datetimestamp": "2026-05-01T15:45:21",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
+    "title": "You Just Didn\u2019t Know It",
+    "link": "https://medium.com/@mayank1327/you-just-didnt-know-it-4fea63deba79?source=rss------system_design-5",
+    "description": "It Doesn\u2019t Start at Scale. It Starts in Your Localhost.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*zcKpnUc4tozcpKih6f4XTg.png",
+    "datetimestamp": "2026-05-01T15:20:46",
+    "source": "Medium System Design",
+    "category": "System Design"
+  },
+  {
     "title": "How Deloitte reduced environment provisioning from 45 minutes to under 5 minutes, saved 500+ hours\u2026",
     "link": "https://medium.com/@jappreets4747/how-deloitte-reduced-environment-provisioning-from-45-minutes-to-under-5-minutes-saved-500-hours-8ca4b54177b9?source=rss------system_design-5",
     "description": "Table of Contents",

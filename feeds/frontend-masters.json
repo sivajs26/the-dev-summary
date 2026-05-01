@@ -1,5 +1,14 @@
 [
   {
+    "title": "Introducing TanStack Form",
+    "link": "https://frontendmasters.com/blog/introducing-tanstack-form/",
+    "description": "TanStack Form offers a powerful solution for handling form complexity in React. It emphasizes strong typing, performance, and detail management.",
+    "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9516",
+    "datetimestamp": "2026-05-01T17:11:13",
+    "source": "Frontend Masters",
+    "category": "Frontend"
+  },
+  {
     "title": "AI Amplifies Everything: A Team Lead\u2019s Guide to AI-Assisted Development",
     "link": "https://frontendmasters.com/blog/ai-amplifies-everything-a-team-leads-guide-to-ai-assisted-development/",
     "description": "While AI for codegen is manageable, integrating AI into team workflows presents more challenges, such as maintaining quality long term and managing technical debt.",

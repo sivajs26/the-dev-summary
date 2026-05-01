@@ -1,5 +1,50 @@
 [
   {
+    "title": "Mythos complicates the breakup, says Pentagon CTO, but Anthropic is still barred",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup/",
+    "description": ": Emil Michael says agencies are evaluating the cybersecurity model, not deploying it",
+    "image": "https://regmedia.co.uk/2018/10/15/shutterstock_pentagon.jpg",
+    "datetimestamp": "2026-05-01T16:57:17",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Artemis III aims for 'late 2027' for Earth orbit demonstration",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/artemis_iii_aims_for_late/",
+    "description": ": SpaceX and Blue Origin will absolutely be ready in time. Definitely",
+    "image": "https://regmedia.co.uk/2022/08/01/shutterstock_running_late.jpg",
+    "datetimestamp": "2026-05-01T16:00:07",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "Where to buy a non-Apple, non-Google smartphone",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/buy_a_foss_fondleslab/",
+    "description": ": Both Cupertino and Google are imposing ever stricter limits on their phones \u2013 but you have alternatives",
+    "image": "https://regmedia.co.uk/2026/05/01/librem5.jpg",
+    "datetimestamp": "2026-05-01T15:24:14",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "CIOs ready for another role-change as AI becomes agent of chaos",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/cios_ready_for_another_rolechange/",
+    "description": ": If software writes software the risk is \u201csystematic failure at scale\u201d. Someone needs to take charge, argues Forrester",
+    "image": "https://regmedia.co.uk/2026/05/01/shutterstock_2644331155.jpg",
+    "datetimestamp": "2026-05-01T14:54:13",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
+    "title": "That old phone in the kitchen drawer could save an industry",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/preowned_phones_fill_the_gap/",
+    "description": ": Users have less cash to burn and less patience for AI in new models... now where to get the used stock",
+    "image": "https://regmedia.co.uk/2021/01/12/shutterstock_samsung_phone_drawer.jpg",
+    "datetimestamp": "2026-05-01T14:16:56",
+    "source": "The Register",
+    "category": "General Tech"
+  },
+  {
     "title": "First reports come in of victims of critical cPanel vuln as 'millions' of sites potentially exposed",
     "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/critical_cpanel_vuln_hits_cisa/",
     "description": ": Exploitation was underway before patches landed, at least one victim reports ransomware demand",

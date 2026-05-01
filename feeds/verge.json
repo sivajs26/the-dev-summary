@@ -1,5 +1,77 @@
 [
   {
+    "title": "This accessory can snap a Steam Controller to your phone \u2014 or almost anything else",
+    "link": "https://www.theverge.com/games/921823/valve-steam-controller-mechanism-mounts-basegrip-dock",
+    "description": "Mechanism is making things for the Steam Controller.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ee894412-0635-489e-a7ab-1e9540385a61.jpeg?quality=90&strip=all&crop=0,23.790026146047,100,52.419947707906",
+    "datetimestamp": "2026-05-01T17:00:00",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Players from the NBA, NFL, and MLB call for a ban on betting &#8216;unders&#8217;",
+    "link": "https://www.theverge.com/entertainment/922244/nba-nfl-mlb-prediction-market-unders-bets",
+    "description": "Sports unions want to protect players from \u201cabusive and harassing behavior.\u201d",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2273317754.jpg?quality=90&strip=all&crop=0%2C10.741774760108%2C100%2C78.516450479784&w=1200",
+    "datetimestamp": "2026-05-01T16:57:27",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
+    "link": "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit",
+    "description": "The bug works on nearly all distros since 2017.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0008_6.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-05-01T16:55:16",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Dreame\u2019s rocket-powered car can do 0\u201360 in 0.9 seconds because you can just say things now",
+    "link": "https://www.theverge.com/transportation/921204/dreame-ev-car-rocket-boosted-zero-sixty-reality",
+    "description": "Dreame\u2019s car sounds like bullshit.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268500_Dreame_NEXT_2026_KMcClellan_0068.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+    "datetimestamp": "2026-05-01T16:33:46",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "We just got a new reason to believe the Trump phone is real(ish)",
+    "link": "https://www.theverge.com/gadgets/922180/trump-mobile-t1-phone-ptcrb-certification-t-mobile",
+    "description": "\ufeffThe T1 phone just picked up a second certification.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Vrg_illo_trump_phone_np2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-05-01T16:28:39",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Aurzen\u2019s tiny trifold projector is almost 40 percent off right now",
+    "link": "https://www.theverge.com/gadgets/921686/aurzen-zip-mini-projector-garmin-venu-4-watch-deal-sale",
+    "description": "It can mirror almost anything, except Netflix.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Aurzen-Zip-Tri-Fold-Portable-Mini-Projector-Deal-Image.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-05-01T15:00:46",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Some of Xteink\u2019s credit card-sized e-readers are losing their best feature",
+    "link": "https://www.theverge.com/tech/921552/xteink-x3-x4-e-reader-third-party-crosspoint-firmware-usb-blocked",
+    "description": "Think twice about buying this viral e-reader.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/xteink3_2.jpg?quality=90&strip=all&crop=0%2C10.717271201674%2C100%2C78.565457596651&w=1200",
+    "datetimestamp": "2026-05-01T14:24:54",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
+    "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia \u2014 but not Anthropic",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+    "description": "Anthropic is still a \u201csupply chain risk,\u201d according to the Pentagon.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2273115889.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "datetimestamp": "2026-05-01T14:09:56",
+    "source": "Verge",
+    "category": "Tech News"
+  },
+  {
     "title": "The Verge\u2019s 2026 Mother\u2019s\u00a0Day\u00a0gift guide",
     "link": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
     "description": "It\u2019s time to return the favor.",

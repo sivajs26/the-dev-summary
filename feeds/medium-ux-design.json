@@ -1,5 +1,77 @@
 [
   {
+    "title": "Satu Klik yang Mengubah Segalanya \u2014 Redesain Pokedata dengan HCD",
+    "link": "https://medium.com/@muh.awaluddin.h1/satu-klik-yang-mengubah-segalanya-redesain-pokedata-dengan-hcd-10cba9126c2a?source=rss------ux_design-5",
+    "description": "Sebuah studi Human-Centered Design tentang fitur yang terlalu banyak, informasi yang hilang, dan satu tombol yang mengubah segalanya.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*UAd1_xjRlRh9hxZpF-Aq6A.png",
+    "datetimestamp": "2026-05-01T17:23:25",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Frameworks We Forgot",
+    "link": "https://medium.com/paychex-ux/the-frameworks-we-forgot-46db4a261c9e?source=rss------ux_design-5",
+    "description": "How we keep repackaging what already works\u2026making it worse.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/0*mj3-UjKFki2FuLCN.jpeg",
+    "datetimestamp": "2026-05-01T17:05:13",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Designing a screenshot-based time tracking feature | Part 2: Decisions",
+    "link": "https://medium.com/@mammadlinji/designing-a-screenshot-based-time-tracking-feature-part-2-decisions-5b30dede8eb4?source=rss------ux_design-5",
+    "description": "With the foundation in place from \u201cPart 1: Research\u201d of the project, I moved into wireframes and user flows, focusing on how to structure\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*N3aRwYLTXQQ9YGPHB-SPPw.png",
+    "datetimestamp": "2026-05-01T17:01:41",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Serial Position Effect in Feature Lists: Why First and Last Items Get Remembered",
+    "link": "https://medium.com/@atticusli/serial-position-effect-in-feature-lists-why-first-and-last-items-get-remembered-8f2e093235e5?source=rss------ux_design-5",
+    "description": "Primacy and recency effects shape how users process feature comparisons. Learn why the order of your feature list determines which features\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*z0BdKxtyD-qY8QxC2MWjQg.png",
+    "datetimestamp": "2026-05-01T16:01:03",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Why your validated idea from a 1 year ago might not hold today (and how to keep learning)",
+    "link": "https://pixel1.medium.com/why-your-validated-idea-from-a-1-year-ago-might-not-hold-today-and-how-to-keep-learning-7944263aec2a?source=rss------ux_design-5",
+    "description": "Early-stage founders validate obsessively at the beginning through user interviews, customer research, and field studies. Then they find\u2026",
+    "image": "https://miro.medium.com/v2/resize:fit:1186/1*kfoezdaFy6VDfKOfUH3HRQ.png",
+    "datetimestamp": "2026-05-01T15:11:36",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Designing for Lazy Users: The UX Principle No One Talks About",
+    "link": "https://medium.com/@Rythmuxdesigner/designing-for-lazy-users-the-ux-principle-no-one-talks-about-bc8722a8667f?source=rss------ux_design-5",
+    "description": "Users aren\u2019t lazy. They\u2019re conserving energy. And that\u2019s the smartest thing you can design for.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*bAE_W3HyKCjsRWZN80qY7Q.jpeg",
+    "datetimestamp": "2026-05-01T14:51:01",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "Ironhack's Prework: When More Options Mean More Confusion",
+    "link": "https://medium.com/@terka.brittka/ironhacks-prework-when-more-options-mean-more-confusion-60ac6eead359?source=rss------ux_design-5",
+    "description": "I interviewed 5 users and found that more ticket options don't \nhelp :they confuse. So I designed a feature that decides for you.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*4l-uhxk8XSgv54hcnN69Zg.png",
+    "datetimestamp": "2026-05-01T14:46:07",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
+    "title": "The Demo-Shutdown Problem in Web3 Products",
+    "link": "https://medium.com/@saturniadesign/web3-product-demos-fail-at-launch-137745a1e984?source=rss------ux_design-5",
+    "description": "Notes from Saturnia\u2019s NBX Warsaw 2026 keynote on closing the gap between lab and launch.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*SInMY5K0tgrmAyBe7Ch_OA.jpeg",
+    "datetimestamp": "2026-05-01T14:19:00",
+    "source": "Medium Ux Design",
+    "category": "Design & UX"
+  },
+  {
     "title": "The Psychology of Subtraction",
     "link": "https://saropa-contacts.medium.com/the-psychology-of-subtraction-a4b5b9d9ff85?source=rss------ux_design-5",
     "description": "A Product Manager\u2019s Guide to How Behavioral Economics Drives Modern Product Design",

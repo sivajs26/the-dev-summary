@@ -1,5 +1,41 @@
 [
   {
+    "title": "Uber Torches 2026 AI Budget on Claude Code in Four Months",
+    "link": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/",
+    "description": "Uber burned its entire 2026 AI budget on Claude Code and Cursor in just 4 months. Engineers' API costs ranged from $500 to $2,000.",
+    "image": "https://www.briefs.co/wp-content/uploads/2026/04/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months.png",
+    "datetimestamp": "2026-05-01T16:08:53",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Pro-Iran crew turns DDoS into shakedown as Ubuntu.com stays down",
+    "link": "https://www.theregister.com/2026/05/01/canonical_confirms_ubuntu_infrastructure_under/",
+    "description": ": 313 Team tells Canonical: pay up or the packets keep coming",
+    "image": "https://regmedia.co.uk/2026/03/17/iran_flag_keyhole.jpg",
+    "datetimestamp": "2026-05-01T15:11:31",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+    "link": "https://news.ycombinator.com/item?id=47975676",
+    "description": "<p>I'll be here for the next 6 hours. As usual, there are lots of possible topics and I'll be guided by whatever you're interested in. Please remember that I can't provide legal advice on specific cases because I won't have access to all the facts. Please try to stick to a factual discussion in your questions and comments and I'll try to do the same in my answers!<p>Previous threads we've done: https://news.ycombinator.com/submitted?id=proberts.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47975676\">https://news.ycombinator.com/item?id=47975676</a></p>\n<p>Points: 76</p>\n<p># Comments: 97</p>",
+    "image": "",
+    "datetimestamp": "2026-05-01T15:07:02",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
+    "title": "Show HN: GhostBox \u2013 disposable little machines from the Global Free Tier.",
+    "link": "https://www.ghost.charity/",
+    "description": "Siphon a temporary machine from GitHub Actions. SSH in, run the thing, give an agent a shell, and let it disappear.",
+    "image": "https://www.ghost.charity/ghost-ascii.png",
+    "datetimestamp": "2026-05-01T14:52:07",
+    "source": "Hacker News (Custom)",
+    "category": "Frontend"
+  },
+  {
     "title": "Apple accidentally left Claude.md files Apple Support app",
     "link": "https://xcancel.com/aaronp613/status/2049986504617820551",
     "description": "Apple accidentally left Claude.md files in today's Apple Support app update (v5.13)",

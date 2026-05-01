@@ -1,5 +1,23 @@
 [
   {
+    "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+    "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+    "description": "Two groups exploit SaaS via vishing since Oct 2025, stealing credentials to access multiple apps, enabling rapid data theft and extortion",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg",
+    "datetimestamp": "2026-05-01T14:26:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+    "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+    "description": "China-linked hackers exploit Exchange flaws since Dec 2024 across 8 countries, enabling espionage and credential theft operations.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD3mr1fHyy1yT3u6ebxE9skoiCRtBYdZnkvdputmKF0XgZW5BKeQKkvnYswwusYFG4tvzVeWOqP3wgGtqLA7Ds9I-PYlasFVkOmaClo8IIpRGtdvuFZuKzDgvktukM1YXbTDbBAZUfk1mtWx8lHFF8N_YZXRl0ncSWtGGkzXDkm5gWMovjixeiyh6w_64W/s1600/chinese-hackers.jpg",
+    "datetimestamp": "2026-05-01T14:02:00",
+    "source": "The Hacker News",
+    "category": "Cybersecurity"
+  },
+  {
     "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
     "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
     "description": "MSP sales gaps persist as 77% report low urgency and 66% SMBs cite cost, delaying cybersecurity adoption and revenue growth.",

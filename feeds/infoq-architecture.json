@@ -1,5 +1,23 @@
 [
   {
+    "title": "JobRunr Introduces ClawRunr, an Open-Source Java AI Agent",
+    "link": "https://www.infoq.com/news/2026/05/clawrunr/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design-news",
+    "description": "JobRunr has introduced ClawRunr, an open-source Java AI agent for scheduled, recurring, and one-off background tasks. Formerly JavaClaw, it runs on users' hardware and combines conversational interaction with persistent task execution, MCP tools, browser automation, and web, Telegram, and Discord channels, while using JobRunr for scheduling, retries, and monitoring.",
+    "image": "https://res.infoq.com/news/2026/05/clawrunr/en/headerimage/generatedHeaderImage-1777644148544.jpg",
+    "datetimestamp": "2026-05-01T15:00:00",
+    "source": "InfoQ Architecture",
+    "category": "System Design"
+  },
+  {
+    "title": "Confluent Moves Schema IDs to Kafka Headers to Simplify Schema Governance",
+    "link": "https://www.infoq.com/news/2026/05/confluent-kafka-header-schema-id/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design-news",
+    "description": "Confluent introduces a new approach in Apache Kafka that moves schema IDs from message payloads to record headers, aiming to simplify schema governance and evolution. The update integrates with Schema Registry, improves compatibility across serialization formats, and reduces coupling between data and metadata in event-driven architectures.",
+    "image": "https://res.infoq.com/news/2026/05/confluent-kafka-header-schema-id/en/headerimage/generatedHeaderImage-1776736992912.jpg",
+    "datetimestamp": "2026-05-01T14:06:00",
+    "source": "InfoQ Architecture",
+    "category": "System Design"
+  },
+  {
     "title": "Cloudflare Announces Agent Memory, a Managed Persistent Memory Service for AI Agents",
     "link": "https://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design-news",
     "description": "Cloudflare announced Agent Memory in private beta, a managed service that extracts structured memories from AI agent conversations and retrieves them on demand using five-channel parallel retrieval with Reciprocal Rank Fusion. Shared memory profiles let teams of agents access common knowledge. Competitors include Mem0, Zep, LangMem, and Letta.",

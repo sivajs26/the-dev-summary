@@ -1,5 +1,14 @@
 [
   {
+    "title": "Local AI",
+    "link": "https://www.oreilly.com/radar/local-ai/",
+    "description": "Running LLMs on your own hardware",
+    "image": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/04/Running-LLMs-on-your-own-hardware-1600x1244.jpg",
+    "datetimestamp": "2026-05-01T14:20:44",
+    "source": "Oreilly Ai Radar",
+    "category": "AI"
+  },
+  {
     "title": "Everyone\u2019s an Engineer Now",
     "link": "https://www.oreilly.com/radar/everyones-an-engineer-now/",
     "description": "Takeaways from Cat Wu\u2019s fireside chat with Addy Osmani",

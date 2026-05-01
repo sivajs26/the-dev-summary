@@ -1,5 +1,23 @@
 [
   {
+    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    "link": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+    "description": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+    "image": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1292192586.jpg?resize=1200,900",
+    "datetimestamp": "2026-05-01T16:02:36",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
+    "title": "Ubuntu services hit by outages after DDoS attack",
+    "link": "https://techcrunch.com/2026/05/01/ubuntu-services-hit-by-outages-after-ddos-attack/",
+    "description": "A group of hacktivists have claimed responsibility for a distributed denial-of-service attack, which has affected several Ubuntu and Canonical websites, and prevented users from updating the Linux-based operating system.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/ubuntu-failed-update-ddos-attack.png?resize=1200,751",
+    "datetimestamp": "2026-05-01T15:00:14",
+    "source": "Techcrunch",
+    "category": "Tech News"
+  },
+  {
     "title": "People are finally using Reddit\u2019s search",
     "link": "https://techcrunch.com/2026/05/01/people-are-finally-using-reddits-search/",
     "description": "The company saw a 30% year-on-year jump in the number of people using search every week, CEO Steve Huffman said on Thursday.",
