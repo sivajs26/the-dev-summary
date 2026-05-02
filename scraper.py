@@ -215,54 +215,64 @@ async def main_async():
     current_date = datetime.now().strftime("%A, %B %d, %Y")
     iso_date = datetime.now().strftime("%Y-%m-%d")
     
-    # Update index.html
-    index_path = 'v1/index.html'
-    if os.path.exists(index_path):
-        with open(index_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        content = re.sub(r'<title>.*?</title>', f'<title>The Dev Summary | Tech News - {current_date}</title>', content)
-        content = re.sub(r'<meta property="og:title" content=".*?">', f'<meta property="og:title" content="The Dev Summary | News for {current_date}">', content)
-        content = re.sub(r'<meta property="twitter:title" content=".*?">', f'<meta property="twitter:title" content="The Dev Summary | News for {current_date}">', content)
+    # Update index.html files
+    index_files = ['index.html', 'v1/index.html']
+    
+    # Prepare schema items once
+    top_10 = fresh_news[:10]
+    schema_items = []
+    for i, item in enumerate(top_10):
+        # Fallback for image
+        img = item['image'] if item.get('image') and item['image'].startswith('http') else "https://sivasubramoniam-js.github.io/the-dev-summary/logo.png"
         
-        # Inject top 10 articles into ItemList schema for Rich Results
-        top_10 = fresh_news[:10]
-        schema_items = []
-        for i, item in enumerate(top_10):
-            # Fallback for image
-            img = item['image'] if item.get('image') and item['image'].startswith('http') else "https://sivasubramoniam-js.github.io/daily-tech-news/v1/logo.svg"
-            
-            schema_items.append({
-                "@type": "ListItem",
-                "position": i + 1,
-                "item": {
-                    "@type": "NewsArticle",
-                    "headline": item['title'],
-                    "url": item['link'],
-                    "datePublished": item['datetimestamp'],
-                    "image": img,
-                    "author": {
-                        "@type": "Organization",
-                        "name": item['source']
-                    },
-                    "publisher": {
-                        "@id": "https://sivasubramoniam-js.github.io/daily-tech-news/#organization"
-                    }
+        schema_items.append({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+                "@type": "NewsArticle",
+                "headline": item['title'],
+                "url": item['link'],
+                "datePublished": item['datetimestamp'],
+                "image": img,
+                "author": {
+                    "@type": "Organization",
+                    "name": item['source']
+                },
+                "publisher": {
+                    "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#organization"
                 }
-            })
-        
-        # Replace the empty or existing itemListElement array
-        items_json = json.dumps(schema_items, indent=12).strip()
-        content = re.sub(r'"itemListElement":\s*\[.*?\]', f'"itemListElement": {items_json}', content, flags=re.DOTALL)
+            }
+        })
+    
+    items_json = json.dumps(schema_items, indent=12)
 
-        with open(index_path, 'w', encoding='utf-8') as f:
-            f.write(content)
+    for index_path in index_files:
+        if os.path.exists(index_path):
+            with open(index_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            content = re.sub(r'<title>.*?</title>', lambda m: f'<title>The Dev Summary | Tech News - {current_date}</title>', content)
+            content = re.sub(r'<meta property="og:title" content=".*?">', lambda m: f'<meta property="og:title" content="The Dev Summary | News for {current_date}">', content)
+            content = re.sub(r'<meta property="twitter:title" content=".*?">', lambda m: f'<meta property="twitter:title" content="The Dev Summary | News for {current_date}">', content)
+            
+            # Replace the empty or existing itemListElement array
+            # Inject into Top Tech Stories schema (avoiding BreadcrumbList)
+            content = re.sub(
+                r'("name":\s*"Top Tech Stories Today",\s*"itemListElement":\s*\[).*?(\])',
+                lambda m: f'{m.group(1)}\n{items_json}\n{m.group(2)}',
+                content,
+                flags=re.DOTALL
+            )
+
+            with open(index_path, 'w', encoding='utf-8') as f:
+                f.write(content)
 
     # Update sitemap.xml
     sitemap_path = 'sitemap.xml'
     if os.path.exists(sitemap_path):
         with open(sitemap_path, 'r', encoding='utf-8') as f:
             sitemap_content = f.read()
-        sitemap_content = re.sub(r'<lastmod>.*?</lastmod>', f'<lastmod>{iso_date}</lastmod>', sitemap_content)
+        sitemap_content = re.sub(r'<lastmod>.*?</lastmod>', lambda m: f'<lastmod>{iso_date}</lastmod>', sitemap_content)
         with open(sitemap_path, 'w', encoding='utf-8') as f:
             f.write(sitemap_content)
 

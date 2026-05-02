@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <defs>
+    <!-- Rich background gradient (deep crimson to medium red) -->
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+
+    <!-- Base class for beige elements -->
+    <style>
+      .accent {
+        fill: #f5f5dc;
+        stroke: none;
+      }
+      .accent-stroke {
+        fill: none;
+        stroke: #f5f5dc;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Layer (Matching image_0.png style) -->
+  <rect width="64" height="64" rx="14" fill="url(#bg_gradient)"/>
+  <!-- Main News Icon Structure (A stylized newspaper/layout) -->
+  <!-- Left Column (e.g., Headline/Image Area) -->
+  <rect x="10" y="16" width="18" height="35" rx="2" class="accent-stroke" style="&#10;"/>
+  <!-- Right Column (e.g., Article Headlines) -->
+  <!-- Top Headline Line -->
+  <rect x="32" y="16" width="25" height="8" rx="1" class="accent"/>
+  <!-- Body text lines (simulating text flow) -->
+  <line x1="35" y1="30" x2="54" y2="30" class="accent-stroke" stroke-width="2"/>
+  <line x1="35" y1="35" x2="48" y2="35" class="accent-stroke" stroke-width="2"/>
+  <line x1="35" y1="40" x2="54" y2="40" class="accent-stroke" stroke-width="2"/>
+  <line x1="35" y1="45" x2="48" y2="45" class="accent-stroke" stroke-width="2"/><line x1="35" y1="50" x2="54" y2="50" class="accent-stroke" stroke-width="2"/><!-- Center Connective Tech Detail (A hint of the previous antenna node, simplified) -->
+  <!-- This connects the columns like a binding or a digital flow -->
+  <!-- Subtle bottom detail (similar to the circle node from image_0.png) -->
+  <circle cx="13" cy="56" r="1.5" class="accent"/>
+<circle cx="19" cy="56" r="2.25" class="accent"/><circle cx="19" cy="56" r="1" class="accent" style="&#10;    fill: #a61d1c;&#10;"/><circle cx="25" cy="56" r="1.5" class="accent"/></svg>

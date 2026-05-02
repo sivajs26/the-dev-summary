@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sivasubramoniam-js.github.io/daily-tech-news/sitemap.xml
+Sitemap: https://sivasubramoniam-js.github.io/the-dev-summary/sitemap.xml

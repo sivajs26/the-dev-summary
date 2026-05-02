@@ -615,7 +615,7 @@
                     </div>
                     
                     <div style="display: flex; justify-content: center; align-items: center; height: 50px; color: #666666; font-family: var(--font-mono), monospace; font-size: 24px; font-weight: 600; margin-bottom: 12px">
-                        <i class="fab fa-github" style="margin-right: 14px; font-size: 30px;"></i>sivasubramoniam-js/daily-tech-news
+                        <i class="fab fa-github" style="margin-right: 14px; font-size: 30px;"></i>sivasubramoniam-js/the-dev-summary
                     </div>
                 `;
 
@@ -660,7 +660,7 @@
         document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
 
         // Fetch and render news
-        const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/daily-tech-news/main/';
+        const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/the-dev-summary/main/';
         let currentFeedUrl = BASE_RAW_URL + 'news.json';
 
         async function fetchFeedsList() {
