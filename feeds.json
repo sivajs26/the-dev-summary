@@ -958,10 +958,5 @@
         "feedname": "Indianexpress",
         "feedurl": "https://indianexpress.com/section/technology/feed/",
         "category": "Tech News"
-    },
-    {
-        "feedname": "Zeenews",
-        "feedurl": "https://zeenews.india.com/rss/technology-news.xml",
-        "category": "Tech News"
     }
 ]

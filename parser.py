@@ -73,6 +73,7 @@ def scrape_custom(url, config):
                     "description": description,
                     "image": "https://via.placeholder.com/400x250?text=Custom+Scrape",
                     "datetimestamp": timestamp,
+                    "scraped_at": datetime.now().isoformat(),
                     "source": config.get('source_name', 'Custom Source'),
                     "category": config.get('category', 'General')
                 })

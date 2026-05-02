@@ -1,7 +1,7 @@
 # 📰 The Dev Summary
 ### Daily Tech News for Developers & Engineers. Minimal Noise, Maximum Insight.
 
-**[Live Site](https://sivasubramoniam-js.github.io/the-dev-summary/)** | **[V1 Engine](https://sivasubramoniam-js.github.io/the-dev-summary/v1/)**
+**[Live Site](https://sivasubramoniam-js.github.io/the-dev-summary/)**
 
 ![The Dev Summary](screenshot.png)
 
@@ -29,7 +29,7 @@ Every morning, our engine curates the top headlines from across the industry—f
 
 ## ✨ Key Features
 
-- **Daily Editorial Dispatches**: Fresh news delivered every single morning (06:00 IST).
+- **Daily Editorial Dispatches**: Fresh news delivered daily.
 - **Curated High-Signal Content**: We filter through the noise to bring you stories that actually matter to developers.
 - **Premium Editorial Design**: A typography-first interface designed for reading, inspired by world-class news journals.
 - **PWA Ready**: Install the app on your mobile home screen or desktop for an app-like experience.
@@ -54,4 +54,4 @@ Simply visit [The Dev Summary](https://sivasubramoniam-js.github.io/the-dev-summ
 Bookmark the site or install the PWA to make **The Dev Summary** part of your morning routine.
 
 ---
-*Built for the community with ❤️ by [Siva Subramoniam S](https://github.com/sivasubramoniam-js).*
+*Built for the community with ❤️ by [Sivasubramoniam J S](https://github.com/sivasubramoniam-js).*

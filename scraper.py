@@ -14,9 +14,11 @@ DATA_DIR = "feeds"
 TEMP_DIR = "temp_feeds"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
-os.makedirs("images", exist_ok=True)
 
-# Limit concurrency to avoid overloading the network/OS
+DATE_FORMAT = "%d-%b-%Y" # e.g. 02-May-2026
+INDEX_FILE = os.path.join(DATA_DIR, "index.json")
+
+# Limit concurrency
 MAX_CONCURRENT_REQUESTS = 25
 semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
 
@@ -48,8 +50,6 @@ async def get_link_preview(session, url):
         return {"title": None, "description": None, "image": None, "url": url, "textContent": ""}
 
     try:
-        # BS4 parsing is CPU bound, but we can't easily avoid it here without complex process pools
-        # For this scale, it's usually fine to run in the main thread
         soup = BeautifulSoup(content, 'lxml')
 
         def get_meta(name):
@@ -57,11 +57,11 @@ async def get_link_preview(session, url):
             return tag['content'] if tag and 'content' in tag.attrs else None
 
         preview = {
-            "title": soup.title.string if soup.title else get_meta("og:title"),
-            "description": get_meta("og:description") or get_meta("description"),
+            "title": (soup.title.string if soup.title else get_meta("og:title")) or "",
+            "description": (get_meta("og:description") or get_meta("description")) or "",
             "image": get_meta("og:image"),
             "url": get_meta("og:url") or url,
-            "textContent": soup.get_text()[:1000] # Truncate to save memory/space
+            "textContent": soup.get_text()[:1000]
         }
         return preview
     except Exception as e:
@@ -71,30 +71,37 @@ async def get_link_preview(session, url):
 def slugify(text):
     return re.sub(r'[-\s]+', '-', re.sub(r'[^\w\s-]', '', text.lower())).strip('-')
 
-async def fetch_feed(session, feed):
+def get_existing_links_and_latest_timestamp():
+    """Look through the last few days of daily feeds to get existing links and the latest timestamp."""
+    links = set()
+    latest_ts = (datetime.now() - timedelta(days=2)).isoformat()
+    
+    # Check last 3 days of files
+    for i in range(3):
+        date_str = (datetime.now() - timedelta(days=i)).strftime(DATE_FORMAT)
+        path = os.path.join(DATA_DIR, f"feed-{date_str}.json")
+        if os.path.exists(path):
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    for item in data:
+                        if 'link' in item: links.add(item['link'])
+                        if 'datetimestamp' in item:
+                            if item['datetimestamp'] > latest_ts:
+                                latest_ts = item['datetimestamp']
+            except:
+                pass
+    return links, latest_ts
+
+async def fetch_feed(session, feed, existing_links, latest_timestamp):
     feed_url = feed.get('feedurl')
     feed_name = feed.get('feedname', 'Unknown Source')
-    if not feed_url:
-        return
+    if not feed_url: return
 
     print(f"Phase 1 - Fetching : {feed_url}")
     
-    # Check existing data to only fetch new items
-    json_path = os.path.join(DATA_DIR, f"{slugify(feed_name)}.json")
-    latest_timestamp = (datetime.now() - timedelta(days=5)).isoformat()
-    
-    if os.path.exists(json_path):
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                existing = json.load(f)
-                if existing:
-                    latest_timestamp = max(i.get('datetimestamp', "0000-01-01T00:00:00") for i in existing)
-        except:
-            pass
-
     content = await fetch_url(session, feed_url)
-    if not content:
-        return
+    if not content: return
 
     try:
         parsed = feedparser.parse(content)
@@ -103,7 +110,7 @@ async def fetch_feed(session, feed):
             dt = entry.get('published_parsed')
             timestamp = datetime(*dt[:6]).isoformat() if dt else datetime.now().isoformat()
 
-            if timestamp <= latest_timestamp:
+            if timestamp <= latest_timestamp or entry.get('link') in existing_links:
                 continue
             
             item = {
@@ -112,6 +119,7 @@ async def fetch_feed(session, feed):
                 "description": entry.get('summary', ''),
                 "image": "",
                 "datetimestamp": timestamp,
+                "scraped_at": datetime.now().isoformat(),
                 "source": feed_name,
                 "category": feed.get('category', 'General')
             }
@@ -120,26 +128,20 @@ async def fetch_feed(session, feed):
         if new_items:
             temp_path = os.path.join(TEMP_DIR, f"{slugify(feed_name)}.json")
             with open(temp_path, 'w', encoding='utf-8') as f:
-                json.dump(new_items[:100], f, indent=2)
-            print(f"Phase 1 - Saved {len(new_items)} new items for {feed_name}")
+                json.dump(new_items[:50], f, indent=2)
+            print(f"Phase 1 - Found {len(new_items)} new items for {feed_name}")
     except Exception as e:
         print(f"Error parsing feed {feed_name}: {e}")
 
 async def process_temp_file(session, filename):
     temp_path = os.path.join(TEMP_DIR, filename)
-    final_path = os.path.join(DATA_DIR, filename)
-    
     try:
         with open(temp_path, 'r', encoding='utf-8') as f:
             new_items = json.load(f)
         
         print(f"Phase 2 - Processing previews for: {filename}")
-        
-        # Parallel preview fetching for items in this feed
         preview_tasks = [get_link_preview(session, item['link']) for item in new_items if item.get('link')]
         previews = await asyncio.gather(*preview_tasks)
-        
-        # Map previews back to items
         preview_map = {p['url']: p for p in previews}
         
         for item in new_items:
@@ -147,84 +149,130 @@ async def process_temp_file(session, filename):
             if preview:
                 if preview.get('title') and not item.get('title'):
                     item['title'] = preview['title']
-                if preview.get('description') and (not item.get('description') or len(item['description']) < len(preview['description'])):
+                if preview.get('description') and (not item.get('description') or len(item['description']) < 50):
                     item['description'] = preview['description']
                 if preview.get('image'):
                     item['image'] = preview['image']
 
-        # Load existing and merge
-        existing_items = []
-        if os.path.exists(final_path):
-            try:
-                with open(final_path, 'r', encoding='utf-8') as f:
-                    existing_items = json.load(f)
-            except:
-                pass
-        
-        all_items = new_items + existing_items
-        all_items.sort(key=lambda x: x['datetimestamp'], reverse=True)
-        
-        with open(final_path, 'w', encoding='utf-8') as f:
-            json.dump(all_items[:200], f, indent=2) # Keep last 200 items per source
-            
-        os.remove(temp_path)
+        return new_items
     except Exception as e:
         print(f"Error Phase 2 processing {filename}: {e}")
+        return []
+    finally:
+        if os.path.exists(temp_path): os.remove(temp_path)
 
 async def main_async():
-    # 0. Cleanup
+    # 0. Cleanup and Prep
     for filename in os.listdir(TEMP_DIR):
-        try:
-            os.remove(os.path.join(TEMP_DIR, filename))
-        except:
-            pass
+        try: os.remove(os.path.join(TEMP_DIR, filename))
+        except: pass
+
+    existing_links, latest_timestamp = get_existing_links_and_latest_timestamp()
+    today_str = datetime.now().strftime(DATE_FORMAT)
+    today_file = os.path.join(DATA_DIR, f"feed-{today_str}.json")
 
     async with aiohttp.ClientSession() as session:
-        # Phase 1: Fetch all feeds in parallel
-        print("--- Starting Phase 1: Fetching new feed items ---")
-        await asyncio.gather(*(fetch_feed(session, feed) for feed in FEEDS))
+        # Phase 1: RSS Feeds
+        print("--- Phase 1: RSS Feeds ---")
+        await asyncio.gather(*(fetch_feed(session, feed, existing_links, latest_timestamp) for feed in FEEDS))
         
-        # Phase 2: Process temp files (previews) in parallel
-        print("--- Starting Phase 2: Processing link previews ---")
-        temp_files = [f for f in os.listdir(TEMP_DIR) if f.endswith('.json')]
-        await asyncio.gather(*(process_temp_file(session, f) for f in temp_files))
-
-    # Phase 3: Aggregation (Synchronous as it's local I/O)
-    print("--- Starting Phase 3: Aggregating flat news feed ---")
-    flat = []
-    for filename in os.listdir(DATA_DIR):
-        if filename.endswith('.json'):
+        # Phase 1.5: Custom Scrapers
+        print("--- Phase 1.5: Custom Scrapers ---")
+        for site in SCRAPE_CONFIGS:
             try:
-                with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
-                    flat.extend(json.load(f))
-            except:
-                pass
+                # Note: scrape_custom is synchronous in parser.py, but we can wrap it or just run it
+                print(f"Scraping custom site: {site['source_name']}")
+                items = scrape_custom(site['url'], site['config'])
+                new_items = []
+                for item in items:
+                    if item['link'] not in existing_links and item['datetimestamp'] > latest_timestamp:
+                        new_items.append(item)
+                
+                if new_items:
+                    temp_path = os.path.join(TEMP_DIR, f"custom-{slugify(site['source_name'])}.json")
+                    with open(temp_path, 'w', encoding='utf-8') as f:
+                        json.dump(new_items[:50], f, indent=2)
+            except Exception as e:
+                print(f"Error scraping {site['source_name']}: {e}")
 
-    flat.sort(key=lambda x: x['datetimestamp'], reverse=True)
+        # Phase 2: Link Previews
+        print("--- Phase 2: Link Previews ---")
+        temp_files = [f for f in os.listdir(TEMP_DIR) if f.endswith('.json')]
+        results = await asyncio.gather(*(process_temp_file(session, f) for f in temp_files))
+        
+        all_new_items = []
+        for batch in results:
+            all_new_items.extend(batch)
+
+    # Phase 3: Update Daily Feed
+    print("--- Phase 3: Updating Daily Feed ---")
+    today_data = []
+    if os.path.exists(today_file):
+        try:
+            with open(today_file, 'r', encoding='utf-8') as f:
+                today_data = json.load(f)
+        except: pass
+
+    # Filter out duplicates that might have slipped through
+    today_links = {item['link'] for item in today_data}
+    added_count = 0
+    for item in all_new_items:
+        if item['link'] not in today_links:
+            today_data.append(item)
+            today_links.add(item['link'])
+            added_count += 1
     
-    # Filter for last 24h and shuffle for a fresh feel
-    cutoff = datetime.now() - timedelta(hours=24)
-    fresh_news = [item for item in flat if datetime.fromisoformat(item['datetimestamp']) > cutoff]
-    random.shuffle(fresh_news)
+    today_data.sort(key=lambda x: x['datetimestamp'], reverse=True)
     
+    with open(today_file, 'w', encoding='utf-8') as f:
+        json.dump(today_data, f, indent=2)
+    print(f"Updated {today_file} with {added_count} new items.")
+
+    # Phase 4: Update Index and news.json
+    print("--- Phase 4: Updating Index and news.json ---")
+    all_files = [f for f in os.listdir(DATA_DIR) if f.startswith('feed-') and f.endswith('.json')]
+    # Sort files by date (extracting date from filename)
+    def extract_date(filename):
+        try:
+            d_str = filename.replace('feed-', '').replace('.json', '')
+            return datetime.strptime(d_str, DATE_FORMAT)
+        except:
+            return datetime(2000, 1, 1)
+    
+    all_files.sort(key=extract_date, reverse=True)
+    index_data = []
+    for f in all_files:
+        d_str = f.replace('feed-', '').replace('.json', '')
+        index_data.append({"date": d_str, "file": f})
+    
+    with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+        json.dump(index_data, f, indent=2)
+
+    # Update news.json (shuffled version of today's feed for the main page)
+    # If today is empty, use the most recent available file
+    latest_feed_data = today_data
+    if not latest_feed_data and index_data:
+        try:
+            with open(os.path.join(DATA_DIR, index_data[0]['file']), 'r', encoding='utf-8') as f:
+                latest_feed_data = json.load(f)
+        except: pass
+
+    # For news.json, we still shuffle or just keep it sorted? 
+    # Let's keep it sorted for reliability but shuffle as requested in previous logic
+    random.shuffle(latest_feed_data)
     with open('news.json', 'w', encoding='utf-8') as f:
-        json.dump(fresh_news, f, indent=2)
+        json.dump(latest_feed_data, f, indent=2)
 
-    # SEO Updates
-    print("--- Starting SEO Update Phase ---")
-    current_date = datetime.now().strftime("%A, %B %d, %Y")
+    # Phase 5: SEO Updates
+    print("--- Phase 5: SEO Updates ---")
+    current_date_str = datetime.now().strftime("%A, %B %d, %Y")
     iso_date = datetime.now().strftime("%Y-%m-%d")
-    
-    # Update index.html files
     index_files = ['index.html', 'v1/index.html']
     
-    # Prepare schema items once
-    top_10 = fresh_news[:10]
+    top_10 = [item for item in today_data if item.get('title')][:10]
     schema_items = []
     for i, item in enumerate(top_10):
-        # Fallback for image
         img = item['image'] if item.get('image') and item['image'].startswith('http') else "https://sivasubramoniam-js.github.io/the-dev-summary/logo.png"
-        
         schema_items.append({
             "@type": "ListItem",
             "position": i + 1,
@@ -234,13 +282,8 @@ async def main_async():
                 "url": item['link'],
                 "datePublished": item['datetimestamp'],
                 "image": img,
-                "author": {
-                    "@type": "Organization",
-                    "name": item['source']
-                },
-                "publisher": {
-                    "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#organization"
-                }
+                "author": {"@type": "Organization", "name": item['source']},
+                "publisher": {"@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#organization"}
             }
         })
     
@@ -251,23 +294,18 @@ async def main_async():
             with open(index_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            content = re.sub(r'<title>.*?</title>', lambda m: f'<title>The Dev Summary | Tech News - {current_date}</title>', content)
-            content = re.sub(r'<meta property="og:title" content=".*?">', lambda m: f'<meta property="og:title" content="The Dev Summary | News for {current_date}">', content)
-            content = re.sub(r'<meta property="twitter:title" content=".*?">', lambda m: f'<meta property="twitter:title" content="The Dev Summary | News for {current_date}">', content)
-            
-            # Replace the empty or existing itemListElement array
-            # Inject into Top Tech Stories schema (avoiding BreadcrumbList)
+            content = re.sub(r'<title>.*?</title>', lambda m: f'<title>The Dev Summary | Tech News - {current_date_str}</title>', content)
+            content = re.sub(r'<meta property="og:title" content=".*?">', lambda m: f'<meta property="og:title" content="The Dev Summary | News for {current_date_str}">', content)
+            content = re.sub(r'<meta property="twitter:title" content=".*?">', lambda m: f'<meta property="twitter:title" content="The Dev Summary | News for {current_date_str}">', content)
             content = re.sub(
                 r'("name":\s*"Top Tech Stories Today",\s*"itemListElement":\s*\[).*?(\])',
                 lambda m: f'{m.group(1)}\n{items_json}\n{m.group(2)}',
                 content,
                 flags=re.DOTALL
             )
-
             with open(index_path, 'w', encoding='utf-8') as f:
                 f.write(content)
 
-    # Update sitemap.xml
     sitemap_path = 'sitemap.xml'
     if os.path.exists(sitemap_path):
         with open(sitemap_path, 'r', encoding='utf-8') as f:

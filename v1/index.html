@@ -11,11 +11,11 @@
     <meta name="keywords"
         content="tech news, developer news, programming updates, open source, engineering summaries, software development, AI news, frontend, backend">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://sivasubramoniam-js.github.io/the-dev-summary/v1">
+    <link rel="canonical" href="https://sivasubramoniam-js.github.io/the-dev-summary/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sivasubramoniam-js.github.io/the-dev-summary/v1">
+    <meta property="og:url" content="https://sivasubramoniam-js.github.io/the-dev-summary/">
     <meta property="og:title" content="The Dev Summary | News for Saturday, May 02, 2026">
     <meta property="og:description"
         content="Daily tech news summaries and curated updates for engineers. Stay informed with minimal noise.">
@@ -27,7 +27,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://sivasubramoniam-js.github.io/the-dev-summary/v1">
+    <meta property="twitter:url" content="https://sivasubramoniam-js.github.io/the-dev-summary/">
     <meta property="twitter:title" content="The Dev Summary | News for Saturday, May 02, 2026">
     <meta property="twitter:description"
         content="Daily tech news summaries and curated updates for engineers. Stay informed with minimal noise.">
@@ -40,11 +40,20 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "The Dev Summary",
+      "alternateName": ["Dev Summary", "The Dev Summary News"],
+      "url": "https://sivasubramoniam-js.github.io/the-dev-summary/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "WebSite",
           "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#website",
-          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/v1/",
+          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/",
           "name": "The Dev Summary",
           "alternateName": ["Dev Summary", "The Dev Summary News"],
           "description": "Daily Tech News for Developers & Engineers",
@@ -56,7 +65,7 @@
               "@type": "SearchAction",
               "target": {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://sivasubramoniam-js.github.io/the-dev-summary/v1/?s={search_term_string}"
+                "urlTemplate": "https://sivasubramoniam-js.github.io/the-dev-summary/?s={search_term_string}"
               },
               "query-input": "required name=search_term_string"
             }
@@ -67,7 +76,7 @@
           "@type": "NewsMediaOrganization",
           "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#organization",
           "name": "The Dev Summary",
-          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/v1",
+          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/",
           "logo": {
             "@type": "ImageObject",
             "url": "https://sivasubramoniam-js.github.io/the-dev-summary/logo.png",
@@ -80,8 +89,8 @@
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/v1/#collectionpage",
-          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/v1",
+          "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#collectionpage",
+          "url": "https://sivasubramoniam-js.github.io/the-dev-summary/",
           "name": "Latest Tech News for Developers",
           "isPartOf": {
             "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#website"
@@ -94,14 +103,14 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://sivasubramoniam-js.github.io/the-dev-summary/v1/"
+                "item": "https://sivasubramoniam-js.github.io/the-dev-summary/"
               }
             ]
           }
         },
         {
           "@type": "ItemList",
-          "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/v1/#itemlist",
+          "@id": "https://sivasubramoniam-js.github.io/the-dev-summary/#itemlist",
           "name": "Top Tech Stories Today",
           "itemListElement": [
             {
@@ -290,8 +299,10 @@
     }
     </script>
     <!-- favicon -->
-    <link rel="icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png" type="image/png" sizes="512x512">
-    <link rel="icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.svg" type="image/svg+xml" sizes="any">
+    <link rel="icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png" type="image/png"
+        sizes="512x512">
+    <link rel="icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.svg" type="image/svg+xml"
+        sizes="any">
     <link rel="apple-touch-icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
     <link rel="shortcut icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
     <!-- Top-tier Typography from Google Fonts -->
@@ -308,13 +319,13 @@
         }
 
         /* Prevent Google Translate hover highlights/shadows */
-        .goog-text-highlight, 
+        .goog-text-highlight,
         .goog-text-highlight:hover {
             background-color: transparent !important;
             box-shadow: none !important;
             border: none !important;
         }
-        
+
         font {
             background-color: transparent !important;
             box-shadow: none !important;
@@ -939,6 +950,117 @@
                 font-size: 0.75rem;
             }
         }
+
+        /* ---------------- QUICK TOUR ---------------- */
+        .tour-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            z-index: 2000;
+            display: none;
+            backdrop-filter: blur(4px);
+            transition: opacity 0.3s ease;
+        }
+
+        .tour-highlight {
+            position: relative;
+            z-index: 2002 !important;
+            /* Higher than secondary */
+            background: var(--bg-page) !important;
+            box-shadow: 0 0 0 10px var(--bg-page), 0 0 40px rgba(0, 0, 0, 0.5) !important;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 1 !important;
+            animation: none !important;
+            visibility: visible !important;
+            overflow: visible !important;
+        }
+
+        .tour-highlight-secondary {
+            position: relative;
+            z-index: 2001 !important;
+            opacity: 1 !important;
+            animation: none !important;
+            visibility: visible !important;
+            pointer-events: none;
+        }
+
+        .tour-highlight-secondary img {
+            filter: blur(5px);
+            opacity: 0.3;
+        }
+
+        .tour-tooltip {
+            position: fixed;
+            background: var(--bg-page);
+            color: var(--text-main);
+            padding: 25px;
+            border: 2px solid var(--border-color);
+            box-shadow: 10px 10px 0px var(--border-color);
+            z-index: 2002;
+            max-width: 320px;
+            display: none;
+            flex-direction: column;
+            gap: 15px;
+            animation: tourPop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes tourPop {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .tour-tooltip h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--accent);
+        }
+
+        .tour-tooltip p {
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .tour-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .tour-btn {
+            background: var(--text-main);
+            color: var(--bg-page);
+            border: none;
+            padding: 8px 15px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tour-btn:hover {
+            background: var(--accent);
+        }
+
+        .tour-btn.secondary {
+            background: transparent;
+            color: var(--text-muted);
+            border: 1px solid #ccc;
+        }
     </style>
 </head>
 
@@ -948,6 +1070,17 @@
         <div class="masthead-meta">
             <span id="dateDisplay"></span>
             <div style="display: flex; gap: 15px; align-items: center; justify-content: center; flex-wrap: wrap;">
+                <div class="archive-container" style="display: flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 0.75rem; border: 1px solid var(--border-color); padding: 4px 8px; font-weight: 700;">
+                    <i class="fas fa-calendar-alt"></i>
+                    <select id="archivePicker" style="background: transparent; border: none; font-family: inherit; font-size: inherit; font-weight: inherit; color: inherit; cursor: pointer; outline: none; padding: 0;">
+                        <option value="">Loading Archive...</option>
+                    </select>
+                </div>
+                <span onclick="startTour()"
+                    style="cursor: pointer; font-family: var(--font-mono); font-size: 0.75rem; border: 1px solid var(--border-color); padding: 4px 8px; font-weight: 700;"
+                    title="Take a quick tour">
+                    <i class="fas fa-route" style="margin-right: 5px;"></i>QUICK TOUR
+                </span>
                 <span id="google_translate_element"></span>
             </div>
         </div>
@@ -987,7 +1120,159 @@
     </footer>
 
     <script>
-        // Global Action Handlers
+        // --- Quick Tour Manager ---
+        const tourSteps = [
+            {
+                element: '.masthead h1',
+                title: 'Welcome!',
+                content: 'The Dev Summary is your daily minimalist editorial for everything happening in the tech world.',
+                position: 'bottom'
+            },
+            {
+                element: '#google_translate_element',
+                title: 'Global Reach',
+                content: 'Read news in your native language. Our system automatically adapts to your preference.',
+                position: 'bottom'
+            },
+            {
+                element: '.marquee',
+                title: 'Live Wire',
+                content: 'Stay updated with real-time scrolling headlines across all major tech categories.',
+                position: 'bottom'
+            },
+            {
+                element: '#categoryNav',
+                title: 'Curated Topics',
+                content: 'Filter the news by your area of interest—from AI to Engineering dispatches.',
+                position: 'bottom'
+            },
+            {
+                element: '#news-card-0',
+                title: 'News Card',
+                content: 'Each card contains the title, a short description, and a link to the original article.',
+                position: 'bottom'
+            },
+            {
+                element: '#news-card-0 .fa-copy',
+                alsoHighlight: '#news-card-0',
+                title: 'Copy Text',
+                content: 'Quickly copy the news text to your clipboard for sharing.',
+                position: 'bottom'
+            },
+            {
+                element: '#news-card-0 .fa-bookmark',
+                alsoHighlight: '#news-card-0',
+                title: 'Save Article',
+                content: 'Bookmark this dispatch to read it later in your "Saved Items" library.',
+                position: 'bottom'
+            }
+        ];
+
+        let currentTourStep = 0;
+
+        function startTour() {
+            currentTourStep = 0;
+            document.body.insertAdjacentHTML('beforeend', `
+                <div id="tourOverlay" class="tour-overlay"></div>
+                <div id="tourTooltip" class="tour-tooltip">
+                    <h3 id="tourTitle"></h3>
+                    <p id="tourContent"></p>
+                    <div class="tour-actions">
+                        <button class="tour-btn secondary" onclick="endTour()">Skip</button>
+                        <button class="tour-btn" id="tourNextBtn" onclick="nextTourStep()">Next</button>
+                    </div>
+                </div>
+            `);
+            document.getElementById('tourOverlay').style.display = 'block';
+            showStep(0);
+        }
+
+        function showStep(index) {
+            const step = tourSteps[index];
+            const target = document.querySelector(step.element);
+            const tooltip = document.getElementById('tourTooltip');
+            const overlay = document.getElementById('tourOverlay');
+
+            // If target not found yet (e.g. news cards still rendering), retry
+            if (!target && index >= 4) {
+                console.log(`Tour step ${index} target not found, retrying...`);
+                // Force a re-render check if container is empty
+                if (document.getElementById('news-feed').children.length === 0) {
+                    fetchNews();
+                }
+                setTimeout(() => showStep(index), 800);
+                return;
+            }
+
+            // Cleanup previous highlight
+            document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
+
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                setTimeout(() => {
+                    target.classList.add('tour-highlight');
+
+                    // Support secondary highlight (like a parent card)
+                    if (step.alsoHighlight) {
+                        const secondary = document.querySelector(step.alsoHighlight);
+                        if (secondary) secondary.classList.add('tour-highlight-secondary');
+                    }
+
+                    const rect = target.getBoundingClientRect();
+
+                    tooltip.style.display = 'flex';
+                    document.getElementById('tourTitle').textContent = step.title;
+                    document.getElementById('tourContent').textContent = step.content;
+                    document.getElementById('tourNextBtn').textContent = index === tourSteps.length - 1 ? 'Finish' : 'Next';
+
+                    // Position tooltip relative to viewport (fixed)
+                    const padding = 20;
+                    let top = 0;
+                    let left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2);
+
+                    if (step.position === 'bottom') {
+                        top = rect.bottom + padding;
+                    } else {
+                        top = rect.top - tooltip.offsetHeight - padding;
+                    }
+
+                    // Keep tooltip within viewport bounds
+                    top = Math.max(10, Math.min(top, window.innerHeight - tooltip.offsetHeight - 10));
+                    left = Math.max(10, Math.min(left, window.innerWidth - tooltip.offsetWidth - 10));
+
+                    tooltip.style.top = top + 'px';
+                    tooltip.style.left = left + 'px';
+
+                    // Mobile adjustment
+                    if (window.innerWidth < 768) {
+                        tooltip.style.left = '10px';
+                        tooltip.style.right = '10px';
+                        tooltip.style.width = 'calc(100% - 20px)';
+                        tooltip.style.maxWidth = 'none';
+                    }
+                }, 400);
+            }
+        }
+
+        function nextTourStep() {
+            currentTourStep++;
+            if (currentTourStep < tourSteps.length) {
+                showStep(currentTourStep);
+            } else {
+                endTour();
+            }
+        }
+
+        function endTour() {
+            document.getElementById('tourOverlay')?.remove();
+            document.getElementById('tourTooltip')?.remove();
+            document.querySelectorAll('.tour-highlight, .tour-highlight-secondary').forEach(el => {
+                el.classList.remove('tour-highlight');
+                el.classList.remove('tour-highlight-secondary');
+            });
+        }
+
+        // --- Global Action Handlers ---
         function copyToClipboard(event) {
             event.preventDefault();
             event.stopPropagation();
@@ -1090,7 +1375,7 @@
                     
                     <div style="display: flex; justify-content: center; align-items: center; height: 50px; color: #666666; font-family: var(--font-mono), monospace; font-size: 20px; font-weight: 600; margin-bottom: 12px">
                         <span style="margin-right: 25px;"><i class="fab fa-github" style="margin-right: 8px;"></i>sivasubramoniam-js/the-dev-summary</span>
-                        <span><i class="fas fa-globe" style="margin-right: 8px;"></i>sivasubramoniam-js.github.io/the-dev-summary/v1</span>
+                        <span><i class="fas fa-globe" style="margin-right: 8px;"></i>sivasubramoniam-js.github.io/the-dev-summary</span>
                     </div>
                 `;
 
@@ -1161,6 +1446,7 @@
             const savedLi = document.createElement('li');
             savedLi.className = `category-item saved-trigger ${currentCategory === 'Saved Items' ? 'active' : ''}`;
             savedLi.textContent = 'Saved Items';
+            savedLi.dataset.category = 'Saved Items';
             savedLi.onclick = () => filterByCategory('Saved Items');
             list.appendChild(savedLi);
 
@@ -1168,6 +1454,7 @@
                 const li = document.createElement('li');
                 li.className = `category-item ${cat.toLowerCase() === currentCategory.toLowerCase() ? 'active' : ''}`;
                 li.textContent = cat;
+                li.dataset.category = cat;
                 li.onclick = () => filterByCategory(cat);
                 list.appendChild(li);
             });
@@ -1183,7 +1470,8 @@
 
             // Update UI
             document.querySelectorAll('.category-item').forEach(el => {
-                el.classList.toggle('active', el.textContent.toLowerCase() === category.toLowerCase());
+                const itemCat = el.dataset.category || '';
+                el.classList.toggle('active', itemCat.toLowerCase() === category.toLowerCase());
             });
 
             const container = document.getElementById('news-feed');
@@ -1292,10 +1580,42 @@
         }
 
         // Fetch and render news
+        // Fetch and render news
         const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/the-dev-summary/main/';
-        let currentFeedUrl = BASE_RAW_URL + 'news.json';
+        let currentFeedUrl = 'news.json';
 
-        async function fetchNews(url = currentFeedUrl) {
+        async function initArchive() {
+            const picker = document.getElementById('archivePicker');
+            try {
+                // Adjust path for v1
+                const response = await fetch('../feeds/index.json');
+                if (!response.ok) throw new Error('Index not found');
+                const archive = await response.json();
+                
+                picker.innerHTML = '';
+                archive.forEach((item, index) => {
+                    const option = document.createElement('option');
+                    option.value = '../feeds/' + item.file;
+                    option.textContent = item.date;
+                    if (index === 0) option.selected = true;
+                    picker.appendChild(option);
+                });
+
+                picker.addEventListener('change', (e) => {
+                    if (e.target.value) {
+                        fetchNews(e.target.value);
+                    }
+                });
+            } catch (error) {
+                console.error('Archive index load failed:', error);
+                picker.innerHTML = '<option value="../news.json">Latest News</option>';
+            }
+        }
+
+        async function fetchNews(url = '../news.json') {
+            const container = document.getElementById('news-feed');
+            container.innerHTML = '<div class="loading-text" style="color:var(--accent);">Opening the archives...</div>';
+            
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error('Network response was not ok');
@@ -1420,7 +1740,7 @@
                 const targetTop = categoryNav.getBoundingClientRect().top + window.scrollY - 10;
                 window.scrollTo({ top: targetTop, behavior: 'smooth' });
             }
-            container.style.filter = 'blur(0px)';
+            container.style.filter = '';
             isInitialLoad = false;
 
             // marquee scrolling time calculation
@@ -1434,6 +1754,7 @@
         }
 
         // Initialize
+        initArchive();
         fetchNews();
     </script>
 

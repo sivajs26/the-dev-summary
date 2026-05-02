@@ -458,36 +458,197 @@
             box-shadow: none !important;
         }
 
-        .marquee {
-            overflow: hidden;
-            white-space: nowrap;
-            background-color: var(--bg-page);
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-            padding: 10px 0;
-            width: 100vw;
-            max-width: 1400px;
-            margin: 0 auto;
+        /* --- Quick Tour Styles --- */
+        .tour-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(2px);
+            z-index: 2000;
+            display: none;
+            transition: all 0.3s ease;
         }
 
-        .marquee-content {
-            display: inline-block;
-            padding-left: 100%;
-            animation: marquee linear infinite;
+        .tour-highlight {
+            position: relative;
+            z-index: 2001 !important;
+            background: var(--bg-page) !important;
+            box-shadow: 0 0 0 10px var(--bg-page), 0 0 40px rgba(0,0,0,0.3) !important;
+            border-radius: 4px;
+            transition: all 0.3s ease;
         }
 
-        .marquee-content span {
-            margin-right: 50px;
+        .tour-highlight-secondary {
+            position: relative;
+            z-index: 2001 !important;
+            background: var(--bg-page) !important;
+            box-shadow: 0 0 0 10px var(--bg-page), 0 0 20px rgba(0,0,0,0.1) !important;
         }
 
-        @keyframes marquee {
-            0% {
-                transform: translateX(0%);
-            }
+        .tour-tooltip {
+            position: fixed;
+            background: var(--bg-page);
+            padding: 25px;
+            border: 2px solid var(--border-color);
+            box-shadow: 10px 10px 0px var(--border-color);
+            z-index: 2002;
+            max-width: 320px;
+            display: none;
+            flex-direction: column;
+            gap: 15px;
+            animation: tourPop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
 
-            100% {
-                transform: translateX(-100%);
-            }
+        @keyframes tourPop {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .tour-tooltip h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--accent);
+        }
+
+        .tour-tooltip p {
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .tour-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .tour-btn {
+            background: var(--text-main);
+            color: var(--bg-page);
+            border: none;
+            padding: 8px 15px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tour-btn:hover { background: var(--accent); }
+        .tour-btn.secondary { background: transparent; color: var(--text-muted); border: 1px solid #ccc; }
+
+        /* Calendar Styles */
+        .calendar-wrapper {
+            position: relative;
+            user-select: none;
+        }
+
+        #calendarToggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            border: 1px solid var(--border-color);
+            padding: 4px 12px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: var(--bg-page);
+        }
+
+        #calendarToggle:hover {
+            border-color: var(--text-main);
+            background: #f0f0f0;
+        }
+
+        .calendar-dropdown {
+            position: absolute;
+            top: calc(100% + 10px);
+            left: 0;
+            width: 280px;
+            background: var(--bg-page);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 15px;
+            display: none;
+            flex-direction: column;
+            animation: fadeInDown 0.3s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-family: var(--font-mono);
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+
+        .calendar-nav-btn {
+            cursor: pointer;
+            padding: 5px;
+            transition: color 0.2s;
+        }
+
+        .calendar-nav-btn:hover { color: var(--accent); }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 2px;
+            text-align: center;
+        }
+
+        .calendar-weekday {
+            font-size: 0.6rem;
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+            padding-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .calendar-day {
+            font-size: 0.75rem;
+            padding: 8px 0;
+            cursor: default;
+            color: #ccc;
+            font-family: var(--font-mono);
+            transition: all 0.2s;
+            border-radius: 2px;
+        }
+
+        .calendar-day.available {
+            color: var(--text-main);
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .calendar-day.available:hover {
+            background: var(--text-main);
+            color: var(--bg-page);
+        }
+
+        .calendar-day.selected {
+            background: var(--accent);
+            color: white !important;
+        }
+
+        .calendar-day.today {
+            border: 1px solid var(--text-main);
         }
     </style>
 </head>
@@ -498,6 +659,27 @@
         <div class="masthead-meta">
             <span id="dateDisplay"></span>
             <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <div class="calendar-wrapper">
+                    <div id="calendarToggle">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span id="selectedDateLabel">Archive</span>
+                    </div>
+                    <div id="calendarDropdown" class="calendar-dropdown">
+                        <div class="calendar-header">
+                            <i class="fas fa-chevron-left calendar-nav-btn" onclick="changeMonth(-1)"></i>
+                            <span id="calendarMonthYear"></span>
+                            <i class="fas fa-chevron-right calendar-nav-btn" onclick="changeMonth(1)"></i>
+                        </div>
+                        <div class="calendar-grid" id="calendarGrid">
+                            <!-- Weekdays and Days will be injected here -->
+                        </div>
+                    </div>
+                </div>
+                <span onclick="startTour()"
+                    style="cursor: pointer; font-family: var(--font-mono); font-size: 0.75rem; border: 1px solid var(--border-color); padding: 4px 8px; font-weight: 700;"
+                    title="Take a quick tour">
+                    <i class="fas fa-route" style="margin-right: 5px;"></i>QUICK TOUR
+                </span>
                 <select id="feedFilter" onchange="handleFilterChange(this.value)"
                     style="padding: 5px 10px; font-family: var(--font-mono); font-size: 0.8rem; border: 1px solid var(--border-color); background: var(--bg-page); outline: none; cursor: pointer; max-width: 300px;">
                     <option value="news.json">All Headlines (Top 250)</option>
@@ -532,253 +714,335 @@
     </footer>
 
     <script>
+        // --- Quick Tour Manager ---
+        const tourSteps = [
+            {
+                element: '.masthead h1',
+                title: 'Welcome!',
+                content: 'The Daily Tech is your premium editorial feed for everything happening in the tech world.',
+                position: 'bottom'
+            },
+            {
+                element: '#calendarToggle',
+                title: 'Daily Archives',
+                content: 'Browse news from previous days by selecting a date from our visual calendar archive.',
+                position: 'bottom'
+            },
+            {
+                element: '#feedFilter',
+                title: 'Source Selection',
+                content: 'Filter the news by specific publication or technical category.',
+                position: 'bottom'
+            },
+            {
+                element: '.marquee',
+                title: 'Live Wire',
+                content: 'Stay updated with real-time scrolling headlines from the latest dispatches.',
+                position: 'bottom'
+            },
+            {
+                element: '.news-card:nth-child(1)',
+                title: 'Featured Story',
+                content: 'Our top editorial pick for the day, presented with deep context.',
+                position: 'bottom'
+            },
+            {
+                element: '.news-card:nth-child(1) .fa-copy',
+                title: 'Quick Actions',
+                content: 'Copy article summaries or download cards as beautiful posters for sharing.',
+                position: 'bottom'
+            }
+        ];
+
+        let currentTourStep = 0;
+
+        function startTour() {
+            currentTourStep = 0;
+            if (document.getElementById('tourOverlay')) return;
+            document.body.insertAdjacentHTML('beforeend', `
+                <div id="tourOverlay" class="tour-overlay"></div>
+                <div id="tourTooltip" class="tour-tooltip">
+                    <h3 id="tourTitle"></h3>
+                    <p id="tourContent"></p>
+                    <div class="tour-actions">
+                        <button class="tour-btn secondary" onclick="endTour()">Skip</button>
+                        <button class="tour-btn" id="tourNextBtn" onclick="nextTourStep()">Next</button>
+                    </div>
+                </div>
+            `);
+            document.getElementById('tourOverlay').style.display = 'block';
+            showStep(0);
+        }
+
+        function showStep(index) {
+            const step = tourSteps[index];
+            const target = document.querySelector(step.element);
+            const tooltip = document.getElementById('tourTooltip');
+            const overlay = document.getElementById('tourOverlay');
+
+            if (!target && index >= 4) {
+                setTimeout(() => showStep(index), 800);
+                return;
+            }
+
+            document.querySelectorAll('.tour-highlight, .tour-highlight-secondary').forEach(el => {
+                el.classList.remove('tour-highlight');
+                el.classList.remove('tour-highlight-secondary');
+            });
+
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                setTimeout(() => {
+                    target.classList.add('tour-highlight');
+                    const rect = target.getBoundingClientRect();
+                    tooltip.style.display = 'flex';
+                    document.getElementById('tourTitle').textContent = step.title;
+                    document.getElementById('tourContent').textContent = step.content;
+                    document.getElementById('tourNextBtn').textContent = index === tourSteps.length - 1 ? 'Finish' : 'Next';
+
+                    const padding = 20;
+                    let top = rect.bottom + padding;
+                    let left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2);
+
+                    top = Math.max(10, Math.min(top, window.innerHeight - tooltip.offsetHeight - 10));
+                    left = Math.max(10, Math.min(left, window.innerWidth - tooltip.offsetWidth - 10));
+
+                    tooltip.style.top = top + 'px';
+                    tooltip.style.left = left + 'px';
+
+                    if (window.innerWidth < 768) {
+                        tooltip.style.left = '10px';
+                        tooltip.style.right = '10px';
+                        tooltip.style.width = 'calc(100% - 20px)';
+                        tooltip.style.maxWidth = 'none';
+                    }
+                }, 400);
+            }
+        }
+
+        function nextTourStep() {
+            currentTourStep++;
+            if (currentTourStep < tourSteps.length) showStep(currentTourStep);
+            else endTour();
+        }
+
+        function endTour() {
+            document.getElementById('tourOverlay')?.remove();
+            document.getElementById('tourTooltip')?.remove();
+            document.querySelectorAll('.tour-highlight, .tour-highlight-secondary').forEach(el => {
+                el.classList.remove('tour-highlight');
+                el.classList.remove('tour-highlight-secondary');
+            });
+        }
+
+        // --- Calendar Logic ---
+        let currentViewDate = new Date();
+        let archiveIndex = [];
+        let selectedFile = '';
+
+        function toggleCalendar(e) {
+            e.stopPropagation();
+            const dropdown = document.getElementById('calendarDropdown');
+            const isVisible = dropdown.style.display === 'flex';
+            dropdown.style.display = isVisible ? 'none' : 'flex';
+            if (!isVisible) renderCalendar();
+        }
+
+        document.getElementById('calendarToggle').addEventListener('click', toggleCalendar);
+        document.addEventListener('click', () => {
+            document.getElementById('calendarDropdown').style.display = 'none';
+        });
+        document.getElementById('calendarDropdown').addEventListener('click', e => e.stopPropagation());
+
+        function changeMonth(delta) {
+            currentViewDate.setMonth(currentViewDate.getMonth() + delta);
+            renderCalendar();
+        }
+
+        function renderCalendar() {
+            const grid = document.getElementById('calendarGrid');
+            const monthYearLabel = document.getElementById('calendarMonthYear');
+            
+            grid.innerHTML = '';
+            const year = currentViewDate.getFullYear();
+            const month = currentViewDate.getMonth();
+            
+            monthYearLabel.textContent = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' }).format(currentViewDate);
+            
+            const weekdays = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+            weekdays.forEach(day => {
+                const el = document.createElement('div');
+                el.className = 'calendar-weekday';
+                el.textContent = day;
+                grid.appendChild(el);
+            });
+            
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            
+            for (let i = 0; i < firstDay; i++) {
+                grid.appendChild(document.createElement('div'));
+            }
+            
+            const availableDates = archiveIndex.map(item => item.date);
+            const today = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-');
+            
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dayEl = document.createElement('div');
+                dayEl.className = 'calendar-day';
+                dayEl.textContent = day;
+                
+                const dateObj = new Date(year, month, day);
+                const dateStr = dateObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-');
+                
+                if (availableDates.includes(dateStr)) {
+                    dayEl.classList.add('available');
+                    dayEl.onclick = () => {
+                        const archiveItem = archiveIndex.find(a => a.date === dateStr);
+                        if (archiveItem) {
+                            document.getElementById('selectedDateLabel').textContent = dateStr;
+                            fetchNews('../feeds/' + archiveItem.file);
+                            document.getElementById('calendarDropdown').style.display = 'none';
+                        }
+                    };
+                }
+                
+                if (dateStr === today) dayEl.classList.add('today');
+                
+                grid.appendChild(dayEl);
+            }
+        }
+
+        async function initArchive() {
+            try {
+                const response = await fetch('../feeds/index.json');
+                archiveIndex = await response.json();
+                if (archiveIndex.length > 0) {
+                    document.getElementById('selectedDateLabel').textContent = archiveIndex[0].date;
+                }
+            } catch (error) {
+                console.error('Archive index load failed:', error);
+            }
+        }
+
         // Global Action Handlers
         function copyToClipboard(event) {
             event.preventDefault();
             event.stopPropagation();
-
             const card = event.target.closest('.news-card');
             if (!card) return;
-
-            // Extract dynamically rendered text directly from DOM using textContent which is immune to visibility/translation DOM wrapping quirks
             const title = card.querySelector('.news-title')?.textContent.trim() || '';
             const description = card.querySelector('.news-desc')?.textContent.trim() || '';
             const textToCopy = `${title} : ${description}`;
-
             navigator.clipboard.writeText(textToCopy).then(() => {
                 const icon = event.target;
                 const originalClass = icon.className;
-                icon.className = 'fas fa-check text-green-500';
-                icon.style.color = 'var(--text-main)';
-                setTimeout(() => {
-                    icon.className = originalClass;
-                    icon.style.color = '';
-                }, 2000);
-            }).catch(err => console.error('Failed to copy: ', err));
+                icon.className = 'fas fa-check';
+                setTimeout(() => icon.className = originalClass, 2000);
+            });
         }
 
         function downloadAsImage(event) {
             event.preventDefault();
             event.stopPropagation();
-
             const icon = event.target;
             const originalIconClass = icon.className;
-            icon.className = "fas fa-spinner fa-spin"; // Show loading state
-
+            icon.className = "fas fa-spinner fa-spin";
             const card = event.target.closest('.news-card');
-
             const renderAndDownload = () => {
-                // Extract the exact textual and visual content asynchronously
                 const imgEl = card.querySelector('.news-image');
-                const imgSrc = imgEl ? imgEl.src : null;
                 const title = card.querySelector('.news-title').textContent.trim();
                 const desc = card.querySelector('.news-desc').textContent.trim();
-                const dateEl = document.getElementById('dateDisplay');
-                const dateStr = dateEl ? dateEl.textContent.trim() : "The Daily Tech";
-
-                // Programmatically construct a perfectly structured exact 4:5 offline poster div (1080x1350 resolution)
                 const poster = document.createElement('div');
-                poster.style.position = 'absolute'; // Position absolute avoids viewport issues during scaling
-                poster.style.top = '-9999px'; // Render entirely off-screen
-                poster.style.left = '-9999px';
-                poster.style.width = '1080px';
-                poster.style.height = '1350px';
-                poster.style.backgroundColor = '#f9f8f4'; // Premium editorial paper white
-                poster.style.padding = '80px 80px 10px 80px'; // 10px exactly at the bottom precisely locks the footer!
-                poster.style.boxSizing = 'border-box';
-                poster.style.display = 'flex';
-                poster.style.flexDirection = 'column';
-                poster.style.color = 'var(--text-main)';
-                poster.style.zIndex = '-100';
-
-                // Safely format Image Block utilizing CSS background properties to bypass html2canvas object-fit bugs
-                let imgHTML = '';
-                if (imgSrc) {
-                    imgHTML = `
-                        <div style="width: 100%; height: 500px; border-radius: 4px; margin-bottom: 40px; border: 1px solid rgba(0,0,0,0.1); background-color: #e0e0e0; background-image: url('${imgSrc}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                        </div>
-                    `;
-                }
-
-                // Build immaculate HTML Layout natively
+                poster.style.cssText = 'position:absolute;top:-9999px;width:1080px;height:1350px;background:#f9f8f4;padding:80px;display:flex;flex-direction:column;';
                 poster.innerHTML = `
-                    <div style="flex-grow: 1; display: flex; flex-direction: column;">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 3px solid var(--border-color); padding-bottom: 25px; margin-bottom: 40px;">
-                            <div style="font-family: var(--font-display), serif; font-size: 40px; text-transform: uppercase; font-weight: 800; line-height: 1; letter-spacing: -0.02em;">The Daily Tech</div>
-                            <div style="font-family: var(--font-mono), monospace; font-size: 22px; color: var(--text-muted); text-transform: uppercase;">${dateStr}</div>
+                    <div style="flex-grow:1">
+                        <div style="border-bottom:3px solid #111;padding-bottom:20px;margin-bottom:40px;display:flex;justify-content:space-between;align-items:flex-end">
+                            <h1 style="font-size:40px;text-transform:uppercase">The Daily Tech</h1>
                         </div>
-                        
-                        ${imgHTML}
-                        
-                        <h2 style="font-family: var(--font-serif), serif; font-size: 42px; line-height: 1.25; margin: 0 0 35px 0; font-weight: 700;">${title}</h2>
-                        <p style="font-family: var(--font-sans), sans-serif; font-size: 32px; color: #333333; line-height: 1.55; margin: 0; overflow: hidden;">${desc}</p>
-                    </div>
-                    
-                    <div style="display: flex; justify-content: center; align-items: center; height: 50px; color: #666666; font-family: var(--font-mono), monospace; font-size: 24px; font-weight: 600; margin-bottom: 12px">
-                        <i class="fab fa-github" style="margin-right: 14px; font-size: 30px;"></i>sivasubramoniam-js/the-dev-summary
+                        <h2 style="font-size:42px;margin-bottom:30px">${title}</h2>
+                        <p style="font-size:32px;line-height:1.5">${desc}</p>
                     </div>
                 `;
-
-                // Inject strictly for the backend Canvas engine to target
                 document.body.appendChild(poster);
-
-                // Delay execution momentarily to guarantee font-families append cleanly to the injected DOM graph
-                setTimeout(() => {
-                    html2canvas(poster, {
-                        useCORS: true,
-                        scale: 1.5, // 1080x1350 output upscales to gorgeous 1620x2025 photo
-                        backgroundColor: '#f9f8f4',
-                        logging: false
-                    }).then(canvas => {
-                        const link = document.createElement('a'); link.download = `tech-news-highlight.png`;
-                        link.href = canvas.toDataURL('image/png', 1.0);
-                        link.click();
-
-                        poster.remove(); // Safely destroy the phantom DOM element
-                        icon.className = originalIconClass; // Restore download UI
-                    }).catch(err => {
-                        console.error("DOM Image Render failed", err);
-                        poster.remove();
-                        icon.className = originalIconClass;
-                        alert("Sorry! Failed to render the card as an image.");
-                    });
-                }, 150); // Provide enough time for image processing and webfonts rendering
+                html2canvas(poster, { scale: 1.5 }).then(canvas => {
+                    const link = document.createElement('a');
+                    link.download = `tech-news.png`;
+                    link.href = canvas.toDataURL();
+                    link.click();
+                    poster.remove();
+                    icon.className = originalIconClass;
+                });
             };
-
-            // Dynamically load html2canvas to save initial page load bandwidth
             if (typeof html2canvas === 'undefined') {
                 const script = document.createElement('script');
                 script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
                 script.onload = renderAndDownload;
                 document.head.appendChild(script);
-            } else {
-                renderAndDownload();
-            }
+            } else renderAndDownload();
         }
+
         // Set dynamic masthead date
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
 
-        // Fetch and render news
         const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/the-dev-summary/main/';
-        let currentFeedUrl = BASE_RAW_URL + 'news.json';
 
         async function fetchFeedsList() {
             try {
-                const response = await fetch(BASE_RAW_URL + 'feeds.json');
+                const response = await fetch('../feeds.json');
                 const feeds = await response.json();
-
                 const select = document.getElementById('feedFilter');
-
-                // Add AssemblyAI as it's custom scraped
-                if (!feeds.some(f => f.feedname === 'AssemblyAI')) {
-                    feeds.push({ feedname: 'AssemblyAI', category: 'AI' });
-                }
-
-                const categories = {};
                 feeds.forEach(feed => {
-                    const cat = feed.category || 'General';
-                    if (!categories[cat]) categories[cat] = [];
-                    categories[cat].push(feed);
+                    let slug = feed.feedname.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[-\s]+/g, '-').replace(/^-+|-+$/g, '');
+                    const option = document.createElement('option');
+                    option.value = `../feeds/${slug}.json`;
+                    option.textContent = feed.feedname;
+                    select.appendChild(option);
                 });
-
-                for (const [category, items] of Object.entries(categories).sort()) {
-                    const optgroup = document.createElement('optgroup');
-                    optgroup.label = `--- ${category} ---`;
-
-                    items.sort((a, b) => a.feedname.localeCompare(b.feedname)).forEach(item => {
-                        // Python slugify logic replica
-                        let slug = item.feedname.toLowerCase()
-                            .replace(/[^\w\s-]/g, '')
-                            .replace(/[-\s]+/g, '-')
-                            .replace(/^-+|-+$/g, '');
-
-                        // Prevent duplicates
-                        if (!Array.from(select.options).some(opt => opt.value === `feeds/${slug}.json`)) {
-                            const option = document.createElement('option');
-                            option.value = `feeds/${slug}.json`;
-                            option.textContent = item.feedname;
-                            optgroup.appendChild(option);
-                        }
-                    });
-                    select.appendChild(optgroup);
-                }
-            } catch (err) {
-                console.error("Failed to load feed list", err);
-            }
+            } catch (err) { console.error("Failed to load feed list", err); }
         }
 
         function handleFilterChange(value) {
-            document.getElementById('news-feed').innerHTML = '<div class="loading-text">Fetching dispatches...</div>';
-            document.getElementById('marqueeText').textContent = '';
-
-            if (value === 'news.json') {
-                currentFeedUrl = BASE_RAW_URL + 'news.json';
-            } else {
-                currentFeedUrl = BASE_RAW_URL + value; // e.g. feeds/assemblyai.json
-            }
-            fetchNews(currentFeedUrl);
+            document.getElementById('news-feed').innerHTML = '<div class="loading-text">Fetching...</div>';
+            fetchNews(value);
         }
 
-        async function fetchNews(url = currentFeedUrl) {
+        async function fetchNews(url = '../news.json') {
             try {
                 const response = await fetch(url);
-                if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
-
                 const container = document.getElementById('news-feed');
+                const marqueeText = document.getElementById('marqueeText');
                 container.innerHTML = '';
+                marqueeText.textContent = '';
 
                 data.forEach((item, index) => {
-                    // Determine grid class based on index to create masonry/editorial layout
-                    let cardClass = 'card-regular';
+                    let cardClass = index === 0 ? 'card-featured' : (index < 5 ? 'card-wide' : 'card-regular');
+                    marqueeText.textContent += item.title + ' | ';
 
-                    if (index === 0) {
-                        cardClass = 'card-featured';
-                    } else if (index < 5) {
-                        cardClass = 'card-wide';
-                    }
 
-                    // add title to marquee text
-                    const marqueeText = document.getElementById('marqueeText');
-                    if (index < data.length - 1) {
-                        marqueeText.textContent += item.title + ' | ';
-                    } else {
-                        marqueeText.textContent += item.title;
-                    }
-
-                    // Stagger animation timing
-                    const animDelay = (index % 10) * 0.1;
-
-                    // Calculate reading time based on description length (assuming 200 words/min)
-                    const wordCount = item.description ? item.description.split(/\s+/).length : 0;
-                    const readTime = Math.max(1, Math.ceil(wordCount / 200));
-                    const image_url = item.image.startsWith("https") ? item.image : BASE_RAW_URL + item.image;
-
-                    const pubDate = new Date(item.datetimestamp || item.published);
-                    const formattedDate = isNaN(pubDate) ? "" : pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+                    const scrapedAt = item.scraped_at ? new Date(item.scraped_at).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) : null;
 
                     const cardHTML = `
-                        <div class="news-card ${cardClass}" style="animation-delay: ${animDelay}s">
-                            ${item.image ? `
-                                <div class="news-image-wrapper">
-                                    <img src="${image_url}" class="news-image" alt="Article image" loading="lazy">
-                                </div>
-                            ` : `<div class="news-image-wrapper" style="background:#222;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-mono)"><i class="fas fa-newspaper fa-2x"></i></div>`}
+                        <div class="news-card ${cardClass}">
+                            ${item.image ? `<div class="news-image-wrapper"><img src="${item.image.startsWith('http') ? item.image : BASE_RAW_URL + item.image}" class="news-image"></div>` : ''}
                             <div class="news-content">
-                                <div class="news-meta" style="margin-bottom: 6px;">
-                                    <span style="color: var(--accent); padding-right: 8px;">${item.category || 'Tech'}</span>
-                                    <span style="color: var(--text-muted);">${formattedDate}</span>
+                                <div class="news-meta">
+                                    <span style="color:var(--accent); font-weight: 700;">${item.category || 'Tech'}</span>
+                                    <span style="font-size: 0.75rem;"><span style="color: crimson; font-weight: 700;">• Source:</span> <span style="opacity: 0.7;">${item.source || 'General'}</span></span>
                                 </div>
                                 <div class="news-meta">
-                                    <span class="action-icons" style="font-size: 1.1rem; color: var(--text-muted);">
-                                        <i class="fas fa-copy" title="Copy to clipboard" style="margin-right: 10px; cursor: pointer;" onclick="copyToClipboard(event)"></i>
-                                        <i class="fas fa-download" title="Download as image" id="${index}" style="cursor: pointer;" onclick="downloadAsImage(event)"></i>
+                                    <span>
+                                        <i class="fas fa-copy" onclick="copyToClipboard(event)" style="cursor:pointer;margin-right:10px"></i>
+                                        <i class="fas fa-download" onclick="downloadAsImage(event)" style="cursor:pointer"></i>
                                     </span>
-                                    <span style="color: var(--text-muted);">${readTime} MIN READ</span>
+                                    <span style="font-size:0.6rem; opacity:0.7">
+                                        ${scrapedAt ? `Scraped at ${scrapedAt}` : ''}
+                                    </span>
                                 </div>
                                 <h2 class="news-title">
-                                    <a href="${item.link}" style="text-decoration: none; color: inherit;" target="_blank" rel="noopener noreferrer">
+                                    <a href="${item.link}" target="_blank" style="text-decoration:none;color:inherit">
                                         <span class="title-hover-effect">${item.title}</span>
                                     </a>
                                 </h2>
@@ -788,19 +1052,10 @@
                     `;
                     container.innerHTML += cardHTML;
                 });
-                // marquee scrolling time calculation for perfect responsive speed
-                const marqueeContent = document.querySelector('.marquee-content');
-                const totalScrollWidth = marqueeContent.scrollWidth; // Total width to scroll including padding
-                const pixelsPerSecond = 50; // Constant readable speed
-                const marqueeTime = totalScrollWidth / pixelsPerSecond;
-                marqueeContent.style.animationDuration = marqueeTime + 's';
-            } catch (error) {
-                console.error('Error fetching news:', error);
-                document.getElementById('news-feed').innerHTML = '<div class="loading-text" style="color:var(--accent);">Error connecting to the printing press. Please try again.</div>';
-            }
+            } catch (error) { console.error('Fetch error:', error); }
         }
 
-        // Initialize
+        initArchive();
         fetchFeedsList();
         fetchNews();
     </script>
