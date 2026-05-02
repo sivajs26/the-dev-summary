@@ -4,6 +4,186 @@
     "link": "https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/",
     "description": "The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency \"lite\" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.",
     "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772560",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Closing the knowledge gap with agent skills",
+    "link": "https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/",
+    "description": "To bridge the gap between static model knowledge and rapidly evolving software practices, Google DeepMind developed a \"Gemini API developer skill\" that provides agents with live documentation and SDK guidance. Evaluation results show a massive performance boost, with the gemini-3.1-pro-preview model jumping from a 28.2% to a 96.6% success rate when equipped with the skill. This lightweight approach demonstrates how giving models strong reasoning capabilities and access to a \"source of truth\" can effectively eliminate outdated coding patterns.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/skills-blog-banner.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772556",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java",
+    "link": "https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/",
+    "description": "Google has released version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing powerful new features like Google Maps grounding, built-in URL fetching, and a standardized Agent2Agent protocol for cross-framework collaboration. The update enhances agent control through a new \"App\" and \"Plugin\" architecture, which allows for global logging, automated context window management via event compaction, and \"Human-in-the-Loop\" workflows for action confirmations. Additionally, the release provides robust session and memory services using Google Cloud integrations like Firestore and Vertex AI to manage long-term state and large data artifacts.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x873.2e16d0ba.fill-1200x600.jpg",
+    "datetimestamp": "2026-05-02T06:25:37.772551",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText",
+    "link": "https://developers.googleblog.com/boost-training-goodput-how-continuous-checkpointing-optimizes-reliability-in-orbax-and-maxtext/",
+    "description": "The newly introduced continuous checkpointing feature in Orbax and MaxText is designed to optimize the balance between reliability and performance during model training, addressing issues with conventional fixed-frequency checkpointing. Unlike fixed intervals\u2014which can either compromise reliability or bottleneck performance\u2014continuous checkpointing maximizes I/O bandwidth and minimizes failure risk by asynchronously initiating a new save operation only after the previous one successfully completes. Benchmarks demonstrate that this approach significantly reduces checkpoint intervals and results in substantial resource conservation, especially in large-scale training jobs where mean-time-between-failure (MTBF) is short.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eoi4lqeoi4.2e16d0ba.fill-1200x600.jpg",
+    "datetimestamp": "2026-05-02T06:25:37.772547",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "ADK Go 1.0 Arrives!",
+    "link": "https://developers.googleblog.com/adk-go-10-arrives/",
+    "description": "The launch of Agent Development Kit (ADK) for Go 1.0 marks a significant shift from experimental AI scripts to production-ready services by prioritizing observability, security, and extensibility. Key updates include native OpenTelemetry integration for deep tracing, a new plugin system for self-healing logic, and \"Human-in-the-Loop\" confirmations to ensure safety during sensitive operations. Additionally, the release introduces YAML-based configurations for rapid iteration and refined Agent2Agent (A2A) protocols to support seamless communication across different programming languages. This framework empowers developers to build complex, reliable multi-agent systems using the high-performance engineering standards of Golang.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generat.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772543",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Developer\u2019s Guide to Building ADK Agents with Skills",
+    "link": "https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/",
+    "description": "The Agent Development Kit (ADK) SkillToolset introduces a \"progressive disclosure\" architecture that allows AI agents to load domain expertise on demand, reducing token usage by up to 90% compared to traditional monolithic prompts. Through four distinct patterns\u2014ranging from simple inline checklists to \"skill factories\" where agents write their own code\u2014the system enables agents to dynamically expand their capabilities at runtime using the universal agentskills.io specification. This modular approach ensures that complex instructions and external resources are only accessed when relevant, creating a scalable and self-extending framework for modern AI development.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/part1-cover.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772539",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Bring state-of-the-art agentic skills to the edge with Gemma 4",
+    "link": "https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/",
+    "description": "Google DeepMind has launched Gemma 4, a family of state-of-the-art open models designed to enable multi-step planning and autonomous agentic workflows directly on-device. The release includes the Google AI Edge Gallery for experimenting with \"Agent Skills\" and the LiteRT-LM library, which offers a significant speed boost and structured output for developers. Available under an Apache 2.0 license, Gemma 4 supports over 140 languages and is compatible with a wide range of hardware, including mobile devices, desktops, and IoT platforms like Raspberry Pi.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rs4gjers4g.2e16d0ba.fill-1200x600.jpg",
+    "datetimestamp": "2026-05-02T06:25:37.772534",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Supporting Google Account username change in your app",
+    "link": "https://developers.googleblog.com/supporting-google-account-username-change-in-your-app/",
+    "description": "Google has updated its account settings to allow U.S. users to change their @gmail.com usernames while keeping all existing account data and inboxes intact. For developers, this means that while old email addresses will remain active as aliases, apps that rely solely on email addresses for identification may face issues with account duplication or lost access. To ensure a seamless user experience, Google recommends migrating to the \"subject ID\" as the primary user identifier and allowing users to manually update their contact information within app settings.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Username_Change_DevBlog_Header.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772530",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+    "link": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+    "description": "TorchTPU is a new engineering stack designed to provide a native, high-performance experience for running PyTorch workloads on Google\u2019s TPU infrastructure with minimal code changes. It features an \"Eager First\" approach with multiple execution modes and utilizes the XLA compiler to optimize distributed training across massive clusters. Moving into 2026, the project aims to further reduce compilation overhead and expand support for dynamic shapes and custom kernels to ensure seamless scalability for the next generation of AI.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta-A.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772526",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off",
+    "link": "https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/",
+    "description": "The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_fwpio9fwpi.2e16d0ba.fill-1200x600.jpg",
+    "datetimestamp": "2026-05-02T06:25:37.772522",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Get ready for Google I/O: Livestream schedule revealed",
+    "link": "https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed/",
+    "description": "Google I/O returns May 19\u201320 to showcase major updates in AI, Android, Chrome, and Cloud, beginning with a keynote on the \"agentic era\" of development. The event will focus on new tools designed to automate complex workflows and simplify the creation of high-quality, AI-ready applications. Attendees can register to access live sessions, technical demos, and professional development resources both live and on-demand.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-1024x512-A-dark.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772518",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "New enhancements for merchant initiated transactions with the Google Pay API",
+    "link": "https://developers.googleblog.com/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/",
+    "description": "Google has introduced enhancements to the Google Pay API to provide developers with greater flexibility and control over merchant-initiated transactions (MIT). The update includes new objects within the PaymentDataRequest to specifically handle recurring subscriptions, deferred payments like hotel bookings, and automatic account reloads. By allowing merchants to clearly define future payment terms, these changes improve transparency for users and help reduce transaction declines through better token management. Developers can now implement these features to create more seamless and secure long-term payment experiences.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772513",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Subagents have arrived in Gemini CLI",
+    "link": "https://developers.googleblog.com/subagents-have-arrived-in-gemini-cli/",
+    "description": "Gemini CLI has introduced subagents, specialized expert agents that handle complex or high-volume tasks in isolated context windows to keep the primary session fast and focused. These agents can be customized via Markdown files, run in parallel to boost productivity, and are easily invoked using the @agent syntax for targeted delegation. This architecture prevents \"context rot\" by consolidating intricate multi-step executions into concise summaries for the main orchestrator.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Subagents_metadata_i.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772509",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs",
+    "link": "https://developers.googleblog.com/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/",
+    "description": "MaxText has introduced new support for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPU configurations, leveraging JAX and the Tunix library for high-performance model refinement. These features enable developers to easily adapt pre-trained models for specialized tasks and complex reasoning using efficient algorithms like GRPO and GSPO. This update streamlines the post-training workflow, offering a scalable path from single-host setups to larger multi-host configurations.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-meta.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772505",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI",
+    "link": "https://developers.googleblog.com/a2ui-v0-9-generative-ui/",
+    "description": "A2UI v0.9 introduces a framework-agnostic standard designed to help AI agents generate real-time, tailored UI widgets using a company\u2019s existing design system. This update simplifies the developer experience with a new Agent SDK for Python, a shared web-core library, and official support for renderers like React, Flutter, and Angular. By decoupling UI intent from specific platforms, the release enables seamless, low-latency streaming of generative interfaces across web and mobile applications. Integrating with broader ecosystems like AG2 and Vercel, A2UI v0.9 aims to move generative UI from experimental demos to production-ready digital products.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Featured.2e16d0ba.fill-1200x600.jpg",
+    "datetimestamp": "2026-05-02T06:25:37.772500",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Production-Ready AI Agents: 5 Lessons from Refactoring a Monolith",
+    "link": "https://developers.googleblog.com/production-ready-ai-agents-5-lessons-from-refactoring-a-monolith/",
+    "description": "The blog post outlines the transition of a brittle sales research prototype into a robust production agent using Google\u2019s Agent Development Kit (ADK). By replacing monolithic scripts with orchestrated sub-agents and structured Pydantic outputs, the developers eliminated silent failures and fragile parsing. Additionally, the post highlights the necessity of dynamic RAG pipelines and OpenTelemetry observability to ensure AI agents are scalable, cost-effective, and transparent in real-world applications.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/AI_Agent_Clinic_Asset.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772496",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Agents CLI in Agent Platform:  create to production in one CLI",
+    "link": "https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/",
+    "description": "Google Cloud has introduced the Agents CLI, a specialized tool designed to bridge the gap between local development and production-grade AI agent deployment. The CLI provides coding assistants with machine-readable access to the full Google Cloud stack, reducing context overload and token waste during the scaffolding process. By streamlining evaluation, infrastructure provisioning, and deployment into a single programmatic backbone, the tool enables developers to move from initial concept to a live service in hours rather than weeks.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agents_cli_logo.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772491",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Building real-world on-device AI with LiteRT and NPU",
+    "link": "https://developers.googleblog.com/building-real-world-on-device-ai-with-litert-and-npu/",
+    "description": "LiteRT is a production-ready framework designed to help mobile developers unlock the power of Neural Processing Units (NPUs), overcoming the performance and battery limitations of traditional CPU or GPU processing. By providing a unified API that abstracts away hardware complexities, it allows industry leaders like Google Meet and Epic Games to deploy sophisticated AI models for real-time video, animation, and speech recognition with significantly higher efficiency. The platform further supports developers through benchmarking tools and cross-platform compatibility, enabling seamless AI deployment across mobile devices, AI PCs, and industrial IoT hardware.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ignk8signk.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772487",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket",
+    "link": "https://developers.googleblog.com/speeding-up-ai-bringing-google-colossus-to-pytorch-via-gcsfs-and-rapid-bucket/",
+    "description": "Google Cloud has introduced a high-performance integration that connects Rapid Storage directly to PyTorch via the fsspec interface to eliminate AI training bottlenecks. By utilizing Google\u2019s Colossus architecture and bidirectional gRPC streaming, the solution offers up to 15 TiB/s aggregate throughput and significant reductions in latency. These improvements allow developers to speed up total training time by 23% with zero code changes required beyond updating the storage bucket type.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2_1.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772482",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Building with Gemini Embedding 2: Agentic multimodal RAG and beyond",
+    "link": "https://developers.googleblog.com/building-with-gemini-embedding-2/",
+    "description": "Google has announced the general availability of Gemini Embedding 2, a unified model that maps text, images, video, audio, and documents into a single semantic space. This model allows developers to process interleaved multimodal inputs in a single request, significantly improving performance for tasks like agentic RAG, visual search, and content moderation. By supporting over 100 languages and offering features like task-specific prefixes and Matryoshka dimensionality reduction, the model provides a highly efficient and accurate foundation for building complex AI agents.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gemini-embedding2-retrieval_169.2e16d0ba.fill-1200x600.png",
+    "datetimestamp": "2026-05-02T06:25:37.772470",
+    "source": "Google Developers",
+    "category": "Google"
+  },
+  {
+    "title": "Jump to play: Building with Gemini & MediaPipe",
+    "link": "https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/",
+    "description": "The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency \"lite\" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-1200x600.png",
     "datetimestamp": "2026-05-02T05:08:28.784984",
     "source": "Google Developers",
     "category": "Google"
@@ -1616,186 +1796,6 @@
     "description": "Discover how LiteRT unlocks NPU acceleration to deliver high-performance, on-device AI for mobile, desktop, and IoT. Learn how industry leaders like Google Meet and Epic Games leverage this unified framework to achieve 25x larger models and real-time animation without sacrificing battery life or speed.",
     "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ignk8signk.2e16d0ba.fill-1200x600.png",
     "datetimestamp": "2026-04-29T10:12:33.673006",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Developer\u2019s Guide to AI Agent Protocols",
-    "link": "https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/",
-    "description": "This blog post explores how six key protocols, including MCP and A2A, simplify AI agent development by replacing custom integration code with standardized communication patterns. Learn how to use the Agent Development Kit (ADK) to build complex agents capable of managing real-time inventory, secure commerce via UCP/AP2, and interactive streaming interfaces. Discover how adopting these architectural standards creates more scalable, interoperable, and user-friendly AI solutions.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_kad1omkad1.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515446",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Build a smart financial assistant with LlamaParse and Gemini 3.1",
-    "link": "https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/",
-    "description": "Learn how to extract high-quality data from complex, unstructured PDFs using LlamaParse powered by Gemini 3.1 Pro. This guide demonstrates an event-driven workflow to automate the parsing of dense financial tables and generate intelligent summaries with Gemini 3.1 Flash. Perfect for developers building scalable document-parsing pipelines and AI personal finance assistants.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_llamaindex.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515441",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Jump to play: Building with Gemini & MediaPipe",
-    "link": "https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/",
-    "description": "Learn to build motion-controlled games using Gemini and MediaPipe. Follow this 3-stage workflow to move from rapid AI prototyping to production-ready code.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515437",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Closing the knowledge gap with agent skills",
-    "link": "https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/",
-    "description": "Learn how Google DeepMind is using \"agent skills\" to bridge the knowledge gap between static LLMs and fast-evolving SDKs. See how the new Gemini API developer skill boosted performance from 28.2% to 96.6% by providing models with real-time documentation and updated coding primitives.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/skills-blog-banner.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515433",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java",
-    "link": "https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/",
-    "description": "Google has launched version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing advanced features like Google Maps grounding, \"Human-in-the-Loop\" confirmation workflows, and automated event compaction. This release also debuts a standardized Agent2Agent protocol and robust session management via Firestore and Vertex AI to help developers build scalable, interoperable AI agents.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x873.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515429",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText",
-    "link": "https://developers.googleblog.com/boost-training-goodput-how-continuous-checkpointing-optimizes-reliability-in-orbax-and-maxtext/",
-    "description": "Optimize AI model training reliability and performance using continuous checkpointing in Orbax and MaxText. Maximize I/O bandwidth and minimize resource waste with asynchronous, non-blocking checkpoint saves.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eoi4lqeoi4.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515425",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "ADK Go 1.0 Arrives!",
-    "link": "https://developers.googleblog.com/adk-go-10-arrives/",
-    "description": "The Agent Development Kit (ADK) for Go 1.0 brings production-grade stability to AI agents with native OpenTelemetry tracing, self-healing plugins, and Human-in-the-Loop security. This release enables developers to build, scale, and orchestrate complex multi-agent systems using YAML configurations and cross-language protocols.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generat.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515420",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Developer\u2019s Guide to Building ADK Agents with Skills",
-    "link": "https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/",
-    "description": "Discover how the ADK SkillToolset uses progressive disclosure to build self-extending AI agents that load expertise on demand. Learn four patterns to reduce token costs and enable agents to dynamically generate their own skills using the agentskills.io specification.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/part1-cover.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515416",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Bring state-of-the-art agentic skills to the edge with Gemma 4",
-    "link": "https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/",
-    "description": "Google DeepMind introduces Gemma 4, a family of state-of-the-art open models designed for on-device agentic workflows. Learn how to leverage multi-step planning, 140+ language support, and LiteRT-LM to build powerful, autonomous AI experiences across mobile, desktop, and IoT.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rs4gjers4g.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515412",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Supporting Google Account username change in your app",
-    "link": "https://developers.googleblog.com/supporting-google-account-username-change-in-your-app/",
-    "description": "Google is now allowing U.S. users to update their @gmail.com usernames while maintaining full access to their existing account data and inbox. This guide for developers explains how to prevent sign-in disruptions by migrating to \"subject ID\" as a primary identifier.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Username_Change_DevBlog_Header.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515408",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
-    "link": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
-    "description": "Discover TorchTPU, Google\u2019s new engineering stack designed to run PyTorch natively on TPU infrastructure with peak efficiency. Learn how its \"Eager First\" philosophy and XLA integration simplify model migration while unlocking massive scalability for the next generation of AI.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta-A.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515403",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Get ready for Google I/O: Livestream schedule revealed",
-    "link": "https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed/",
-    "description": "Join us for Google I/O on May 19\u201320 to explore the latest updates in AI, Android, Chrome, and Cloud. Discover new developer tools for the agentic era, watch live keynotes, and learn how to build faster with autonomous workflows.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-1024x512-A-dark.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515399",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off",
-    "link": "https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/",
-    "description": "Discover the 5 essential developer tips from the Google Cloud AI Agent Bake-Off for building production-grade AI. Learn how to transition from basic prompts to rigorous agentic engineering using multi-agent architectures, multimodal integration, and deterministic guardrails for scalable, real-world applications.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_fwpio9fwpi.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515395",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Subagents have arrived in Gemini CLI",
-    "link": "https://developers.googleblog.com/subagents-have-arrived-in-gemini-cli/",
-    "description": "Learn how subagents in Gemini CLI act as specialized experts to handle complex, high-volume tasks in isolated context windows. This new feature enables parallel execution, reduces context rot, and allows for custom agent definitions using simple Markdown and YAML.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Subagents_metadata_i.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515390",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "New enhancements for merchant initiated transactions with the Google Pay API",
-    "link": "https://developers.googleblog.com/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/",
-    "description": "Google has updated its Pay API to offer enhanced support for merchant-initiated transactions, including recurring subscriptions, deferred payments, and automatic reloads. These improvements provide developers with greater flexibility while ensuring a more transparent and secure payment experience for users. Learn how these new API objects can help reduce transaction declines and streamline your billing models.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515386",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs",
-    "link": "https://developers.googleblog.com/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/",
-    "description": "MaxText now supports Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPUs. Leverage JAX-based efficiency and advanced algorithms like GRPO to refine your LLMs for specialized tasks and complex reasoning.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-meta.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515381",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI",
-    "link": "https://developers.googleblog.com/a2ui-v0-9-generative-ui/",
-    "description": "Discover A2UI v0.9, the framework-agnostic standard for Generative UI. Learn how the new Agent SDK, shared web-core library, and cross-platform renderers allow AI agents to drive your existing design system on any device with low-latency streaming.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Featured.2e16d0ba.fill-1200x600.jpg",
-    "datetimestamp": "2026-04-29T05:38:33.515376",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Production-Ready AI Agents: 5 Lessons from Refactoring a Monolith",
-    "link": "https://developers.googleblog.com/production-ready-ai-agents-5-lessons-from-refactoring-a-monolith/",
-    "description": "Learn how the AI Agent Clinic transformed a brittle prototype into a production-ready sales agent using Google\u2019s Agent Development Kit (ADK). This technical teardown covers replacing monolithic scripts with orchestrated sub-agents, implementing structured Pydantic outputs, and building dynamic RAG pipelines for better scalability and observability. Discover essential engineering lessons for building robust, cost-effective AI agents that survive real-world deployment.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/AI_Agent_Clinic_Asset.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515372",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Agents CLI in Agent Platform:  create to production in one CLI",
-    "link": "https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/",
-    "description": "Accelerate your AI development with the new Agents CLI on Google Cloud. This unified tool streamlines the entire Agent Development Lifecycle, from scaffolding and local evaluation to production deployment, giving your coding assistants the direct, machine-readable access they need to build production-grade agents in hours, not weeks.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agents_cli_logo.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515367",
-    "source": "Google Developers",
-    "category": "Google"
-  },
-  {
-    "title": "Building real-world on-device AI with LiteRT and NPU",
-    "link": "https://developers.googleblog.com/building-real-world-on-device-ai-with-litert-and-npu/",
-    "description": "Discover how LiteRT unlocks NPU acceleration to deliver high-performance, on-device AI for mobile, desktop, and IoT. Learn how industry leaders like Google Meet and Epic Games leverage this unified framework to achieve 25x larger models and real-time animation without sacrificing battery life or speed.",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ignk8signk.2e16d0ba.fill-1200x600.png",
-    "datetimestamp": "2026-04-29T05:38:33.515352",
     "source": "Google Developers",
     "category": "Google"
   }
