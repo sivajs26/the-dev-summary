@@ -4,31 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Daily Tech | Realtime Feed</title>
+    <meta name="google-site-verification" content="j958zz_-DGpx_t_hM-QWYHELDqZN1ybUzpIWXhNhZ4M" />
+    <title>THE DEV SUMMARY | MAINFRAME V2.0</title>
 
-    <!-- Top-tier Typography from Google Fonts -->
+    <!-- SEO & Branding -->
+    <meta name="description" content="Intercepted tech dispatches. Cyber-editorial feed for the modern engineer.">
+    <link rel="icon" type="image/png" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
+    <link rel="shortcut icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
+    <link rel="apple-touch-icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
+
+    <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,800;1,800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
         :root {
-            --bg-page: #f9f8f4;
-            /* High-end magazine paper texture approximation */
-            --text-main: #111111;
-            --text-muted: #5a5a5a;
-            --accent: #d32f2f;
-            /* Deep editorial red */
-            --border-color: #111111;
-
-            /* Typography Variables */
+            --bg-page: #0a0a0b;
+            --terminal-green: #00ff41;
+            --terminal-dim: #008f11;
+            --terminal-bg: rgba(0, 255, 65, 0.05);
+            --accent-cyan: #0abde3;
+            --accent-red: #ff4d4d;
+            --border-glow: 0 0 10px rgba(0, 255, 65, 0.3);
+            --text-main: #e0e0e0;
             --font-mono: 'JetBrains Mono', monospace;
-            --font-sans: 'Inter', sans-serif;
-            --font-serif: 'Lora', serif;
-            --font-display: 'Playfair Display', serif;
+            --font-display: 'Orbitron', sans-serif;
         }
 
         * {
@@ -37,1105 +41,673 @@
             padding: 0;
         }
 
-        body {
-            font-family: var(--font-sans);
-            background-color: var(--bg-page);
-            color: var(--text-main);
-            line-height: 1.5;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+        html {
+            scroll-behavior: smooth;
         }
 
-        /* ---------------- MASTHEAD ---------------- */
-        .masthead {
+        body {
+            font-family: var(--font-mono);
+            background-color: var(--bg-page);
+            color: var(--terminal-green);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 50% 50%, rgba(0, 255, 65, 0.05) 0%, transparent 70%),
+                linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 100%, 100% 4px, 3px 100%;
+        }
+
+        /* --- SCANLINE EFFECT --- */
+        body::before {
+            content: " ";
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            z-index: 9999;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+
+        /* --- HUD / MAINFRAME HEADER --- */
+        .mainframe-header {
             max-width: 1400px;
             margin: 0 auto;
-            border-bottom: 3px solid var(--border-color);
-            padding: 20px;
-            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 1px solid var(--terminal-dim);
+            position: relative;
         }
 
-        .masthead-meta {
+        .system-status {
             display: flex;
             justify-content: space-between;
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             text-transform: uppercase;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 15px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
+            letter-spacing: 2px;
+            color: var(--terminal-dim);
+            margin-bottom: 20px;
         }
 
-        .masthead h1 {
+        .glitch-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .mainframe-header h1 {
             font-family: var(--font-display);
-            font-size: clamp(3rem, 10vw, 7rem);
-            letter-spacing: -0.02em;
+            font-size: clamp(2rem, 8vw, 5rem);
+            color: var(--terminal-green);
+            text-shadow: var(--border-glow);
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            color: var(--accent-cyan);
+            opacity: 0.8;
             text-transform: uppercase;
-            color: var(--text-main);
+            letter-spacing: 3px;
         }
 
-        .masthead p {
-            font-family: var(--font-serif);
-            font-style: italic;
-            font-size: 1.2rem;
-            color: var(--text-muted);
-        }
-
-        /* ---------------- NAVIGATION ---------------- */
+        /* --- NAVIGATION / NODE SELECTOR --- */
         .sticky-nav {
             position: sticky;
             top: 0;
-            background-color: var(--bg-page);
-            border-bottom: 1px solid var(--border-color);
-            z-index: 100;
+            background: rgba(10, 10, 11, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--terminal-dim);
+            z-index: 1000;
+            padding: 10px 0;
         }
 
-        .nav-links {
+        .nav-container {
             max-width: 1400px;
             margin: 0 auto;
             display: flex;
-            justify-content: center;
-            gap: 3rem;
-            padding: 15px 20px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
         }
 
-        .nav-links a {
-            text-decoration: none;
-            color: var(--text-main);
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .archive-box {
             display: flex;
             align-items: center;
-            transition: color 0.3s;
+            gap: 10px;
+            border: 1px solid var(--terminal-dim);
+            padding: 5px 12px;
+            background: var(--terminal-bg);
         }
 
-        .nav-links a i {
-            margin-right: 8px;
-            font-size: 1rem;
+        #archivePicker {
+            background: transparent;
+            border: none;
+            color: var(--terminal-green);
+            font-family: var(--font-mono);
+            outline: none;
+            cursor: pointer;
         }
 
-        .nav-links a:hover,
-        .nav-links a.active {
-            color: var(--accent);
+        .category-scroll {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            padding: 5px 0;
         }
 
-        /* ---------------- MAIN FEED ---------------- */
+        .category-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .node-item {
+            cursor: pointer;
+            padding: 4px 12px;
+            border: 1px solid transparent;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+
+        .node-item:hover {
+            color: var(--accent-cyan);
+            border-color: var(--accent-cyan);
+        }
+
+        .node-item.active {
+            background: var(--terminal-green);
+            color: var(--bg-page);
+            border-color: var(--terminal-green);
+            box-shadow: var(--border-glow);
+        }
+
+        /* --- MARQUEE TERMINAL --- */
+        .marquee-terminal {
+            background: var(--terminal-bg);
+            border-bottom: 1px solid var(--terminal-dim);
+            padding: 8px 0;
+            font-size: 0.75rem;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: terminalScroll linear infinite;
+            will-change: transform;
+        }
+
+        @keyframes terminalScroll {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* --- NEWS GRID / DATA PACKETS --- */
         main {
             max-width: 1400px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
-        .section-header {
-            font-family: var(--font-mono);
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-bottom: 30px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .section-header::after {
-            content: "";
-            flex: 1;
-            height: 2px;
-            background-color: var(--border-color);
-        }
-
-        /* ---------------- GRID LAYOUT ---------------- */
         #news-feed {
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 40px;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 30px;
         }
 
-        .news-card {
-            display: flex;
-            flex-direction: column;
-            text-decoration: none;
-            color: inherit;
-            group: card;
-            padding-bottom: 25px;
-            border-bottom: 1px solid var(--border-color);
-
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-
-        /* Responsive Grid Spans */
-        .card-featured {
-            grid-column: span 12;
-            flex-direction: row;
-            gap: 40px;
-            border-bottom: 3px solid var(--border-color);
-            padding-bottom: 40px;
-        }
-
-        .card-regular {
-            grid-column: span 4;
-        }
-
-        .card-side {
-            grid-column: span 3;
-            border-left: 1px solid var(--border-color);
-            padding-left: 25px;
-        }
-
-        .card-wide {
-            grid-column: span 6;
-        }
-
-        /* Image Display */
-        .news-image-wrapper {
-            width: 100%;
-            height: 220px;
-            overflow: hidden;
-            margin-bottom: 20px;
-            background: #e0e0e0;
+        .data-packet {
+            border: 1px solid var(--terminal-dim);
+            background: rgba(0, 255, 65, 0.02);
+            padding: 20px;
             position: relative;
-        }
-
-        .card-featured .news-image-wrapper {
-            flex: 3;
-            height: 480px;
-            margin-bottom: 0;
-        }
-
-        .card-featured .news-content {
-            flex: 2;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            transition: all 0.3s;
+            overflow: hidden;
+            animation: packetIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
 
-        .news-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: filter 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        .data-packet:hover {
+            border-color: var(--terminal-green);
+            background: rgba(0, 255, 65, 0.05);
+            box-shadow: var(--border-glow);
+            transform: translateY(-5px);
         }
 
-        .news-card:hover .news-image {
-            transform: scale(1.05);
-            /* Subtle zoom */
-        }
-
-        /* Article Meta & Content */
-        .news-meta {
-            font-family: var(--font-mono);
-            font-size: 0.7rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-bottom: 12px;
-            letter-spacing: 0.5px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .news-title {
-            font-family: var(--font-serif);
-            font-size: 1.6rem;
-            font-weight: 700;
-            line-height: 1.2;
-            margin: 0 0 12px 0;
-            color: var(--text-main);
-        }
-
-        .card-featured .news-title {
-            font-size: 3rem;
-            line-height: 1.1;
-            margin-bottom: 20px;
-        }
-
-        .card-wide .news-title {
-            font-size: 2rem;
-        }
-
-        /* Underline Animation Effect */
-        .title-hover-effect {
-            background-image: linear-gradient(var(--text-main), var(--text-main));
-            background-size: 0% 1px;
-            background-position: left bottom;
-            background-repeat: no-repeat;
-            transition: background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .news-card:hover .title-hover-effect {
-            background-size: 100% 1px;
-        }
-
-        .news-desc {
-            font-family: var(--font-sans);
-            font-size: 1rem;
-            color: var(--text-muted);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        .card-featured .news-desc {
-            font-size: 1.2rem;
-        }
-
-        .card-side .news-desc {
-            font-size: 0.9rem;
-        }
-
-        /* Footer */
-        footer {
-            border-top: 3px solid var(--border-color);
-            padding: 40px 20px;
-            text-align: center;
-            font-family: var(--font-mono);
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-top: 60px;
-            background: var(--text-main);
-            color: var(--bg-page);
-        }
-
-        .loading-text {
-            grid-column: span 12;
-            text-align: center;
-            padding: 80px 0;
-            font-family: var(--font-mono);
-            font-size: 1.2rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 0.5;
-            }
-
-            50% {
-                opacity: 1;
-            }
-        }
-
-        @keyframes fadeInUp {
+        @keyframes packetIn {
             from {
                 opacity: 0;
-                transform: translateY(30px);
+                transform: scale(0.95);
             }
 
             to {
                 opacity: 1;
-                transform: translateY(0);
+                transform: scale(1);
             }
         }
 
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .card-featured .news-image-wrapper {
-                height: 400px;
+        .packet-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.65rem;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed var(--terminal-dim);
+            padding-bottom: 10px;
+        }
+
+        .packet-image-wrapper {
+            width: 100%;
+            height: 200px;
+            border: 1px solid var(--terminal-dim);
+            margin-bottom: 20px;
+            position: relative;
+            background: #000;
+        }
+
+        .packet-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: sepia(100%) hue-rotate(90deg) brightness(0.8) contrast(1.2);
+            transition: filter 0.3s;
+        }
+
+        .data-packet:hover .packet-image {
+            filter: none;
+        }
+
+        .packet-title {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            color: var(--terminal-green);
+            margin-bottom: 15px;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+
+        .packet-desc {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            opacity: 0.8;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .packet-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .action-btn {
+            background: transparent;
+            border: 1px solid var(--terminal-dim);
+            color: var(--terminal-green);
+            padding: 5px 12px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: var(--font-mono);
+            transition: all 0.2s;
+        }
+
+        .action-btn:hover {
+            background: var(--terminal-green);
+            color: var(--bg-page);
+        }
+
+        .read-link {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- LOADING / TERMINAL LOGS --- */
+        .loading-terminal {
+            grid-column: 1 / -1;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .typewriter {
+            overflow: hidden;
+            border-right: .15em solid var(--terminal-green);
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: .15em;
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
             }
 
-            .card-regular {
-                grid-column: span 6;
-            }
-
-            .card-side {
-                grid-column: span 6;
-                border-left: none;
-                padding-left: 0;
+            to {
+                width: 100%
             }
         }
 
-        @media (max-width: 900px) {
-            .masthead h1 {
-                font-size: 4.5rem;
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
             }
 
-            .card-featured {
-                flex-direction: column;
-                gap: 20px;
-            }
-
-            .card-featured .news-image-wrapper {
-                height: 350px;
-            }
-
-            .nav-links {
-                gap: 1.5rem;
+            50% {
+                border-color: var(--terminal-green);
             }
         }
 
-        @media (max-width: 600px) {
-            .masthead h1 {
-                font-size: 3.5rem;
-            }
+        /* --- FOOTER --- */
+        footer {
+            border-top: 1px solid var(--terminal-dim);
+            padding: 60px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
 
-            .masthead-meta {
-                flex-direction: column;
-                gap: 10px;
-                align-items: center;
-            }
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
 
-            .nav-links {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .card-regular,
-            .card-side,
-            .card-wide,
-            .card-featured {
-                grid-column: span 12;
-            }
-
-            .card-featured .news-title {
-                font-size: 2.2rem;
-            }
-
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
             #news-feed {
-                gap: 30px;
+                grid-template-columns: 1fr;
+            }
+
+            .nav-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .mainframe-header h1 {
+                font-size: 3rem;
             }
         }
 
         /* Google Translate overriding styles */
         .goog-te-gadget {
             font-family: var(--font-mono) !important;
-            font-size: 0px !important;
-            /* Hide the Powered by Google text */
             color: transparent !important;
         }
 
+        .goog-te-gadget span {
+            display: none !important;
+        }
+
+        .goog-te-gadget img {
+            display: none !important;
+        }
+
         .goog-te-combo {
-            font-family: var(--font-mono) !important;
-            font-size: 0.75rem !important;
-            border: 1px solid var(--border-color);
-            background-color: var(--bg-page);
-            color: var(--text-main);
-            padding: 2px 5px;
-            margin: 0 !important;
-            text-transform: uppercase;
+            background: var(--bg-page) !important;
+            color: var(--terminal-green) !important;
+            border: 1px solid var(--terminal-dim) !important;
+            padding: 5px !important;
         }
 
         .goog-logo-link {
             display: none !important;
         }
 
-        body {
-            top: 0 !important;
-            /* Remove the gap space google leaves at the top */
-        }
-
         .skiptranslate iframe {
             display: none !important;
-            /* Hide the google translate top bar */
         }
 
-        .skiptranslate>span>a,
-        .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
-            display: none;
-        }
-
-        /* Disable Google Translate original text hover tooltip and highlight */
-        .goog-tooltip,
-        .goog-tooltip:hover,
-        #goog-gt-tt,
-        .goog-te-balloon-frame {
+        .goog-te-banner-frame {
             display: none !important;
-            visibility: hidden !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        .goog-tooltip {
+            display: none !important;
+        }
+
+        .goog-tooltip:hover {
+            display: none !important;
         }
 
         .goog-text-highlight {
             background-color: transparent !important;
-            border: none !important;
             box-shadow: none !important;
-        }
-
-        /* --- Quick Tour Styles --- */
-        .tour-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(2px);
-            z-index: 2000;
-            display: none;
-            transition: all 0.3s ease;
-        }
-
-        .tour-highlight {
-            position: relative;
-            z-index: 2001 !important;
-            background: var(--bg-page) !important;
-            box-shadow: 0 0 0 10px var(--bg-page), 0 0 40px rgba(0,0,0,0.3) !important;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-
-        .tour-highlight-secondary {
-            position: relative;
-            z-index: 2001 !important;
-            background: var(--bg-page) !important;
-            box-shadow: 0 0 0 10px var(--bg-page), 0 0 20px rgba(0,0,0,0.1) !important;
-        }
-
-        .tour-tooltip {
-            position: fixed;
-            background: var(--bg-page);
-            padding: 25px;
-            border: 2px solid var(--border-color);
-            box-shadow: 10px 10px 0px var(--border-color);
-            z-index: 2002;
-            max-width: 320px;
-            display: none;
-            flex-direction: column;
-            gap: 15px;
-            animation: tourPop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        @keyframes tourPop {
-            from { transform: scale(0.9); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-
-        .tour-tooltip h3 {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-            color: var(--accent);
-        }
-
-        .tour-tooltip p {
-            font-family: var(--font-serif);
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        .tour-actions {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 10px;
-        }
-
-        .tour-btn {
-            background: var(--text-main);
-            color: var(--bg-page);
-            border: none;
-            padding: 8px 15px;
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .tour-btn:hover { background: var(--accent); }
-        .tour-btn.secondary { background: transparent; color: var(--text-muted); border: 1px solid #ccc; }
-
-        /* Calendar Styles */
-        .calendar-wrapper {
-            position: relative;
-            user-select: none;
-        }
-
-        #calendarToggle {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-family: var(--font-mono);
-            font-size: 0.75rem;
-            border: 1px solid var(--border-color);
-            padding: 4px 12px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: all 0.2s;
-            background: var(--bg-page);
-        }
-
-        #calendarToggle:hover {
-            border-color: var(--text-main);
-            background: #f0f0f0;
-        }
-
-        .calendar-dropdown {
-            position: absolute;
-            top: calc(100% + 10px);
-            left: 0;
-            width: 280px;
-            background: var(--bg-page);
-            border: 1px solid var(--border-color);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            z-index: 1000;
-            padding: 15px;
-            display: none;
-            flex-direction: column;
-            animation: fadeInDown 0.3s ease-out;
-        }
-
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .calendar-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            font-family: var(--font-mono);
-            font-weight: 800;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-        }
-
-        .calendar-nav-btn {
-            cursor: pointer;
-            padding: 5px;
-            transition: color 0.2s;
-        }
-
-        .calendar-nav-btn:hover { color: var(--accent); }
-
-        .calendar-grid {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 2px;
-            text-align: center;
-        }
-
-        .calendar-weekday {
-            font-size: 0.6rem;
-            font-family: var(--font-mono);
-            color: var(--text-muted);
-            padding-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .calendar-day {
-            font-size: 0.75rem;
-            padding: 8px 0;
-            cursor: default;
-            color: #ccc;
-            font-family: var(--font-mono);
-            transition: all 0.2s;
-            border-radius: 2px;
-        }
-
-        .calendar-day.available {
-            color: var(--text-main);
-            cursor: pointer;
-            font-weight: 700;
-        }
-
-        .calendar-day.available:hover {
-            background: var(--text-main);
-            color: var(--bg-page);
-        }
-
-        .calendar-day.selected {
-            background: var(--accent);
-            color: white !important;
-        }
-
-        .calendar-day.today {
-            border: 1px solid var(--text-main);
         }
     </style>
 </head>
 
 <body>
 
-    <header class="masthead">
-        <div class="masthead-meta">
+    <header class="mainframe-header">
+        <div class="system-status">
+            <span>Kernel: v2.0.4-LTS</span>
             <span id="dateDisplay"></span>
-            <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <div class="calendar-wrapper">
-                    <div id="calendarToggle">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span id="selectedDateLabel">Archive</span>
-                    </div>
-                    <div id="calendarDropdown" class="calendar-dropdown">
-                        <div class="calendar-header">
-                            <i class="fas fa-chevron-left calendar-nav-btn" onclick="changeMonth(-1)"></i>
-                            <span id="calendarMonthYear"></span>
-                            <i class="fas fa-chevron-right calendar-nav-btn" onclick="changeMonth(1)"></i>
-                        </div>
-                        <div class="calendar-grid" id="calendarGrid">
-                            <!-- Weekdays and Days will be injected here -->
-                        </div>
-                    </div>
-                </div>
-                <span onclick="startTour()"
-                    style="cursor: pointer; font-family: var(--font-mono); font-size: 0.75rem; border: 1px solid var(--border-color); padding: 4px 8px; font-weight: 700;"
-                    title="Take a quick tour">
-                    <i class="fas fa-route" style="margin-right: 5px;"></i>QUICK TOUR
-                </span>
-                <select id="feedFilter" onchange="handleFilterChange(this.value)"
-                    style="padding: 5px 10px; font-family: var(--font-mono); font-size: 0.8rem; border: 1px solid var(--border-color); background: var(--bg-page); outline: none; cursor: pointer; max-width: 300px;">
-
-                </select>
-                <span id="google_translate_element"></span>
-            </div>
+            <span>Uptime: 99.98%</span>
         </div>
-        <h1>The Daily Tech</h1>
-        <p>Curated signals from the noise of the digital age.</p>
+        <div class="glitch-wrapper">
+            <h1>DEV_SUMMARY</h1>
+            <div class="tagline">Neural Link / Tech Dispatches</div>
+        </div>
     </header>
 
-    <!-- scrolling marquee text based on the title of each news -->
-    <div class="marquee">
-        <div class="marquee-content">
-            <span id="marqueeText"></span>
+    <div class="marquee-terminal">
+        <div class="marquee-content" id="marqueeText">
+            Establishing secure connection... Intercepting global signals... Decrypting technology dispatches...
+        </div>
+    </div>
+
+    <div class="sticky-nav">
+        <div class="nav-container">
+            <div class="archive-box">
+                <i class="fas fa-terminal"></i>
+                <select id="archivePicker">
+                    <option value="">SCANNING_ARCHIVES...</option>
+                </select>
+            </div>
+            <nav class="category-scroll">
+                <div id="categoryList" style="display:flex; gap:10px;">
+                    <!-- Categories go here -->
+                </div>
+            </nav>
+            <div id="google_translate_element"></div>
         </div>
     </div>
 
     <main>
-        <div class="section-header">
-            Top Technology Events
-        </div>
         <div id="news-feed">
-            <div class="loading-text">Fetching the latest dispatches...</div>
+            <div class="loading-terminal">
+                <div class="typewriter">> INITIALIZING_SYSTEM_BOOT_SEQUENCE...</div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>The Daily Tech ©
-            <script>document.write(new Date().getFullYear())</script> — Minimalist Tech Editorial
+        <div class="footer-logo">DEV_SUMMARY // TERMINAL</div>
+        <p style="font-size: 0.8rem; opacity: 0.5;">
+            MAINTAINED BY sivasubramoniam-js // ARCHIVE V2.0 <br>
+            NO DATA IS PERMANENT. ONLY SIGNALS IN THE NOISE.
         </p>
     </footer>
 
     <script>
-        // --- Quick Tour Manager ---
-        const tourSteps = [
-            {
-                element: '.masthead h1',
-                title: 'Welcome!',
-                content: 'The Daily Tech is your premium editorial feed for everything happening in the tech world.',
-                position: 'bottom'
-            },
-            {
-                element: '#calendarToggle',
-                title: 'Daily Archives',
-                content: 'Browse news from previous days by selecting a date from our visual calendar archive.',
-                position: 'bottom'
-            },
-            {
-                element: '#feedFilter',
-                title: 'Source Selection',
-                content: 'Filter the news by specific publication or technical category.',
-                position: 'bottom'
-            },
-            {
-                element: '.marquee',
-                title: 'Live Wire',
-                content: 'Stay updated with real-time scrolling headlines from the latest dispatches.',
-                position: 'bottom'
-            },
-            {
-                element: '.news-card:nth-child(1)',
-                title: 'Featured Story',
-                content: 'Our top editorial pick for the day, presented with deep context.',
-                position: 'bottom'
-            },
-            {
-                element: '.news-card:nth-child(1) .fa-copy',
-                title: 'Quick Actions',
-                content: 'Copy article summaries or download cards as beautiful posters for sharing.',
-                position: 'bottom'
-            }
-        ];
-
-        let currentTourStep = 0;
-
-        function startTour() {
-            currentTourStep = 0;
-            if (document.getElementById('tourOverlay')) return;
-            document.body.insertAdjacentHTML('beforeend', `
-                <div id="tourOverlay" class="tour-overlay"></div>
-                <div id="tourTooltip" class="tour-tooltip">
-                    <h3 id="tourTitle"></h3>
-                    <p id="tourContent"></p>
-                    <div class="tour-actions">
-                        <button class="tour-btn secondary" onclick="endTour()">Skip</button>
-                        <button class="tour-btn" id="tourNextBtn" onclick="nextTourStep()">Next</button>
-                    </div>
-                </div>
-            `);
-            document.getElementById('tourOverlay').style.display = 'block';
-            showStep(0);
-        }
-
-        function showStep(index) {
-            const step = tourSteps[index];
-            const target = document.querySelector(step.element);
-            const tooltip = document.getElementById('tourTooltip');
-            const overlay = document.getElementById('tourOverlay');
-
-            if (!target && index >= 4) {
-                setTimeout(() => showStep(index), 800);
-                return;
-            }
-
-            document.querySelectorAll('.tour-highlight, .tour-highlight-secondary').forEach(el => {
-                el.classList.remove('tour-highlight');
-                el.classList.remove('tour-highlight-secondary');
-            });
-
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                setTimeout(() => {
-                    target.classList.add('tour-highlight');
-                    const rect = target.getBoundingClientRect();
-                    tooltip.style.display = 'flex';
-                    document.getElementById('tourTitle').textContent = step.title;
-                    document.getElementById('tourContent').textContent = step.content;
-                    document.getElementById('tourNextBtn').textContent = index === tourSteps.length - 1 ? 'Finish' : 'Next';
-
-                    const padding = 20;
-                    let top = rect.bottom + padding;
-                    let left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2);
-
-                    top = Math.max(10, Math.min(top, window.innerHeight - tooltip.offsetHeight - 10));
-                    left = Math.max(10, Math.min(left, window.innerWidth - tooltip.offsetWidth - 10));
-
-                    tooltip.style.top = top + 'px';
-                    tooltip.style.left = left + 'px';
-
-                    if (window.innerWidth < 768) {
-                        tooltip.style.left = '10px';
-                        tooltip.style.right = '10px';
-                        tooltip.style.width = 'calc(100% - 20px)';
-                        tooltip.style.maxWidth = 'none';
-                    }
-                }, 400);
-            }
-        }
-
-        function nextTourStep() {
-            currentTourStep++;
-            if (currentTourStep < tourSteps.length) showStep(currentTourStep);
-            else endTour();
-        }
-
-        function endTour() {
-            document.getElementById('tourOverlay')?.remove();
-            document.getElementById('tourTooltip')?.remove();
-            document.querySelectorAll('.tour-highlight, .tour-highlight-secondary').forEach(el => {
-                el.classList.remove('tour-highlight');
-                el.classList.remove('tour-highlight-secondary');
-            });
-        }
-
-        // --- Calendar Logic ---
-        let currentViewDate = new Date();
-        let archiveIndex = [];
-        let selectedFile = '';
-
-        function toggleCalendar(e) {
-            e.stopPropagation();
-            const dropdown = document.getElementById('calendarDropdown');
-            const isVisible = dropdown.style.display === 'flex';
-            dropdown.style.display = isVisible ? 'none' : 'flex';
-            if (!isVisible) renderCalendar();
-        }
-
-        document.getElementById('calendarToggle').addEventListener('click', toggleCalendar);
-        document.addEventListener('click', () => {
-            document.getElementById('calendarDropdown').style.display = 'none';
-        });
-        document.getElementById('calendarDropdown').addEventListener('click', e => e.stopPropagation());
-
-        function changeMonth(delta) {
-            currentViewDate.setMonth(currentViewDate.getMonth() + delta);
-            renderCalendar();
-        }
-
-        function renderCalendar() {
-            const grid = document.getElementById('calendarGrid');
-            const monthYearLabel = document.getElementById('calendarMonthYear');
-            
-            grid.innerHTML = '';
-            const year = currentViewDate.getFullYear();
-            const month = currentViewDate.getMonth();
-            
-            monthYearLabel.textContent = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' }).format(currentViewDate);
-            
-            const weekdays = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
-            weekdays.forEach(day => {
-                const el = document.createElement('div');
-                el.className = 'calendar-weekday';
-                el.textContent = day;
-                grid.appendChild(el);
-            });
-            
-            const firstDay = new Date(year, month, 1).getDay();
-            const daysInMonth = new Date(year, month + 1, 0).getDate();
-            
-            for (let i = 0; i < firstDay; i++) {
-                grid.appendChild(document.createElement('div'));
-            }
-            
-            const availableDates = archiveIndex.map(item => item.date);
-            const today = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-');
-            
-            for (let day = 1; day <= daysInMonth; day++) {
-                const dayEl = document.createElement('div');
-                dayEl.className = 'calendar-day';
-                dayEl.textContent = day;
-                
-                const dateObj = new Date(year, month, day);
-                const dateStr = dateObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-');
-                
-                if (availableDates.includes(dateStr)) {
-                    dayEl.classList.add('available');
-                    dayEl.onclick = () => {
-                        const archiveItem = archiveIndex.find(a => a.date === dateStr);
-                        if (archiveItem) {
-                            document.getElementById('selectedDateLabel').textContent = dateStr;
-                            fetchNews('../feeds/' + archiveItem.file);
-                            document.getElementById('calendarDropdown').style.display = 'none';
-                        }
-                    };
-                }
-                
-                if (dateStr === today) dayEl.classList.add('today');
-                
-                grid.appendChild(dayEl);
-            }
-        }
-
-        async function initArchive() {
-            try {
-                const response = await fetch('../feeds/index.json');
-                archiveIndex = await response.json();
-                if (archiveIndex.length > 0) {
-                    document.getElementById('selectedDateLabel').textContent = archiveIndex[0].date;
-                }
-            } catch (error) {
-                console.error('Archive index load failed:', error);
-            }
-        }
-
-        // Global Action Handlers
-        function copyToClipboard(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            const card = event.target.closest('.news-card');
-            if (!card) return;
-            const title = card.querySelector('.news-title')?.textContent.trim() || '';
-            const description = card.querySelector('.news-desc')?.textContent.trim() || '';
-            const textToCopy = `${title} : ${description}`;
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                const icon = event.target;
-                const originalClass = icon.className;
-                icon.className = 'fas fa-check';
-                setTimeout(() => icon.className = originalClass, 2000);
-            });
-        }
-
-        function downloadAsImage(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            const icon = event.target;
-            const originalIconClass = icon.className;
-            icon.className = "fas fa-spinner fa-spin";
-            const card = event.target.closest('.news-card');
-            const renderAndDownload = () => {
-                const imgEl = card.querySelector('.news-image');
-                const title = card.querySelector('.news-title').textContent.trim();
-                const desc = card.querySelector('.news-desc').textContent.trim();
-                const poster = document.createElement('div');
-                poster.style.cssText = 'position:absolute;top:-9999px;width:1080px;height:1350px;background:#f9f8f4;padding:80px;display:flex;flex-direction:column;';
-                poster.innerHTML = `
-                    <div style="flex-grow:1">
-                        <div style="border-bottom:3px solid #111;padding-bottom:20px;margin-bottom:40px;display:flex;justify-content:space-between;align-items:flex-end">
-                            <h1 style="font-size:40px;text-transform:uppercase">The Daily Tech</h1>
-                        </div>
-                        <h2 style="font-size:42px;margin-bottom:30px">${title}</h2>
-                        <p style="font-size:32px;line-height:1.5">${desc}</p>
-                    </div>
-                `;
-                document.body.appendChild(poster);
-                html2canvas(poster, { scale: 1.5 }).then(canvas => {
-                    const link = document.createElement('a');
-                    link.download = `tech-news.png`;
-                    link.href = canvas.toDataURL();
-                    link.click();
-                    poster.remove();
-                    icon.className = originalIconClass;
-                });
-            };
-            if (typeof html2canvas === 'undefined') {
-                const script = document.createElement('script');
-                script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
-                script.onload = renderAndDownload;
-                document.head.appendChild(script);
-            } else renderAndDownload();
-        }
-
-        // Set dynamic masthead date
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
-
         const BASE_RAW_URL = 'https://raw.githubusercontent.com/sivasubramoniam-js/the-dev-summary/main/';
-
-        // --- News Flow Manager ---
         let allNewsData = [];
-        let activeFilter = null;
+        let currentCategory = '';
+        let categories = [];
 
-        async function fetchFeedsList() {
-            try {
-                const response = await fetch('../feeds.json');
-                const feeds = await response.json();
-                const select = document.getElementById('feedFilter');
-                feeds.forEach((feed, index) => {
-                    const option = document.createElement('option');
-                    option.value = feed.feedname;
-                    option.textContent = feed.feedname;
-                    select.appendChild(option);
-                    if (index === 0 && !activeFilter) {
-                        activeFilter = feed.feedname;
-                    }
+        // --- Masthead Date ---
+        const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+        document.getElementById('dateDisplay').textContent = 'SYS_TIME: ' + new Date().toLocaleDateString('en-US', options).toUpperCase();
+
+        // --- IndexedDB for Saved Items ---
+        const db = {
+            name: 'DevSummaryDB', version: 1, store: 'savedArticles',
+            open() {
+                return new Promise((resolve, reject) => {
+                    const req = indexedDB.open(this.name, this.version);
+                    req.onupgradeneeded = e => e.target.result.createObjectStore(this.store, { keyPath: 'link' });
+                    req.onsuccess = e => resolve(e.target.result);
                 });
-            } catch (err) { console.error("Failed to load feed list", err); }
-        }
+            },
+            async save(article) {
+                const d = await this.open();
+                const tx = d.transaction(this.store, 'readwrite');
+                tx.objectStore(this.store).put(article);
+            },
+            async remove(link) {
+                const d = await this.open();
+                const tx = d.transaction(this.store, 'readwrite');
+                tx.objectStore(this.store).delete(link);
+            },
+            async getAll() {
+                const d = await this.open();
+                return new Promise(res => {
+                    d.transaction(this.store, 'readonly').objectStore(this.store).getAll().onsuccess = e => res(e.target.result);
+                });
+            },
+            async isSaved(link) {
+                const d = await this.open();
+                return new Promise(res => {
+                    const tx = d.transaction(this.store, 'readonly');
+                    const req = tx.objectStore(this.store).get(link);
+                    req.onsuccess = e => res(!!e.target.result);
+                    req.onerror = () => res(false);
+                });
+            }
+        };
 
-        function handleFilterChange(value) {
-            activeFilter = value;
-            renderNews();
-        }
-
-        async function fetchNews(url = '../news.json') {
-            document.getElementById('news-feed').innerHTML = '<div class="loading-text">Fetching latest dispatches...</div>';
+        // --- News Management ---
+        async function fetchNews(url = 'news.json') {
+            const feed = document.getElementById('news-feed');
+            feed.innerHTML = '<div class="loading-terminal">> ACCESSING_DATA_STREAM...</div>';
             try {
-                const response = await fetch(url);
-                allNewsData = await response.json();
-                renderNews();
-            } catch (error) { 
-                console.error('Fetch error:', error);
-                document.getElementById('news-feed').innerHTML = '<div class="loading-text">Error connecting to the archives.</div>';
+                const res = await fetch(BASE_RAW_URL + url);
+                allNewsData = await res.json();
+                initCategories();
+                filterByCategory(currentCategory || categories[0] || 'Tech');
+            } catch (e) {
+                feed.innerHTML = '<div class="loading-terminal">> ERROR: CONNECTION_TIMEOUT</div>';
             }
         }
 
-        function renderNews() {
-            const container = document.getElementById('news-feed');
-            const marqueeText = document.getElementById('marqueeText');
-            container.innerHTML = '';
-            marqueeText.textContent = '';
+        function initCategories() {
+            const unique = new Set();
+            allNewsData.forEach(item => unique.add(item.category || 'Tech'));
+            categories = Array.from(unique).sort();
 
-            const filteredData = allNewsData.filter(item => item.source === activeFilter);
+            const list = document.getElementById('categoryList');
+            list.innerHTML = `<div class="node-item ${currentCategory === 'SAVED' ? 'active' : ''}" onclick="filterByCategory('SAVED')">SAVED_DATA</div>`;
 
-            if (filteredData.length === 0) {
-                container.innerHTML = `<div class="loading-text">No articles found for ${activeFilter}.</div>`;
-                return;
-            }
-
-            filteredData.forEach((item, index) => {
-                let cardClass = index === 0 ? 'card-featured' : (index < 5 ? 'card-wide' : 'card-regular');
-                marqueeText.textContent += item.title + ' | ';
-
-                const scrapedAt = item.scraped_at ? new Date(item.scraped_at).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) : null;
-
-                const cardHTML = `
-                    <div class="news-card ${cardClass}">
-                        ${item.image ? `<div class="news-image-wrapper"><img src="${item.image.startsWith('http') ? item.image : BASE_RAW_URL + item.image}" class="news-image"></div>` : ''}
-                        <div class="news-content">
-                            <div class="news-meta">
-                                <span style="color:var(--accent); font-weight: 700;">${item.category || 'Tech'}</span>
-                                <span style="font-size: 0.75rem;"><span style="color: crimson; font-weight: 700;">• Source:</span> <span style="opacity: 0.7;">${item.source || 'General'}</span></span>
-                            </div>
-                            <div class="news-meta">
-                                <span>
-                                    <i class="fas fa-copy" onclick="copyToClipboard(event)" style="cursor:pointer;margin-right:10px"></i>
-                                    <i class="fas fa-download" onclick="downloadAsImage(event)" style="cursor:pointer"></i>
-                                </span>
-                                <span style="font-size:0.6rem; opacity:0.7">
-                                    ${scrapedAt ? `Scraped at ${scrapedAt}` : ''}
-                                </span>
-                            </div>
-                            <h2 class="news-title">
-                                <a href="${item.link}" target="_blank" style="text-decoration:none;color:inherit">
-                                    <span class="title-hover-effect">${item.title}</span>
-                                </a>
-                            </h2>
-                            <p class="news-desc">${item.description}</p>
-                        </div>
-                    </div>
-                `;
-                container.insertAdjacentHTML('beforeend', cardHTML);
+            categories.forEach(cat => {
+                const el = document.createElement('div');
+                el.className = `node-item ${cat === currentCategory ? 'active' : ''}`;
+                el.textContent = cat.toUpperCase();
+                el.onclick = () => filterByCategory(cat);
+                list.appendChild(el);
             });
         }
 
+        async function filterByCategory(cat) {
+            currentCategory = cat;
+            initCategories(); // Update active state
+
+            const feed = document.getElementById('news-feed');
+            let data = [];
+
+            if (cat === 'SAVED') {
+                data = await db.getAll();
+            } else {
+                data = allNewsData.filter(item => (item.category || 'Tech') === cat);
+            }
+
+            renderFeed(data);
+        }
+
+        async function renderFeed(data) {
+            const feed = document.getElementById('news-feed');
+            const marquee = document.getElementById('marqueeText');
+            feed.innerHTML = '';
+            marquee.textContent = '';
+
+            if (data.length === 0) {
+                feed.innerHTML = '<div class="loading-terminal">> NO_DATA_FOUND_IN_NODE</div>';
+                return;
+            }
+
+            for (let idx = 0; idx < data.length; idx++) {
+                const item = data[idx];
+                marquee.textContent += item.title.toUpperCase() + ' // ';
+
+                const isSaved = await db.isSaved(item.link);
+                const imgUrl = item.image;
+
+                const packet = document.createElement('article');
+                packet.className = 'data-packet';
+                packet.style.animationDelay = `${idx * 0.05}s`;
+
+                packet.innerHTML = `
+                    <div class="packet-header">
+                        <span>DATA_ID: ${Math.random().toString(16).substr(2, 8).toUpperCase()}</span>
+                        <span>SOURCE: ${item.source || 'EXTERNAL'}</span>
+                    </div>
+                    ${imgUrl ? `
+                        <div class="packet-image-wrapper">
+                            <img src="${imgUrl}" class="packet-image" alt="Visual Log" loading="lazy">
+                        </div>
+                    ` : ''}
+                    <h2 class="packet-title">${item.title}</h2>
+                    <p class="packet-desc">${(item.description || '').substring(0, 150)}...</p>
+                    <div class="packet-footer">
+                        <button class="action-btn" onclick="toggleSave(event, ${idx})">
+                            ${isSaved ? 'PURGE' : 'ARCHIVE'}
+                        </button>
+                        <a href="${item.link}" target="_blank" class="read-link">
+                            EXECUTE_LINK <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                `;
+                feed.appendChild(packet);
+            }
+
+            // Adjust marquee timing
+            // Adjust marquee timing (slower, smoother)
+            marquee.style.animationDuration = `${marquee.textContent.length / 10}s`;
+        }
+
+        async function toggleSave(e, idx) {
+            const btn = e.target;
+            const dataToSearch = (currentCategory === 'SAVED')
+                ? await db.getAll()
+                : allNewsData.filter(i => (i.category || 'Tech') === currentCategory);
+
+            const item = dataToSearch[idx];
+            const link = item.link;
+
+            if (await db.isSaved(link)) {
+                await db.remove(link);
+                btn.textContent = 'ARCHIVE';
+                if (currentCategory === 'SAVED') filterByCategory('SAVED');
+            } else {
+                await db.save(item);
+                btn.textContent = 'PURGE';
+            }
+        }
+
+        // --- Archives ---
+        async function initArchive() {
+            const picker = document.getElementById('archivePicker');
+            try {
+                const res = await fetch(BASE_RAW_URL + 'feeds/index.json');
+                const archive = await res.json();
+                picker.innerHTML = '<option value="" disabled selected>> SELECT_ARCHIVE</option>';
+                archive.forEach(item => {
+                    const opt = document.createElement('option');
+                    opt.value = 'feeds/' + item.file;
+                    opt.textContent = '> ' + item.date.toUpperCase();
+                    picker.appendChild(opt);
+                });
+                picker.onchange = e => fetchNews(e.target.value);
+            } catch (e) {
+                picker.innerHTML = '<option value="">ERROR_SCANNING</option>';
+            }
+        }
+
+        // --- Init ---
         initArchive();
-        fetchFeedsList();
         fetchNews();
     </script>
 
-    <!-- Google Translate API Scripts -->
     <script type="text/javascript">
         function googleTranslateElementInit() {
-            // Force Google API to load the preferred language natively by injecting its expected cookie
-            let savedLang = null;
-            try { savedLang = localStorage.getItem('custom_lang'); } catch (e) { }
-            if (!savedLang) {
-                const match = document.cookie.match(/(^|;) ?custom_lang=([^;]*)(;|$)/);
-                if (match) savedLang = match[2];
-            }
-            if (savedLang) {
-                document.cookie = `googtrans=/en/${savedLang}; path=/`;
-                document.cookie = `googtrans=/en/${savedLang}; domain=${location.hostname}; path=/`;
-            }
-            console.log("Saved lang : ", savedLang)
-
-            new google.translate.TranslateElement({
-                autoDisplay: true
-            }, 'google_translate_element');
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
         }
-
-        // Add a watcher purely to store new language selections going forward
-        const observer = new MutationObserver(() => {
-            const select = document.querySelector('.goog-te-combo');
-            if (select && !select.dataset.listenerAdded) {
-                select.dataset.listenerAdded = "true";
-
-                // Because local file:/// paths silently reject cookies, explicitly command the UI to translate
-                let savedLang = null;
-                try { savedLang = localStorage.getItem('custom_lang'); } catch (e) { }
-
-                if (savedLang) {
-                    select.value = savedLang;
-                    select.dispatchEvent(new Event('change')); // Force API to translate
-
-                    // Backup execution in case Google script has latency generating the <option> elements
-                    setTimeout(() => {
-                        if (select.value !== savedLang) {
-                            select.value = savedLang;
-                            select.dispatchEvent(new Event('change'));
-                        }
-                    }, 500);
-                }
-
-                select.addEventListener('change', (e) => {
-                    if (e.target.value) {
-                        try { localStorage.setItem('custom_lang', e.target.value); } catch (err) { }
-                        document.cookie = `custom_lang=${e.target.value}; path=/; max-age=31536000`; // 1 year
-                        document.cookie = `googtrans=/en/${e.target.value}; path=/`; // Explicitly assist Google API
-                        console.log("Stored language selection:", e.target.value);
-                    }
-                });
-            }
-        });
-        observer.observe(document.body, { childList: true, subtree: true });
-
     </script>
     <script type="text/javascript"
         src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
