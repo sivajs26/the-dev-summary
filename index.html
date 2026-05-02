@@ -12,7 +12,7 @@
         content="tech news, developer news, programming updates, open source, engineering summaries, software development, AI news, frontend, backend">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://sivasubramoniam-js.github.io/the-dev-summary/">
-    
+
     <!-- Favicon / Branding -->
     <link rel="icon" type="image/png" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
     <link rel="shortcut icon" href="https://sivasubramoniam-js.github.io/the-dev-summary/logo.png">
@@ -1206,7 +1206,6 @@
 
             // If target not found yet (e.g. news cards still rendering), retry
             if (!target && index >= 4) {
-                console.log(`Tour step ${index} target not found, retrying...`);
                 // Force a re-render check if container is empty
                 if (document.getElementById('news-feed').children.length === 0) {
                     fetchNews();
@@ -1330,7 +1329,7 @@
                 // Helper to convert image URL to base64 data URL
                 const toBase64 = async (url) => {
                     try {
-                        const resp = await fetch(url);
+                        const resp = await fetch(BASE_RAW_URL + url);
                         const blob = await resp.blob();
                         return await new Promise((resolve, reject) => {
                             const reader = new FileReader();
@@ -1469,11 +1468,6 @@
                 li.onclick = () => filterByCategory(cat);
                 list.appendChild(li);
             });
-
-            // Automatically trigger filtering for the default category
-            if (currentFeedUrl.includes('news.json') && currentCategory !== 'Saved Items') {
-                filterByCategory(currentCategory || (categories[0] || 'Tech'));
-            }
         }
 
         async function filterByCategory(category) {
@@ -1506,9 +1500,15 @@
                 });
             }
             // blur the news feed
-            container.style.filter = 'blur(5px)';
+            if (dataToRender && dataToRender.length > 0) {
+                container.style.filter = 'blur(5px)';
+            } else {
+                container.style.filter = '';
+            }
             // Small timeout to give visual feedback
-            setTimeout(() => renderNews(dataToRender), 100);
+            setTimeout(() => {
+                renderNews(dataToRender)
+            }, 100);
         }
 
         // --- IndexedDB Utility ---
@@ -1597,7 +1597,7 @@
         async function initArchive() {
             const picker = document.getElementById('archivePicker');
             try {
-                const response = await fetch('feeds/index.json');
+                const response = await fetch(BASE_RAW_URL + 'feeds/index.json');
                 if (!response.ok) throw new Error('Index not found');
                 const archive = await response.json();
 
@@ -1626,7 +1626,7 @@
             container.innerHTML = '<div class="loading-text" style="color:var(--accent);">Opening the archives...</div>';
 
             try {
-                const response = await fetch(url);
+                const response = await fetch(BASE_RAW_URL + url);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
 
@@ -1636,7 +1636,6 @@
                 }
                 filterByCategory(currentCategory || (categories[0] || 'Tech'));
             } catch (error) {
-                console.error('Error fetching news:', error);
                 document.getElementById('news-feed').innerHTML = '<div class="loading-text" style="color:var(--accent);">Error connecting to the printing press. Please try again.</div>';
             }
         }
@@ -1691,13 +1690,7 @@
                 const wordCount = item.description ? item.description.split(/\s+/).length : 0;
                 const readTime = Math.max(1, Math.ceil(wordCount / 200));
 
-                let image_url = "";
-                if (item.image) {
-                    image_url = item.image.startsWith("https") ? item.image : BASE_RAW_URL + item.image;
-                }
-
-
-
+                let image_url = item.image || ''
                 const rawDesc = stripHTML(item.description || "");
                 let displayDesc = rawDesc;
                 let readMoreLink = "";
@@ -1779,7 +1772,6 @@
                 document.cookie = `googtrans=/en/${savedLang}; path=/`;
                 document.cookie = `googtrans=/en/${savedLang}; domain=${location.hostname}; path=/`;
             }
-            console.log("Saved lang : ", savedLang)
 
             new google.translate.TranslateElement({
                 autoDisplay: true
@@ -1814,7 +1806,6 @@
                         try { localStorage.setItem('custom_lang', e.target.value); } catch (err) { }
                         document.cookie = `custom_lang=${e.target.value}; path=/; max-age=31536000`; // 1 year
                         document.cookie = `googtrans=/en/${e.target.value}; path=/`; // Explicitly assist Google API
-                        console.log("Stored language selection:", e.target.value);
                     }
                 });
             }
