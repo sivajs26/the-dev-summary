@@ -35,4 +35,5 @@ jobs:
           git add news.json || true
           if ls feeds/*.json 1> /dev/null 2>&1; then git add -f feeds/*.json; fi
           git commit -m "daily update $(date +'%d-%b-%Y %I %P')" || echo "No changes"
+          git pull --rebase
           git push
